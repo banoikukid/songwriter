@@ -76,7 +76,7 @@ Không có một thứ tự sáng tác duy nhất. Chọn entry theo artifact m�
 
 | Entry | Bắt đầu bằng | Constraint đầu tiên |
 |---|---|---|
-| TITLE/LYRIC | title, câu, Tứ, story | central intent, word stress, section function |
+| TITLE/LYRIC | title, câu, Tứ, story | central intent, semantic emphasis, section function |
 | MELODY | hum, motif, topline, demo | contour, phrase, range, melodic stress |
 | GROOVE/TRACK | beat, bass, loop, production hook | pocket, subdivision, density, phrase grid |
 | CHORD/HARMONY | loop/progression, tonal tension | stable/unstable, harmonic rhythm, cadence |

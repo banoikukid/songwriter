@@ -121,6 +121,32 @@ Flag các ca:
 
 Thử rewrite bằng: lời khẳng định trực tiếp, so sánh phổ thông nhưng có điểm rơi, hoặc một hành động giao tiếp cụ thể. Nếu cần khuếch đại, dùng parallelism/gradation mềm trước khi gọi thành ngữ lớn.
 
+### EMOTIONAL TEMPERATURE
+
+Kiểm tra mức cường độ của câu chữ có khớp với central intent và trạng thái của section không.
+
+Một câu có thể:
+- đúng nghĩa;
+- tự nhiên;
+- đẹp;
+- dễ hát;
+
+nhưng vẫn sai nếu diction đẩy cảm xúc quá nóng hoặc quá lạnh.
+
+Ví dụ:
+- một trạng thái tiếc nhưng đã chấp nhận không nên tự bị nâng thành tuyệt vọng chỉ vì từ mạnh nghe “thơ” hơn;
+- một khoảnh khắc quyết liệt không nên bị làm mờ thành chung chung chỉ để giữ vần.
+
+Kiểm:
+- độ mạnh của động từ;
+- mức trực diện;
+- mức tuyệt đối hóa;
+- lượng abstraction;
+- độ gần/xa của hình ảnh;
+- intensity so với section trước và sau.
+
+Không đồng nhất “nhiều cảm xúc hơn” với “hay hơn”.
+
 ### QUANTITY-PROVENANCE — chỉ mở khi lượng từ gây nghi vấn
 
 Không cấm số lượng và không coi mọi `những` là số đếm. Chỉ chạy sweep khi một con số/lượng từ nghe như vá meter, giả quy mô, cá thể hóa vô cớ, gây lặp cụm hoặc bịa độ chính xác. Câu tự nhiên không phải chứng minh từng từ chỉ lượng.
@@ -331,11 +357,25 @@ Không tải các playbook prosody/rhyming của skill cũ vào runtime. Chúng 
 
 Prosody không chỉ là vần hoặc thanh. Khi có demo, kiểm lời, melody, harmony và rhythm cùng đẩy central intent:
 
-- Word stress và melodic stress không đánh nhau.
+- Điểm nhấn nghĩa (semantic emphasis / phrase accent) và điểm nhấn giai điệu (melodic emphasis) không đánh nhau.
 - Phrase/range/breath hợp người hát.
 - Stable/unstable ở lời khớp tension/release ở melody và harmony.
 - Peak lời được contour, rhythm hoặc harmony trao lực.
 - Section contrast tồn tại trong âm thanh, không chỉ trong tag.
+
+### MOUTH-FEEL — chỉ mở khi câu đọc ổn nhưng hát có vẻ cứng
+
+Kiểm tra:
+- nguyên âm ở điểm giữ/ngân có đủ mở và dễ duy trì không;
+- chuyển âm giữa hai từ có tạo cụm phụ âm hoặc khẩu hình gây vấp không;
+- từ mang ý chính có bị đặt vào slot quá ngắn để phát âm rõ không;
+- điểm lấy hơi có cắt ngang một cụm nghĩa tự nhiên không;
+- câu có buộc ca sĩ tăng tốc, nuốt âm hoặc co nguyên âm mới vừa phrase không;
+- một chuỗi âm đóng/check-coda có đang làm vùng cần ngân trở nên cứng không.
+
+Không tối ưu mọi dòng thành “êm”. Phụ âm chặn, articulation sắc hoặc câu ngắn gãy có thể là chủ ý nhịp và biểu cảm.
+
+MOUTH-FEEL chỉ là diagnostic. Không rewrite nếu artifact không có dấu hiệu khó hát hoặc khó phát âm.
 
 Đọc quy trình đầy đủ tại `music-sketch-and-demo.md`. Chưa có artifact nghe được thì chỉ được kết luận Scope A; không suy `music-fit PASS` từ số chữ.
 

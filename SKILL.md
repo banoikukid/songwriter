@@ -46,6 +46,7 @@ Khi user chỉ yêu cầu sửa 2–4 câu Chorus/Verse, đổi vần, thay từ
 - **Tuyệt đối KHÔNG chạy lại cả quy trình Tứ, Cốt, Form hay Discovery từ đầu.** Không biến yêu cầu sửa nhỏ thành bài kiểm định toàn bài.
 - Giữ nguyên bối cảnh, nhân vật và trọng lực cảm xúc hiện có của đoạn.
 - Sửa trực tiếp tại chỗ theo thứ tự ưu tiên: **Tiếng Việt tự nhiên > Sáng nghĩa > Nhịp điệu, điểm rơi và vần**.
+- Với micro-rewrite, chỉ dùng lens liên quan khi cần: **Naturalness**, **Emotional Temperature**, **Mouth-feel** hoặc **local rhyme/prosody**; không ép chạy đồng loạt.
 - Đọc/hát nhẩm để kiểm tra hơi thở và độ ca hóa; đưa ra 2–3 phương án tinh gọn để user chọn.
 
 ### Draft nhanh
@@ -103,6 +104,40 @@ Khi user, web app hoặc stage trước đã duyệt central intent, Tứ, secti
 5. Sửa cục bộ, giữ phần còn lại và section contract. Chỉ quay Tứ/Cốt khi lỗi lan nhiều section và truy được về packet.
 
 Lane này ngăn skill làm lại công việc định hướng đã được duyệt. Một packet tốt không được xem là giấy phép giữ câu gượng; writer realization là artifact độc lập.
+
+### Bốn tầng trách nhiệm
+
+- **Song Brain:** bài đang cảm gì và cần nói gì — central intent, Tứ, hook và song system.
+- **Emotional Arc:** cảm xúc mở, sâu, đổi, tích lũy hoặc vọng lại như thế nào qua các section.
+- **Wordcraft:** câu chữ nghe và cảm ra sao — tự nhiên, chính xác, hình ảnh, mức trực diện, vần và âm sắc.
+- **Prosody / Singability:** câu chữ sống trong phrase và melody ra sao — hơi, điểm nhấn nghĩa, âm tiết–nốt, slot ngân, phát âm và groove.
+
+Đây là bản đồ trách nhiệm để chẩn đoán lỗi, không phải bốn pass bắt buộc. Sau rough pass, chỉ mở tầng có triệu chứng rõ:
+
+```
+ROUGH LYRIC
+     ↓
+READ / SING / LISTEN
+     ↓
+DIAGNOSE
+     │
+     ├─ concept / central intent sai
+     │      → Song Brain
+     │
+     ├─ section không tiến hoặc cảm xúc đứng yên
+     │      → Emotional Arc
+     │
+     ├─ câu gượng / sáo / sai cường độ / hình ảnh yếu
+     │      → Wordcraft
+     │
+     ├─ khó phát âm / khó lấy hơi / không vừa phrase
+     │      → Prosody / Mouth-feel
+     │
+     └─ không có lỗi rõ
+            → KEEP
+```
+
+Tuyệt đối không biến bốn nhánh trên thành checklist chạy tuần tự.
 
 ## Quy trình runtime
 
