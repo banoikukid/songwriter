@@ -17,7 +17,7 @@ from pathlib import Path
 
 SCRIPT_SKILL_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_SUITE = SCRIPT_SKILL_DIR / "references" / "eval-suite.json"
-DEFAULT_OUTPUT_ROOT = SCRIPT_SKILL_DIR.parents[3] / ".songwriting-min-clean-eval-runs"
+DEFAULT_OUTPUT_ROOT = SCRIPT_SKILL_DIR / ".songwriting-min-clean-eval-runs"
 REFRAME_PATTERNS = (
     r"\bkhông phải\b.{0,80}\bmà (?:là|do|vì)\b",
     r"\btưởng\b.{0,80}\b(?:hóa ra|hoá ra|thì ra)\b",

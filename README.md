@@ -93,6 +93,7 @@ python scripts/lyric_static_check.py path/to/lyric.txt
 ```
 
 ### 2. Chạy bộ kiểm thử ngữ cảnh sạch (`clean_context_eval.py`)
+*(Lưu ý: Đây là công cụ benchmark/audit offline của nhà phát triển, gọi mô hình thực tế qua Codex và tiêu tốn token. Tuyệt đối không để Agent tự chạy script này trong phiên sáng tác thông thường).*
 ```bash
 python scripts/clean_context_eval.py
 ```
@@ -137,6 +138,6 @@ Sau khi cài đặt, bạn chỉ cần yêu cầu agent trong terminal:
 
 ---
 
-## 📄 Bản Quyền & Tác Quyền
+## 📄 Giấy Phép & Bản Quyền (License)
 
-Phát triển phục vụ cộng đồng nhạc sĩ, nhà sản xuất và người sáng tạo nội dung ca khúc tiếng Việt.
+Dự án được phân phối dưới giấy phép **[MIT License](LICENSE)**. Phát triển phục vụ cộng đồng nhạc sĩ, nhà sản xuất âm nhạc và người sáng tạo nội dung ca khúc tiếng Việt.

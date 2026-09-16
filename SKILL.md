@@ -40,6 +40,14 @@ Không bắt writer-pass tái hiện worksheet Tứ/Cốt, danh sách trường 
 
 Chỉ mở discovery/gate trước writer-pass khi brief thật sự cần lựa chọn nhiều Tứ, có ambiguity làm đổi miền nghĩa, material chưa Generate, user khóa expression/scale khó, hoặc artifact nhạc tạo constraint bắt buộc. Sự tồn tại của một diagnostic trong skill không phải lý do kích hoạt nó.
 
+### Sửa nhanh / Chỉnh sửa cục bộ (Micro-rewrite / Polish)
+
+Khi user chỉ yêu cầu sửa 2–4 câu Chorus/Verse, đổi vần, thay từ, gọt một câu hoặc làm cho câu mượt hơn:
+- **Tuyệt đối KHÔNG chạy lại cả quy trình Tứ, Cốt, Form hay Discovery từ đầu.** Không biến yêu cầu sửa nhỏ thành bài kiểm định toàn bài.
+- Giữ nguyên bối cảnh, nhân vật và trọng lực cảm xúc hiện có của đoạn.
+- Sửa trực tiếp tại chỗ theo thứ tự ưu tiên: **Tiếng Việt tự nhiên > Sáng nghĩa > Nhịp điệu, điểm rơi và vần**.
+- Đọc/hát nhẩm để kiểm tra hơi thở và độ ca hóa; đưa ra 2–3 phương án tinh gọn để user chọn.
+
 ### Draft nhanh
 
 Khi user yêu cầu demo/test Suno/một lượt:
@@ -68,6 +76,7 @@ Trước writer-pass, **decompile arm thắng**: giữ tiền đề cảm xúc, 
 
 | Input | Route |
 |---|---|
+| Sửa vài câu / Polish cục bộ | Micro-rewrite lane: sửa trực tiếp tại chỗ, không chạy lại Tứ/Cốt/Discovery |
 | Đề/ý/title mới | Bước 1–8; TITLE/LYRIC hoặc BRIEF/STORY entry; chạy DOMAIN-SENSE nếu title đa nghĩa |
 | Melody/hum/demo | MELODY entry; khóa phrase/range rồi viết theo Scope B |
 | Groove/track/chords | GROOVE/TRACK hoặc CHORD/HARMONY entry |
@@ -244,6 +253,7 @@ Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototy
 - Không gọi lyric-only là ca khúc hoàn chỉnh hoặc `music-fit PASS` khi chưa có artifact nghe được.
 - Không dùng `Suno-ready` trần; phải ghi `PROTOTYPE-READY` hay `PRODUCTION CANDIDATE` và Scope A/B.
 - Không thêm rule runtime từ một ca lỗi. Khi rule tích tụ làm bài lạnh, ưu tiên xóa, hạ cấp hoặc định tuyến lại trước khi thêm gate.
+- Tuyệt đối KHÔNG tự động chạy script đánh giá benchmark/eval (như `scripts/clean_context_eval.py`) trong các phiên sáng tác thông thường của người dùng. Script này chỉ dùng offline khi được yêu cầu benchmark/audit skill rõ ràng.
 
 ## Router tài liệu
 
