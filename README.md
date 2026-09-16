@@ -106,6 +106,37 @@ python scripts/clean_context_eval.py
 
 ---
 
+## 🤖 Hướng Dẫn Nạp Vào AI Agent (Usage with AI Agents)
+
+Để sử dụng bộ kỹ năng này với bất kỳ AI coding assistant nào mà không tốn chi phí API riêng:
+
+### 1. Claude Code
+Clone trực tiếp vào thư mục skills toàn cục:
+```bash
+git clone https://github.com/banoikukid/songwriter.git ~/.claude/skills/songwriting-min
+```
+Hoặc đặt vào thư mục `.claude/skills/songwriting-min` trong project hiện tại của bạn.
+
+### 2. Antigravity IDE & CLI
+```bash
+git clone https://github.com/banoikukid/songwriter.git ~/.antigravity/skills/songwriting-min
+```
+
+### 3. Codex CLI & VS Code
+```bash
+git clone https://github.com/banoikukid/songwriter.git ~/.codex/skills/songwriting-min
+```
+
+### 4. Hệ sinh thái Agent chung (`.agents`)
+```bash
+git clone https://github.com/banoikukid/songwriter.git ~/.agents/skills/songwriting-min
+```
+
+Sau khi cài đặt, bạn chỉ cần yêu cầu agent trong terminal:
+> *"Hãy áp dụng skill songwriting-min để sáng tác một ca khúc từ ý tưởng: [Brief của bạn]"*
+
+---
+
 ## 📄 Bản Quyền & Tác Quyền
 
 Phát triển phục vụ cộng đồng nhạc sĩ, nhà sản xuất và người sáng tạo nội dung ca khúc tiếng Việt.
