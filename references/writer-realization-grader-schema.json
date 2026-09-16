@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["verdict", "scores", "hard_failures", "stock_language", "analysis_leakage", "best_evidence", "weak_evidence", "rewrite_count", "confidence"],
+  "properties": {
+    "verdict": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["natural_vietnamese", "emotional_voice", "image_necessity", "section_realization", "singable_on_page"],
+      "properties": {
+        "natural_vietnamese": {"type": "integer", "minimum": 1, "maximum": 10},
+        "emotional_voice": {"type": "integer", "minimum": 1, "maximum": 10},
+        "image_necessity": {"type": "integer", "minimum": 1, "maximum": 10},
+        "section_realization": {"type": "integer", "minimum": 1, "maximum": 10},
+        "singable_on_page": {"type": "integer", "minimum": 1, "maximum": 10}
+      }
+    },
+    "hard_failures": {"type": "array", "items": {"type": "string"}},
+    "stock_language": {"type": "array", "items": {"type": "string"}},
+    "analysis_leakage": {"type": "array", "items": {"type": "string"}},
+    "best_evidence": {"type": "array", "items": {"type": "string"}},
+    "weak_evidence": {"type": "array", "items": {"type": "string"}},
+    "rewrite_count": {"type": "integer", "minimum": 0},
+    "confidence": {"type": "string", "enum": ["low", "medium", "high"]}
+  }
+}

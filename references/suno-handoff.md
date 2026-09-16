@@ -28,6 +28,21 @@ Nếu bản gen đều:
 
 Không coi `[Beat switch]` hoặc marker community là lever đáng tin nếu nguồn hiện hành chưa xác nhận.
 
+## Vocal-direction map
+
+Dùng pass này khi user yêu cầu vocal bớt đều, giàu cảm xúc hơn hoặc khi render cho thấy các section có cùng một mức lực/màu giọng. Mục tiêu là tạo **tương phản trình diễn có lý do**, không phủ tag lên mọi đoạn.
+
+1. Ghi cho từng section hoặc phrase quan trọng: `section job → mức lực tương đối → sắc thái phát ngôn → vùng giọng/điểm lấy hơi`.
+2. Tách ba lớp quyết định:
+   - **Performance intent:** thân mật, thủ thỉ, kìm, khẩn thiết, mở sáng, vỡ òa, rút vào trong...
+   - **Vocal coordination/register:** chest-dominant, mix, head/falsetto hoặc belt khi melody, range và người hát cho phép.
+   - **Production:** double, harmony, saturation, delay/reverb, khoảng gần–xa.
+3. Chọn register từ section job, melodic contour, tessitura, lyric pressure, genre và giọng mục tiêu. Không dùng form label làm công thức: Chorus có thể kìm hoặc dùng falsetto; Verse có thể ở head voice; Bridge có thể là peak; Final Chorus có thể rút nhỏ.
+4. Chỉ thêm một cue chính ở đầu section hoặc phrase cần ngoại lệ. Các cue như `[Chest Voice]`, `[Mixed Voice]`, `[Falsetto]`, `[Belting]` là **giả thuyết điều khiển PROVISIONAL**: Suno chưa cam kết công khai cú pháp này luôn được tuân thủ. Không dùng chúng để cứu lyric quá dày, phrase thiếu hơi hoặc melody ngoài range.
+5. A/B cùng lyrics và Style khi có thể: một bản không cue, một bản có cue tối giản. Chấm `section contrast · rõ chữ · độ tin cảm xúc · strain · tag có bị hát thành lời/ignore không`. Nếu cue không ổn định, bỏ cue và đưa sắc thái vocal ngắn gọn vào Style; sau đó re-roll hoặc dùng Reuse Prompt.
+
+Không đồng nhất falsetto với breathy, chest với “nhẹ”, mix với “tăng dần” hay belt với “hay hơn”. Một màn trình diễn có tính người còn phụ thuộc nhịp vào chữ, pickup, hơi, phụ âm, cường độ vi mô, khoảng lặng và sự thay đổi giữa các lần lặp. Mix/master chỉ làm rõ, cân động và tạo chiều sâu cho performance đã có; không sửa được tận gốc một cách hát phẳng hoặc phrasing sai.
+
 ## Reverse extract
 
 Recognition không đồng nghĩa controllability. Khi Suno mô tả audio upload:
@@ -52,6 +67,7 @@ Nghe rồi chẩn đúng triệu chứng:
 - Sai dấu: dọn lyric.
 - Quá ngắn: kiểm đã viết đủ section lặp.
 - Sai vocal: dùng Vocal Gender/control chuyên dụng và vocal descriptor.
+- Vocal đều giữa các section: kiểm lyric/section job trước; nếu bài đã có lực, chạy Vocal-direction map và A/B cue thay vì mặc định tăng lên Belt.
 
 Cập nhật verdict vào `case-log.md`.
 

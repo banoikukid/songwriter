@@ -58,6 +58,14 @@ Nén brief theo một trong hai lane:
 
 Lane hỗn hợp được phép: nhân vật mở cửa, emotional field khuếch đại, rồi hook đưa tai về người hát. Không dùng `field-led` để né quan hệ hoặc biến bài thành phong cảnh.
 
+### SEED-BEHAVIOR AUDITION — title cần được trả lời hay được ngân rộng?
+
+Với title/hình tượng mở, thử ngắn hai khả năng trước khi khóa Tứ: material đang chứa một câu hỏi, thay đổi hoặc nghịch lý cần **resolution/transform**; hay đang mở một trạng thái cần **resonance/sustain** qua nhiều lần trở lại. Đây không phải hai form bắt buộc và không mặc định phải xuất hai phương án. Chỉ giữ song song tới pilot khi cả hai có bằng chứng từ brief/material và sẽ tạo lyric behavior khác hẳn.
+
+Đừng dùng độ dễ tóm tắt làm tiêu chí thắng. Hướng resonance vẫn Generate khi trường cảm xúc có lực hút rõ, mỗi lần trở lại mở thêm mặt khác của trạng thái và form/music đủ gánh biến thiên; nó không cần một cú nhận ra cuối bài. Ngược lại, title giàu hình ảnh không tự chứng minh field-led: khi người hát thật sự cần tỏ tình, hỏi, kể hoặc lựa chọn, utterance-led được quyền thắng.
+
+Với resonance/constellation, giữ central intent như la bàn hậu trường. Không biến nó thành câu định nghĩa title, bảng ánh xạ từng ảnh/màu với một cảm xúc, hay kết luận đạo lý. Chọn bằng pilot của chính behavior ấy, không chấm nó bằng tiêu chí Chorus trả lời rõ như declaration.
+
 Với tình ca pop/mainstream **đã được brief/reference xác nhận** và mang title thời tiết, mùa, cảnh vật hoặc biểu tượng, có thể thử **MIXED** như một arm đầu tiên: title thường là bộ khuếch đại cảm xúc, hoàn cảnh hoặc refrain, chưa chắc là chủ thể kể chuyện. Đây là fan-out prior, không phải gate. Khi brief khóa `EXTERNALIZED` hoặc material/reference cho thấy cả một trường hình tượng đang gánh cảm xúc, audition song song `FIELD-DOMINANT`; không để thứ tự thử biến thành verdict.
 
 Không nén được thì chưa polish. Seed vẫn được phép thu/phác để khỏi mất ý.
@@ -80,29 +88,6 @@ Ghi seed ngay bằng chữ, hum/voice memo hoặc sketch rẻ. Với melody-firs
 Mọi entry hội tụ ở central intent và prosody; không buộc title phải có trước melody hoặc ngược lại.
 
 ## 3. Sinh và chọn Tứ
-
-### Vòng chọn Tứ thích nghi và LYRIC-YIELD audition
-
-Không chọn Tứ chỉ vì pitch thông minh hoặc giải thích hậu nghiệm nghe hợp lý. Từ brief/seed, mở vài hướng khác nhau ở **lực tổ chức**: phát hiện, cộng hưởng, tình huống, leo thang, giả định, nghi lễ lặp, đối thoại hoặc một cơ chế khác nảy sinh từ material. Đây là các khả năng mô tả, không phải taxonomy bắt buộc; không cần mỗi bài có đủ tầng hay một cú phát hiện bản thể.
-
-Với mỗi hướng còn sống, thử một vi đoạn ngắn ở đúng register dự kiến. Không đưa tên cơ chế hoặc câu kết luận Tứ vào prompt viết câu. Chấm bằng **lyric yield**:
-
-- sinh được ít nhất vài biểu hiện không chỉ đổi danh từ cho cùng một mệnh đề;
-- có emotional pressure và chỗ để section sau mở, sâu, đổi hoặc trở lại;
-- câu có giọng hát, không thành ngụ ngôn, storyboard sinh hoạt hay văn xuôi giải thích;
-- material bề mặt có lyric texture phù hợp; vật thô chỉ ở lại khi user khóa hoặc chức năng quan hệ khiến nó cần thiết;
-- có thể giữ lực cảm xúc trong không gian rộng hoặc quan hệ trực tiếp tùy brief, không tự rơi vào chuỗi `anh/em + hành động/nội tâm` hay danh sách phong cảnh.
-
-Loại hướng cần giải thích mới hay, chỉ sinh được một câu đinh, hoặc bắt LLM liên tục minh họa cùng luận đề. Với material thô, thử tuyến `vật gốc → chức năng quan hệ → cảm giác con người → carrier đáng hát`; giữ chức năng, được phép thả danh từ bề mặt. Không thay vật thô bằng mưa–gió–ánh sáng theo từ điển mềm.
-
-Chọn người thắng **tạm thời**. Viết một section, rồi thu `harvest state`: hình ảnh/ý phát ngôn có lực, chuyển động mới, register thật, phrase behavior nghe tự nhiên, chi tiết đã bão hòa và câu hỏi section kế cần trả. Từ đó:
-
-- **KEEP:** section mở thêm khả năng và Tứ vẫn sinh được bước kế;
-- **ADJUST CỐT:** Tứ còn lực nhưng section job, scale role hoặc thứ tự payoff sai;
-- **PIVOT:** một hướng phụ vừa tự xuất hiện giàu lyric yield hơn mà vẫn đúng brief/provenance;
-- **RESEED:** lời chỉ minh họa luận đề, lặp carrier/skeleton hoặc phải gượng để tiếp tục.
-
-Không pivot chỉ vì gặp một câu khó và không giữ Tứ chỉ vì đã viết nhiều. Sau khi đủ các section, audit toàn cục để chắc mỗi đoạn phối hợp nhưng không đồng dạng: lực cảm xúc được truyền tiếp, còn chủ thể, cú pháp, độ dài phrase và cách mở nghĩa được quyền thay đổi theo việc đoạn.
 
 Tứ là **trục sinh bài**, không phải khẩu hiệu “yêu, nhớ, đau”. Nó phải tạo được chuyển động hoặc hệ liên tưởng đủ kéo nhiều section.
 
@@ -158,42 +143,23 @@ Tách **khám phá ứng viên** khỏi **chọn carrier**. Liên tưởng từ 
 1. **Đặt câu hỏi sinh nghĩa:** hỏi điều gì đang mâu thuẫn, điều gì đổi mà điều gì còn, một hành động có thể đổi nghĩa ra sao, hoặc vì sao giọng hát phải cất lên lúc này. Không bắt đầu bằng “danh từ nào đẹp?”.
 2. **Fan-out quan hệ:** mở các sức căng, hệ quả, thế đối, vai xã hội, cộng hưởng văn hóa, chuyển thời gian, đổi quy mô hoặc khả năng đảo nghĩa thật sự có cầu từ seed. Liên tưởng từ vựng/công năng được phép vào đây như đầu mối ứng viên, không phải kết luận. Nếu tìm kiếm cứ quay về cùng một trường thị giác, tạm khóa giác quan đang thống trị rồi dò âm thanh, xúc giác, nhịp thân thể, khoảng cách không gian hoặc một kênh khác hợp seed. Đây là các phép dò, không phải quota hay menu phải dùng đủ.
 3. **Tìm nguồn kết dính:** xem nghĩa đang được sinh bởi một tình thế hội tụ, vật/hình tượng chịu tải, động từ/lời gọi mở tầng, chuỗi ảnh tiến nghĩa, constellation cùng lực hút, place-anchor, declaration khuếch đại, cú pháp/refrain biến đổi hay một cơ chế khác. Tên dạng chỉ dùng để nhận ra sau khi đã thấy quan hệ; không chọn nhãn trước rồi điền ảnh.
-4. **Fan-out rồi hội tụ:** phát triển hai hoặc ba cụm quan hệ thêm một tầng; tìm tình thế, hành động, cấu trúc hoặc hình tượng nằm ở giao điểm của các nhánh tương thích. Chuỗi công năng/từ điển kiểu `khái niệm → động tác vật lý → đồ vật nhận tác động` được phép đề cử ứng viên nhưng không được tự chọn nó. Với mỗi ứng viên cụ thể còn sống, tách ba đến năm hành vi, quy luật, chu kỳ, nghịch lý hoặc biến đổi có thật; chỉ giữ khi ít nhất một cơ chế có cầu với hạt nhân cảm xúc và sinh được chuyển động qua section. Trước writer-pass, phân biệt **cơ chế dùng để hiểu** với **bề mặt đáng hát**: hành vi vật lý đúng chưa tự là lyric-ready; cầu phải làm quan hệ, thời gian, khoảng cách, tri giác, ký ức, lựa chọn hoặc hệ quả cảm xúc đổi đi. Không mang nguyên động tác vật lý xuống writer-pass chỉ để câu kế dịch nó thành cảm xúc. Negative controls: hành vi literal vẫn được giữ khi có provenance `LITERAL/EVENT`, tạo hệ quả thật, gánh groove/onomatopoeia hoặc có section job nghe được. Độ sâu đến từ cơ chế và nhiều quan hệ có căn cứ cùng hội tụ, không từ khoảng cách từ vựng.
+4. **Fan-out rồi hội tụ:** phát triển hai hoặc ba cụm quan hệ thêm một tầng; tìm tình thế, hành động, cấu trúc hoặc hình tượng nằm ở giao điểm của các nhánh tương thích. Chuỗi công năng/từ điển kiểu `khái niệm → động tác vật lý → đồ vật nhận tác động` được phép đề cử ứng viên nhưng không được tự chọn nó. Với mỗi ứng viên cụ thể còn sống, tách ba đến năm hành vi, quy luật, chu kỳ, nghịch lý hoặc biến đổi có thật; chỉ giữ khi ít nhất một cơ chế có cầu với hạt nhân cảm xúc và sinh được chuyển động qua section. Độ sâu đến từ cơ chế và nhiều quan hệ có căn cứ cùng hội tụ, không từ khoảng cách từ vựng.
 5. **Thử main-only trước:** chọn một trục chính và phát triển nó qua các section. Chỉ thêm một trục phụ khi nó bổ sung một chức năng thiếu—sức ép, bằng chứng, chuyển nghĩa, độ mở hoặc hook—và deletion-test cho thấy bỏ nó làm bài yếu đi. Trục phụ không được mở một bài cạnh tranh.
 6. **Kiểm lần trở lại:** xác định điều gì xuất hiện hoặc được gọi lại ở Verse/Chorus/Bridge/Final và mỗi lần thêm nghĩa gì. STATE/SUSTAIN có thể tăng lực hoặc dư vang thay vì plot; DIRECT/DECLARATION có thể khuếch đại bằng nhiều chứng thực mà không cần hệ ảnh.
 7. **Dừng hoặc reseed:** PASS khi nguồn kết dính làm material cần thiết, sinh được form phù hợp và không cần giải thích cơ chế trong lyric. Loại ứng viên chỉ chung mood, một thuộc tính bề mặt hoặc một lối tắt biểu tượng quen nếu các bước sau không đào ra được cơ chế mạnh hơn. Nếu mọi arm chỉ khác bề mặt, hình tượng thay thế tùy ý hoặc người thắng chỉ tốt tương đối, quay câu hỏi sinh nghĩa.
 
-### CARRIER-SUITABILITY AUDITION — chọn vật trước khi ca hóa
+### MATERIAL AFFORDANCE AUDITION — tuyển nguyên liệu trước khi sinh Tứ
 
-Chạy trước `ASSOCIATION-ENGINE DISCOVERY` khi model còn quyền chọn vật/hình tượng, hoặc khi user khóa một vật nhưng lyric texture có nguy cơ xung đột. Mục tiêu là chọn carrier đã có **affective affordance**, không chứng minh rằng mọi vật đều có thể thơ hóa.
+Chạy route này khi user yêu cầu ngân hàng nguyên liệu/liên tưởng đa tầng; khi fan-out còn nhiều carrier cụ thể ngang nhau; hoặc khi expression lane đã chọn chỉ sống nếu một vật, âm thanh, không gian hay hình tượng gánh được cảm xúc. Ghi `N/A` khi declaration/direct speech đã đủ lực, tự sự đã có material provenance rõ, hoặc lý do duy nhất là làm lời “thơ hơn”.
 
-Audition ngắn theo bốn câu hỏi:
+1. **Chốt việc cảm xúc trước vật:** material cần chứng minh quan hệ, giữ dấu vết, tạo chuyển độ, mở không gian, mang âm hình hay làm hook? Đừng bắt đầu bằng danh sách vật đẹp.
+2. **Mở ứng viên khác loại:** vật thể, tình thế, âm thanh, thời gian, quan hệ, chuyển động và cả phương án `DIRECT/NO-OBJECT`. Không đặt quota và không bắt mọi miền phải có đại diện.
+3. **Audition theo ngữ cảnh:** so tương đối bằng sáu khả năng: hành vi/chuyển động tự nhiên; điện tích cảm xúc đã có trong văn hóa hoặc tình thế; relation anchor; độ mở liên tưởng; khả năng thành phrase/âm hình; và mức gượng phải trả để dùng nó. Không chấm số, không đòi một ứng viên thắng cả sáu.
+4. **Probe nhỏ rồi xóa chữ thử:** chỉ khi cần, thử một vai section, một chuyển động hoặc micro-phrase để nghe affordance. Probe là dụng cụ tuyển chọn, không phải seed lời; sau verdict chỉ giữ `vai → hành vi tự nhiên → relation anchor`.
+5. **Hội tụ thành shortlist đa dạng:** giữ ít ứng viên thật sự khác chức năng. Khi user cần chọn, gắn `LOCKED · PREFERRED · AVAILABLE · REJECTED` và provenance `USER MATERIAL · MODEL CANDIDATE`; không biến mọi mục còn lại thành vật liệu bắt buộc của bài.
+6. **Tôn trọng provenance:** material user khóa không bị loại chỉ vì đời thường, kỹ thuật hoặc mạnh âm. Tìm chức năng, genre, ký ức hay cadence làm nó cần thiết; nếu vẫn xung đột brief thì nêu xung đột và xin đổi, không lặng lẽ thay bằng một vật “mềm” hơn.
 
-1. Vật đã mang dấu người, ký ức, ngưỡng quan hệ, thời gian, vắng mặt, âm sắc văn hóa hoặc một sức căng cảm giác có thể nghe ngay chưa?
-2. Tiếng Việt có collocation tự nhiên để vật đi vào giọng hát, emotional field hoặc một Affective Recast mà không cần mô tả công năng/cơ học trước không?
-3. Vật có hợp genre, lyric tradition và `MATERIAL-TEXTURE` đã khóa, hay chỉ nổi bật vì kỹ thuật, công nghiệp, lạ hoặc quá cụ thể?
-4. Nó có thể trở lại, đổi nghĩa hoặc tạo hệ quả qua section; hay chỉ sinh được một câu ví von rồi cạn?
-
-Route ứng viên:
-
-- **SURFACE-READY:** có lực cảm xúc, collocation tự nhiên và texture fit; được vào audition cơ chế rồi writer-pass.
-- **REGISTER-SHIFT:** chỉ sống tự nhiên khi chuyển sang realist/indie/urban/hài hoặc một tradition khác; không lén đổi register, chỉ dùng khi brief cho phép.
-- **BACKSTAGE-ONLY:** cơ chế hoặc dấu vết do vật tạo ra hữu ích nhưng tên/động tác của vật làm bề mặt thô; giữ quan hệ/hệ quả, bỏ vật khỏi generation packet bề mặt nếu provenance không bắt buộc phải nghe thấy.
-- **RESEED:** vật thay thế tùy ý, chỉ có công năng, cần giảng hoặc làm câu gượng ở mọi route đang được phép; chọn carrier khác. Nếu user khóa bắt buộc, báo surface-risk hoặc đề nghị register khác thay vì xuất lyric yếu.
-
-Giữa các vật cùng làm được việc, ưu tiên emotional credibility, natural Vietnamese, material necessity và texture fit trước độ lạ. Không dùng danh sách “vật thơ/vật không thơ”; một vật đời thường vẫn có thể `SURFACE-READY` khi chính quan hệ hoặc provenance đã nạp cảm xúc cho nó.
-
-### MICRO-BRIDGE AUDITION — chỉ cho fragment chuyển sự vật thành cảm xúc
-
-Chạy khi user yêu cầu rõ một sự vật/hiện tượng gợi hoặc mang cảm xúc trong một cụm ngắn, nhất là khi không được gọi thẳng tên cảm xúc. Khóa **CARRIER-RENDER** trước khi audition: `TRANSFIGURED` khi hành vi vật chỉ là nguồn để sinh cảm xúc; `LITERAL` khi cảnh thật, EVENT, realist detail hoặc hook âm thanh cần nghe chính hành vi ấy. Không dùng provenance của carrier để tự chọn `LITERAL`.
-
-1. Khóa carrier và cảm xúc đích nhưng chưa viết câu. Fan-out ít nhất hai cách sinh nghĩa. **RELATIONAL BRIDGE** đào từ hành vi thật để tìm điều carrier làm đổi ở khả năng truyền tới, nghe/thấy, thời điểm, khoảng cách, lối đi, không gian chung, dấu vết hoặc lựa chọn. Với `TRANSFIGURED`, danh từ–động từ vật lý này chỉ là backstage evidence: bỏ chúng khỏi packet bề mặt, không chép lại bản ghi hiện tượng. Khi `MATERIAL-TEXTURE=SOFT-LYRICAL`, audition thêm **AFFECTIVE RECAST**: carrier nhận trực tiếp một phẩm chất/cử chỉ cảm xúc tự nhiên trong tiếng Việt và mở ra một emotional field; route này không phải chứng minh bằng cơ học.
-2. Không đồng nhất `AFFECTIVE RECAST` với subject-swap máy móc. Recast chỉ sống khi collocation tự nhiên ở miệng hát, phẩm chất ấy đổi âm sắc/quan hệ của cả cụm và có khả năng vọng lại hoặc phát triển; nếu trả chủ thể về người mà câu, progression và payoff gần như nguyên vẹn, đó vẫn là `vật ở trạng thái X → người cũng ở trạng thái X` và phải loại.
-3. Chọn bridge mà carrier tạo một hệ quả không thể xóa hoặc thay bằng vật cùng mood mà cụm vẫn nguyên nghĩa. Carrier có thể làm điều kiện, kênh, trở ngại, bằng chứng hoặc điểm chuyển; không bắt nó làm chủ ngữ hay có ý chí.
-4. Viết fragment như một chuyển động nghĩa: dòng đầu mở quan hệ/trở ngại, dòng sau hoàn tất hệ quả hoặc payoff. Ở `TRANSFIGURED`, một dòng tải chính vẫn fail nếu bề mặt chỉ là `carrier → động tác vật lý → vật liệu/địa điểm`, dù câu sau tạo được nhân quả; chuyển điểm nhìn sang điều hành vi ấy làm thay đổi trong quan hệ hoặc cảm nhận. Nếu cách nối làm sai vật lý, gượng tiếng Việt, sinh ẩn dụ thân thể hoặc nhân hóa tùy tiện, thử bridge còn lại; không cứu bằng từ “thơ”.
-5. Chạy deletion-test trên từng fragment, rồi đọc riêng dòng payoff: nếu dòng ấy vẫn tự truyền gần trọn cảm xúc bằng hành động/trạng thái của con người còn dòng carrier chỉ cấp mood, fragment fail. Rewrite để referent, trở ngại, khả năng nghe/thấy/tới được hoặc hệ quả của payoff phụ thuộc thật vào bridge. Trước khi trả, bắt buộc chạy `Tông vật liệu` và `ASSOCIATION-CARRIER` tại `vietnamese-line-and-sound.md`; fragment cần lời giải thích cho cụm liên tưởng hoặc chỉ đổi vật thô thành mỹ từ gượng vẫn fail. Một fragment fail thì sửa fragment ấy, không lấy phần còn lại của bộ bù điểm.
-
-Đây là lane tạo candidate cho ca khó, không phải quota nhân quả. Parallelism, so sánh hoặc một ghi nhận vật lý vẫn hợp lệ khi tự nó tạo xung đột, hồi đáp, biến nghĩa, groove hay hệ quả có provenance.
+Không có whitelist/blacklist vật thể. Một `bờ vai` có thể thắng vì nghiêng/tựa, khoảng cách thân mật, khả năng mở sang không gian và âm hình; một `mái tôn` cũng có thể thắng khi tiếng mưa, căn nhà hoặc ký ức có provenance làm nó không thể thay. Nếu không carrier nào thắng phương án trực tiếp, viết trực tiếp. Audition này tuyển **khả năng sinh nghĩa và sinh câu**, không chọn mỹ từ; Tứ và LLM vẫn quyết định cách biến material thành bài.
 
 Khi học từ reference, chỉ trích `hạt nhân → nguồn kết dính → cầu giữa các miền → cách trở lại/biến nghĩa → payoff/scale`. Sau đó đóng reference và bỏ toàn bộ lyric, hook, đạo cụ, danh từ, tình tiết đặc trưng cùng skeleton riêng khỏi generation packet. Một reference thuộc dạng mới phải được phép cho thấy một engine mới; không ép nó vào các tên dạng đã biết.
 
@@ -246,6 +212,8 @@ Hai mode hữu ích khi chẩn đoán:
 
 - **PROGRESSIVE CHAIN:** ảnh kế tiếp làm nghĩa tiến, đổi quy mô hoặc lật nhận thức. Hợp với bài chuyển hóa/reframe.
 - **AFFECTIVE CONSTELLATION:** các miền ảnh có thể xa nhau nhưng cùng một lực cảm xúc và lần lượt mở thêm mặt của trạng thái. Hợp với lament, mood, lời gọi, litany và sustain.
+
+Với constellation, progression có thể là `đào sâu · mở rộng · đổi giác quan · đổi khoảng cách · vọng lại` thay vì `nguyên nhân → kết luận`. Không gán mỗi ảnh vào một nhãn cảm xúc cố định để chứng minh coherence; coherence nằm ở lực hút chung và phần việc khác nhau của từng ảnh. Một bài direct/declaration nói rõ thesis không fail chỉ vì nó không vận hành theo mode này.
 
 Chỉ hỏi ba câu:
 
@@ -426,6 +394,23 @@ Dựng scaffold:
 | Bridge | Mở sâu, lựa chọn, lớp stakes cao nhất hoặc đổi flow đúng behavior |
 | Final | Trả payoff đã được cốt trao quyền |
 
+### EXTERNALIZATION CONTRACT — có điều kiện trước writer-pass
+
+Chỉ chạy khi brief khóa `EXTERNALIZED`, Tứ đã chọn `MIXED/FIELD-DOMINANT`, hoặc scale arc thật sự rộng hơn chuyện riêng. Với `DIRECT/PERSONAL` sống tốt bằng lời gọi, đối thoại hay tuyên ngôn, ghi `N/A`; không mở contract chỉ để bài có vẻ thơ hoặc nhiều cảnh hơn.
+
+Nén backstage thành một ghi chú ngắn: `carrier → chuyển động tự nhiên → relation anchor → phân bố/return qua section`. Carrier có thể là tình thế, thời gian–không gian, âm thanh, nghi lễ, nhịp sống chung hoặc hệ hình tượng đã được Tứ trao việc; nó không đồng nghĩa một danh sách vật thể hay chuỗi chủ ngữ phi nhân.
+
+Chạy bốn probe:
+
+1. **Independent movement:** ngoài việc minh họa người hát đang nhớ/nghĩ, carrier có quy luật, hệ quả hoặc thay đổi nào thật sự làm Cốt tiến không?
+2. **Native behavior:** chuyển động có tự nhiên trong miền nghĩa ấy không, hay phải gán ý chí, nhân hóa hoặc động tác vật lý gượng để tạo vẻ ngoại hiện?
+3. **Relational anchor:** con người, quan hệ, mất mát, thuộc về hoặc sức ép nào khiến chuyển động ấy có cảm xúc thay vì thành phong cảnh/tư liệu?
+4. **Two-way deletion:** bỏ các câu tự thuật, carrier còn truyền được một phần tension; bỏ carrier, quan hệ hoặc payoff phải nghèo đi rõ. Nếu chỉ một phía phụ thuộc, contract đang trang trí hoặc đang nuốt mất con người.
+
+Không bắt carrier giữ chủ ngữ ở mọi section. Chỉ gán cho section nơi nó thực sự đổi, mở, gây hệ quả hoặc trở lại; những đoạn khác được phép đi bằng lời trực tiếp. Nếu không có carrier nào qua cả bốn probe, thử `situational` hoặc `communal` thay cho phong cảnh. Brief không khóa expression target thì được hạ về `MIXED/DIRECT`; brief đã khóa `EXTERNALIZED/FIELD-DOMINANT` thì reseed Tứ, không rải ảnh để vá.
+
+Trước writer-pass, decompile contract vào section jobs/immediate utterance bằng lời tự nhiên về điều đang xảy ra và điều đó làm quan hệ đổi thế nào. Không đưa tên contract, nhãn carrier, bảng agency, câu mẫu hoặc kho ảnh vào generation packet.
+
 Chạy TỨ-FIT:
 
 1. Payoff nói lại được bằng một formulation của Tứ/hook.
@@ -436,6 +421,15 @@ Chạy TỨ-FIT:
 Trình scaffold cho user duyệt trước khi viết lời, trừ draft-lane mà user yêu cầu một lượt.
 
 Nếu làm ca khúc đầy đủ, ghép scaffold lời với Song System Card tại `music-sketch-and-demo.md`: stable/unstable, groove, harmony, melodic contour, voice/range và production fingerprint. Cốt lời pass nhưng các tầng nhạc đánh nhau vẫn chưa pass song system.
+
+### Concept coupling và hiện thân hóa
+
+Tách hai câu hỏi trước khi writer-pass:
+
+1. **Kiến trúc nghĩa có sinh nhạc không?** Từ cơ chế trung tâm của Tứ, audition một hoặc hai hệ quả nghe được ở cadence, stable/unstable, phrase, form, vocal field hoặc production return. Chỉ giữ hệ quả có tính tất yếu tương đối: bỏ nó đi thì cảm giác hoặc payoff của Tứ yếu rõ. Một thủ pháp chỉ “hợp mood” nhưng gắn được cho hàng trăm bài khác là genre/arrangement choice, không phải concept coupling.
+2. **Người nghe có sống trong kiến trúc ấy không?** Chuyển mỗi section job thành immediate utterance rồi tìm carrier phù hợp: quan hệ, hành động, âm thanh, không gian, cảm giác hoặc lời trực tiếp. Không ép mỗi section phải có đạo cụ hay cảnh đời thường. Concrete chỉ có giá trị khi mang quan hệ hoặc semantic tension; abstraction vẫn hát được khi có giọng, nhịp và điểm rơi.
+
+Không dùng tỷ lệ như `70% cụ thể / 30% trừu tượng` làm luật. Mật độ phụ thuộc genre, voice, section và engine. Nếu Tứ thắng nhưng lyric nghe như lời giải thích, giữ Tứ và viết lại tầng hiện thân; nếu chi tiết sống động nhưng làm mất central intent, giữ phần có cảm xúc rồi dựng lại cầu nghĩa. Hybrid hai arm chỉ hợp lệ khi chúng cùng central intent: một arm có thể cung cấp kiến trúc, arm kia cung cấp register hoặc cách hiện thân; không ghép hai payoff cạnh tranh.
 
 ## 8. Chế độ tham vọng phá cách
 

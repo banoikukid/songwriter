@@ -48,6 +48,16 @@ Nếu câu plain nói đúng hơn, giữ plain.
 
 Với declaration mainstream, không bắt material quota. Câu hỏi, lời xác nhận, so sánh, lời hứa và parallelism có thể gánh. Concrete chỉ vào khi làm mệnh đề rõ hoặc ấm hơn, không để chứng minh bài “có hình”.
 
+### MATERIAL-TO-EMOTION BRIDGE — chọn chức năng trước vật thể
+
+Đây là cầu **hiện thực hóa hoặc sửa local ở tầng câu**, không thay cho `MATERIAL AFFORDANCE AUDITION` trước Tứ. Chạy rất ngắn trước writer-pass khi scene dễ bị kể bằng đạo cụ, thao tác chăm sóc, việc nhà, mốc giờ hoặc âm nền. Đừng bắt đầu bằng câu hỏi “đổi vật này thành hình ảnh thơ nào?”. Trước hết nén **chức năng cảm xúc** mà section cần: một quan hệ đang được chứng minh, một dấu vết còn lại, cái giá của sự quan tâm, thói quen đã đổi nghĩa, một chuyển động/nhận ra, hoặc một lời trực tiếp chưa nói được.
+
+Sau đó audition bề mặt tự nhiên nhất: hành động có hệ quả quan hệ; dấu vết/âm thanh đã đổi nghĩa vì con người; chuyển động biểu tượng có căn cứ; hoặc câu plain đi thẳng vào cảm xúc. Chỉ giữ chi tiết khi bỏ nó làm quan hệ, tension hoặc turn yếu đi. Nếu nó chỉ cho biết căn phòng có gì, ai đang làm thao tác nào hay thời gian đang trôi, nén làm nền hoặc bỏ.
+
+Không sửa material thô bằng một từ đồng nghĩa cổ, tính từ mơ hồ, nhân hóa hay ẩn dụ trang sức. Đó chỉ là đổi register, chưa đổi chức năng. Ngược lại, không cấm vật bình thường: một chi tiết rất đời vẫn hát được khi dấu người, hệ quả hoặc cadence khiến nó không thể thay tùy ý. Nếu không có bề mặt cụ thể nào thắng rõ, dùng lời trực tiếp; lyricism không đồng nghĩa với nhiều vật thể.
+
+Nếu pre-Tứ audition đã PASS, giữ vai và relation anchor đã chọn; không mở lại toàn bộ candidate bank chỉ vì một câu chưa hay. Chỉ quay MATERIAL DISCOVERY khi rough lyric cho thấy lỗi material-level lan rộng—carrier không sinh được progression, phải gượng ép liên tục hoặc thua hẳn direct speech. Lỗi collocation, cadence hay một micro-phrase đơn lẻ vẫn sửa tại tầng câu.
+
 ## 3. Ngữ pháp lời hát
 
 Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có sàn.
@@ -64,6 +74,18 @@ Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có 
 ### NATURALNESS-SWEEP — chọn một nguyên nhân chính
 
 Chỉ mở khi câu cấn rõ ở collocation/register/material. Chọn một subcase chính bên dưới, sửa rồi đọc lại; không chạy ba gate nối tiếp trên cùng câu. Nếu lỗi thực ra nằm ở Tứ/scale/agency, quay tầng đó thay vì thay danh từ.
+
+#### Collocation và nén cú pháp
+
+Khi một dòng nghe có vẻ thơ nhưng khó nói lại bằng tiếng Việt bình thường, tạm bỏ xuống dòng, vần và nhạc tính rồi kiểm ba điểm:
+
+1. động từ–bổ ngữ, danh từ–định ngữ và giới từ có thực sự đi với nhau trong nghĩa đang dùng;
+2. thành phần bị lược có thể phục hồi duy nhất hay khiến câu đổi sang nghĩa khác;
+3. trật tự từ có tự nhiên, hay một chữ đã bị đảo/cắt/chọn chủ yếu để chạm vần.
+
+Fail nếu người nghe phải tự thêm một động từ, đối tượng hoặc quan hệ chưa có để cứu nghĩa; nếu cụm chỉ sống nhờ giải thích của Tứ/Cốt; hoặc nếu cách nói plain tương đương rõ ràng tự nhiên hơn mà không làm mất lực cảm xúc. Viết lại cả cụm nghĩa, không thay một từ đồng nghĩa rồi giữ nguyên cú pháp lỗi. Sau sửa, đọc câu cùng câu trước/sau để tránh biến lyric thành văn xuôi hoặc làm section job lùi lại.
+
+Negative control: ellipsis, đảo ngữ và từ ghép mới vẫn hợp lệ khi referent rõ, collocation có thể cảm được ngay và âm hình tạo thêm lực. Không bắt lời hát thành văn xuôi chuẩn.
 
 #### Ẩn dụ thân thể–không gian
 
@@ -86,10 +108,6 @@ Một vật liệu có provenance vẫn có thể lạc tông. Trước khi gi�
 Vật hiện đại/kỹ thuật như `máy`, `điện thoại`, `màn hình`, `app`, `tin nhắn` chỉ giữ khi brief, lane hoặc cốt cần đời sống số, xa cách hiện đại, đô thị, rap/indie công nghệ. Với folk/quê/gia đình hoặc đoạn đang đi bằng lời ru, giọng mẹ, làng, mùa, bến, ưu tiên mặt người của vật: `giọng mẹ`, `lời mẹ`, `đầu dây`, `tin xa`, `ánh đèn`, `câu gọi`, hoặc bỏ hẳn vật nếu câu vẫn rõ.
 
 Không cấm vật hiện đại trong quê hương: cuộc gọi xa nhà có thể rất thật. Nhưng phải hỏi vật đó đang làm ấm ký ức hay chỉ ló ra như một món đồ công nghiệp. Nếu bỏ vật và giữ được giọng/người/quan hệ mạnh hơn, bỏ vật.
-
-Khi brief khóa `MATERIAL-TEXTURE=SOFT-LYRICAL`, giữ ít nhất một neo cảm giác nhưng ưu tiên collocation mềm và trường vật liệu không kéo tai về thao tác sinh hoạt, thiết bị, bề mặt công nghiệp hay một bản ghi hiện tượng—trừ khi chúng có provenance hoặc section job không thể thay. Khi nhiều neo cùng làm một việc nghĩa, chọn bằng **relational resonance + phonetic texture** trước độ chính xác âm học tối đa: không gian ngưỡng, dấu người hoặc nơi chốn có quan hệ thường giàu lực hơn một bề mặt chỉ tồn tại để phát tiếng, nếu kết hợp từ vẫn tự nhiên. Đây không phải danh sách từ ưu tiên hay lệnh xóa concrete. Một vật bình thường vẫn PASS khi đã mang quan hệ, ký ức, khoảng cách hoặc âm sắc riêng và câu còn tự nhiên khi hát.
-
-Không chữa vật liệu thô bằng **purple substitution**: chồng mỹ từ, danh từ mơ hồ, động từ không hợp chủ thể hoặc khái niệm phân tích để câu có vẻ thơ. Với `SOFT-LYRICAL`, chạy **CORE-COLLOCATION**: tạm bỏ mỹ từ/phụ từ làm mềm rồi đọc lõi `chủ thể → vị ngữ → đối tượng/quan hệ`; lõi phải là một kết hợp tiếng Việt tự nhiên hoặc diễn xuôi được bằng một câu rõ nghĩa mà không cần giảng phép liên tưởng. Fail thì reseed bridge hoặc đổi speech act, không gắn thêm từ mơ hồ để cứu. Nếu bản mềm hơn làm referent mờ, vật lý sai, collocation gượng hoặc lạnh hơn câu plain, giữ câu plain; không cộng điểm chỉ vì ít concrete hơn.
 
 #### Thành ngữ và register
 
@@ -196,8 +214,6 @@ Sửa ở cấp section: phân bố lại chủ thể và động từ theo lane
 
 Khi chủ thể phi nhân nhận động từ hoặc phụ từ ý chí như `muốn`, `nỡ`, `chịu`, `cố`, kiểm xem bài đã dựng một hệ nhân hóa đủ rõ chưa. Nếu chưa, ưu tiên chuyển động/trạng thái có kết hợp từ tự nhiên (`còn`, `chưa rời xa`, `vẫn phủ`, `dần phai`) hoặc trả động lực về nhân vật. Không cấm từ đơn; chỉ flag khi ý chí bị gán vào cảnh vật để câu có vẻ thơ hơn.
 
-Negative control **AFFECTIVE RECAST**: trong `SOFT-LYRICAL`, carrier được nhận trực tiếp một phẩm chất/cử chỉ cảm xúc khi collocation tự nhiên và cả cụm dùng nó để đổi âm sắc, quan hệ hoặc emotional field. Không bắt route này đào một động tác vật lý để tự biện hộ. Nó chỉ fail `PARALLEL-TRANSLATION` khi thực chất là đổi chủ thể cho cùng một mệnh đề người, hoặc fail Naturalness khi từ cảm xúc gắn vào vật nghe dịch/gượng và không phát triển được ngoài một mỹ từ.
-
 ## 4. Dòng chảy tu từ
 
 Rhetorical carrier là một lens hữu ích, không phải trường bắt buộc trước rough pass. Khi bài thiếu dòng chảy, thử nhận ra một cách chuyển động trội; không rải device theo quota từng dòng.
@@ -217,11 +233,9 @@ Nếu flow do liên tưởng gánh mà đang nghe rời/thô, dùng hai mode tro
 
 Nghe ba điều: có một neo/cadence giữ tai; ảnh mới còn cùng lực cảm xúc nhưng làm thêm một việc; và lyric không phải giảng quan hệ giữa các ảnh. Nếu chuỗi sụp khi bỏ lời giải thích, quay lại hạt nhân hoặc thứ tự ảnh. Không bắt mọi ảnh cụ thể và không cấm trường ảnh quen.
 
-Chạy thêm subcase **BEHAVIORAL-DEMO LEAKAGE** khi một dòng chỉ trình bày động tác/trạng thái vật lý của carrier, còn câu kề phải dịch hộ toàn bộ cảm xúc. Với `CARRIER-RENDER=TRANSFIGURED`, subcase **RAW-CARRIER REPORT** bắt cả dòng tải chính chỉ còn cấu trúc `carrier → động tác vật lý → vật liệu/địa điểm`, dù câu kề đã tạo nhân quả; hành vi thật là evidence hậu trường, chưa phải bề mặt đáng hát. Subcase **PARALLEL-TRANSLATION** thuộc cùng owner khi hai dòng chỉ đối xứng `carrier ở trạng thái X → con người cũng ở trạng thái X`; nếu đảo thứ tự, đổi carrier cùng mood hoặc xóa dòng vật lý mà quan hệ/cảm xúc gần như nguyên vẹn, carrier đang làm phông. Chiều deletion-test còn lại: bỏ câu giải thích mà chỉ còn một ghi nhận hiện trường thì cầu chuyển hóa chưa lên bề mặt. Rewrite từ `section job → immediate utterance/ý phát ngôn → phrase`, để hành vi đi qua hệ quả đối với quan hệ, thời gian, khoảng cách, tri giác, ký ức hoặc lựa chọn; không thay động từ vật lý bằng một từ “thơ” đồng nghĩa và không bắt vật phải nhân hóa. Với fragment hai dòng đã fail, ưu tiên thử cho dòng đầu mở một chuyển động/trở ngại và dòng sau hoàn tất hệ quả trong **cùng một đơn vị cú pháp hoặc nhân quả**; đây là rewrite move có điều kiện, không phải template cho mọi couplet. Nếu cách ghép này làm sai chuyển động vật lý, gán ý chí tùy tiện, sinh ẩn dụ thân thể/collocation gượng hoặc lạnh hơn baseline, nó fail `REWRITE CLOSURE`; giảm carrier về một neo, chuyển sang quan hệ trực tiếp tự nhiên hơn hoặc bỏ carrier khi brief cho phép. Phép đối/so sánh vẫn PASS khi hai phía tạo nhân quả, xung đột, hồi đáp, biến nghĩa hoặc một cadence/refrain có việc riêng. Các subcase này là `N/A` khi `CARRIER-RENDER=LITERAL`: chi tiết có provenance `LITERAL/EVENT`, tạo hệ quả thật, là realist detail cần cho cốt, hoặc gánh groove/onomatopoeia nghe được.
-
 ### Gate chống văn xuôi dựng cảnh
 
-Flag một cụm khi nhiều dòng liên tiếp chỉ trả lời `mấy giờ · ở đâu · ai làm gì` mà chưa có giọng người nói, semantic tension, âm hình hay thủ pháp trội.
+Flag một cụm tải cao hoặc nhiều dòng liên tiếp khi chúng chỉ trả lời `mấy giờ · ở đâu · ai làm gì · căn phòng phát ra âm gì` mà chưa có giọng người nói, semantic tension, âm hình hay thủ pháp trội. Một cặp câu mở Verse/Chorus/Bridge vẫn đủ evidence nếu câu thứ nhất kê thao tác và câu thứ hai chỉ thêm âm nền hoặc thời lượng mà quan hệ không tiến.
 
 Phân owner với **LYRIC-VOLTAGE** bằng triệu chứng trội: nếu cụm chủ yếu kê vị trí, mốc và thao tác, gate dựng cảnh sở hữu; nếu cụm chủ yếu định nghĩa, giải thích tâm lý/quan hệ hoặc kết luận Tứ, `LYRIC-VOLTAGE` sở hữu. Khi một cụm có cả hai, quay section job và chọn owner của tầng sớm hơn; không chạy hai pass nối tiếp trên cùng bản câu. Rewrite một lần rồi nghe lại trước khi mở diagnostic còn lại.
 
@@ -230,6 +244,8 @@ Với câu mở section, hỏi:
 1. Câu có tạo lời gọi, câu hỏi, thế đối, nhịp cú pháp, biểu tượng hoặc sức ép cảm xúc không?
 2. Nếu bỏ mốc thời gian/địa điểm, phần còn lại có mất điều không thể thay thế không?
 3. Nếu câu chỉ đặt camera, nén nó vào một dòng nền hoặc thay bằng phát ngôn đi thẳng vào Tứ.
+
+Khi fail bắt nguồn từ material tự sinh, quay **MATERIAL-TO-EMOTION BRIDGE** và viết lại cả đơn vị nghĩa. Không giữ nguyên biên bản sự việc rồi thay `gần sáng` bằng một mốc giờ thi vị hơn, hoặc thay âm nền bằng một vật thể mềm hơn; bản mới phải làm quan hệ, cái giá, dấu vết hay chuyển động cảm xúc nghe được.
 
 Không flag scene thật sự cần cho EVENT, chi tiết có dấu người hoặc câu kể có cadence/refrain. Mục tiêu là tránh **concrete-by-default**, không cấm tự sự hay câu plain.
 

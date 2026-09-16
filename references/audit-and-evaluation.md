@@ -8,6 +8,7 @@ Dùng audit cycle và release discipline bên dưới khi thay rule, chạy forw
 
 - Định nghĩa mục tiêu, artifact và tiêu chí thành công **trước** khi xem bản mới.
 - Đánh giá đúng thứ user sẽ nhận: Tứ/card, lyric sheet, rough demo, Suno render hay full-production candidate.
+- Chấm từng tầng bằng artifact của chính tầng đó. Một arm thắng ở Tứ/Cốt/Song System chưa được tính là thắng lyric; một writer-pass lỗi cũng chưa đủ bác bỏ kiến trúc định hướng nếu lỗi xuất hiện sau handoff. Khi cần so quy trình, ghi riêng `direction quality`, `writer realization` và `music/render realization` trước verdict tổng.
 - Ưu tiên outcome; trace chỉ dùng để tìm tầng sinh lỗi. Không bắt một đường thao tác cứng nếu nhiều đường đều cho kết quả hợp lệ.
 - Tách kiểm tra “có làm được điều khó mới không” khỏi “có làm hỏng điều từng làm được không”.
 - Một case phát hiện lỗi được phép giúp sửa rule, nhưng không được tự làm bằng chứng rằng rule đã tổng quát hóa.

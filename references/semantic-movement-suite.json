@@ -1,0 +1,23 @@
+{
+  "suite_id": "semantic-movement-cross-engine-v1",
+  "artifact": "complete Vietnamese lyric",
+  "grader_schema": "semantic-movement-grader-schema.json",
+  "grader_rubric": "Grade only the raw lyric. Identify the actual semantic operation that moves each section, after removing scenery, nouns and genre labels. Repetition of a chorus is intentional and is not itself a failure. PASS repetition when Verse 1, Verse 2, Bridge and payoff perform distinct compatible jobs, or when a sustain/declaration song varies pressure, scale, embodiment or musical speech without pretending to transform. FAIL repetition when three or more non-identical section jobs, or two section turns plus the final payoff, depend on the same cognitive/reversal operation such as not knowing then understanding, once believing then realizing, negation then replacement, or leaving then discovering value. Judge causal dependency, not keywords. Also fail naturalness only for clearly awkward Vietnamese collocations or syntax; quote concise evidence. Do not infer melody, singing quality or production fit.",
+  "cases": [
+    {
+      "id": "m1-love-sustain",
+      "split": "negative-control",
+      "prompt": "Viết full lyric tiếng Việt cho bài “Ngày Vui Còn Đây”, contemporary Vietnamese R&B-pop, nữ hát. Hai người đang yêu và cùng tận hưởng một ngày bình thường; bài phát triển bằng sự gần gũi được khuếch đại, không cần biến cố chia xa hay cú lật nghĩa. Giữ nhịp câu linh hoạt, lời tự nhiên và có hook rõ. Chỉ xuất lyrics với section tags, không giải thích quy trình."
+    },
+    {
+      "id": "m2-homeland-accumulate",
+      "split": "capability",
+      "prompt": "Viết full lyric tiếng Việt cho bài “Miền Gió Gọi”, chủ đề quê hương, folk-pop đương đại, giọng nam hoặc nữ đều được. Cảm xúc mở qua không gian, sinh hoạt và ký ức cộng đồng; Verse 2 phải đem thêm một lớp nghĩa mới thay vì thay phong cảnh. Lời giàu hình ảnh nhưng tự nhiên. Chỉ xuất lyrics với section tags, không giải thích quy trình."
+    },
+    {
+      "id": "m3-work-event",
+      "split": "capability",
+      "prompt": "Viết full lyric tiếng Việt cho bài “Người Gác Đèn”, cinematic folk-rock, nam hát. Nhân vật trực ngọn đèn biển trong một đêm bão và phải giữ ánh sáng cho những con thuyền không quen biết. Phát triển bằng sự kiện, lựa chọn và hệ quả; tránh biến thành tình ca. Chỉ xuất lyrics với section tags, không giải thích quy trình."
+    }
+  ]
+}

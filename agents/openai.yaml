@@ -1,0 +1,4 @@
+interface:
+  display_name: "Songwriting Min"
+  short_description: "Sáng tác và hoàn thiện ca khúc tiếng Việt"
+  default_prompt: "Dùng $songwriting-min để sáng tác một ca khúc tiếng Việt từ đề bài của tôi và chuẩn bị bản thử Suno."

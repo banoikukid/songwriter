@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["verdict", "dominant_movement", "section_movements", "repetition", "naturalness", "evidence", "confidence"],
+  "properties": {
+    "verdict": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "dominant_movement": {"type": "string"},
+    "section_movements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["section", "movement"],
+        "properties": {
+          "section": {"type": "string"},
+          "movement": {"type": "string"}
+        }
+      }
+    },
+    "repetition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "repeated_mechanism", "scope"],
+      "properties": {
+        "verdict": {"type": "string", "enum": ["PASS", "FAIL"]},
+        "repeated_mechanism": {"type": "string"},
+        "scope": {"type": "string"}
+      }
+    },
+    "naturalness": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"type": "string", "enum": ["low", "medium", "high"]}
+  }
+}

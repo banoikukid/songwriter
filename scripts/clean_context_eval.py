@@ -17,7 +17,7 @@ from pathlib import Path
 
 SCRIPT_SKILL_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_SUITE = SCRIPT_SKILL_DIR / "references" / "eval-suite.json"
-DEFAULT_OUTPUT_ROOT = SCRIPT_SKILL_DIR.parent / "songwriting-min-clean-eval-runs"
+DEFAULT_OUTPUT_ROOT = SCRIPT_SKILL_DIR.parents[3] / ".songwriting-min-clean-eval-runs"
 REFRAME_PATTERNS = (
     r"\bkhông phải\b.{0,80}\bmà (?:là|do|vì)\b",
     r"\btưởng\b.{0,80}\b(?:hóa ra|hoá ra|thì ra)\b",
@@ -41,6 +41,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--trials", type=int, default=3)
     parser.add_argument("--case", action="append", dest="case_ids")
     parser.add_argument("--model", help="Optional Codex model override.")
+    parser.add_argument(
+        "--arm",
+        choices=("guided", "direct", "both"),
+        default="guided",
+        help="Run with the skill, without the skill, or as a paired A/B test.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--keep-sandboxes", action="store_true")
     return parser.parse_args()
@@ -82,7 +88,14 @@ def run_codex(prompt: str, cwd: Path, output_path: Path, model: str | None) -> N
         raise RuntimeError(f"codex exec failed with exit code {completed.returncode}")
 
 
-def generator_prompt(case: dict) -> str:
+def generator_prompt(case: dict, arm: str) -> str:
+    if arm == "direct":
+        return (
+            "Hãy tự sáng tác trực tiếp theo yêu cầu dưới đây. Không đọc hoặc dùng bất kỳ "
+            "skill, rubric, bài mẫu hay output nào khác. Chỉ trả artifact người dùng yêu cầu; "
+            "không tự chấm và không giải thích quy trình nội bộ.\n\n"
+            f"YÊU CẦU:\n{case['prompt']}\n"
+        )
     return (
         "Dùng skill songwriting-min trong thư mục ./songwriting-min để xử lý yêu cầu dưới đây. "
         "Chỉ đọc SKILL.md và các reference mà router của skill yêu cầu cho đúng tác vụ. "
@@ -151,6 +164,7 @@ def main() -> int:
         "skill_dir": str(skill_dir),
         "skill_sha256": sha256(skill_dir / "SKILL.md"),
         "model": args.model or "codex-config-default",
+        "arm": args.arm,
         "trials_per_case": args.trials,
         "contamination_status": "isolated-generator-and-grader-filesystems",
         "cases": [case["id"] for case in cases],
@@ -166,34 +180,38 @@ def main() -> int:
     )
     rubric = suite["grader_rubric"]
 
+    arms = ("direct", "guided") if args.arm == "both" else (args.arm,)
+
     for case in cases:
         for trial in range(1, args.trials + 1):
-            artifact_dir = run_dir / case["id"] / f"trial-{trial:02d}"
-            artifact_dir.mkdir(parents=True)
-            raw_path = artifact_dir / "raw-output.md"
-            grade_path = artifact_dir / "grade.json"
+            for arm in arms:
+                artifact_dir = run_dir / case["id"] / f"trial-{trial:02d}" / arm
+                artifact_dir.mkdir(parents=True)
+                raw_path = artifact_dir / "raw-output.md"
+                grade_path = artifact_dir / "grade.json"
 
-            generator_tmp = Path(tempfile.mkdtemp(prefix="song-gen-"))
-            grader_tmp = Path(tempfile.mkdtemp(prefix="song-grade-"))
-            try:
-                shutil.copytree(
-                    skill_dir,
-                    generator_tmp / "songwriting-min",
-                    ignore=shutil.ignore_patterns(
-                        "eval-runs", "songwriting-min-clean-eval-runs", "__pycache__", "*.pyc"
-                    ),
-                )
-                run_codex(generator_prompt(case), generator_tmp, raw_path, args.model)
-                raw_text = raw_path.read_text(encoding="utf-8")
-                (artifact_dir / "deterministic.json").write_text(
-                    json.dumps(deterministic_scan(raw_text), ensure_ascii=False, indent=2),
-                    encoding="utf-8",
-                )
+                generator_tmp = Path(tempfile.mkdtemp(prefix="song-gen-"))
+                grader_tmp = Path(tempfile.mkdtemp(prefix="song-grade-"))
+                try:
+                    if arm == "guided":
+                        shutil.copytree(
+                            skill_dir,
+                            generator_tmp / "songwriting-min",
+                            ignore=shutil.ignore_patterns(
+                                "eval-runs", "songwriting-min-clean-eval-runs", "__pycache__", "*.pyc"
+                            ),
+                        )
+                    run_codex(generator_prompt(case, arm), generator_tmp, raw_path, args.model)
+                    raw_text = raw_path.read_text(encoding="utf-8")
+                    (artifact_dir / "deterministic.json").write_text(
+                        json.dumps(deterministic_scan(raw_text), ensure_ascii=False, indent=2),
+                        encoding="utf-8",
+                    )
 
-                shutil.copy2(raw_path, grader_tmp / "raw-output.md")
-                local_schema = grader_tmp / "grader-schema.json"
-                shutil.copy2(schema_path, local_schema)
-                command = [
+                    shutil.copy2(raw_path, grader_tmp / "raw-output.md")
+                    local_schema = grader_tmp / "grader-schema.json"
+                    shutil.copy2(schema_path, local_schema)
+                    command = [
                     "codex",
                     "exec",
                     "--ephemeral",
@@ -209,27 +227,27 @@ def main() -> int:
                     str(local_schema),
                     "-o",
                     str(grade_path),
-                ]
-                if args.model:
-                    command.extend(["--model", args.model])
-                command.append(grader_prompt(case, rubric))
-                completed = subprocess.run(
-                    command, text=True, encoding="utf-8", errors="replace"
-                )
-                if completed.returncode != 0:
-                    raise RuntimeError(
-                        f"grader failed with exit code {completed.returncode}"
+                    ]
+                    if args.model:
+                        command.extend(["--model", args.model])
+                    command.append(grader_prompt(case, rubric))
+                    completed = subprocess.run(
+                        command, text=True, encoding="utf-8", errors="replace"
                     )
-                json.loads(grade_path.read_text(encoding="utf-8"))
-            finally:
-                if args.keep_sandboxes:
-                    (artifact_dir / "sandboxes.txt").write_text(
-                        f"generator={generator_tmp}\ngrader={grader_tmp}\n",
-                        encoding="utf-8",
-                    )
-                else:
-                    shutil.rmtree(generator_tmp, ignore_errors=True)
-                    shutil.rmtree(grader_tmp, ignore_errors=True)
+                    if completed.returncode != 0:
+                        raise RuntimeError(
+                            f"grader failed with exit code {completed.returncode}"
+                        )
+                    json.loads(grade_path.read_text(encoding="utf-8"))
+                finally:
+                    if args.keep_sandboxes:
+                        (artifact_dir / "sandboxes.txt").write_text(
+                            f"generator={generator_tmp}\ngrader={grader_tmp}\n",
+                            encoding="utf-8",
+                        )
+                    else:
+                        shutil.rmtree(generator_tmp, ignore_errors=True)
+                        shutil.rmtree(grader_tmp, ignore_errors=True)
 
     print(run_dir)
     return 0

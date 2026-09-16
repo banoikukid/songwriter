@@ -26,7 +26,7 @@ Nén trước khi viết bản đầu:
 - **Tempo/meter/groove feel:** mô tả cảm giác; không hứa con số nếu engine không nghe/đo được.
 - **Harmony map:** home/tension/release hoặc chord loop khi user cần; harmony phải cùng hướng với intent.
 - **Melody map:** contour, register, phrase density, điểm lặp và chỗ lift; chưa có audio thì chỉ là direction.
-- **Voice/range:** người hát, tessitura tương đối, diction và điểm lấy hơi.
+- **Voice/range:** người hát, tessitura tương đối, diction và điểm lấy hơi; khi performance contrast là một phần của hook, ghi thêm vocal-direction map theo section job thay vì gán register theo tên section.
 - **Production fingerprint:** nhạc cụ/texture/arrangement nào gánh hook hoặc contrast.
 
 Không cần điền mọi ô bằng thuật ngữ. Card phải đủ để các quyết định không đánh nhau.
