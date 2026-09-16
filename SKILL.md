@@ -60,7 +60,12 @@ Khi user yêu cầu demo/test Suno/một lượt:
 6. Chưa có audio thì chạy **SCOPE-A RELEASE GATE** trước handoff.
 7. Chỉ gắn `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]` khi semantic gate và Scope A đều PASS; nếu chưa thì dùng `[LYRIC DRAFT — Scope A chưa qua; music-fit UNKNOWN]` và ghi tầng cần sửa.
 
-Khi rà soát ca từ, kiểm tra nhanh độ dài dòng tương đối, trùng từ cuối liền kề và dòng lặp bằng mắt hoặc quy tắc phrase-map. Đây là bước rà soát tĩnh nhanh; không thay semantic gate, đọc/hát thành tiếng hoặc Scope B.
+Khi cần kiểm tra tĩnh lyric, tự rà nhanh:
+- dòng dài/ngắn bất thường;
+- từ kết dòng lặp sát nhau;
+- dòng trùng hoặc gần trùng;
+- phrase có dấu hiệu quá tải hơi.
+Đây chỉ là diagnostic nhanh; không thay Semantic Gate, đọc/hát thành tiếng hoặc Scope B.
 
 Thiếu genre thì giữ `genre=UNKNOWN` ở tầng DOMAIN-SENSE và lyric routing. Chỉ khi user yêu cầu handoff ngay mới dùng **production assumption** pop/acoustic trung tính; ghi rõ đây là giả định phối thử và không dùng nó để chọn sense, Tứ hoặc truyền thống ca từ.
 
@@ -235,11 +240,12 @@ Sau mỗi diagnostic rewrite, chạy **REWRITE CLOSURE** tại `references/stage
 ### 8. Chọn, Xuất và Học
 
 Trạng thái handoff:
-
 - `[LYRIC DRAFT — Scope A chưa qua; music-fit UNKNOWN]`
 - `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]`
 - `[PROSODY PASS — Scope B]` chỉ sau demo có melody và lời
 - `[PRODUCTION CANDIDATE]` chỉ sau Scope B, performance và feedback gate
+
+*Lưu ý UX:* Các nhãn trạng thái này mặc định là telemetry/audit nội bộ; chỉ xuất ra khi user yêu cầu quy trình formal, export file Suno hoặc debug. Trong giao tiếp sáng tác thông thường, trả ca từ tự nhiên mà không chèn nhãn kỹ thuật vào output.
 
 Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototype, nghe–sửa–re-render. Khi user muốn vocal bớt đều hoặc giống một màn trình diễn có chủ ý hơn, dựng **VOCAL-DIRECTION MAP** theo section job và phrase thực tế; không mặc định `Verse → Chest`, `Pre-Chorus → Mix`, `Chorus → Belt`, `Outro → Falsetto`. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
 

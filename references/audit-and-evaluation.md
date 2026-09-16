@@ -123,4 +123,4 @@ Trước khi đưa rule vào runtime:
 
 Revert hoặc thu hẹp scope nếu rule tạo hard fail mới, bắn oan lặp lại, làm giảm tự nhiên/cảm xúc ở lane ngoài mục tiêu, hoặc chỉ thắng khi evaluator biết chẩn đoán.
 
-Không khôi phục apparatus đã demote chỉ vì một ví dụ thắng. Snapshot đầy đủ trước refactor runtime: `../SKILL.v20260718-pre-runtime-refactor.bak`.
+Không khôi phục apparatus đã demote chỉ vì một ví dụ thắng.
