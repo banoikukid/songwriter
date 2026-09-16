@@ -73,14 +73,14 @@ songwriter/
     ├── poem-to-song.md                    # Phương pháp phổ thơ thành ca khúc
     ├── style-mining.md                    # Khai thác phong cách tác giả & bản sắc riêng
     ├── dominant-analysis.md               # Phân tích hợp âm, hòa thanh & trục cảm xúc
-    ├── case-log.md                        # Nhật ký các case thực chiến
+    ├── case-log-protocol.md               # Giao thức ghi nhớ phiên làm việc (Session Memory Protocol)
     ├── audit-and-evaluation.md            # Phương pháp tự chấm điểm và đánh giá ca khúc
     ├── semantic-movement-suite.json       # Bộ test chuyển động ngữ nghĩa
     ├── writer-realization-suite.json      # Bộ test hiện thực hóa ca từ
     └── *.json & *.md                      # Schemas kiểm định, test suites & báo cáo audit
 ```
 
-> **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, an toàn tuyệt đối (Zero execution attack surface, Zero token leak) khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
+> **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, attack surface tối thiểu (Zero shell execution, Zero token leak) khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
 
 ---
 

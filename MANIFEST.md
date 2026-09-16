@@ -28,7 +28,7 @@ source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 | `MANIFEST.md` | Bảng kê khai tài nguyên và phiên bản | ✅ Active |
 | `agents/openai.yaml` | Cấu hình interface cho agent | ✅ Active |
 
-> **Lưu ý:** Đây là bản **Pure Agent Skill** (100% Markdown & JSON Knowledge Base), hoàn toàn không chứa mã thực thi runtime, script Python hay dependency bên ngoài, đảm bảo an toàn tuyệt đối và tính tương thích cao nhất với mọi hệ thống Agent (Hermes, OpenClaw, Claude Code, Antigravity, Codex).
+> **Lưu ý:** Đây là bản **Pure Agent Skill** (100% Markdown & JSON Knowledge Base), hoàn toàn không chứa mã thực thi runtime, script Python hay dependency bên ngoài; attack surface tối thiểu và có tính portable cao trên mọi hệ thống Agent (Hermes, OpenClaw, Claude Code, Antigravity, Codex).
 
 ### Danh Mục References (29 tệp)
 
@@ -42,7 +42,7 @@ source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 8. `references/poem-to-song.md`: Phương pháp phổ thơ thành ca khúc
 9. `references/style-mining.md`: Khai thác phong cách tác giả & bản sắc riêng
 10. `references/dominant-analysis.md`: Phân tích hợp âm, hòa thanh & trục cảm xúc
-11. `references/case-log.md`: Nhật ký các case thực chiến
+11. `references/case-log-protocol.md`: Giao thức ghi nhớ ngắn hạn trong phiên làm việc (Session Memory Protocol)
 12. `references/audit-and-evaluation.md`: Phương pháp tự chấm điểm và đánh giá ca khúc
 13. `references/eval-suite.json`: Bộ đề kiểm thử ca khúc đa thể loại
 14. `references/eval-grader-schema.json`: Schema chấm điểm bài hát

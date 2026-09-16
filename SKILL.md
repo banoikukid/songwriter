@@ -241,11 +241,11 @@ Trạng thái handoff:
 - `[PROSODY PASS — Scope B]` chỉ sau demo có melody và lời
 - `[PRODUCTION CANDIDATE]` chỉ sau Scope B, performance và feedback gate
 
-Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototype, nghe–sửa–re-render. Khi user muốn vocal bớt đều hoặc giống một màn trình diễn có chủ ý hơn, dựng **VOCAL-DIRECTION MAP** theo section job và phrase thực tế; không mặc định `Verse → Chest`, `Pre-Chorus → Mix`, `Chorus → Belt`, `Outro → Falsetto`. Append `references/case-log.md` bằng fingerprint ngắn; chỉ ghi diagnostic chi tiết khi fail, không biến case-log thành kho seed.
+Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototype, nghe–sửa–re-render. Khi user muốn vocal bớt đều hoặc giống một màn trình diễn có chủ ý hơn, dựng **VOCAL-DIRECTION MAP** theo section job và phrase thực tế; không mặc định `Verse → Chest`, `Pre-Chorus → Mix`, `Chorus → Belt`, `Outro → Falsetto`. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
 
 ## Điều không thương lượng
 
-- Ví dụ, corpus, bài tham chiếu và case-log không được làm seed câu/Tứ hoặc bị chép lyric/hook/skeleton.
+- Ví dụ, corpus, bài tham chiếu và session fingerprint không được làm seed câu/Tứ hoặc bị chép lyric/hook/skeleton.
 - Không mặc định người viết = người kể = người hát; không yêu cầu trải nghiệm đời tư làm điều kiện để sinh Tứ.
 - Không tự bịa material, quan hệ hai chiều hoặc nội tâm người khác từ một hành động một phía.
 - Nghĩa và tiếng Việt tự nhiên thắng vần; lỗi phrase/sound phải được nghe hoặc đánh dấu đúng scope.
