@@ -263,14 +263,32 @@ Chỉ bật công cụ tương ứng:
 - Bài giống lời khuyên, bản tóm tắt, phân tích tâm lý hoặc báo cáo `chủ thể → hành động → kết quả`: chạy **LYRIC-VOLTAGE**; hỏi “đây là người đang hát từ trong cảm xúc hay người đứng ngoài thông báo?” rồi đổi speech act bằng lời gọi/hỏi, thế đối, nhịp, khoảng lặng hoặc chuyển động biểu tượng. Cụm đối xứng kiểu `A nói/làm X → một carrier trang trí → B cũng nói/làm X` cũng thuộc pass này khi không có xung đột, hồi đáp hay hệ quả mới. Ở Hook/Chorus/Bridge/Outro, một câu đinh phẳng hoặc chỉ diễn giải ghi chú Tứ/Cốt cũng đủ bật subcase **ANALYSIS-LEAKAGE**; quay section job/immediate utterance, không thay đồng nghĩa hoặc máy móc xóa chủ ngữ.
 - Bài co sai quy mô trong một cụm hoặc qua nhiều section: chạy **SCALE-CONTINUITY** tại `references/stage-validation-loop.md`, tìm đúng scale role/bản lề làm nghĩa sụp và sửa ý phát ngôn trước khi sửa từ. Chỉ sau khi scale PASS mới mở **AGENCY-BALANCE** nếu cụm vẫn bị khóa trong chủ thể người hoặc cảnh vật; không đếm đại từ hay đổi máy móc `anh nhớ ↔ mưa nhớ`.
 - Chuỗi ảnh rời/thô hoặc phải giảng vì sao ẩn dụ đúng: chạy **ASSOCIATION-CARRIER**.
+- Đạo cụ/chi tiết đời thường bị liệt kê quá nhiều làm loãng bài: chạy **DETAIL BUDGET** tại `references/vietnamese-line-and-sound.md`; chỉ giữ vật có chức năng đẩy chuyện, mang quan hệ hoặc tạo payoff.
+- Câu đúng nghĩa nhưng giống văn xuôi xuống dòng, nhiều từ nối/giải thích: chạy **PROSE-TO-LYRIC**; nén về một ý chính, đưa từ trọng tâm gần điểm rơi và đảm bảo nói được trong một hơi (One-breath).
+- Câu giải thích lại điều hành động/hình ảnh đã nói rõ: chạy **EXPLAINING LINE**; bỏ thesis line nếu action đã đủ.
+- Chorus bị loãng bởi các câu kể/giải thích hoàn cảnh: chạy **HOOK DISTILLATION** tại `references/idea-and-structure.md`; nén 30–40% chữ thừa để làm nổi bật câu hook payoff.
+- Final Chorus bị dài dòng, nhồi chữ hoặc gượng ép cao trào: tuân thủ **FINAL CHORUS ≠ MORE WORDS**; kết luận bằng biến nghĩa, rút bớt từ hoặc đổi góc nhìn, không nhồi thêm chữ.
 - Khi user flag trực tiếp một từ/câu là `thô · cứng · gượng · chưa mềm · không hợp câu/đoạn`, coi đó là evidence kích hoạt **NATURALNESS-SWEEP** local cho `từ · collocation · register · material`; không thay đồng nghĩa ngay. Nếu lỗi nằm ở quan hệ nghĩa/section job/Tứ, chuyển owner sang **ROUGH-LYRIC SEMANTIC GATE**; nếu nằm ở phrase/hơi/cadence, chuyển sang **SCOPE A**. Giữ dòng gốc làm option 0, viết lại tối đa hai phương án trong owner đúng rồi chạy **REWRITE CLOSURE** trên toàn section trước khi trả.
 - Body/material/thành ngữ gây cấn: chạy một **NATURALNESS-SWEEP** và chọn đúng một subcase chính. Lượng từ có nghi vấn mới chạy **QUANTITY-PROVENANCE** riêng; không chồng hai sweep trên cùng câu trong một pass.
-- Vần, âm tiết, điểm lấy hơi hoặc cuối câu cấn: chạy line/sound pass và phrase-map. Khi sửa scale trên lyric đã có melody/audio tốt, giữ phrase length, điểm ngắt, slot nhấn và chất âm cuối như constraint; chỉ đổi chúng khi câu mới không thể tự nhiên hoặc cần nghe lại Scope B.
+- Vần, âm tiết, điểm lấy hơi hoặc cuối câu cấn: chạy line/sound pass và phrase-map. Trước khi xuất bản lời, chạy **PRE-RELEASE MOUTH-FEEL SPOT CHECK** trên các line rủi ro cao (hook, line dài nhất, final payoff, sustain slot) để đảm bảo không nuốt chữ hay hụt hơi.
 - Nhiều bài trong cùng phiên lặp skeleton/hook grammar: chạy **SESSION-DECONTAMINATION/SURFACE-OVERLAP**; sửa tầng gốc, không thay đồng nghĩa từng chữ.
 
 Các công cụ nằm trong `references/vietnamese-line-and-sound.md` và `references/idea-and-structure.md`. Trước mọi handoff Suno lyrics-first, bản lời phải PASS **ROUGH-LYRIC SEMANTIC GATE** trong `references/stage-validation-loop.md`, rồi mới chạy **SCOPE-A RELEASE GATE**: phrase-map cho Chorus/Pre-Chorus và section dùng lại melody; kiểm biên phrase, hơi, mật độ âm tiết, slot nhấn, cadence/vần, từ cuối và terminal-repeat. Chênh âm tiết được phép nếu có phrasing hợp lý.
 
 Sau mỗi diagnostic rewrite, chạy **REWRITE CLOSURE** tại `references/stage-validation-loop.md` trên toàn section; không PASS chỉ vì triệu chứng ban đầu đã biến mất. Chỉ sau semantic non-regression mới chạy lại Scope A hoặc re-demo phần đã sửa. Dừng khi không còn cải thiện rõ hoặc cần tai người; không polish vô hạn.
+
+### Thứ tự ưu tiên xử lý khi có lỗi (Troubleshooting Priority)
+
+Khi phát hiện cấn hoặc artifact có lỗi, xử lý theo thứ tự ưu tiên:
+1. **Provenance:** Lời kể có vượt quá phạm vi quan sát/dữ kiện brief cho phép không?
+2. **Meaning & Emotional Temperature:** Đúng mức nhiệt cảm xúc không (tránh bi lụy hóa hoặc làm nguội cảm xúc)?
+3. **Hook Clarity & Distillation:** Chorus đã có câu hook kết tinh payoff chưa hay đang over-explaining?
+4. **Natural Vietnamese:** Collocation tự nhiên, tránh cú pháp đảo gượng gạo?
+5. **Prose-to-Lyric:** Đã có lyric behavior và nhịp điệu ca từ chưa (1 ý chính/line, bỏ từ nối thừa)?
+6. **Mouth-feel Spot Check & One-Breath Test:** Có bị vấp cụm phụ âm, nuốt chữ, dồn hơi ở các line trọng tâm không?
+7. **Local Rhyme & Sound Polish:** Tinh chỉnh vần chân, vần lưng cục bộ.
+
+*(Lưu ý: Đây là thứ tự ưu tiên chẩn đoán khi có lỗi, không phải checklist tuần tự bắt buộc chạy trên mọi dòng).*
 
 ### 8. Chọn, Xuất và Học
 
@@ -288,7 +306,12 @@ Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototy
 
 - Ví dụ, corpus, bài tham chiếu và session fingerprint không được làm seed câu/Tứ hoặc bị chép lyric/hook/skeleton.
 - Không mặc định người viết = người kể = người hát; không yêu cầu trải nghiệm đời tư làm điều kiện để sinh Tứ.
-- Không tự bịa material, quan hệ hai chiều hoặc nội tâm người khác từ một hành động một phía.
+- **PROVENANCE GATE — Lời kể không được biết quá điều brief cho phép:** Với mọi câu mô tả nhân vật khác ngoài người kể:
+  - `OBSERVED`: người kể trực tiếp thấy/nghe/biết từ brief.
+  - `SHARED HISTORY`: dữ kiện quá khứ đã được user cung cấp.
+  - `INFERENCE`: người kể có thể suy đoán nhưng không biết chắc (phải viết dạng mong ước, khả năng, câu hỏi: *"anh mong...", "liệu rằng..."*).
+  - `UNAUTHORIZED`: nội tâm, ý định, hành vi tương lai hoặc sự kiện chưa được brief cung cấp (tuyệt đối KHÔNG phát biểu như fact; phải rewrite).
+  *(BAD: "Mai này em sẽ có người mới." / BETTER: "Rồi căn bếp ấy sẽ đổi khác." hoặc "Anh mong căn bếp ấy vẫn ấm." — BAD: "Sáng mai em lại pha cà phê." / BETTER: "Sáng mai chiếc cốc vẫn nằm trên bàn.")*
 - Nghĩa và tiếng Việt tự nhiên thắng vần; lỗi phrase/sound phải được nghe hoặc đánh dấu đúng scope.
 - Không dùng mood/genre làm proxy cho nhau; không ép một cửa vào hay một engine cho mọi bài.
 - Không gọi lyric-only là ca khúc hoàn chỉnh hoặc `music-fit PASS` khi chưa có artifact nghe được.

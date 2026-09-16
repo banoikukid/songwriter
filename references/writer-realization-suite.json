@@ -13,6 +13,11 @@
       "id": "w2-homeland",
       "split": "capability",
       "prompt": "Viết full lyric tiếng Việt từ packet đã khóa dưới đây. Không đề xuất Tứ khác, không giải thích packet, không tự chấm. Chỉ xuất lyrics với section tags.\n\nTITLE: Miền Gió Gọi.\nCENTRAL INTENT: Quê hương tồn tại trong cách một cộng đồng gọi nhau, truyền việc sống và giữ lại một nơi cho đời sau; gió là đường mang những tiếng gọi ấy qua không gian và thời gian.\nSECTION JOBS: Verse 1 làm người nghe sống trong một quan hệ cộng đồng cụ thể; Chorus biến “Miền Gió Gọi” thành hook; Verse 2 thêm lớp trách nhiệm hoặc kiến tạo chứ không thay phong cảnh; Bridge chuyển sang trao truyền; Final Chorus mở sang nhiều thế hệ.\nEXPRESSION: field/mixed, giàu hình ảnh nhưng con người và quan hệ không biến mất.\nPHRASE: folk-pop đương đại, câu linh hoạt, giọng hát tự nhiên, không cần cổ phong."
+    },
+    {
+      "id": "w3-chiec-coc-con-lai",
+      "split": "incident-regression",
+      "prompt": "Viết ca khúc tiếng Việt hoàn chỉnh với tựa đề “Chiếc Cốc Còn Lại”.\n\nBỐI CẢNH: Người đàn ông quay lại căn hộ cũ lần cuối lấy đồ sau chia tay êm đẹp, không cãi vã hay phản bội. Trong bếp còn hai chiếc cốc, anh chỉ mang đi một chiếc.\nCENTRAL INTENT: Buồn nhưng đã chấp nhận, không oán trách, không xin quay lại. Emotional temperature kìm nén, trưởng thành.\nCONSTRAINTS:\n- Góc nhìn 'anh' hướng tới 'em'; tuyệt đối không tự khẳng định nội tâm, hành vi tương lai của 'em' (no unauthorized POV/future claims).\n- Chiếc cốc phải có chức năng tải nghĩa, thay đổi ý nghĩa qua bài.\n- Detail budget: không liệt kê đạo cụ làm nền vô cớ.\n- Hook distillation: Chorus kết tinh payoff, không over-explaining.\n- Final Chorus restraint: không nhồi chữ, không thêm line dài lê thê.\n- Prose-to-lyric: câu có lyric behavior, one-breath singable, không giống văn xuôi xuống dòng.\n- Tránh cliché: 'tan vỡ', 'định mệnh', 'mãi mãi', 'con tim', 'nước mắt rơi', 'nếu ngày ấy', 'chúng ta từng', không dùng mưa/hoàng hôn/ga tàu/mùa đông."
     }
   ]
 }

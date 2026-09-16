@@ -58,6 +58,20 @@ Không sửa material thô bằng một từ đồng nghĩa cổ, tính từ mơ
 
 Nếu pre-Tứ audition đã PASS, giữ vai và relation anchor đã chọn; không mở lại toàn bộ candidate bank chỉ vì một câu chưa hay. Chỉ quay MATERIAL DISCOVERY khi rough lyric cho thấy lỗi material-level lan rộng—carrier không sinh được progression, phải gượng ép liên tục hoặc thua hẳn direct speech. Lỗi collocation, cadence hay một micro-phrase đơn lẻ vẫn sửa tại tầng câu.
 
+### DETAIL BUDGET — chi tiết phục vụ chức năng, không liệt kê đạo cụ
+
+Chi tiết đời thường chỉ được giữ nếu nó làm ít nhất một trong ba việc:
+- đẩy câu chuyện hoặc quan hệ tiến tới;
+- mang quan hệ và sức nặng cảm xúc giữa các nhân vật;
+- tạo payoff hoặc biến nghĩa về sau.
+
+Nếu nhiều đạo cụ cùng làm một chức năng, chọn chi tiết mạnh nhất. Không dùng "độ chân thực" làm lý do để liệt kê danh sách đồ vật.
+
+Rule heuristic: 1 section thường chỉ nên có vài material anchors thực sự hữu ích.
+Ví dụ trong một cảnh dọn nhà chia tay:
+- `carton`, `chìa khóa`, `hai chiếc cốc` là đủ.
+- Không cần thêm: `áo khoác`, `sổ tay`, `bồn rửa`, `kính`, `giá gỗ`... nếu chúng không tạo ra nghĩa mới hay thúc đẩy hành động.
+
 ## 3. Ngữ pháp lời hát
 
 Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có sàn.
@@ -70,6 +84,43 @@ Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có 
 - Mood-wash được phép nghĩa lỏng có chủ đích; không dùng chuẩn tight-meaning để giết sound-flow.
 
 Ẩn dụ phải tiến nghĩa. Lặp từ miền ẩn dụ không tính là phát triển. Không đổi nghĩa bóng thành cảnh thật nếu cốt chưa dựng.
+
+### PROSE-TO-LYRIC — chỉ mở khi câu đúng nghĩa nhưng không có lyric behavior
+
+Một dòng có thể tự nhiên trong văn xuôi nhưng vẫn yếu khi hát.
+
+Dấu hiệu:
+- chứa nhiều hơn một mệnh đề độc lập;
+- có nhiều từ nối/giải thích như "nên", "vì", "thực ra", "chỉ là", "không có gì", "điều đó";
+- line đang kể đủ mọi chi tiết thay vì chọn một điểm rơi;
+- trọng tâm ngữ nghĩa đến quá muộn;
+- có thể nói ngắn hơn mà không mất cảm xúc.
+
+Khi sửa:
+1. xác định một ý chính cho line;
+2. bỏ phần giải thích đã được context hiểu;
+3. đưa từ mang lực cảm xúc hoặc hình ảnh chính gần điểm rơi;
+4. ưu tiên một phrase có thể nói/hát trong một hơi (One-breath);
+5. không làm câu "thơ hơn" chỉ để tránh văn xuôi.
+
+Mục tiêu là lyric behavior, không phải poetic decoration.
+
+*Ví dụ:*
+- PROSE: "Nên gói ghém nhẹ nhàng, không có gì phải giấu."
+- HỎI: Ý chính là gì? (Không còn điều gì phải giải thích / chia tay không oán trách / hai người đã chấp nhận?) $\rightarrow$ Viết lại quanh đúng một ý đó.
+
+### EXPLAINING LINE — bỏ câu giải thích khi hành động đã đủ
+
+Nếu một line chỉ nói cho listener biết nên hiểu hình ảnh như thế nào, kiểm xem hình ảnh/action trước đó đã tự truyền được nghĩa chưa.
+
+Nếu có, ưu tiên bỏ hoặc thay bằng hành động/hình ảnh cụ thể.
+
+Không cấm statement trực tiếp. Statement chỉ yếu khi nó lặp lại hoặc giải thích điều listener đã hiểu.
+
+*Ví dụ:*
+- ACTION: Anh cầm chiếc cốc sứt quai rồi đặt lại ngay ngắn.
+- EXPLANATION (Thừa): "Đồ vật không có lỗi gì với chúng ta."
+$\rightarrow$ Nếu action và bối cảnh đã đủ truyền tải, không cần thêm thesis line triết lý hóa.
 
 ### NATURALNESS-SWEEP — chọn một nguyên nhân chính
 
@@ -376,6 +427,27 @@ Kiểm tra:
 Không tối ưu mọi dòng thành “êm”. Phụ âm chặn, articulation sắc hoặc câu ngắn gãy có thể là chủ ý nhịp và biểu cảm.
 
 MOUTH-FEEL chỉ là diagnostic. Không rewrite nếu artifact không có dấu hiệu khó hát hoặc khó phát âm.
+
+### ONE-BREATH TEST
+
+Với hook và line trọng tâm: đọc thành tiếng ở tốc độ hát dự kiến.
+Nếu phải:
+- chen hơi giữa một cụm nghĩa tự nhiên;
+- nuốt từ hoặc co cụm nguyên âm;
+- tăng tốc phần cuối để đuổi kịp nhịp;
+- hoặc làm mất điểm nhấn nghĩa chính;
+thì phrase cần sửa. Phrase behavior > raw syllable equality.
+
+### PRE-RELEASE MOUTH-FEEL SPOT CHECK
+
+Không rà soát toàn bộ bài. Chỉ kiểm tra các line có rủi ro cao trước khi hoàn thiện:
+- line dài bất thường;
+- line chứa nhiều mệnh đề;
+- hook và payoff chính của Chorus;
+- final payoff ở Final Chorus;
+- phrase có sustain slot hoặc chuỗi phụ âm đóng.
+
+Nếu line chỉ hát vừa bằng cách nuốt âm, tăng tốc hoặc dồn phrase, bắt buộc rewrite trước khi release. Tránh để lọt những câu dài lê thê kiểu: *"Chiếc cốc ấy vẫn sẵn lòng chờ thêm một chiếc nữa kề bên."*
 
 Đọc quy trình đầy đủ tại `music-sketch-and-demo.md`. Chưa có artifact nghe được thì chỉ được kết luận Scope A; không suy `music-fit PASS` từ số chữ.
 
