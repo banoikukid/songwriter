@@ -60,7 +60,7 @@ Khi user yêu cầu demo/test Suno/một lượt:
 6. Chưa có audio thì chạy **SCOPE-A RELEASE GATE** trước handoff.
 7. Chỉ gắn `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]` khi semantic gate và Scope A đều PASS; nếu chưa thì dùng `[LYRIC DRAFT — Scope A chưa qua; music-fit UNKNOWN]` và ghi tầng cần sửa.
 
-Khi lyric đã nằm trong file, có thể chạy `scripts/lyric_static_check.py <file>` để báo độ dài dòng, trùng từ cuối liền kề và dòng lặp. Đây chỉ là detector tĩnh; không thay semantic gate, đọc/hát thành tiếng hoặc Scope B.
+Khi rà soát ca từ, kiểm tra nhanh độ dài dòng tương đối, trùng từ cuối liền kề và dòng lặp bằng mắt hoặc quy tắc phrase-map. Đây là bước rà soát tĩnh nhanh; không thay semantic gate, đọc/hát thành tiếng hoặc Scope B.
 
 Thiếu genre thì giữ `genre=UNKNOWN` ở tầng DOMAIN-SENSE và lyric routing. Chỉ khi user yêu cầu handoff ngay mới dùng **production assumption** pop/acoustic trung tính; ghi rõ đây là giả định phối thử và không dùng nó để chọn sense, Tứ hoặc truyền thống ca từ.
 
@@ -252,8 +252,7 @@ Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototy
 - Không dùng mood/genre làm proxy cho nhau; không ép một cửa vào hay một engine cho mọi bài.
 - Không gọi lyric-only là ca khúc hoàn chỉnh hoặc `music-fit PASS` khi chưa có artifact nghe được.
 - Không dùng `Suno-ready` trần; phải ghi `PROTOTYPE-READY` hay `PRODUCTION CANDIDATE` và Scope A/B.
-- Không thêm rule runtime từ một ca lỗi. Khi rule tích tụ làm bài lạnh, ưu tiên xóa, hạ cấp hoặc định tuyến lại trước khi thêm gate.
-- Tuyệt đối KHÔNG tự động chạy script đánh giá benchmark/eval (như `scripts/clean_context_eval.py`) trong các phiên sáng tác thông thường của người dùng. Script này chỉ dùng offline khi được yêu cầu benchmark/audit skill rõ ràng.
+- Skill này là Pure Agent Skill (100% Markdown & JSON Knowledge Base), hoàn toàn không chứa mã thực thi runtime, script Python hay dependency bên ngoài; agent không tự động gọi shell execution hay network requests ngầm.
 
 ## Router tài liệu
 

@@ -46,24 +46,16 @@ Dùng audit cycle và release discipline bên dưới khi thay rule, chạy forw
 7. **Patch low:** sửa ở tầng thấp nhất đủ giải quyết lỗi; ưu tiên xóa/hạ cấp/route theo triệu chứng trước thêm blanket rule.
 8. **Release:** promotion chỉ khi candidate thắng đúng trục, sealed holdout pass và regression không thua theo hard gate.
 
-### Harness context sạch
+### Harness context sạch (Giao thức đánh giá độc lập)
 
-Dùng `scripts/clean_context_eval.py` cho forward-test lặp lại:
+Quy trình forward-test chuẩn cho nhà phát triển khi audit skill:
 
-- mỗi case × trial mở một `codex exec --ephemeral` riêng;
+- mỗi case × trial mở một context/sandbox sạch hoàn toàn riêng biệt;
 - generator chỉ thấy snapshot skill và brief của đúng case;
-- raw output được ghi xuống đĩa trước khi chấm;
+- raw output được ghi lại trước khi chấm;
 - grader chạy ở sandbox khác, chỉ thấy raw output, user brief, rubric và output schema; không thấy skill, chẩn đoán hay intended fix;
-- deterministic scan chỉ là diagnostic, không thay semantic grader;
-- mặc định chạy ít nhất ba trial; kết quả nằm cạnh skill trong `songwriting-min-clean-eval-runs/<run-id>/`, không nằm trong snapshot generator.
-
-Chạy smoke không gọi model:
-
-`python scripts/clean_context_eval.py --dry-run`
-
-Chạy một case:
-
-`python scripts/clean_context_eval.py --case cap-tinh-dau --trials 3`
+- deterministic scan chỉ là diagnostic nhanh, không thay semantic grader;
+- chạy ít nhất ba trial độc lập để loại trừ tính ngẫu nhiên của LLM.
 
 Không dùng output sinh và verdict trong cùng một session để làm bằng chứng promotion. Không đưa tên failure đang điều tra vào generator prompt; tiêu chí đó chỉ thuộc grader rubric.
 

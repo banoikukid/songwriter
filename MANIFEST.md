@@ -18,17 +18,17 @@ source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 
 ---
 
-## Danh Mục Tệp Tin (File Registry)
+## Danh Mục Tệp Tin (File Registry - Pure Agent Skill)
 
 | Tệp tin | Vai trò | Trạng thái |
 | :--- | :--- | :--- |
-| `README.md` | Giới thiệu tổng quan & hướng dẫn sử dụng nhanh | ✅ Active |
+| `LICENSE` | Giấy phép mã nguồn mở MIT License | ✅ Active |
+| `README.md` | Giới thiệu tổng quan & hướng dẫn nạp vào Agent | ✅ Active |
 | `SKILL.md` | Bộ não điều khiển, Flow khám phá thích nghi, Pilot Proofing, Gates & Checklists (v1.1.0) | ✅ Active |
 | `MANIFEST.md` | Bảng kê khai tài nguyên và phiên bản | ✅ Active |
-| `.gitignore` | Cấu hình loại trừ git cho Python và hệ điều hành | ✅ Active |
 | `agents/openai.yaml` | Cấu hình interface cho agent | ✅ Active |
-| `scripts/lyric_static_check.py` | Kiểm tra tĩnh ca từ (độ dài dòng, trùng từ cuối, dòng lặp) | ✅ Active |
-| `scripts/clean_context_eval.py` | Bộ test context và đánh giá ca khúc | ✅ Active |
+
+> **Lưu ý:** Đây là bản **Pure Agent Skill** (100% Markdown & JSON Knowledge Base), hoàn toàn không chứa mã thực thi runtime, script Python hay dependency bên ngoài, đảm bảo an toàn tuyệt đối và tính tương thích cao nhất với mọi hệ thống Agent (Hermes, OpenClaw, Claude Code, Antigravity, Codex).
 
 ### Danh Mục References (29 tệp)
 

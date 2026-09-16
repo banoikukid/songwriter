@@ -52,19 +52,17 @@
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Repository
+## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill)
 
 ```
 songwriter/
+├── LICENSE                                # Giấy phép mã nguồn mở MIT License
 ├── README.md                              # Giới thiệu tổng quan & hướng dẫn sử dụng
-├── SKILL.md                               # Entry point, Adaptive Flow, Pilot Proofing, Gates & Checklists
-├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & scripts
+├── SKILL.md                               # Entry point, Adaptive Flow, Pilot Proofing, Micro-Polish & Gates
+├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
-├── scripts/
-│   ├── lyric_static_check.py              # Kiểm tra độ dài dòng, trùng từ cuối, dòng lặp
-│   └── clean_context_eval.py              # Bộ test context và eval suite ca từ
-└── references/
+└── references/                            # 29 tệp tri thức chuyên sâu (Markdown & JSON Schemas)
     ├── idea-and-structure.md              # Khung ý tưởng, Tứ, Form, Hook, Material Affordance, Phá cách
     ├── vietnamese-line-and-sound.md       # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & vần
     ├── stage-validation-loop.md           # Các cổng kiểm định ngữ nghĩa (Semantic Gate & Scope-A)
@@ -82,21 +80,7 @@ songwriter/
     └── *.json & *.md                      # Schemas kiểm định, test suites & báo cáo audit
 ```
 
----
-
-## 🛠️ Công Cụ Kiểm Tra Hỗ Trợ (Scripts)
-
-### 1. Kiểm tra tĩnh ca từ (`lyric_static_check.py`)
-Kiểm tra độ dài dòng, trùng từ cuối liền kề và phát hiện dòng lặp tự động:
-```bash
-python scripts/lyric_static_check.py path/to/lyric.txt
-```
-
-### 2. Chạy bộ kiểm thử ngữ cảnh sạch (`clean_context_eval.py`)
-*(Lưu ý: Đây là công cụ benchmark/audit offline của nhà phát triển, gọi mô hình thực tế qua Codex và tiêu tốn token. Tuyệt đối không để Agent tự chạy script này trong phiên sáng tác thông thường).*
-```bash
-python scripts/clean_context_eval.py
-```
+> **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, an toàn tuyệt đối (Zero execution attack surface, Zero token leak) khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
 
 ---
 
