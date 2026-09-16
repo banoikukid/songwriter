@@ -1,0 +1,48 @@
+{
+  "suite_id": "cross-genre-full-song-scope-a-v1",
+  "artifact": "complete Vietnamese lyric plus Suno Style, Exclude Styles and section-head audible cues",
+  "grader_schema": "full-song-scope-a-schema.json",
+  "grader_rubric": "Grade only the raw artifact at lyric-sheet/Scope A. Never infer melody, pronunciation, performance or music-fit; scope_b must be UNKNOWN_NO_AUDIO. A PASS requires all seven criteria to PASS. (1) BRIEF_AND_FORMAT: complete song, requested genre-facing handoff, Style Prompt, Exclude Styles, standard section tags, and all repeated sections written out. (2) SEMANTIC_COHERENCE: stable speaker/listener/referents, no contradiction, unsupported two-way relationship, arbitrary prop, or payoff without preparation. (3) SECTION_PROGRESSION: Verse 2 adds material; Pre-Chorus raises or redirects; Chorus holds a clear central utterance; Bridge earns a turn or opening; Final Chorus pays off rather than merely duplicating. (4) VIETNAMESE_NATURALNESS: singable-looking Vietnamese at text level, natural collocations and register, no analysis vocabulary, translated syntax, rough word substitution or lines that require explanation. Do not claim actual prosody without audio. (5) HOOK_AND_TITLE: title/hook is memorable on the page, integrated semantically and repeatable without semantic exhaustion. (6) OPPOSITION_CONTROL: incidental contrast is allowed. FAIL when oppositional/reversal grammar becomes a repeated default—normally four or more load-bearing lines, or three or more section endings/payoffs, built on patterns equivalent to 'không phải A mà B', 'tưởng A hóa ra B', 'từng A giờ B', or repeated negation-then-replacement. Judge dependency, not keywords. (7) SUNO_HANDOFF: cues appear only at section heads, describe audible vocal/instrument/dynamic behavior, support a plausible energy curve, and do not contain plot analysis or impossible guarantees. A genre label in Style is not proof of audible genre fit. Identify every hard failure and weak section.",
+  "cases": [
+    {
+      "id": "g1-modern-youth-pop",
+      "split": "regression",
+      "prompt": "Viết một bài nhạc trẻ tình yêu hoàn chỉnh mang tên “Ngày Thường Có Em”, modern Vietnamese pop 4/4, ấm áp và trẻ trung, nam hát. Xuất full Suno gồm Style Prompt, Exclude Styles, toàn bộ lyrics với section tag và cue biểu diễn/phối khí nghe được ở đầu section. Không tự tuyên bố music-fit khi chưa có audio."
+    },
+    {
+      "id": "g2-pop-ballad-6-8",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Mình Cứ Thương Nhau Như Vậy”, Vietnamese pop ballad 6/8, ấm áp, trưởng thành, nam hát; cảm xúc đi từ những điều bình dị đến lời cam kết sâu hơn, không cần cú lật nghĩa. Xuất full Suno gồm Style Prompt, Exclude Styles, toàn bộ lyrics với section tag và cue biểu diễn/phối khí nghe được ở đầu section. Không tự tuyên bố music-fit khi chưa có audio."
+    },
+    {
+      "id": "g3-pop-funk",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Đi Cùng Anh Không”, Vietnamese upbeat pop-funk, vui, tinh nghịch, hook hát cùng dễ nhớ, nam hát; không ép ẩn dụ sâu. Xuất full Suno gồm Style Prompt, Exclude Styles, lyrics đầy đủ với section tag và cue nghe được."
+    },
+    {
+      "id": "g4-contemporary-rnb",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Gần Thêm Một Chút”, Vietnamese contemporary R&B, thân mật, tiết chế, nhịp câu linh hoạt, nữ hát. Xuất full Suno gồm Style Prompt, Exclude Styles, lyrics đầy đủ với section tag và cue nghe được; giữ tiếng Việt tự nhiên, không nhồi câu dài."
+    },
+    {
+      "id": "g5-indie-acoustic",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Chiều Nay Mình Đi Bộ”, Vietnamese indie acoustic, hội thoại tự nhiên, gần gũi, ít phô trương, song ca nam nữ. Xuất full Suno gồm Style Prompt, Exclude Styles, lyrics đầy đủ với section tag và cue nghe được."
+    },
+    {
+      "id": "g6-rock-ballad",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Giữ Lấy Tên Nhau”, Vietnamese rock ballad, nam hát, động lực tăng dần từ kiềm nén tới bùng nổ; tránh lời kịch hóa rỗng. Xuất full Suno gồm Style Prompt, Exclude Styles, lyrics đầy đủ với section tag và cue nghe được."
+    },
+    {
+      "id": "g7-bolero",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Qua Mùa Thương Cũ”, bolero Việt Nam, tự sự trữ tình, ngôn ngữ phù hợp truyền thống nhưng không cổ lỗ hay sáo rỗng, nữ hát. Xuất full Suno gồm Style Prompt, Exclude Styles, lyrics đầy đủ với section tag và cue nghe được."
+    },
+    {
+      "id": "g8-cinematic-folk",
+      "split": "capability",
+      "prompt": "Viết một bài tình yêu hoàn chỉnh mang tên “Gió Qua Bến Nguyệt”, cinematic Vietnamese folk/cổ phong 6/8, trường cảm xúc rộng, ngôn ngữ có sắc thái văn hóa nhưng tự nhiên, nữ hát. Xuất full Suno gồm Style Prompt, Exclude Styles, lyrics đầy đủ với section tag và cue nghe được."
+    }
+  ]
+}

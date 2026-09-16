@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["verdict", "hard_failures", "criteria", "weak_directions", "confidence"],
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": ["PASS", "FAIL"]
+    },
+    "hard_failures": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "developability",
+        "material_necessity",
+        "motif_diversity",
+        "engine_diversity",
+        "reframe_collapse"
+      ],
+      "properties": {
+        "format": {"$ref": "#/definitions/check"},
+        "developability": {"$ref": "#/definitions/check"},
+        "material_necessity": {"$ref": "#/definitions/check"},
+        "motif_diversity": {"$ref": "#/definitions/check"},
+        "engine_diversity": {"$ref": "#/definitions/check"},
+        "reframe_collapse": {"$ref": "#/definitions/check"}
+      }
+    },
+    "weak_directions": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": 1, "maximum": 5}
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    }
+  },
+  "definitions": {
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "evidence"],
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "enum": ["PASS", "FAIL", "UNKNOWN"]
+        },
+        "evidence": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

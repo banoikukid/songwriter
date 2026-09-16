@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["verdict", "hard_failures", "criteria", "weak_sections", "scope_b", "confidence"],
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": ["PASS", "FAIL"]
+    },
+    "hard_failures": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "brief_and_format",
+        "semantic_coherence",
+        "section_progression",
+        "vietnamese_naturalness",
+        "hook_and_title",
+        "opposition_control",
+        "suno_handoff"
+      ],
+      "properties": {
+        "brief_and_format": {"$ref": "#/definitions/check"},
+        "semantic_coherence": {"$ref": "#/definitions/check"},
+        "section_progression": {"$ref": "#/definitions/check"},
+        "vietnamese_naturalness": {"$ref": "#/definitions/check"},
+        "hook_and_title": {"$ref": "#/definitions/check"},
+        "opposition_control": {"$ref": "#/definitions/check"},
+        "suno_handoff": {"$ref": "#/definitions/check"}
+      }
+    },
+    "weak_sections": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "scope_b": {
+      "type": "string",
+      "enum": ["UNKNOWN_NO_AUDIO"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    }
+  },
+  "definitions": {
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "evidence"],
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "enum": ["PASS", "FAIL", "UNKNOWN"]
+        },
+        "evidence": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

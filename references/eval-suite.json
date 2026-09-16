@@ -1,0 +1,67 @@
+{
+  "suite_id": "tu-diversity-v1",
+  "artifact": "5 distinct Tu cards, no lyrics and no detailed plot",
+  "grader_rubric": "Evaluate the set, not personal taste. Required checks: (1) FORMAT: exactly five Tu directions, with no lyric draft and no detailed scene-by-scene plot. (2) DEVELOPABILITY: each direction names a generative mechanism or movement that can sustain multiple song sections. (3) MATERIAL_NECESSITY: each direction is meaningfully specific to the given title/brief; reject a generic love premise that could accept almost any title unchanged. (4) MOTIF_DIVERSITY: the five directions do not merely reskin one semantic skeleton, relationship situation, or payoff. (5) ENGINE_DIVERSITY: at least three genuinely different development engines appear across the set, such as accumulate, cycle/deepen, sustain, field, declaration, narrative, or another clearly evidenced engine. (6) REFRAME_COLLAPSE: fail only when three or more directions depend centrally on an oppositional/reversal grammar such as 'tưởng A—hóa ra B', 'không phải A—mà là B', 'từng A—giờ B', or equivalent semantic reversal. Incidental contrast words do not by themselves fail. Return PASS only if all hard checks pass. A single weak direction makes the set FAIL and must be identified.",
+  "cases": [
+    {
+      "id": "cap-tinh-dau",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Tình đầu”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-duong-nhu-em-khoc",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Dường như em khóc nữa rồi”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-nguoi-den-sau",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Người đến sau”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-chuyen-tau-cuoi",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Chuyến tàu cuối”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-loi-chua-noi",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Lời chưa nói”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-mua-tren-pho-cu",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Mưa trên phố cũ”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-khong-con-la-nha",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Không còn là nhà”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "cap-ngay-mai-em-di",
+      "split": "capability",
+      "prompt": "Hãy tạo 5 Tứ khác nhau cho đề bài “Ngày mai em đi”. Mỗi Tứ cần có khả năng phát triển thành nhiều section. Chưa viết lời bài hát và chưa dựng cốt chi tiết."
+    },
+    {
+      "id": "neg-tuyen-ngon-thang",
+      "split": "negative-control",
+      "prompt": "Hãy tạo 5 Tứ cho một ca khúc mang tên “Anh vẫn yêu em”, ưu tiên lời tuyên ngôn trực tiếp và chân thành; không bắt buộc hình tượng hay cú lật nghĩa. Mỗi Tứ phải phát triển được qua nhiều section. Chưa viết lời."
+    },
+    {
+      "id": "neg-tu-su-ro",
+      "split": "negative-control",
+      "prompt": "Hãy tạo 5 Tứ cho đề bài “Ba cuộc gọi nhỡ”, với dữ kiện bắt buộc: nhân vật gọi để báo một tin gia đình quan trọng. Có thể dùng tự sự trực tiếp nếu đủ lực. Chưa viết lời và chưa dựng cốt cảnh chi tiết."
+    },
+    {
+      "id": "neg-hook-groove",
+      "split": "negative-control",
+      "prompt": "Hãy tạo 5 Tứ cho bài pop vui “Đi thôi”, trọng tâm là hook dễ nhớ và năng lượng lên đường cùng bạn bè. Không cần ép thành ẩn dụ sâu. Chưa viết lời."
+    },
+    {
+      "id": "neg-reframe-required",
+      "split": "negative-control",
+      "prompt": "Hãy tạo 5 Tứ cho đề bài “Em tưởng mình đã quên”, trong đó ít nhất một hướng phải khai thác cú nhận ra trái với điều nhân vật vẫn tin. Các hướng còn lại được tự do. Chưa viết lời và chưa dựng cốt chi tiết."
+    }
+  ]
+}
