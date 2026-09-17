@@ -101,7 +101,11 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
      2. *Quan hệ thay đổi ở đâu?*
      3. *Nếu bỏ chi tiết này, emotional meaning có mất không?*
      4. *Có câu cảm xúc / tương tác nào mạnh hơn đang bị cảnh che mất không?*
-   - *Xử lý:* Cắt bớt cảnh thuần túy; chuyển $1 - 2$ dòng quan sát thành câu bộc lộ cảm xúc trực diện hoặc chi tiết mang tải trọng quan hệ (*Lyric Carrying Line*).
+   - *Quy trình sửa chữa (Repair Order: CUT → COMPRESS → REPURPOSE → only then ADD):*
+     1. **CUT:** Cắt bỏ các chi tiết/dòng ghi nhận cảnh quan thuần túy không đóng góp cho cảm xúc;
+     2. **COMPRESS:** Nén bối cảnh lại thành một điểm tựa tối thiểu để người nghe chạm vào được;
+     3. **REPURPOSE:** Tận dụng vật liệu sẵn có để gắn với một cử chỉ, thói quen quan hệ hoặc điểm rơi cảm xúc;
+     4. **ADD (chỉ sau cùng khi thực sự cần):** Tuyệt đối không vội vã nhét thêm các câu nói chung chung (*"anh yêu em / anh bình yên"*); chỉ bổ sung câu cảm xúc khi mạch bài thực sự thiếu điểm tựa.
 2. **PSYCHOLOGY-ESSAY (Hội chứng thuyết trình tâm lý & nghị luận tình cảm):**
    - *Dấu hiệu:* Tác giả đứng ngoài phân tích tâm lý thay vì để nhân vật cất lời; giải thích quá nhiều *"tình yêu là..."*, *"anh hiểu rằng..."*; đưa ra các chân lý tổng quát đao to búa lớn (*"Điều dũng cảm nhất của một người đàn ông..."*); Bridge giống bài phát biểu so sánh triết lý (`Người ta thường gom nhặt những điều lớn lao... nhưng nhìn em anh mới hiểu...`).
    - *Câu hỏi xử lý:* *"Đây có phải câu hát bật ra từ nhân vật, hay tác giả đang đứng ngoài giải thích bài hát cho người nghe?"*
@@ -129,7 +133,8 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
    - Ưu tiên: `Niềm tin cũ → Một mâu thuẫn cụ thể → Bước ngoặt cảm xúc (Confession / Turn)`. Để người nghe tự hoàn thiện một phần sự nhận ra.
 10. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
    - Đặt câu hỏi: *"Câu này có thể bê sang 10 bài tình ca khác mà không thay đổi điều gì không?"* (ví dụ: *em muốn anh tốt hơn, anh được là chính mình, em luôn ở bên anh, anh thấy bình yên, tình yêu làm mọi thứ tốt đẹp*).
-   - Nếu có: Gắn nhãn `SUGGESTED`. Yêu cầu tìm kiếm một hình tượng riêng của bài, một quan sát riêng về mối quan hệ, một cách nén từ đáng nhớ hoặc một góc nhìn cảm xúc mới mẻ (không ép dùng ẩn dụ).
+   - Nếu có: Gắn nhãn `SUGGESTED`.
+   - *Thứ tự ưu tiên sửa:* `Specific Feeling > Specific Relationship Truth > Specific Phrasing > Image (chỉ khi thực sự hữu ích)`. Tuyệt đối không để model vô thức hiểu lầm rằng gặp câu chung chung là phải đi tìm ẩn dụ / metaphor.
 11. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
    - Cụm từ nghe như được tạo ra để "làm thơ", kết hợp từ lạ tai (*unusual collocation*), trừu tượng chồng trừu tượng, hoặc nhân hóa đồ vật làm màu (*decorative personification*).
    - *Xử lý:* Gắn nhãn `SUGGESTED - Writerly Phrase`. Đề xuất giản hóa về cách nói chân thực mà vẫn giữ được không khí.

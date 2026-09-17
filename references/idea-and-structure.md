@@ -108,9 +108,31 @@ Mọi entry hội tụ ở central intent và prosody; không buộc title phả
 
 Tứ là **trục sinh bài**, không phải khẩu hiệu “yêu, nhớ, đau”. Nó phải tạo được chuyển động hoặc hệ liên tưởng đủ kéo nhiều section.
 
-### MOTIF DISCOVERY — khám phá động trước khi chọn
+### INSTANT COMPOSITION PATH — Fast Path cho Open / Simple Brief
 
-Chạy khi user chưa khóa Tứ, input mỏng/hình ảnh hoặc bản vừa sinh rơi lại một mô-típ quen. Đây là bước suy luận từ material, không phải chọn trong danh mục mô-típ có sẵn.
+Áp dụng ngay khi đề bài thỏa mãn điều kiện:
+```text
+OPEN + CLEAR DOMAIN + NO MATERIAL + NO SPECIAL EXPRESSION TARGET
+(Ví dụ: "Viết một ca khúc tiếng Việt về tình yêu nam nữ", "Viết bài hát về nỗi nhớ nhà"...)
+```
+
+**Không chạy quy trình nặng:** Tuyệt đối không làm dissertation về Tứ, không ép sinh 4–6 giả thuyết, không khử skeleton, không closure hay so sánh cặp.
+
+**Quy trình 3 bước hội tụ tức thì:**
+```text
+1. CHOOSE ONE VIABLE EMOTIONAL CENTER (Chọn 1 tâm cảm xúc sống động)
+       ↓
+2. CHOOSE ONE VIABLE HOOK (Chọn 1 working hook có lực kết tinh)
+       ↓
+3. CHOOSE ONE SECTION MOVEMENT (Chọn 1 chuyển động cảm xúc qua các đoạn)
+       ↓
+     WRITE (Viết ngay bản thô)
+```
+*Tôn chỉ:* Brief càng mở thì Writer càng cần tự do. Bỏ qua association search để viết từ sự thật cảm xúc chân thực nhất.
+
+### MOTIF DISCOVERY — khám phá động khi cần (Complex / Ambiguous / Seeded Brief)
+
+Chỉ chạy khi user chưa khóa Tứ, input có material cụ thể/hình ảnh hoặc bản vừa sinh rơi lại một mô-típ quen. Đây là bước suy luận từ material, không áp dụng cho open brief ở trên.
 
 1. **Giữ biên chứng cứ:** tách material có provenance, cảm giác/quan hệ user yêu cầu và phần model mới suy ra. Một người đứng một mình, sắc trời buồn hay một con đường không tự chứng minh chia xa, chờ đợi hoặc mong gặp lại.
 2. **Đọc khả năng nghĩa:** hỏi material đang chứa sức căng nào; điều gì đổi mà điều gì còn; chi tiết nào có thể đảo nghĩa; chuyển động, nghịch lý, chu kỳ hoặc ngưỡng nào có thể trở thành lực sinh bài. Đây là câu hỏi khám phá, không phải các ô phải điền hay các họ mô-típ cố định.
@@ -311,19 +333,24 @@ Khi sửa scale trên một lyric đã có melody hoặc bản Suno tốt, giữ
 Chọn engine trước Hook+Form và Cốt:
 
 - **NARRATIVE/TRANSFORM:** bài cần sự kiện, lựa chọn hoặc reframe làm tình thế đổi.
-- **DECLARATION/AMPLIFY:** bài trả lời một câu hỏi cảm xúc bằng một mệnh đề rồi tăng độ lớn, độ chắc hoặc số chiều chứng minh.
+- **DECLARATION/AMPLIFY:** bài bắt đầu từ một tâm cảm xúc rõ nét rồi khuếch đại bằng các biến thể cảm xúc, các tầng nghĩa quan hệ hoặc sự tăng áp lực nội tâm (không phải chứng minh luận đề).
 - **STATE/SUSTAIN:** trạng thái ít đổi về bản chất; groove, lament hoặc mood được repetition, nhịp, giai điệu và độ tăng lực gánh.
 
 Không dùng độ phức tạp của plot để xếp hạng ba engine. Corpus hiện có đã cho thấy declaration và sustain có thể đúng với nhạc trẻ đại chúng; đây là prior **PROVISIONAL**, tai người vẫn quyết.
 
-### Engine tuyên ngôn cho hit đại chúng
+### Engine tuyên ngôn & khuếch đại cảm xúc (Emotional Amplification)
 
-Dùng khi mục tiêu là tỏ tình, xác nhận, mong muốn, lời hứa hoặc một cảm xúc có thể hiểu ngay. Dựng theo bốn nhịp:
+Dùng khi mục tiêu là tỏ tình, xác nhận, mong muốn, lời hứa hoặc một cảm xúc chân thành có thể cảm nhận ngay.
 
-1. Một câu hỏi, nhu cầu hoặc điều khó nói.
-2. Một mệnh đề trung tâm đủ rõ để làm title/hook.
-3. Hai đến bốn góc chứng minh hoặc khuếch đại không đổi thesis.
-4. Trở lại hook với lực lớn hơn; không chốt thêm một bài học sống.
+**Nguyên tắc cốt lõi: Khuếch đại bằng cảm xúc, không phải bằng lập luận:**
+- *Tránh mô thức luận đề (Thesis + Proof):* Không biến bài hát thành "Anh yêu em vì A, vì B, vì C" hoặc "Không cần X vì có Y nên Z".
+- *Đúng:* `emotional center → different emotional manifestations / emotional layers → release`.
+
+Dựng theo bốn nhịp:
+1. Một trạng thái, khao khát hoặc điều khó nói.
+2. Một tâm cảm xúc kết tinh đủ rõ để làm title/hook.
+3. Hai đến bốn biến thể cảm xúc (*emotional manifestations*), lát cắt quan hệ hoặc tầng áp lực nội tâm làm sâu sắc thêm cảm xúc trung tâm (không phải lập luận chứng minh).
+4. Trở lại hook với sự giải phóng hoặc độ lay động lớn hơn; không chốt thêm một bài học sống.
 
 Chạy năm cửa:
 

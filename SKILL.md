@@ -32,8 +32,8 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 ### Tự do cho Writer-pass & Chống máy móc:
 - **Tự do lựa chọn phương thức biểu đạt:** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: *câu trực diện (direct declaration), hình ảnh, hành động, tương tác, ẩn dụ, lặp từ, khoảng lặng, hoặc câu tự sự nội tâm*. Câu trực diện như *"Anh yêu em đến mức chẳng còn muốn đi đâu nữa"* có giá trị ca từ cao khi chân thật và đúng điểm rơi.
 - **Định vị ngôn ngữ:** `Natural ≠ ordinary`, `Poetic ≠ artificial`, `Direct ≠ bad`, `Specific ≠ artificial`. Ca từ được bay bổng, giàu nhạc tính; không ghìm câu chữ xuống thành transcript sinh hoạt hay kiểm kê đồ đạc.
-- **Dòng gánh ca từ (Lyric Carrying Line):** Mỗi section lớn cần ít nhất một câu hát có thể đứng độc lập như một câu hát đáng nhớ, mang vẻ đẹp biểu đạt chứ không chỉ tường thuật sự việc.
-- **Minimal Packet cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ truyền: *central intent, relationship, emotional movement, section jobs, hook/payoff, register*.
+- **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe (có thể đứng độc lập như một câu hát lay động). Các câu này có thể tập trung ở Chorus hoặc phân bố tự nhiên theo dòng cảm xúc; tuyệt đối không ép mỗi section phải có quota một câu "làm thơ".
+- **Minimal Packet cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ truyền: *central intent, relationship, emotional movement, section guidance, hook/payoff, register*.
 
 ## 2. Kỷ luật phân tách vai trò (Token & Role Discipline)
 
@@ -54,27 +54,29 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên Tứ và form; tập trung 100% vào viết bản thô. |
 | **Xuất / Khắc phục Suno** | Đọc `references/suno-production.md` (chuẩn 3-block & ma trận lỗi) + `references/suno-handoff.md`. |
 
-**Hội tụ trước khi viết:** Chốt nhanh 3 yếu tố: (1) **Cảm xúc trung tâm / Tứ**; (2) **Working Hook**; (3) **Section Jobs** (định hướng cảm xúc từng đoạn).
+**Hội tụ trước khi viết:** Chốt nhanh 3 yếu tố: (1) **Cảm xúc trung tâm / Tứ**; (2) **Working Hook**; (3) **Section Guidance** (định hướng cảm xúc từng đoạn).
 
-## 4. Quá trình viết bản thô & Nhiệm vụ từng đoạn (Writer-Pass)
+## 4. Quá trình viết bản thô (Writer-Pass)
 
 Viết trọn vẹn một mạch rough pass từ đầu đến cuối section để giữ đà cảm xúc trước khi soi xét chữ nghĩa vi mô.
 
-### Định hướng nhiệm vụ từng đoạn (Section Jobs):
-- **VERSE:** Bộc lộ cách nhân vật trải nghiệm mối quan hệ; không biến thành danh mục kiểm kê đồ đạc hay hoạt cảnh sinh hoạt. Có ít nhất một *Lyric Carrying Line*.
-- **PRE-CHORUS:** Gia tăng áp lực cảm xúc, tạo đà mong chờ cho sự thật sắp hé mở.
-- **CHORUS:** Nơi giải phóng cảm xúc (emotional release), kết tinh sự thật cảm xúc trung tâm; chứa hook đáng nhớ nhất; **chống viết thành luận đề** (không liệt kê: *không X, mà Y, nên Z* hay *không cần X vì có Y*).
-- **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (vulnerability) hoặc thông tin quan hệ mới; **cấm chỉ đổi địa điểm** (`Verse 2 ≠ Verse 1 + một địa điểm khác`).
-- **BRIDGE:** Khoảnh khắc thú nhận (confession), bước ngoặt cảm xúc (emotional turn), sự thật chưa từng nói; **chống viết thành bài thuyết trình** (cấm mô thức: *Người ta thường... nhưng nhìn em anh mới hiểu... điều lớn nhất là...*).
-- **FINAL CHORUS:** Trở về với ý nghĩa cảm xúc đã biến chuyển sâu sắc hơn; **chặn Big-Word Escalation** (`Final Chorus ≠ Chorus + "cả cuộc đời"` hay phóng đại từ ngữ: *con đường → năm tháng → cuộc đời → kỳ diệu*); tăng độ sâu thân mật, không tăng kích cỡ từ ngữ.
-
-### Bốn phanh tối thượng của Writer (Danh sách đóng)
-Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soát của **duy nhất 4 phanh** (Closed List):
+### Bốn phanh tối thượng của Writer (Bắt buộc duy nhất - Closed List)
+Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soát của **duy nhất 4 phanh bắt buộc**:
 
 1. **Đúng cảm xúc & quan hệ trung tâm:** Bài đang làm người nghe rung động điều gì, giữa ai với ai?
 2. **Tiếng Việt tự nhiên:** Đúng khẩu khí đời thực trong ngữ vực của bài ca, giàu nhạc tính, không đảo ngữ gượng gạo.
 3. **Nghĩa > Vần:** Ý nghĩa, hình tượng và nhịp thở luôn đi trước; vần chỉ là chất keo kết dính, không vì ép vần mà méo câu.
 4. **Provenance & Điểm nhìn (POV):** Tôn trọng phạm vi quan sát của nhân vật; không tự bịa quyền biết chắc nội tâm người khác.
+
+### Định hướng chuyển động cảm xúc từng đoạn (Section Guidance - Preferred Behavior)
+*Đây là hướng dẫn định hình để Writer tự do triển khai theo mạch tự nhiên, không phải các phanh cấm đoán hay checklist cứng:*
+
+- **VERSE:** Bộc lộ cách nhân vật trải nghiệm mối quan hệ; tránh biến thành danh mục kiểm kê đồ đạc hay hoạt cảnh sinh hoạt.
+- **PRE-CHORUS:** Gia tăng áp lực cảm xúc, tạo đà mong chờ cho sự thật sắp hé mở.
+- **CHORUS:** Nơi giải phóng cảm xúc (*emotional release*), kết tinh sự thật cảm xúc trung tâm; chứa hook đáng nhớ nhất; tránh viết thành luận đề (*không X mà Y, không cần X vì có Y*).
+- **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc thông tin quan hệ mới; tránh lặp lại cơ chế hay chỉ đổi sang một địa điểm khác.
+- **BRIDGE:** Khoảnh khắc thú nhận (*confession*), bước ngoặt cảm xúc (*turn*), sự thật chưa từng nói; tránh biến thành bài thuyết trình so sánh triết lý (*Người ta thường... nhưng nhìn em anh mới hiểu...*).
+- **FINAL CHORUS:** Trở về với ý nghĩa cảm xúc đã biến chuyển sâu sắc hơn; ưu tiên leo thang độ thân mật (*intimacy escalation*), tránh phóng đại từ ngữ vĩ mô (*Big-Word Escalation*).
 
 > [!IMPORTANT]
 > **Hiến pháp bảo vệ ngòi bút:**
@@ -104,12 +106,11 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 - **P2: Hình ảnh/chữ có đẹp không?** Image, nhạc điệu, vần (đẹp câu chữ không được phép thắng cảm xúc).
 - **P2: Có gì dư không?** Chi tiết không gánh cảm xúc thì kiên quyết bỏ bớt.
 
-### Bộ test kiểm tra nhanh trước khi release (Test A/B/C/D):
-1. **Test A (Vẻ đẹp ca từ):** Nếu bỏ hết các động từ hành động sinh hoạt, bài hát có còn vẻ đẹp cảm xúc nào không?
-2. **Test B (Lõi tình yêu):** Nếu bỏ hết các trò trêu đùa/hành vi dễ thương, bài có còn một lõi tình cảm sâu sắc nhận ra được không?
-3. **Test C (Sức nhớ ca từ):** Có ít nhất $2 - 4$ câu hát được người nghe nhớ đến vì vẻ đẹp biểu đạt chứ không chỉ vì thông tin sự việc không?
-4. **Test D (Chuyển động cảm xúc):** Mỗi section có thực sự làm biến chuyển ý nghĩa cảm xúc không, hay chỉ thêm một mẩu chuyện đời thường mới?
-*(Nếu phần lớn bài test trên thất bại $\rightarrow$ bản nháp đang mắc lỗi Narrative/Sitcom, chưa sẵn sàng xuất bản).*
+### 3 câu hỏi kiểm tra nhanh trước khi release:
+1. **Nếu bỏ phần mô tả bối cảnh, cảm xúc cốt lõi còn sống không?** (Bối cảnh có nâng đỡ cảm xúc hay chỉ là cảnh tĩnh/kê khai?)
+2. **Có section nào đang kể việc hoặc giải thích ý thay vì hát cảm xúc không?** (Tránh hoạt cảnh tự sự và tiểu luận tâm lý).
+3. **Sau khi đọc xong, có câu/hook nào còn ở lại vì cảm xúc hoặc cách nói, không chỉ vì thông tin?** (Đủ sức nặng ca từ).
+*(Nếu không đạt $\rightarrow$ nén cảnh, cắt giải thích, tập trung vào sự thật cảm xúc).*
 
 ### Phân tầng xử lý & Chẩn đoán nhẹ:
 1. **Lỗi ở Tứ / Ý niệm cốt lõi:** Lạc đề, sai miền nghĩa brief $\rightarrow$ sửa Tứ tại `references/idea-and-structure.md`.

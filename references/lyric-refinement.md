@@ -47,12 +47,12 @@ Rough line làm nhiệm vụ giữ đúng ý và đúng sự thật cảm xúc. 
 
 ---
 
-### LYRIC CARRYING LINE — DÒNG GÁNH CA TỪ & VẺ ĐẸP THI CA
+### LYRIC CARRYING LINE — DÒNG GÁNH CA TỪ (KHÔNG ÁP QUOTA SECTION)
 
-Mỗi section lớn (*Verse, Chorus, Bridge*) phải chứa ít nhất một **Lyric Carrying Line**:
+Một ca khúc cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ (Lyric Carrying Lines) để neo giữ người nghe:
 - **Đặc trưng:** Nhiệm vụ chính của dòng này KHÔNG PHẢI là kể lại xem chuyện gì vừa xảy ra hay hai người vừa làm gì.
-- **Chức năng:** Mang tải trọng cảm xúc cốt lõi, một hình tượng khó quên, một sự nén cảm xúc sâu sắc, hoặc một sự thật tâm hồn lay động.
-- **Tiêu chuẩn kiểm tra:** Một Lyric Carrying Line phải có khả năng **đứng độc lập như một câu hát đẹp**, tạo ra rung cảm tự thân chứ không chỉ đóng vai trò truyền tải thông tin tự sự.
+- **Chức năng:** Mang tải trọng cảm xúc cốt lõi, một sự nén cảm xúc sâu sắc, hoặc một sự thật tâm hồn lay động (có thể đứng độc lập như một câu hát chạm tim).
+- **Phân bố tự do (No Section Quota):** Các câu này có thể tập trung ở Chorus hoặc phân bố tự nhiên theo mạch bài; tuyệt đối **không ép mỗi section phải có quota một câu "đẹp"**. Một vài câu đắt giá rơi đúng điểm bùng nổ tốt hơn nhiều so với việc đoạn nào cũng cố gọt một câu "làm thơ".
 
 ---
 
@@ -152,13 +152,14 @@ Khi một câu hát cảm giác còn yếu, sáo rỗng hoặc thiếu sức lay
 
 ### FRESHNESS WITHOUT FORCED POETRY — Làm mới không cần ép thơ
 
-Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt đối không tự động thay bằng ẩn dụ cầu kỳ hay từ ngữ lạ tai. Thử theo 6 bước ưu tiên:
-1. **Cụ thể hóa:** Thay cụm chung chung bằng chi tiết xác thực đời sống;
-2. **Đổi góc nhìn:** Nhìn từ phía đồ vật, không gian hoặc hành động;
-3. **Đổi động từ:** Tìm động từ mang tính vật lý/chuyển động hơn;
-4. **Nén câu:** Cắt bỏ râu ria giải thích để giữ lại hạt nhân;
-5. **Dùng chi tiết thật:** Một thói quen, cử chỉ hoặc dấu vết cụ thể;
-6. **Chỉ sau cùng mới cân nhắc metaphor:** Nếu ẩn dụ thực sự làm sáng Tứ.
+Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt đối **không tự động nhảy sang tìm kiếm ẩn dụ / hình tượng**. Áp dụng thứ tự ưu tiên nghiêm ngặt:
+
+$$\text{Specific Feeling} > \text{Specific Relationship Truth} > \text{Specific Phrasing} > \text{Image (chỉ khi thực sự hữu ích)}$$
+
+1. **Cảm giác cụ thể (Specific Feeling):** Gọi tên đúng rung cảm/trạng thái nội tâm thay vì tính từ chung chung;
+2. **Sự thật quan hệ (Specific Relationship Truth):** Một thói quen ngầm, khoảng lặng, cử chỉ hoặc sự thấu hiểu riêng giữa hai người;
+3. **Cách diễn đạt riêng (Specific Phrasing):** Nén câu, đổi khẩu khí, tìm cách nói đời thường độc đáo mang bản sắc nhân vật;
+4. **Hình ảnh / Ẩn dụ (Image only if useful):** Chỉ cân nhắc hình tượng khi nó thực sự nâng đỡ cảm xúc trung tâm; tuyệt đối không ép dùng ẩn dụ để "chữa" câu sáo mòn.
 
 ---
 

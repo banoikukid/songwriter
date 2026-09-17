@@ -8,10 +8,10 @@
 
 ```yaml
 skill: songwriting-min
-version: 1.3.4
+version: 1.3.5
 release_date: 2026-08-11
 last_updated: 2026-09-17
-purpose: "Writer-First Vietnamese Songwriting Skill: Emotion First - Lyric Second - Technique Third, Inverted Material Bridge, Anti-Scene-Dump, Anti-Essay Bridge & Anti-Big-Word Escalation (v1.3.4)"
+purpose: "Writer-First Vietnamese Songwriting Skill: Emotion First - Lyric Second - Technique Third, Instant Composition Fast Path, Intimacy Escalation & Pure Agent Architecture (v1.3.5)"
 repository: "https://github.com/banoikukid/songwriter"
 source_canonical: "https://github.com/banoikukid/songwriter"
 upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills/songwriting-min (Internal Origin)"
@@ -25,7 +25,7 @@ upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 | :--- | :--- | :--- |
 | `LICENSE` | Giấy phép mã nguồn mở MIT License | ✅ Active |
 | `README.md` | Giới thiệu tổng quan & hướng dẫn nạp vào Agent | ✅ Active |
-| `SKILL.md` | Hiến pháp sáng tác cốt lõi (Return to Roots), 4 Phanh Writer, Flow khám phá thích nghi & Điều kiện dừng (v1.3.1) | ✅ Active |
+| `SKILL.md` | Hiến pháp sáng tác cốt lõi (Return to Roots), 4 Phanh Writer, Flow khám phá thích nghi & Điều kiện dừng (v1.3.5) | ✅ Active |
 | `MANIFEST.md` | Bảng kê khai tài nguyên và phiên bản | ✅ Active |
 | `agents/openai.yaml` | Cấu hình interface cho agent | ✅ Active |
 
