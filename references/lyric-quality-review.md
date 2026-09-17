@@ -76,7 +76,7 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / SCENE-REPORT / PSYCHOLOGY-ESSAY / BIG-WORD-ESCALATION / ABSTRACT-NOUN-STACKING / OVER-EXPLAINED-METAPHOR / CLICHE-ESCALATION / MISSING-IDIOSYNCRASY / PROSE-AI-TELL / Audio-Claim-Violation]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / SCENE-REPORT / PSYCHOLOGY-ESSAY / BIG-WORD-ESCALATION / ABSTRACT-NOUN-STACKING / OVER-EXPLAINED-METAPHOR / CLICHE-ESCALATION / MISSING-IDIOSYNCRASY / PROSE-AI-TELL / MOUTHFUL-LINE / STRESS-RISK / SPOKEN-FORM-RISK / GENRE-MISMATCH / DENSITY-RISK / AWKWARD-BREATH / Audio-Claim-Violation]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng, phẳng cảm xúc hoặc phô diễn chữ]
 - TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA hoặc NÉN NGHĨA theo thứ tự: CUT → COMPRESS → REPOSITION → REPURPOSE → only then ADD, giữ nguyên mạch section]
 ```
@@ -165,6 +165,28 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
     - *Dấu hiệu:* Câu ca từ có cấu trúc giống văn xuôi giải thích được ngắt dòng, chứa nhiều từ nối giải thích (*"để rồi", "thực ra", "bởi vì thế"*), nhịp phẳng, thiếu nhạc tính.
     - *Xử lý:* Gắn nhãn `SUGGESTED - Prose-AI-Tell`. Reviewer chỉ flag và đề xuất nén hoặc chuyển đổi nhịp điệu; tuyệt đối không tự động viết lại cả bài.
 
-### C. OPTIONAL (Trau chuốt thêm)
+### C. VIETNAMESE MUSIC-FIT & PROSODY (Advisory Diagnostics — Tham Vấn, Không Block Writer)
+> **Nguyên tắc:** Các chẩn đoán dưới đây giúp hoàn thiện tính khả thi khi hát (singability) và tương thích thể loại, **tuyệt đối không dùng để bóp nghẹt ngòi bút hay ghi đè cảm xúc trung tâm của tác giả**.
+
+1. **MOUTHFUL-LINE (Nghẽn khẩu hình / Dồn ứ âm tiết):**
+   - *Dấu hiệu:* Dòng chứa quá nhiều phụ âm tắc (`t, p, c, k, ch`) hoặc cụm từ ghép liên tiếp trong tiết tấu nhanh, khiến người hát không kịp nhả chữ hoặc AI engine líu lưỡi.
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Mouthful Line`. Cắt bỏ hư từ nối thừa, tạo khoảng nghỉ cho nguyên âm mở ngân dài.
+2. **AWKWARD-BREATH / FORCED-PUNCTUATION (Ngắt nhịp xé nghĩa):**
+   - *Dấu hiệu:* Điểm ngắt dòng hoặc lấy hơi cắt đôi một từ ghép hoặc cụm ngữ nghĩa tự nhiên.
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Awkward Breath`. Đẩy từ sang dòng mới hoặc nén lại để điểm lấy hơi trùng với ranh giới ngữ nghĩa.
+3. **STRESS-RISK / STRESS-MISMATCH (Cấn dấu thanh & Trọng âm):**
+   - *Dấu hiệu:* Âm tiết mang thanh điệu trầm/khép (nặng, huyền) rơi vào đỉnh cao trào giai điệu, hoặc thanh sắc/ngã rơi vào đáy trầm khiến khi hát dễ bị lệch thanh điệu tiếng Việt.
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Stress Risk`. Nhắc tác giả chú ý độ luyến thanh hoặc hoán vị từ. *(Chỉ áp dụng mức độ chắc chắn khi đã có audio/demo; khi chưa có audio chỉ ghi nhận `LIKELY/RISK`).*
+4. **SPOKEN-FORM-RISK (Rủi ro phát âm dạng nói / Số / Ngoại lai):**
+   - *Dấu hiệu:* Lời bài hát chứa số (ví dụ: *0h, 2026*), từ tiếng Anh đa âm tiết (*joker, running*), viết tắt (*AI, FB*) hoặc ký tự đặc biệt (*&, %*) mà không rõ cách engine/ca sĩ sẽ xướng âm.
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Spoken Form Risk`. Đề xuất bổ sung ghi chú phát âm (spoken guidance note) cho phần sản xuất/Suno mà không cần xóa văn bản nghệ thuật gốc.
+5. **GENRE-MISMATCH (Lệch ngữ vực & Hành vi ca từ so với Soundscape):**
+   - *Dấu hiệu:* Đã chọn lane âm nhạc cụ thể nhưng phong cách ca từ lại hoàn toàn nghịch hướng (ví dụ: làm dance-pop điện tử nhưng viết lời triết lý dài dòng không chỗ ngắt; hoặc làm acoustic mộc nhưng dùng khẩu khí hô hào stadium rock).
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Genre Mismatch`. Điều chỉnh mật độ câu và cách giải phóng hook cho tương thích với soundscape của lane.
+6. **DENSITY-RISK (Rủi ro mật độ nhả chữ quá tải):**
+   - *Dấu hiệu:* Số lượng từ ngữ trong bài vượt quá xa ngưỡng hát tự nhiên của thời lượng dự kiến (ví dụ: bài ballad 3.5 phút nhưng nhồi hơn 500 từ).
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Density Risk`. Đề xuất tinh gọn, cắt tỉa câu từ phụ trợ để bài hát có không gian thở.
+
+### D. OPTIONAL (Trau chuốt thêm)
 1. **Sonic Polish:** Thêm echo phụ âm đầu, lặp nguyên âm vang ở nốt ngân dự kiến (gợi ý tùy chọn).
 2. **Image Freshness:** Thay một động từ quen thuộc bằng một động từ mang tính cử chỉ đời thường hơn.

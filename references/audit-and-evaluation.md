@@ -124,3 +124,43 @@ Trước khi đưa rule vào runtime:
 Revert hoặc thu hẹp scope nếu rule tạo hard fail mới, bắn oan lặp lại, làm giảm tự nhiên/cảm xúc ở lane ngoài mục tiêu, hoặc chỉ thắng khi evaluator biết chẩn đoán.
 
 Không khôi phục apparatus đã demote chỉ vì một ví dụ thắng.
+
+---
+
+## 9. Bộ Thẩm Định Chuyên Sâu Nhạc Việt (Vietnamese Songwriting Benchmark Suite)
+
+Khi thẩm định hoặc forward-test năng lực sáng tác tiếng Việt chuyên sâu, đánh giá qua 6 lăng kính độc lập (không gộp thành một điểm số trung bình duy nhất):
+
+| Lăng kính thẩm định (Benchmark Lens) | Câu hỏi cốt lõi (Core Diagnostic Question) | Tiêu chuẩn đạt (Passing Standard) |
+|---|---|---|
+| **1. Vietnamese Naturalness** | *Có giống tiếng Việt mà người Việt thực sự hát không?* | Không dịch ngữ (translationese), không đảo ngữ gượng gạo vì vần, đúng khẩu khí tự nhiên của ngữ vực. |
+| **2. Lyric-vs-Prose** | *Đây là bài hát (song lyric) thực thụ hay chỉ là văn xuôi xuống dòng?* | Có nhịp thở âm nhạc, độ nén thẩm mỹ cao, không giải thích dài dòng hay chứa đầy liên từ nối văn xuôi. |
+| **3. Emotional Compression** | *Có thể cắt 20–30% câu chữ mà cảm xúc và ý niệm vẫn nguyên vẹn không?* | Nếu cắt được mà không mất mát gì $\rightarrow$ bài đang thừa bối cảnh hoặc dư thừa giải thích; cần nén chặt hơn. |
+| **4. Singing Fit** | *Có câu nào quá dài, khó lấy hơi, nuốt chữ hoặc cấn dấu thanh khi hát không?* | Nhịp thở tự nhiên, khẩu hình thoải mái, không dồn ứ phụ âm tắc (`MOUTHFUL-LINE`), không ngắt nhịp xé nghĩa (`AWKWARD-BREATH`). |
+| **5. Spoken Form** | *Chữ số, tên riêng, từ mượn ngoại lai, từ viết tắt có rủi ro đọc sai khi hát không?* | Kiểm tra `SPOKEN-FORM-RISK`; có chú thích phát âm phù hợp cho Suno/ca sĩ mà không làm bẩn bản lyric chính thức. |
+| **6. Genre Fit** | *Từ vựng, mật độ câu và cách giải phóng hook có tương thích với soundscape lane đã chọn không?* | Phù hợp với Style DNA của thể loại (ví dụ: Ballad có chỗ ngân; Pop có hook nảy; Indie có không gian thoáng; Rap có flow chặt chẽ). |
+
+---
+
+## 10. Vietnamese Lyric Bench (Metadata-Only Benchmark Protocol)
+
+Để đo đạc và hiệu chuẩn năng lực của skill đối với âm nhạc Việt Nam mà không vi phạm bản quyền:
+
+- **Nguyên tắc bản quyền tối thượng:** Tuyệt đối **không lưu trữ hoặc nhúng toàn văn lời bài hát có bản quyền** vào repository hay runtime.
+- **Nguồn dữ liệu kiểm chuẩn:** Chỉ lưu trữ metadata nghiên cứu (dựa trên VietLyrics hoặc tổng hợp độc lập), các ví dụ biến đổi ngắn do dự án tự sáng tác, lời ca synthetic do AI test sinh ra, hoặc ca từ do chính người dùng sở hữu.
+- **Lược đồ Metadata Benchmark (Metadata-Only Schema):**
+  ```json
+  {
+    "song_id": "VN_BENCH_001",
+    "genre": "Vietnamese emotional ballad",
+    "artist": "Anonymous / Public Artist",
+    "duration_seconds": 276,
+    "token_count": 395,
+    "wpm": 85.8,
+    "dialect": "Southern (Stylistic label)",
+    "gender": "Female",
+    "source": "VietLyrics Research Index"
+  }
+  ```
+- **Ứng dụng:** Dùng làm tập dữ liệu đối sánh mật độ từ ngữ (token density), tốc độ hát (WPM) và kiểm thử năng lực thích ứng thể loại của các phiên bản nâng cấp skill.
+

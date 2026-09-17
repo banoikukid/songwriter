@@ -1,11 +1,11 @@
 ---
 name: songwriting-min
-description: "Sáng tác, sửa và hoàn thiện ca khúc tiếng Việt từ title/lời, Tứ, melody, groove/track, chord/harmony, brief hoặc bản nháp. Quy trình writer-first hội tụ ở central intent → working hook + form + song system → bản thô → nghe/đọc → chẩn đúng triệu chứng → handoff Suno hoặc production. Dùng cho lời bài hát, melody-first, phổ thơ, hook/chorus, audit ca khúc và AI-music; không hứa tự tạo hit hay siêu phẩm."
+description: "Sáng tác, sửa và hoàn thiện ca khúc tiếng Việt từ title/lời, Tứ, melody, groove/track, chord/harmony, brief hoặc bản nháp. Kiến trúc Vietnamese-first music intelligence hiểu sâu style DNA, corpus profile, singability và spoken-form/prosody nhưng giữ Writer tự do tối đa; quy trình writer-first hội tụ ở central intent → working hook + form → bản thô → chẩn đúng triệu chứng → handoff Suno hoặc production. Không hứa tự tạo hit hay siêu phẩm."
 ---
 
-# SONGWRITING-MIN: RETURN TO EMOTIONAL CORE
+# SONGWRITING-MIN: VIETNAMESE-FIRST MUSIC INTELLIGENCE (v1.4.0)
 
-Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ có gu (songwriter with taste)**, không phải một quản lý dự án đi thỏa mãn checklist kỹ thuật.
+Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ có gu (songwriter with taste)**, không phải một quản lý dự án đi thỏa mãn checklist kỹ thuật. Ca từ tiếng Việt phải tự nhiên, hát được, chạm đến sự thật tâm hồn và có bản sắc âm nhạc riêng.
 
 ## 1. Triết lý sáng tác cốt lõi (Creative North Star)
 
@@ -36,8 +36,39 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 - **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe (có thể đứng độc lập như một câu hát lay động). Các câu này có thể tập trung ở Chorus hoặc phân bố tự nhiên theo dòng cảm xúc; tuyệt đối không ép mỗi section phải có quota một câu "làm thơ".
 - **Minimal Packet cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ truyền: *central intent, relationship, emotional movement, section guidance, hook/payoff, register*.
 
-## 2. Kỷ luật phân tách vai trò (Token & Role Discipline)
+## 2. Kiến trúc Vietnamese-First Music Intelligence & Kỷ luật phân tách vai trò
 
+```text
+                    USER BRIEF
+                        │
+                        ▼
+                CENTRAL EMOTION (Tối cao, không thể bị ghi đè)
+                        │
+                        ▼
+                    TỨ + HOOK
+                        │
+                        ▼
+                 VIETNAMESE WRITER ◄─── [Vietnamese Style DNA & Corpus Profile (Background)]
+                        │
+                        ▼
+                    ROUGH LYRIC
+                        │
+             ┌──────────┼──────────┐
+             ▼          ▼          ▼
+         LANGUAGE     LYRIC     MUSIC-FIT / PROSODY
+          REVIEW      REVIEW     REVIEW (Spoken Form Diagnostics)
+             │          │          │
+             └──────────┼──────────┘
+                        ▼
+                  TARGETED PATCH
+                        │
+                        ▼
+                    FINAL LYRIC
+```
+
+- **Tầng Cảm Xúc Trung Tâm (Central Authority):** Cảm xúc trung tâm và Tứ luôn giữ quyền tối cao; không một lớp kiến thức hay kỹ thuật nào được phép ghi đè.
+- **Tầng Tri Thức Nền Tảng (Background Knowledge):** `Vietnamese Style DNA` và `Vietnamese Corpus Profile` định vị không gian âm nhạc và kiểm tra độ hợp lý (sanity check); tuyệt đối không biến thành công thức viết lời hay bộ chỉ tiêu cứng.
+- **Tầng Chẩn Đoán Hậu Kỳ (Diagnostic Knowledge):** `Spoken Form` và `Prosody Review` hoạt động như công cụ tham vấn sau khi bản thô hoàn thành; không tự động viết lại (rewrite mặc định) câu chữ của tác giả khi chưa có nguy cơ phát âm thực tế.
 - `SKILL.md = Routing + Hiến pháp Runtime + 4 Phanh + Điều kiện dừng` (ngắn gọn, khung điều hướng thường trực).
 - `references/*.md = Domain Knowledge + Diagnostic Procedures` (chứa tri thức chuyên sâu; chỉ nạp khi cần).
 - Tuyệt đối không nhồi checklist kỹ thuật, ma trận lỗi hay bài test vào generation context của writer.
@@ -54,6 +85,13 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Bài thơ** | Chuyển hóa nhịp thơ sang nhịp ca từ hát được (`references/poem-to-song.md`). |
 | **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên Tứ và form; tập trung 100% vào viết bản thô. |
 | **Xuất / Khắc phục Suno** | Đọc `references/suno-production.md` (chuẩn 3-block & ma trận lỗi) + `references/suno-handoff.md`. |
+
+### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
+- **Open / Simple Brief ("Viết một ca khúc..."):** Giữ quy trình siêu nhẹ. Không nạp corpus hay style DNA; đi thẳng: `Emotion → Tứ → Hook → Writer`.
+- **Genre / Lane đã xác định (Ballad, Bolero, Indie, R&B...):** Tùy chọn nạp `references/vietnamese-style-dna.md` làm nền tảng định vị soundscape và nhả chữ; Writer vẫn hoàn toàn tự do sáng tác.
+- **Brief chỉ nói chung chung ("Viết nhạc Việt"):** Không auto chọn V-Pop. Đối chiếu cảm xúc/ngữ vực để chọn lane phù hợp (trưởng thành $\rightarrow$ Ballad/Acoustic; trẻ trung $\rightarrow$ V-Pop/R&B; hoài niệm $\rightarrow$ Bolero/Trữ tình).
+- **Ca từ có số, tiếng Anh, viết tắt hoặc cần hát chuẩn AI:** Nạp `references/vietnamese-spoken-form.md` để chẩn đoán rủi ro phát âm mà không làm bẩn bản hiển thị.
+- **Cần nghiên cứu phân bố thời lượng, mật độ từ (WPM) hoặc benchmark:** Nạp `references/vietnamese-corpus-profile.md`.
 
 **Hội tụ trước khi viết:** Chốt nhanh 3 yếu tố: (1) **Cảm xúc trung tâm / Tứ**; (2) **Working Hook**; (3) **Section Guidance** (định hướng cảm xúc từng đoạn).
 
@@ -149,12 +187,15 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 | Nhu cầu chuyên sâu | Tài liệu tham chiếu |
 |---|---|
 | Ý tưởng, Tứ, Cốt, Form, Hook, Chế độ tham vọng | `references/idea-and-structure.md` |
+| Vietnamese Style DNA (12 lanes nhạc Việt & soundscape) | `references/vietnamese-style-dna.md` |
+| Khẩu ký & ngữ âm khi hát (Spoken Form & Prosody) | `references/vietnamese-spoken-form.md` |
+| Thống kê quần thể & mật độ hát (Corpus Profile, WPM) | `references/vietnamese-corpus-profile.md` |
 | Giai điệu, hòa âm, groove, demo mộc, feedback | `references/music-sketch-and-demo.md` |
 | Tiếng Việt, ngữ âm, vần điệu, dấu thanh, thanh điệu ca từ | `references/vietnamese-line-and-sound.md` |
 | Tinh lọc ca từ, nén nghĩa, điểm rơi, subtext, sonic craft | `references/lyric-refinement.md` |
 | Định hướng giọng hát (Vocal Realization) & vocal prosody | `references/vocal-realization.md` |
 | Suno 3-block production, character budgets & ma trận lỗi | `references/suno-production.md` |
-| Reviewer độc lập (Evidence discipline, 6 lenses) | `references/lyric-quality-review.md` |
+| Reviewer độc lập (Evidence discipline, 6 lenses + music-fit) | `references/lyric-quality-review.md` |
 | Quy trình kiểm định tầng (Stage validation loop) | `references/stage-validation-loop.md` |
 | Suno Handoff & thẻ lệnh xuất | `references/suno-handoff.md` |
 | Khai phá phong cách âm nhạc (Style Prompt & DNA) | `references/style-mining.md` |
