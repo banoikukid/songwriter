@@ -64,11 +64,12 @@ $$\text{Action / Image / Phrase} > \text{Explanation} > \text{Thesis}$$
 
 ---
 
-### THESIS LINE & EXPLAINING LINE — Khử câu kết luận bài học
+### THESIS LINE & EXPLAINING LINE — Khử câu kết luận bài học & Show, Don't Explain
 
-Một line có nguy cơ thành thesis khi nó:
+Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
 - Mở đầu bằng: *"hóa ra...", "điều đau nhất là...", "thì ra tình yêu...", "có những cuộc chia tay...", "chỉ là..."*; hoặc
-- Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện (*ví dụ: hành động đặt lại chiếc chìa khóa đã rõ nghĩa, không cần thêm câu "đồ vật chẳng có lỗi gì"*).
+- Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện (*ví dụ: hành động mẹ lau chiếc ly của cha đã đủ mạnh; nếu viết thêm "đủ để con hiểu người đã không còn..." thì thành over-explanation làm loãng dư ba*).
+- **Quy tắc cho Bridge:** Bridge phải mang lại góc nhìn mới (*new angle*), hành động (*action*), mâu thuẫn (*contradiction*), hình ảnh (*image*) hoặc bước ngoặt cảm xúc (*emotional turn*). Tránh mặc định dùng các cụm giải thích: *"để con hiểu", "đủ để nhận ra", "nghĩa là", "bởi vì", "cho thấy rằng"*.
 
 **Quy tắc xử lý:**
 - Thesis line chỉ được giữ lại khi: (1) Voice nhân vật bắt buộc phải thốt lên trực diện; (2) Chính nó là câu hook trung tâm; hoặc (3) Lời nói thẳng tạo ra cú nổ cảm xúc (payoff).
@@ -76,11 +77,11 @@ Một line có nguy cơ thành thesis khi nó:
 
 ---
 
-### IMAGE / STATEMENT BALANCE — Cân bằng chi tiết và phát ngôn
+### IMAGE / STATEMENT BALANCE & CHỐNG CAMERA SWEEP
 
 - Một đoạn không nên chỉ toàn nhận định, giải thích hay kết luận cảm xúc trừu tượng. Nó cần vài neo đời sống (action, vật liệu, giác quan) để người nghe chạm vào được.
-- Ngược lại, không biến bài hát thành danh mục kiểm kê đồ vật. Nếu 4–5 đạo cụ cùng chỉ để nói "căn phòng đã dọn xong", chỉ giữ lại 1 vật thực sự mang quan hệ hoặc tạo payoff.
-- Nếu 4–5 câu liên tiếp đều là phát ngôn trừu tượng: tìm một hành động hoặc chi tiết thật có căn cứ (provenance) để neo lại.
+- **Chống Camera Sweep / Image Density dồn dập:** Không lia ống kính qua liên tiếp quá nhiều vật thể (vật A $\rightarrow$ địa điểm B $\rightarrow$ thời tiết C $\rightarrow$ phương tiện D $\rightarrow$ bức tường E $\rightarrow$ chậu cây F) nếu các chi tiết không cùng phục vụ một chức năng cảm xúc hay dẫn tới payoff. Nếu mật độ quá dày, gom cụm hoặc lược bỏ $1 - 2$ chi tiết giá trị thấp để không gian có chỗ thở.
+- **Khử trùng lặp ngữ nghĩa (Semantic Redundancy giữa các đoạn):** Kiểm tra xem câu chốt Verse có làm trùng chức năng với câu mở Chorus hay không (ví dụ: Verse kết bằng *"mọi thứ trôi đi như một buổi sáng bình thường"*, Chorus lại nói *"nhà mình chẳng thiếu thứ gì"*). Giữ câu mạnh hơn, cụ thể hóa hoặc bỏ câu tổng kết ở Verse.
 
 ---
 
@@ -126,7 +127,9 @@ Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt 
 - **Natural Specificity vs Decorative Specificity:**  
   - *Natural Specificity (Chi tiết tự nhiên / có căn cứ):* Mang dấu ấn provenance từ brief, hoặc trực tiếp tạo ra hành động, va chạm cảm xúc, âm thanh cụ thể $\rightarrow$ **GIỮ**.
   - *Decorative Specificity (Chi tiết trang trí / AI tự vẽ):* Model tự thêm vào để nghe có vẻ "thơ và cụ thể hơn" mà không phục vụ việc gì $\rightarrow$ **ĐƠN GIẢN HÓA** về cách nói tự nhiên.
-- **Quy tắc giảm làm dáng:** Khi phát hiện một từ/cụm từ hơi "cố", phản xạ sửa mặc định là **giảm độ làm dáng, đưa về cách nói dung dị chân thật**, tuyệt đối không nâng lên thành các từ ngữ văn chương ước lệ (*thềm xưa, gạch rêu, hiên vắng, mái cũ*).
+- **Quy tắc giảm làm dáng (Reduce ornament before adding ornament):** Khi phát hiện một từ/cụm từ hơi "cố" hoặc artificial, phản xạ sửa mặc định là **giảm độ làm dáng, đưa về cách nói dung dị chân thật**:
+  - *Ưu tiên:* (1) Giản hóa câu từ; (2) Tự nhiên hóa cú pháp đời sống; (3) Cắt bỏ từ trừu tượng thừa; (4) Giữ hình ảnh gốc nếu nó có chức năng.
+  - *Tuyệt đối KHÔNG:* Thêm metaphor mới, thêm tính từ mô tả, thêm từ Hán-Việt hay thêm đạo cụ mới để "cứu câu". Tuyệt đối không nâng lên thành các từ ngữ văn chương ước lệ (*thềm xưa, gạch rêu, hiên vắng, mái cũ*).
 
 
 ---

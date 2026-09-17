@@ -38,6 +38,56 @@
       "id": "w7-lexical-naturalness-specificity",
       "split": "capability",
       "prompt": "Xét dòng ca từ bản nháp: 'Nắng sớm lấm tấm trên khoảng sân gạch'. Đánh giá và tinh chỉnh theo quy chuẩn LEXICAL NATURALNESS:\n- Kiểm tra tính tất yếu của chi tiết (Does this specificity earn its place?): Xác định xem 'sân gạch' có mang provenance từ brief hoặc chức năng cảm xúc/hành động cụ thể hay chỉ là chi tiết vật liệu trang trí do AI tự thêm.\n- Áp dụng nguyên tắc 'Naturalness fix must not introduce decorative specificity': Đưa ra giải pháp chuyển đổi về cách nói tự nhiên, dung dị đời thường hơn ('khoảng sân nhà' hoặc 'sân trước') thay vì nâng cấp thành từ ngữ văn chương hoa mỹ ('thềm xưa', 'gạch rêu')."
+    },
+    {
+      "id": "w8-test-a-earned-specificity",
+      "split": "incident-regression",
+      "prompt": "Đánh giá dòng ca từ: 'Nắng sớm lấm tấm trên khoảng sân gạch'.\nYêu cầu Reviewer:\n- Tuyệt đối KHÔNG phán xét: 'sân gạch là từ AI / sáo rỗng / không tự nhiên' hay áp đặt danh sách đen từ cấm.\n- Đánh giá tính tất yếu (Does this specificity earn its place?): Nếu đề bài hoặc bối cảnh trao provenance (ví dụ tiếng bước chân, chất gạch đỏ quê hương), 'sân gạch' hoàn toàn được giữ lại."
+    },
+    {
+      "id": "w9-test-b-decorative-specificity",
+      "split": "incident-regression",
+      "prompt": "Đánh giá dòng ca từ: 'Nắng sớm lấm tấm trên khoảng sân gạch' trong bối cảnh không có ý nghĩa riêng hay chức năng kể chuyện gì về vật liệu gạch.\nYêu cầu Reviewer:\n- Xuất nhãn: SUGGESTED (không đánh CRITICAL, không ép buộc rewrite).\n- Đề xuất giải pháp giản hóa về cách gọi tự nhiên: cân nhắc 'sân nhà' hoặc 'khoảng sân'."
+    },
+    {
+      "id": "w10-test-c-register-relative-naturalness",
+      "split": "incident-regression",
+      "prompt": "Đánh giá từ 'Cố nhân' trong một bài ca khúc thể loại Cổ phong / Văn học.\nYêu cầu Reviewer:\n- Áp dụng nguyên tắc 'Naturalness is register-relative': Ca từ tự nhiên của Cổ phong/Thơ khác với Mainstream Pop.\n- Kết luận: PASS. Tuyệt đối KHÔNG tự động bắt đổi thành 'người cũ' chỉ vì 'người cũ' đời thường hơn."
+    },
+    {
+      "id": "w11-test-d-show-dont-explain",
+      "split": "incident-regression",
+      "prompt": "Đánh giá cặp câu trong bản nháp Bridge:\n'Mẹ lau chiếc ly của cha.\nĐủ để con hiểu người đã không còn.'\nYêu cầu Reviewer:\n- Bắt lỗi Show, Don't Explain / Over-explanation: Hành động mẹ lau chiếc ly đã mang tải trọng cảm xúc trọn vẹn; câu thứ hai 'Đủ để con hiểu...' là lời giải thích thừa thãi làm loãng dư ba.\n- Xuất nhãn: SUGGESTED. Đề xuất cắt bỏ hoặc chuyển câu thứ hai thành hành động/bước ngoặt mới."
+    },
+    {
+      "id": "w12-test-e-semantic-redundancy",
+      "split": "incident-regression",
+      "prompt": "Đánh giá hai câu ở hai section liền kề:\nVerse 1 chốt: 'Mọi thứ trôi đi như một buổi sáng bình thường.'\nChorus mở: 'Nhà mình sáng nay chẳng thiếu một thứ gì.'\nYêu cầu Reviewer:\n- Nhận diện Semantic Redundancy: Hai câu cùng thực hiện một semantic job (không gian quen thuộc vẫn nguyên vẹn).\n- Xuất nhãn: SUGGESTED - Semantic redundancy between sections. Đề xuất giữ câu mạnh hơn ở Chorus, làm câu ở Verse cụ thể hơn bằng chi tiết vật lý hoặc bỏ câu tổng kết ở Verse."
+    },
+    {
+      "id": "w13-test-f-writerly-phrase",
+      "split": "incident-regression",
+      "prompt": "Đánh giá dòng ca từ: 'Chiếc ly nằm yên đấy, như vừa xong một ngày.'\nYêu cầu Reviewer:\n- Nhận diện Writerly / Staged Phrasing: Cụm 'như vừa xong một ngày' là nhân hóa trang trí (decorative personification), thiếu tính chân thực đời sống.\n- Xuất nhãn: SUGGESTED (tuyệt đối KHÔNG đánh CRITICAL). Đề xuất giản hóa câu chữ để giữ lại hình ảnh chiếc ly mộc mạc."
+    },
+    {
+      "id": "w14-test-g-audio-honesty",
+      "split": "incident-regression",
+      "prompt": "Reviewer thực hiện đánh giá một bản lyric-only (hoàn toàn chưa có file audio hay demo render thực tế).\nYêu cầu Reviewer:\n- Kỷ luật bằng chứng âm thanh: Chỉ được nêu rủi ro tiềm ẩn (ví dụ: 'MELISMA RISK', 'potential singability risk').\n- Tuyệt đối KHÔNG tuyên bố: 'điểm rơi tự nhiên', 'độ ngân tự nhiên', 'hát chắc chắn ổn', 'vocal landing tự nhiên' khi chưa có audio bằng chứng xác thực."
+    },
+    {
+      "id": "w15-test-h-long-line",
+      "split": "incident-regression",
+      "prompt": "Đánh giá một dòng ca từ dài 11–12 âm tiết ở mức lyric-only (chưa có audio render).\nYêu cầu Reviewer:\n- Áp dụng nguyên tắc Heuristic is a Risk Signal, not Proof of Failure: Syllable count chỉ là tín hiệu cảnh báo phân đoạn hơi thở.\n- Xuất nhãn: POTENTIAL PHRASE DENSITY RISK. Tuyệt đối KHÔNG kết luận: HIGH CONFIDENCE FAILURE nếu chưa có audio/user report xác nhận hát bị dồn hơi."
+    },
+    {
+      "id": "w16-test-i-targeted-patching",
+      "split": "incident-regression",
+      "prompt": "Người dùng chạy render Suno và phản hồi: 'Suno kéo dài chữ \"cũ\" quá nhiều lần ở cuối Chorus.'\nYêu cầu Agent:\n- Tuân thủ chuỗi chẩn đoán: Observation → Repeatability → Likely Cause (lyric landing vs cue vs model variance) → Failed Layer.\n- Đề xuất bản vá tối thiểu cục bộ (Minimal Targeted Patch) cho đúng vị trí chữ 'cũ'; tuyệt đối KHÔNG viết lại toàn bộ bài hát."
+    },
+    {
+      "id": "w17-test-j-stop-condition",
+      "split": "incident-regression",
+      "prompt": "Một ca khúc sau lượt self-review có kết quả: 0 lỗi CRITICAL, 0 lỗi SUGGESTED, chỉ còn 1 điểm OPTIONAL (trau chuốt thanh học nhỏ theo sở thích).\nYêu cầu Reviewer:\n- Kích hoạt Stop Condition: Kết luận PASS và khuyên người dùng giữ nguyên bản, dừng quá trình chỉnh sửa (STOP).\n- Tuyệt đối KHÔNG tiếp tục polish quá đà làm mất độ tươi của cảm xúc."
     }
   ]
 }

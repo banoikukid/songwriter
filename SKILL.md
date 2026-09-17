@@ -192,9 +192,10 @@ Agent phải biết chính xác khi nào dừng và không được tự ý kíc
 
 1. **STOP 1 — Không kích hoạt Suno / Music Blueprint khi Lyric-First:** Khi người dùng chỉ yêu cầu sáng tác ca từ (lyric-first), không yêu cầu phối khí, không có file audio/render $\rightarrow$ Giữ `Music Blueprint` và `Suno Adapter` ở trạng thái **Dormant (Ngủ yên)**. Không tự chém BPM, Key, Mode hay dán thẻ Style khi không ai yêu cầu.
 2. **STOP 2 — Không viết lại toàn bài khi gặp lỗi cục bộ (Targeted Patch):** Khi lỗi chỉ xảy ra ở 1–2 câu, 1 đoạn, hoặc ở tầng kỹ thuật (phát âm, trôi giọng) $\rightarrow$ Chỉ vá đúng tầng lỗi đó (`Style` hoặc `Lyrics` hoặc `Controls`). Nếu lỗi trên Suno chỉ xuất hiện 1 lần (`Single-output anomaly`), thực hiện **Re-roll** trước khi can thiệp sửa prompt/lyric.
-3. **STOP 3 — Dừng tinh chỉnh khi đạt độ chín:** Dừng ngay lập tức khi:
+3. **STOP 3 — Dừng tinh chỉnh khi đạt độ chín (Stop After Diagnosis):** Dừng ngay lập tức khi:
    - Ý đồ cốt lõi (Central Intent) và Tứ đã được truyền tải trọn vẹn và tự nhiên.
-   - Các điểm cấn còn lại chỉ thuộc mức `OPTIONAL` (sở thích cá nhân hoặc có thể hát được theo phrasing khác).
+   - Không còn lỗi `CRITICAL`, các điểm `SUGGESTED` đã được giải quyết hoặc ở mức kiểm soát được, các điểm còn lại chỉ thuộc mức `OPTIONAL`.
+   - Tuyệt đối không tiếp tục bới thêm lỗi hay polish quá đà một khi mục tiêu của người dùng đã đạt.
    - Việc sửa tiếp có nguy cơ gây lệch nghĩa (*semantic drift*) hoặc làm mất đi tia sáng cảm xúc thô mộc ban đầu.
 
 

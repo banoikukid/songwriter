@@ -126,6 +126,10 @@ Trước khi quyết định vá tầng nào, agent phải đánh giá xem nguy�
 > **BẤT BIẾN CHẨN ĐOÁN (EVIDENCE-FIRST INVARIANT):**  
 > **Heuristic chỉ có quyền tăng mức độ nghi vấn (Suspicion ↑), tuyệt đối không có quyền biến giả thuyết (hypothesis) thành quan sát thực tế (observation).**  
 > *Ví dụ:* Từ kết dòng là nguyên âm mở $\rightarrow$ `Suspicion ↑`, **chứ không phải** `Cause = Lyric`. Chỉ khi người dùng nghe bản render xác nhận chữ đó bị ngân lê thê lặp lại trên cùng setup, thì mới có căn cứ xem xét `LYRIC_INDUCED`. Nếu chưa có bằng chứng audio/người nghe, mọi phán đoán âm học chỉ dừng ở mức *giả thuyết tạm thời* (`MODEL_INFERENCE` — Confidence Low).
+> 
+> **Phân biệt Causal Plausibility vs Failure Evidence:**
+> - *Causal Plausibility (Khả năng nguyên nhân hợp lý):* Ví dụ khi giọng hát bị trôi giới tính và kiểm tra thấy prompt chưa chỉ định toggle $\rightarrow$ Khả năng do prompt thiếu chỉ định là có cơ sở (`Plausibility = Medium/High`).
+> - *Failure Evidence (Bằng chứng xác thực lỗi):* Để kích hoạt vá tầng, bắt buộc phải có bằng chứng quan sát thực tế (User report hoặc Audio demo) xác nhận lỗi lặp lại. Heuristic hay Plausibility chỉ tăng mức nghi vấn, không phải bằng chứng lỗi (*Heuristic increases suspicion; Heuristic ≠ proof of failure*).
 
 ```text
 TRIỆU CHỨNG (ví dụ: Ngân chữ cuối quá dài)
