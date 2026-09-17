@@ -392,7 +392,7 @@ Nếu người dùng yêu cầu xuất sang Suno, kích hoạt **Suno Adapter** 
      - `AUDIO_OBSERVATION`: Phân tích file audio demo thực tế (Confidence = High/Medium).
      - `MODEL_INFERENCE`: Mô hình tự suy đoán rủi ro (Confidence = Low / Provisional Hypothesis). *Tuyệt đối không tự ý patch bài hát chỉ dựa trên suy diễn chủ quan khi chưa có bằng chứng quan sát thực tế!*
   2. **Kiểm tra tính lặp lại (Repeatability Check):**
-     - Suno là hệ thống ngẫu nhiên (stochastic). Nếu lỗi chỉ xảy ra 1 lần (`Single-output anomaly`), giải pháp đầu tiên luôn là **Re-roll** (tạo lại lượt mới) với cùng prompt.
+     - Suno có tính ngẫu nhiên và tạo sinh (stochastic / generative), kết quả có thể biến thiên giữa các lần tạo. Nếu lỗi chỉ xảy ra 1 lần (`Single-output anomaly`), giải pháp đầu tiên luôn là **Re-roll** (tạo lại lượt mới) với cùng prompt.
      - Chỉ can thiệp chỉnh sửa khi lỗi lặp lại có tính quy luật (`Repeatable pattern`).
   3. **Vá lỗi đúng tầng (Targeted Layer Patching):**
      ```

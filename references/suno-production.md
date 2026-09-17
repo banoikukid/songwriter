@@ -32,7 +32,7 @@
 - **Viết đủ các lượt lặp:** Viết trọn vẹn mọi lần xuất hiện của Chorus, không dùng ghi chú `"Lặp lại Chorus 2 lần"`.
 
 ### Khối 3: CONTROL PARAMETERS
-- **Model Profile & Selection:** Sử dụng model production hiện hành (`v6` flagship) làm mặc định cho độ tự nhiên của ca từ tiếng Việt; dùng `v6-wild` khi muốn thể nghiệm âm thanh và lai tạo phong cách (genre-blending); dùng `v6-mini` khi cần lặp nhanh prototype.
+- **Model Profile & Selection:** Sử dụng model production hiện hành (`v6` flagship / default production model) làm mặc định về tính biểu cảm, linh hoạt và độ kiểm soát; dùng `v6-wild` khi muốn thể nghiệm âm thanh và lai tạo phong cách (genre-blending); dùng `v6-mini` khi cần lặp nhanh prototype.
 - **Vocal Controls & Platform Capabilities:**
   - `Vocal Gender`: Chọn Male / Female toggle trong Advanced Options ở Custom Mode (thay vì chỉ trông chờ vào Style prompt).
   - `Voice Profile / Personas`: Gán Voice đã lưu hoặc Custom Model nếu tài khoản người dùng có sẵn.
@@ -48,7 +48,7 @@
 platform: suno
 model_profile:
   family: current
-  preferred: "v6"                # Model flagship / current production generation
+  preferred: "v6"                # Current flagship / default production model
   experimental: "v6-wild"        # Cho phép unexpected choices, genre-blending, thử nghiệm âm thanh
   fast_iteration: "v6-mini"      # Model nhẹ, nhanh cho prototype
   custom_models: "supported"     # Khai thác Custom Models / Personas nếu tài khoản hỗ trợ
@@ -101,7 +101,7 @@ Trước khi kết luận bất kỳ lỗi nào trên bản render, agent phải
 
 ### 3.2. Đánh Giá Bằng Chứng Lặp Lại (Evidence-Based Repeatability)
 
-Suno là hệ thống khuếch tán âm thanh có tính ngẫu nhiên (stochastic). Không dùng ngưỡng cứng nhắc (như máy móc đếm đủ 3 lần), mà đánh giá dựa trên **bằng chứng lặp lại (Repeatable Evidence)**:
+Suno có tính ngẫu nhiên và tạo sinh (stochastic / generative), kết quả có thể biến thiên giữa các lần tạo (outputs vary across generations). Không suy đoán kiến trúc mô hình nội bộ và không dùng ngưỡng cứng nhắc (như máy móc đếm đủ 3 lần), mà đánh giá dựa trên **bằng chứng lặp lại (Repeatable Evidence)**:
 
 - **Single-Output Anomaly (Bất thường ngẫu nhiên đơn lẻ):**  
   *Ví dụ:* Lần đầu gen đúng giọng nữ, lần hai đột nhiên nhảy sang giọng nam; hoặc một nốt bị trượt nhịp ngẫu nhiên 1 lần.  
