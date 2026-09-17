@@ -48,7 +48,7 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Prose / Weak Landing / Forced Rhyme / Decorative Specificity]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Lexical Naturalness / Decorative Specificity / Sonic Polish / Image Freshness]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng hoặc phẳng cảm xúc]
 - TARGETED FIX: [1–2 phương án sửa tại chỗ, giữ nguyên mạch của section]
 ```
@@ -72,8 +72,12 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
    - Dòng trọng tâm của Chorus hoặc chốt đoạn kết thúc bằng một từ chức năng (*"nữa đâu", "được gì", "thế này"*); cần chuyển trọng tâm về động từ, danh từ cảm xúc hoặc khoảng lặng.
 3. **Cliché & Generic Tropes (Sáo mòn):**
    - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
-4. **Unnecessary / Decorative Specificity (Chi tiết trang trí thiếu tất yếu):**
-   - Thêm chi tiết vật liệu hoặc cảnh vật cụ thể một cách máy móc (*"sân gạch", "tường rêu", "cửa sắt"*...) mà không có provenance từ brief hoặc không phục vụ chức năng cảm xúc/hành động. Reviewer hỏi: *"Chi tiết này có tự chứng minh sự tất yếu (earn its place) không?"* Nếu không, gợi ý đơn giản hóa về cách nói tự nhiên rộng hơn (*"sân nhà", "bức tường"*).
+4. **Lexical Naturalness / Decorative Specificity (Độ tự nhiên từ vựng vs. Chi tiết trang trí):**
+   - **Bản chất (Soft Lens — lăng kính mềm, không phải luật cứng):**
+     - *Chi tiết / từ ngữ đó có sai không?* $\rightarrow$ **Không.** (Đúng cú pháp, không lỗi vần, tả thực chính xác).
+     - *Nó có thực sự cần thiết không?* $\rightarrow$ Xem xét qua **Provenance** (brief có đưa vào không) và **Material Necessity** (chi tiết đó có làm việc gì cho Tứ, cảm xúc hay hành động không, hay chỉ được ném vào để tỏ ra "cụ thể/văn vẻ"?).
+     - *Nếu không cần thiết:* $\rightarrow$ Thử cách gọi tự nhiên, mộc mạc và chân thật hơn của đời sống thường nhật (ví dụ: *“sân gạch” $\rightarrow$ “sân nhà”*). Tuyệt đối không thay bằng một từ ước lệ hoa mỹ khác (*“thềm xưa”, “gạch rêu”*).
+     - *Nếu cần thiết:* $\rightarrow$ (Nếu có lai lịch từ đề bài, hoặc chất liệu gạch mang tính va đập/đối thoại với cảm xúc) $\rightarrow$ Giữ nguyên *“sân gạch”*.
 5. **Lexical Pretentiousness / Over-Writerly (Làm dáng từ vựng):**
    - Dùng từ ngữ hoa mỹ ước lệ để cố gắng "thơ hơn" (*"thềm xưa", "tiếng tơ", "mộng tàn"*...) trong khi một cách nói chân thật sẽ truyền cảm hơn nhiều.
 
