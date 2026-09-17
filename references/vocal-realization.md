@@ -18,10 +18,20 @@ Tuyệt đối không gộp toàn bộ mô tả giọng vào một cụm prompt 
 ```
 
 ### Tầng 1: VOCAL IDENTITY (Bản sắc & Màu giọng cốt lõi)
-Thuộc tính sinh học/âm sắc cố định của người hát, đưa vào phần **STYLE PROMPT**:
+Thuộc tính sinh học/âm sắc cố định của người hát, đưa vào phần **STYLE PROMPT** hoặc tùy chọn platform:
 - **Giới tính & Độ tuổi:** `male vocal`, `female vocal`, `youthful tenor`, `mature warm alto`, `deep baritone`.
 - **Màu sắc âm sắc (Timbre):** `airy`, `raspy`, `smoky`, `husky`, `silky`, `clear`, `resonant`, `breathy`.
 - **Bản sắc văn hóa:** `Vietnamese contemporary pop vocal`, `indie folk singer-songwriter tone`.
+- **Ánh xạ sang Platform Adapter (khi xuất Suno/Audio AI):**
+  ```text
+  Vocal Identity
+     ↓
+  Platform Capabilities
+     ├─ descriptive vocal style (đưa vào Style Prompt)
+     ├─ Vocal Gender (Male/Female toggle trong Advanced Options)
+     ├─ Voice Profile / Personas [nếu tài khoản hỗ trợ]
+     └─ Custom Model [nếu có model riêng]
+  ```
 
 ### Tầng 2: VOCAL PERFORMANCE (Phong cách trình diễn theo Section)
 Cách ca sĩ diễn đạt cảm xúc theo chuyển động của từng đoạn, thể hiện qua **SECTION CUES** hoặc nhịp ca từ:

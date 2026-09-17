@@ -40,6 +40,12 @@ Không bắt writer-pass tái hiện worksheet Tứ/Cốt, danh sách trường 
 
 Chỉ mở discovery/gate trước writer-pass khi brief thật sự cần lựa chọn nhiều Tứ, có ambiguity làm đổi miền nghĩa, material chưa Generate, user khóa expression/scale khó, hoặc artifact nhạc tạo constraint bắt buộc. Sự tồn tại của một diagnostic trong skill không phải lý do kích hoạt nó.
 
+### Kỷ luật vận hành chống Overthinking (Operational Discipline)
+
+- **INTERNAL TERM ≠ OUTPUT TERM (Thuật ngữ nội bộ không rò rỉ ra output):** Các khái niệm như *Material Affordance, Central Intent, Tứ, Working Hook, Generation Packet, Scope A/B, Diagnostic Owner, Rewrite Closure, Association Carrier, Scale Continuity, Agency Balance* là ngôn ngữ hậu trường phục vụ định hướng và chẩn đoán. Tuyệt đối không bao giờ để các thuật ngữ này rò rỉ vào bề mặt ca từ hoặc giao tiếp sáng tác thông thường với người dùng.
+- **REFERENCE LOADED ≠ REFERENCE ACTIVATED (Nạp tài liệu không đồng nghĩa với kích hoạt):** Việc host agent tải một reference vào context không đồng nghĩa với việc phải áp dụng toàn bộ checklist trong tài liệu đó. Mọi công cụ chẩn đoán mặc định ở trạng thái ngủ (`N/A`), chỉ kích hoạt đúng tầng khi bản nháp bộc lộ đúng triệu chứng.
+
+
 ### Sửa nhanh / Chỉnh sửa cục bộ (Micro-rewrite / Polish)
 
 Khi user chỉ yêu cầu sửa 2–4 câu Chorus/Verse, đổi vần, thay từ, gọt một câu hoặc làm cho câu mượt hơn:

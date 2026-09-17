@@ -32,8 +32,11 @@
 - **Viết đủ các lượt lặp:** Viết trọn vẹn mọi lần xuất hiện của Chorus, không dùng ghi chú `"Lặp lại Chorus 2 lần"`.
 
 ### Khối 3: CONTROL PARAMETERS
-- **Model Profile & Selection:** Sử dụng model production hiện hành (như Suno v6 hoặc phiên bản mới nhất được platform chính thức hỗ trợ). Với các nhu cầu thể nghiệm âm thanh và lai tạo phong cách táo bạo, có thể dùng các nhánh chuyên biệt (như v6-wild).
-- **Advanced Options:** Khai thác các tính năng điều khiển chính thức nếu giao diện/API hỗ trợ (như tùy chọn Vocal Gender nam/nữ, Style/Audio Influence, Weirdness slider, Audio Extend timestamp).
+- **Model Profile & Selection:** Sử dụng model production hiện hành (`v6` flagship) làm mặc định cho độ tự nhiên của ca từ tiếng Việt; dùng `v6-wild` khi muốn thể nghiệm âm thanh và lai tạo phong cách (genre-blending); dùng `v6-mini` khi cần lặp nhanh prototype.
+- **Vocal Controls & Platform Capabilities:**
+  - `Vocal Gender`: Chọn Male / Female toggle trong Advanced Options ở Custom Mode (thay vì chỉ trông chờ vào Style prompt).
+  - `Voice Profile / Personas`: Gán Voice đã lưu hoặc Custom Model nếu tài khoản người dùng có sẵn.
+  - `Generation Parameters`: Tinh chỉnh Style Influence, Weirdness slider, Audio Extend timestamp tùy nhu cầu bản phối.
 
 ---
 
@@ -44,10 +47,12 @@
 ```yaml
 platform: suno
 model_profile:
-  preferred: "current_production" # Model mới nhất đang phục vụ ổn định trên platform (ví dụ v6)
-  experimental: "wild_or_creative" # Model nhánh thử nghiệm cho phép biến thiên thể loại cao (ví dụ v6-wild)
-  fallback: "compatible"          # Các phiên bản tương thích trước đó
-  verify_official_docs: true      # Luôn đối chiếu tài liệu và giao diện thực tế tại thời điểm chạy
+  family: current
+  preferred: "v6"                # Model flagship / current production generation
+  experimental: "v6-wild"        # Cho phép unexpected choices, genre-blending, thử nghiệm âm thanh
+  fast_iteration: "v6-mini"      # Model nhẹ, nhanh cho prototype
+  custom_models: "supported"     # Khai thác Custom Models / Personas nếu tài khoản hỗ trợ
+  verify_official_docs: true     # Luôn đối chiếu tài liệu và giao diện thực tế tại thời điểm chạy
 
 budget_policy:
   style_prompt:
