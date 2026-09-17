@@ -43,7 +43,15 @@ Chỉ mở discovery/gate trước writer-pass khi brief thật sự cần lựa
 ### Kỷ luật vận hành chống Overthinking (Operational Discipline)
 
 - **INTERNAL TERM ≠ OUTPUT TERM (Thuật ngữ nội bộ không rò rỉ ra output):** Các khái niệm như *Material Affordance, Central Intent, Tứ, Working Hook, Generation Packet, Scope A/B, Diagnostic Owner, Rewrite Closure, Association Carrier, Scale Continuity, Agency Balance* là ngôn ngữ hậu trường phục vụ định hướng và chẩn đoán. Tuyệt đối không bao giờ để các thuật ngữ này rò rỉ vào bề mặt ca từ hoặc giao tiếp sáng tác thông thường với người dùng.
+- **INTERNAL CONCEPTS ARE ROUTING KEYS, NOT REASONING STEPS (Khái niệm nội bộ là khóa định tuyến, không phải bước suy luận bắt buộc):** Một concept sinh ra để giúp agent chọn đúng hướng khi gặp tình huống phức tạp, hoàn toàn không có nghĩa agent phải "chạy qua" hay liệt kê từng concept trong suy luận nội bộ. Khi đề bài đã rõ, đi con đường ngắn nhất đến câu hát.
 - **REFERENCE LOADED ≠ REFERENCE ACTIVATED (Nạp tài liệu không đồng nghĩa với kích hoạt):** Việc host agent tải một reference vào context không đồng nghĩa với việc phải áp dụng toàn bộ checklist trong tài liệu đó. Mọi công cụ chẩn đoán mặc định ở trạng thái ngủ (`N/A`), chỉ kích hoạt đúng tầng khi bản nháp bộc lộ đúng triệu chứng.
+- **GENERATION CONTEXT POLICY (Chính sách ngữ cảnh tối thiểu):**
+  - Tuyệt đối không preload các tệp evaluation (JSON test suites, grader schemas), báo cáo audit lịch sử (`*audit*.md`) vào context sáng tác thông thường.
+  - Chỉ truy xuất tập tài liệu tối thiểu phục vụ đúng lane đang kích hoạt:
+    - *Lyric-first thông thường:* `SKILL.md` + $1 - 2$ refs (`idea-and-structure.md`, `vietnamese-line-and-sound.md`).
+    - *Suno production:* `SKILL.md` + $2 - 3$ refs (`suno-production.md`, `suno-handoff.md`, `vocal-realization.md`).
+    - *Failure diagnosis:* `SKILL.md` + đúng ref sở hữu tầng lỗi cần vá.
+    - *Audit / Benchmark:* Chỉ mở `audit-and-evaluation.md` và test suites khi có yêu cầu kiểm thử hệ thống.
 
 
 ### Sửa nhanh / Chỉnh sửa cục bộ (Micro-rewrite / Polish)

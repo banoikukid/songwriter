@@ -52,37 +52,44 @@
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill)
+## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill — v1.3.0)
 
 ```
 songwriter/
 ├── LICENSE                                # Giấy phép mã nguồn mở MIT License
 ├── README.md                              # Giới thiệu tổng quan & hướng dẫn sử dụng
 ├── SKILL.md                               # Entry point, Adaptive Flow, Pilot Proofing, Micro-Polish & Gates
-├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry
+├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.3.0)
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
-└── references/                            # 33 tệp tri thức chuyên sâu (Markdown & JSON Schemas)
-    ├── idea-and-structure.md              # Khung ý tưởng, Tứ, Form, Hook, Material Affordance, Phá cách
-    ├── vietnamese-line-and-sound.md       # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & vần
-    ├── lyric-refinement.md                # Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft
-    ├── vocal-realization.md               # Phân tầng vocal (Identity, Performance, Production) & vocal prosody tiếng Việt
-    ├── suno-production.md                 # Chuẩn 3-block Suno, Character Budgets & Suno Failure Diagnosis Matrix
-    ├── lyric-quality-review.md            # Đánh giá độc lập chất lượng lời ca (CRITICAL / SUGGESTED / OPTIONAL)
-    ├── stage-validation-loop.md           # Các cổng kiểm định ngữ nghĩa (Semantic Gate & Scope-A)
-    ├── suno-handoff.md                    # Tóm tắt vận hành đóng gói prompt & tag cho Suno AI
-    ├── music-sketch-and-demo.md           # Dựng demo, Music Blueprint & kiểm tra nhạc-lời
-    ├── genre-and-lyric-routing.md         # Định tuyến ca từ theo thể loại âm nhạc
-    ├── folk-prosody.md                    # Thơ dân gian, lục bát và biến thể vào ca khúc
-    ├── poem-to-song.md                    # Phương pháp phổ thơ thành ca khúc
-    ├── style-mining.md                    # Style DNA, phong cách tác giả & bản sắc riêng
-    ├── dominant-analysis.md               # Phân tích hợp âm, hòa thanh & trục cảm xúc
-    ├── case-log-protocol.md               # Giao thức ghi nhớ phiên làm việc (Session Memory Protocol)
-    ├── audit-and-evaluation.md            # Phương pháp tự chấm điểm và đánh giá ca khúc
-    ├── semantic-movement-suite.json       # Bộ test chuyển động ngữ nghĩa
-    ├── writer-realization-suite.json      # Bộ test hiện thực hóa ca từ
-    └── *.json & *.md                      # Schemas kiểm định, test suites & báo cáo audit
+└── references/                            # 33 tệp tri thức chuyên sâu (Phân tầng 3-Tier)
+    ├── [Nhóm 1: Tri thức cốt lõi & Handoff — 13 tệp]
+    │   ├── idea-and-structure.md          # Tứ, Form, Hook, Material Affordance, Phá cách
+    │   ├── vietnamese-line-and-sound.md   # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & Lexical Naturalness
+    │   ├── lyric-refinement.md            # Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft
+    │   ├── vocal-realization.md           # Phân tầng vocal (Identity, Performance, Production) & vocal prosody
+    │   ├── suno-production.md             # Chuẩn 3-block Suno, Character Budgets & Cause Confidence Matrix
+    │   ├── stage-validation-loop.md       # Cổng kiểm định ngữ nghĩa (Semantic Gate & Scope-A)
+    │   ├── suno-handoff.md                # Tóm tắt vận hành đóng gói prompt & tag cho Suno AI
+    │   ├── music-sketch-and-demo.md       # Dựng demo, Music Blueprint & kiểm tra nhạc-lời
+    │   ├── genre-and-lyric-routing.md     # Định tuyến ca từ theo thể loại âm nhạc
+    │   ├── folk-prosody.md                # Thơ dân gian, lục bát và biến thể vào ca khúc
+    │   ├── poem-to-song.md                # Phương pháp phổ thơ thành ca khúc
+    │   ├── style-mining.md                # Style DNA, phong cách tác giả & bản sắc riêng
+    │   └── dominant-analysis.md           # Phân tích hợp âm, hòa thanh & trục cảm xúc
+    ├── [Nhóm 2: Công cụ thẩm định chẩn đoán — 2 tệp]
+    │   ├── lyric-quality-review.md        # Đánh giá độc lập 6 lăng kính (CRITICAL / SUGGESTED / OPTIONAL)
+    │   └── case-log-protocol.md           # Giao thức ghi nhớ phiên làm việc (Session Memory Protocol)
+    └── [Nhóm 3: Tài nguyên kiểm định & Báo cáo audit — 18 tệp (KHÔNG nạp vào generation context)]
+        ├── eval-suite.json, semantic-movement-suite.json, writer-realization-suite.json... (8 schemas/suites)
+        └── audit-process-audit-*, b6-baseline-*, cot-corpus-*, tu-corpus-*... (10 historical reports)
 ```
+
+> **Nguyên Tắc Tiết Kiệm Ngữ Cảnh (Context Budget Policy):**  
+> 33 tệp trong `references/` **không phải** là 33 tài liệu runtime đồng thời nạp vào prompt. Skill vận hành theo nguyên tắc tối thiểu ngữ cảnh:
+> - **Generation thông thường:** Chỉ nạp $1 - 2$ tệp thuộc Nhóm 1 theo đúng lane nghiệp vụ đang mở.
+> - **Review độc lập / Diagnostic:** Chỉ nạp tệp tương ứng thuộc Nhóm 2 khi chẩn đoán ca từ có vấn đề.
+> - **Tuyệt đối không nạp Nhóm 3:** Toàn bộ schemas, test suites JSON và báo cáo audit lịch sử chỉ dùng cho benchmark hồi quy offline, không đưa vào context sáng tác của agent.
 
 > **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, attack surface tối thiểu. Skill không chứa executable runtime hay dependency bên ngoài. Package không tự gọi shell/network; context usage và quyền dữ liệu phụ thuộc host agent khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
 
