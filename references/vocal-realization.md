@@ -87,7 +87,7 @@ DÒNG CA TỪ: "Ngỡ bên người qua nghìn năm mộng cũ"
 
 ### C. Nhóm Hơi & Biên Từ (Breath Grouping & Word Boundaries)
 - Không ngắt hơi giữa các từ ghép cố định (*"hạnh - [lấy hơi] - phúc"* là lỗi nghiêm trọng).
-- **Chỉ dẫn phân đoạn hơi thở (One-Breath Guideline):** Một phrase hát tự nhiên thường thoải mái trong khoảng 6–10 âm tiết tùy tempo và thể loại. Nếu câu dài hơn, cần bố trí biên từ và dấu ngắt hợp lý để người hát hoặc AI không bị dồn hơi, nuốt âm ở cuối dòng.
+- **Chỉ dẫn phân đoạn hơi thở (One-Breath Guideline — Heuristic, không phải ngưỡng chấp nhận cứng):** Khoảng 6–10 âm tiết chỉ là một heuristic tham khảo cho độ dài phrase hát thoải mái (tùy thuộc mạnh vào tempo, thể loại và nhịp thở). Câu dài hơn 10 âm tiết hoàn toàn hợp lệ nếu được phân chia biên từ và dấu ngắt hợp lý; không coi 11+ âm tiết là lỗi vi phạm. Mục tiêu cốt lõi là người hát hoặc AI không bị dồn hơi, nuốt âm ở cuối dòng.
 
 ---
 
