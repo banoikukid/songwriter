@@ -11,15 +11,20 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc)
        ↓
     WRITER (Viết mạch lạc, ngôn từ tự nhiên, giàu nhạc tính)
        ↓
-   REVIEWER (Thẩm định độc lập: Soi lỗi, phân loại mức độ, đề xuất sửa cục bộ)
+   [SIDECAR] REVIEWER (Thẩm định độc lập: Soi lỗi, phân loại mức độ, đề xuất sửa cục bộ)
 ```
 
+- **Reviewer là một Sidecar (Không nằm trên đường đi mặc định):** Reviewer chỉ được kích hoạt khi:
+  1. Người dùng yêu cầu đánh giá, thẩm định hoặc phản biện (Audit / Critique / QA).
+  2. Hoặc khi chạy quy trình formal kiểm định chất lượng trước khi release candidate.
+  3. Tuyệt đối không tự động chèn vào giữa flow viết thông thường gây ức chế sáng tạo.
 - **Không ngắt lời Writer:** Reviewer chỉ vào cuộc sau khi bản nháp hoặc section đã được viết trọn vẹn.
 - **Không tự ý viết lại cả bài:** Reviewer định vị chính xác vị trí lỗi và đề xuất cách sửa cục bộ; tuyệt đối không xóa bài để viết lại theo gu cá nhân.
 - **Thay thế điểm số bằng mức độ ưu tiên:** Bỏ các thang điểm cảm tính (7/10, 8/10). Báo cáo thẩm định phân loại theo 3 cấp độ:
   - `CRITICAL` (Bắt buộc sửa trước khi phát hành);
   - `SUGGESTED` (Khuyến nghị nâng cấp để bài sắc sảo hơn);
   - `OPTIONAL` (Lựa chọn trau chuốt thêm nếu muốn).
+- **Điều kiện dừng thẩm định (Review Stop Condition):** Khi không còn lỗi `CRITICAL` và các điểm còn lại chỉ thuộc mức `OPTIONAL`, Reviewer kết luận `PASS` và khuyên người dùng giữ nguyên bản, tránh sửa quá đà (*over-polishing*) làm mất đi độ tươi của cảm xúc.
 
 ---
 

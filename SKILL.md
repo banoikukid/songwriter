@@ -142,9 +142,42 @@ Tuyệt đối không biến bốn nhánh trên thành checklist chạy tuần t
 ### Đường suy luận tối thiểu & Phân tách Writer / Reviewer
 
 - **Minimum Sufficient Reasoning Path (Đường suy luận tối thiểu đủ dùng):** Đi con đường ngắn nhất từ brief/cảm hứng đến câu hát sống động. Không lạm dụng bộ khung lý thuyết để giải thích dài dòng khi đề bài đã rõ. Chỉ mở tài liệu tham chiếu chuyên sâu khi bản nháp bộc lộ triệu chứng cần xử lý.
+- **Thứ bậc ưu tiên tối thượng (Semantic & Musical Hierarchy):**
+  ```
+  Ý nghĩa (Meaning)
+     > Tiếng Việt tự nhiên (Natural Vietnamese)
+        > Tính ca hát & hơi thở (Singability)
+           > Vần (Rhyme)
+              > Tối ưu hóa thanh học (Phonetic optimization)
+  ```
+  *Quy tắc mềm:* Tối ưu hóa thanh học (như kiểm soát âm khép `-p, -t, -c, -ch` hay độ mở nguyên âm) chỉ là hỗ trợ; tuyệt đối không bao giờ được phép bẻ gãy cú pháp tự nhiên hoặc làm méo mó ý nghĩa câu hát chỉ để phục vụ kỹ thuật phát âm.
+
+- **Ma trận kích hoạt năng lực (Capability Activation Matrix):**
+  | Capability | Vai trò | Trạng thái Runtime |
+  |---|---|---|
+  | **Song Brain** | Core | Luôn hoạt động (Always) |
+  | **Wordcraft / Prosody** | Core | Khi viết hoặc sửa lyric |
+  | **Vietnamese Vocal Realization** | Core Extension | Khi có yêu cầu hát / vocal affordance / demo |
+  | **Suno Production Adapter** | External Adapter | Chỉ khi người dùng yêu cầu đóng gói sang Suno |
+  | **Failure Diagnosis Matrix** | Diagnostic Sidecar | Chỉ khi có lỗi thực tế quan sát được |
+  | **Lyric Quality Review** | Diagnostic Sidecar | Chỉ khi người dùng yêu cầu review độc lập hoặc QA |
+  | **Style DNA** | Research | Chỉ khi cần nghiên cứu phong cách âm nhạc |
+  | **Music Blueprint** | Production | Chỉ khi dựng phối khí/demo (Dormant khi lyric-first) |
+
 - **Phân tách Writer / Reviewer:**
   - **Writer Pass (Sáng tác):** Viết liền mạch, dấn thân vào nhân vật/tình huống và cảm xúc; tuyệt đối không tự ngắt mạch giữa chừng để làm micro-audit hoặc giải trình thuật ngữ.
-  - **Reviewer Pass (Độc lập đánh giá):** Chỉ kích hoạt sau khi đã có bản nháp hoàn chỉnh hoặc khi người dùng yêu cầu review/audit. Phân loại theo 3 cấp độ: `CRITICAL` (lỗi sinh tử: gượng gạo tiếng Việt, sai provenance, hỏng cấu trúc), `SUGGESTED` (cải thiện rõ lực ca từ), `OPTIONAL` (tinh chỉnh sở thích). Luôn trả phản hồi theo cấu trúc: `LOCATION → PROBLEM → WHY → TARGETED FIX` (chi tiết tại `references/lyric-quality-review.md`).
+  - **Reviewer Pass (Độc lập đánh giá):** Là một **sidecar**, không nằm trên default execution path. Chỉ kích hoạt sau khi đã có bản nháp hoàn chỉnh hoặc khi người dùng yêu cầu review/audit. Phân loại theo 3 cấp độ: `CRITICAL` (lỗi sinh tử: gượng gạo tiếng Việt, sai provenance, hỏng cấu trúc), `SUGGESTED` (cải thiện rõ lực ca từ), `OPTIONAL` (tinh chỉnh sở thích). Luôn trả phản hồi theo cấu trúc: `LOCATION → PROBLEM → WHY → TARGETED FIX` (chi tiết tại `references/lyric-quality-review.md`).
+
+### Điều kiện dừng bắt buộc (Stop Conditions — Chống Overthinking)
+
+Agent phải biết chính xác khi nào dừng và không được tự ý kích hoạt các tầng không cần thiết:
+
+1. **STOP 1 — Không kích hoạt Suno / Music Blueprint khi Lyric-First:** Khi người dùng chỉ yêu cầu sáng tác ca từ (lyric-first), không yêu cầu phối khí, không có file audio/render $\rightarrow$ Giữ `Music Blueprint` và `Suno Adapter` ở trạng thái **Dormant (Ngủ yên)**. Không tự chém BPM, Key, Mode hay dán thẻ Style khi không ai yêu cầu.
+2. **STOP 2 — Không viết lại toàn bài khi gặp lỗi cục bộ (Targeted Patch):** Khi lỗi chỉ xảy ra ở 1–2 câu, 1 đoạn, hoặc ở tầng kỹ thuật (phát âm, trôi giọng) $\rightarrow$ Chỉ vá đúng tầng lỗi đó (`Style` hoặc `Lyrics` hoặc `Controls`). Nếu lỗi trên Suno chỉ xuất hiện 1 lần (`Single-output anomaly`), thực hiện **Re-roll** trước khi can thiệp sửa prompt/lyric.
+3. **STOP 3 — Dừng tinh chỉnh khi đạt độ chín:** Dừng ngay lập tức khi:
+   - Ý đồ cốt lõi (Central Intent) và Tứ đã được truyền tải trọn vẹn và tự nhiên.
+   - Các điểm cấn còn lại chỉ thuộc mức `OPTIONAL` (sở thích cá nhân hoặc có thể hát được theo phrasing khác).
+   - Việc sửa tiếp có nguy cơ gây lệch nghĩa (*semantic drift*) hoặc làm mất đi tia sáng cảm xúc thô mộc ban đầu.
 
 
 ## Quy trình runtime
@@ -337,7 +370,25 @@ Trạng thái handoff:
 
 *Lưu ý UX:* Các nhãn trạng thái này mặc định là telemetry/audit nội bộ; chỉ xuất ra khi user yêu cầu quy trình formal, export file Suno hoặc debug. Trong giao tiếp sáng tác thông thường, trả ca từ tự nhiên mà không chèn nhãn kỹ thuật vào output.
 
-Nếu dùng Suno, đọc `references/suno-handoff.md` và `references/suno-production.md` (chuẩn 3-block: Style, Lyrics, Controls/Settings cùng Character Budgets). Render đầu là prototype, nghe–sửa–re-render. Khi render có lỗi (phát âm, trôi giọng, năng lượng bẹt, cấu trúc lệch), áp dụng **Suno Failure Diagnosis Matrix**: chẩn đoán đúng tầng lỗi (Style prompt vs Lyrics vs Controls/Structure) và chỉ vá đúng tầng đó, tuyệt đối không viết lại cả bài hát hay đổi Tứ. Khi user muốn vocal bớt đều hoặc giống một màn trình diễn có chủ ý hơn, tham chiếu `references/vocal-realization.md` (phân 3 tầng: Identity, Performance, Production; vocal prosody tiếng Việt) để dựng **VOCAL-DIRECTION MAP**; không mặc định `Verse → Chest`, `Pre-Chorus → Mix`, `Chorus → Belt`, `Outro → Falsetto`. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
+Nếu người dùng yêu cầu xuất sang Suno, kích hoạt **Suno Adapter** (`references/suno-production.md` và `references/suno-handoff.md`).
+- **Suno Adapter Output Contract:** Khối định dạng `STYLE PROMPT` – `LYRICS BLOCK` – `CONTROLS / SETTINGS` chỉ là *hợp đồng định dạng xuất ra* (output contract) dành cho Suno, **tuyệt đối không phải mô hình tư duy nội tại** (cognitive model) của người viết. Quá trình sáng tác luôn đi từ: `Tứ → Central Intent → Hook → Image System → Form → Lyric`.
+- **Chính sách chẩn đoán lỗi Suno (Suno Failure Diagnosis Runtime Policy):**
+  1. **Nguồn quan sát (Observation Source & Confidence):**
+     - `USER_REPORT`: Người dùng nghe trực tiếp và báo lỗi cụ thể (Confidence = High).
+     - `AUDIO_OBSERVATION`: Phân tích file audio demo thực tế (Confidence = High/Medium).
+     - `MODEL_INFERENCE`: Mô hình tự suy đoán rủi ro (Confidence = Low / Provisional Hypothesis). *Tuyệt đối không tự ý patch bài hát chỉ dựa trên suy diễn chủ quan khi chưa có bằng chứng quan sát thực tế!*
+  2. **Kiểm tra tính lặp lại (Repeatability Check):**
+     - Suno là hệ thống ngẫu nhiên (stochastic). Nếu lỗi chỉ xảy ra 1 lần (`Single-output anomaly`), giải pháp đầu tiên luôn là **Re-roll** (tạo lại lượt mới) với cùng prompt.
+     - Chỉ can thiệp chỉnh sửa khi lỗi lặp lại có tính quy luật (`Repeatable pattern`).
+  3. **Vá lỗi đúng tầng (Targeted Layer Patching):**
+     ```
+     OBSERVATION → REPEATABILITY CHECK → FAILED LAYER → MINIMAL PATCH → RE-GENERATE
+     ```
+     - Lỗi phát âm $\rightarrow$ Vá tầng *Lyrics / Phonetic*.
+     - Trôi giọng/đổi giới tính $\rightarrow$ Vá tầng *Style Vocal Identity*.
+     - Bẹt năng lượng / thiếu tương phản $\rightarrow$ Vá tầng *Arrangement Cues / Controls*.
+     - *Tuyệt đối không rewrite toàn bài hát hay thay đổi Tứ vì lỗi render của engine!*
+- **Vocal Realization:** Khi cần chỉ dẫn vocal chi tiết, tham chiếu `references/vocal-realization.md` (phân 3 tầng: Identity, Performance, Production; vocal prosody tiếng Việt) để lập **VOCAL-DIRECTION MAP**; không mặc định công thức rập khuôn. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
 
 ## Điều không thương lượng
 

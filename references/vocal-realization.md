@@ -1,6 +1,6 @@
 # Hiện Thực Hóa Giọng Hát (Vocal Realization Protocol)
 
-> **Mục đích:** Định hướng bản sắc, phong cách trình diễn và xử lý ngữ âm cho giọng hát tiếng Việt trong ca khúc và môi trường AI Audio (Suno), đảm bảo giọng hát truyền cảm, rõ chữ và không bị biến dạng.
+> **Mục đích:** Định hướng bản sắc, phong cách trình diễn và xử lý tương thích giữa ca từ và giọng hát tiếng Việt (Vocal Affordance) trong ca khúc và môi trường AI Audio (Suno), đảm bảo giọng hát truyền cảm, rõ chữ và không bị biến dạng.
 
 ---
 
@@ -18,10 +18,10 @@ Tuyệt đối không gộp toàn bộ mô tả giọng vào một cụm prompt 
 ```
 
 ### Tầng 1: VOCAL IDENTITY (Bản sắc & Màu giọng cốt lõi)
-Thuộc tính cố định của người hát, đưa vào phần **STYLE PROMPT** của Suno:
+Thuộc tính sinh học/âm sắc cố định của người hát, đưa vào phần **STYLE PROMPT**:
 - **Giới tính & Độ tuổi:** `male vocal`, `female vocal`, `youthful tenor`, `mature warm alto`, `deep baritone`.
 - **Màu sắc âm sắc (Timbre):** `airy`, `raspy`, `smoky`, `husky`, `silky`, `clear`, `resonant`, `breathy`.
-- **Bản sắc văn hóa / Vùng miền:** `Vietnamese contemporary pop vocal`, `indie folk singer-songwriter tone`.
+- **Bản sắc văn hóa:** `Vietnamese contemporary pop vocal`, `indie folk singer-songwriter tone`.
 
 ### Tầng 2: VOCAL PERFORMANCE (Phong cách trình diễn theo Section)
 Cách ca sĩ diễn đạt cảm xúc theo chuyển động của từng đoạn, thể hiện qua **SECTION CUES** hoặc nhịp ca từ:
@@ -37,28 +37,51 @@ Cách giọng hát được đặt trong bản phối, đưa vào **STYLE** ho�
 
 ---
 
-## 2. Ngữ Âm Tiếng Việt Cho Giọng Hát (Vietnamese Vocal Prosody)
+## 2. Giao Diện Ca Từ ↔ Khả Năng Giọng Hát (Lyric Line → Vocal Affordance)
 
-Tiếng Việt là ngôn ngữ đơn âm và có 6 thanh điệu. Một từ hoàn hảo về mặt ngữ nghĩa vẫn có thể là thảm họa khi hát nếu không xét đến ngữ âm học:
+Mô tả vocal chỉ có giá trị khi nó bám chặt vào cấu trúc dòng ca từ. Khi chẩn đoán hoặc thiết kế câu đinh (Hook / Climax), agent xem xét tương quan:
 
-### A. Phù Hợp Điểm Ngân (Long-Note & Sustain Suitability)
-- **Ưu tiên nguyên âm mở (Open Vowels):** Các nguyên âm rộng như `a`, `o`, `ơ`, `e` (*hoa, xa, mơ, nghe, chờ*) cho phép cột hơi duy trì tự nhiên, âm vang tròn trịa ở các nốt ngân của Chorus/Payoff.
-- **Thận trọng với nguyên âm khép (Close Vowels):** Các âm như `i`, `u`, `ư` (*khi, đi, thu, từ*) cần khẩu hình hẹp; khi ngân nốt cao dễ bị bí hoặc gắt tiếng nếu ca sĩ ảo thiếu kỹ thuật.
-- **Khóa âm tắc đuôi (Checked-Coda Trap):** Các từ kết thúc bằng phụ âm tắc vô thanh `-p`, `-t`, `-c`, `-ch` (*mắt, khóc, một, kết, thắt*) đóng luồng hơi ngay lập tức.
-  - **Quy tắc:** Tuyệt đối tránh đặt âm tắc đuôi vào nốt ngân dài chính của Chorus/Hook trừ khi chủ ý tạo nhịp ngắt giật (staccato) sắc nhọn.
-  - **Sửa nhanh:** Đảo cú pháp để đưa từ mang nguyên âm mở/âm vang mũi (`-m`, `-n`, `-ng`) về cuối dòng.
+```text
+DÒNG CA TỪ: "Ngỡ bên người qua nghìn năm mộng cũ"
+    │
+    ├── Số âm tiết: 9 (gọn trong 1 hơi)
+    ├── Chữ chốt nghĩa (Semantic Landing Word): "cũ"
+    │     ├── Loại âm: Nguyên âm bán khép, dấu ngã (falling-rising)
+    │     ├── Rủi ro luyến (Melisma risk): Cao nếu hát nốt quá dài
+    │     └── Giải pháp: Hát dứt khoát hoặc lướt nhẹ, không kéo dài quá 2 phách
+    └── Điểm lấy hơi (Breath Group): [Ngỡ bên người] / [qua nghìn năm mộng cũ]
+```
 
-### B. Kiểm Soát Luyến Láy (Melisma & Run Restraint)
-- Trong tiếng Việt, luyến láy quá nhiều nốt trên một từ (`melisma`) rất dễ làm **bẻ gãy thanh điệu**, khiến người nghe nghe nhầm nghĩa (*ví dụ: "yêu" luyến nốt thấp thành "yểu" hoặc "yếu"*).
-- **Quy định:** Mặc định yêu cầu `clean articulation`, `minimal runs/melisma`. Chỉ cho phép luyến nhẹ ở các từ thanh bằng (ngang, huyền) không có phụ âm tắc.
-
-### C. Nhóm Hơi & Biên Từ (Breath Grouping & Word Boundaries)
-- Không ngắt hơi giữa các từ ghép cố định (*"hạnh - [lấy hơi] - phúc"* là lỗi nghiêm trọng).
-- Một cụm câu hát chuẩn phải hoàn tất trong một hơi thở tự nhiên (`One-Breath Rule`). Nếu câu quá 11–13 âm tiết mà không có dấu nghỉ tự nhiên, câu sẽ bị ca sĩ ảo dồn chữ hoặc nuốt âm.
+- **Phân biệt Semantic Landing vs Transit Words:**
+  - *Semantic Landing Word:* Từ mang trọng lực ý nghĩa và cảm xúc chính của dòng. Cần nằm ở vị trí nốt có điểm rơi tự nhiên của giai điệu (downbeat hoặc điểm giải phóng năng lượng).
+  - *Transit/Filler Words:* Các từ nối, trợ từ. Không đặt nốt cao hoặc ngân dài vào các từ này.
 
 ---
 
-## 3. Bảng Định Hướng Giọng Hát Mẫu (Vocal Archetypes)
+## 3. Ngữ Âm Tiếng Việt Cho Giọng Hát (Vietnamese Vocal Prosody — Ràng Buộc Mềm)
+
+> **Thứ bậc ưu tiên:**  
+> `Ý nghĩa (Meaning) > Tiếng Việt tự nhiên (Natural Vietnamese) > Tính ca hát (Singability) > Vần (Rhyme) > Tối ưu hóa thanh học (Phonetic optimization)`.  
+> *Quy tắc thanh học chỉ là ràng buộc mềm hỗ trợ; không bao giờ được phép làm méo nghĩa hay gượng cú pháp.*
+
+### A. Phù Hợp Điểm Ngân (Long-Note & Sustain Suitability)
+- **Nguyên âm mở (Open Vowels):** Các nguyên âm rộng như `a`, `o`, `ơ`, `e` (*hoa, xa, mơ, nghe, chờ*) cho phép cột hơi duy trì tự nhiên, âm vang tròn trịa ở các nốt ngân cao trào của Chorus.
+- **Nguyên âm khép (Close Vowels):** Các âm như `i`, `u`, `ư` (*khi, đi, thu, từ*) cần khẩu hình hẹp; khi ngân nốt rất cao dễ bị bí tiếng nếu thiếu kỹ thuật. Tuy nhiên nếu từ ngữ đó tự nhiên và đúng nghĩa nhất, vẫn giữ nguyên.
+- **Âm tắc đuôi (Checked-Coda `-p, -t, -c, -ch`):**
+  - **Không phải lỗi mặc định:** Âm tắc đuôi (*mắt, khóc, một, kết, thắt*) đóng luồng hơi ngay lập tức. Đây là công cụ cực kỳ đắt giá khi muốn tạo hiệu ứng dứt khoát (*staccato*), kìm nén, nhát cắt dứt khoát hoặc nhịp điệu mạnh mẽ.
+  - **Chỉ xử lý khi:** Section job yêu cầu một nốt ngân dài mênh mang (*soaring sustain*) mà từ kết dòng lại bị khóa cụt bởi âm tắc, gây cảm giác hụt hơi khó chịu trên tai nghe. Lúc đó mới xem xét hoán đổi cú pháp hoặc chọn từ đồng nghĩa mở.
+
+### B. Kiểm Soát Luyến Láy (Melisma & Run Restraint)
+- Trong tiếng Việt, luyến láy quá nhiều nốt trên một âm tiết (`melisma`) rất dễ làm **bẻ gãy thanh điệu**, khiến người nghe hiểu sai nghĩa (*ví dụ: "yêu" luyến nốt thấp thành "yểu" hoặc "yếu"*).
+- **Quy định:** Mặc định ưu tiên `clean articulation`, `minimal runs/melisma`. Chỉ cho phép luyến nhẹ ở các từ thanh bằng (ngang, huyền) không có phụ âm tắc.
+
+### C. Nhóm Hơi & Biên Từ (Breath Grouping & Word Boundaries)
+- Không ngắt hơi giữa các từ ghép cố định (*"hạnh - [lấy hơi] - phúc"* là lỗi nghiêm trọng).
+- Áp dụng `One-Breath Rule`: Một cụm câu hát chuẩn phải hoàn tất trong một hơi thở tự nhiên ($7 - 11$ âm tiết). Nếu phrase dài hơn, phải có dấu phẩy hoặc điểm ngắt tự nhiên.
+
+---
+
+## 4. Bảng Định Hướng Giọng Hát Mẫu (Vocal Archetypes)
 
 | Phong cách ca khúc | Tầng 1: Identity | Tầng 2: Performance | Tầng 3: Production |
 |---|---|---|---|

@@ -100,7 +100,11 @@ Chỉ chuyển từ rough demo sang full demo/production khi:
 
 ## 7. Music Blueprint & Arrangement Arc
 
-Khi user cần định hình hòa âm phối khí chi tiết hoặc chuẩn bị sản xuất chuyên sâu, xây dựng **Arrangement Arc** mô tả chuyển động năng lượng qua từng section:
+> **Quy tắc kích hoạt (Activation Policy):**  
+> - **Dormant (Ngủ yên):** Khi yêu cầu là sáng tác ca từ đơn thuần (Lyric-First) và người dùng không yêu cầu phối khí. Tuyệt đối không tự động sinh BPM, Key, Mode, hợp âm hay bảng năng lượng chi tiết khi người dùng chỉ cần một bài hát.  
+> - **Active (Kích hoạt):** Chỉ kích hoạt khi người dùng yêu cầu dựng demo âm thanh, định hình bản phối khí hoàn chỉnh, hoặc lập kế hoạch sản xuất chuyên sâu.
+
+Khi ở trạng thái Active, xây dựng **Arrangement Arc** mô tả chuyển động năng lượng qua từng section:
 
 ```text
 SECTION → ENERGY (1-10) → INSTRUMENTATION → VOCAL DYNAMICS → TRANSITION

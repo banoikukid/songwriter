@@ -104,31 +104,36 @@ Sau render, nghe lại Scope B. Preset này tăng xác suất ra texture/groove 
 
 ---
 
-## Style Research → Style DNA (Chiết xuất bản sắc âm nhạc trừu tượng)
+## Style Research → Style DNA (Chiết xuất đặc trưng âm nhạc quan sát được)
 
-Khi user yêu cầu lấy cảm hứng từ một nghệ sĩ, ban nhạc hoặc tác phẩm cụ thể, áp dụng quy trình chiết xuất bản sắc:
+> **Cảnh báo kiến trúc & bản quyền:**  
+> `Style DNA` **tuyệt đối KHÔNG phải là công cụ mô phỏng cá nhân (Artist Imitation)** hay trích xuất dấu vân tay nghệ sĩ (*artist fingerprint extraction*).  
+> Nó định nghĩa là: **tập hợp các đặc trưng âm nhạc thuần túy có thể quan sát và đo lường được (Observable Musical Characteristics)**, độc lập hoàn toàn với danh tính của bất kỳ nghệ sĩ cụ thể nào.  
+> Cấm tuyệt đối các chỉ dẫn dạng: *"hãy hát như ca sĩ X"*, *"viết như nhạc sĩ Y"*, *"phỏng theo bài Z"*.
+
+Khi người dùng yêu cầu nghiên cứu hoặc lấy cảm hứng từ một trường phái/tác phẩm, agent chỉ chiết xuất các thuộc tính âm nhạc khách quan:
 
 ```text
-Nghệ sĩ / Tác phẩm tham chiếu
+Nguồn cảm hứng / Thể loại
              ↓
-    Nghiên cứu đặc trưng
+Trừu tượng hóa thành đặc trưng âm nhạc khách quan
              ↓
-     Trừu tượng hóa
+STYLE DNA (Observable Characteristics)
              ↓
-         STYLE DNA
-             ↓
-    Ca khúc nguyên bản mới
+Tác phẩm nguyên bản mới hoàn toàn
 ```
 
-### Các thành phần của Style DNA:
-1. **Phrase Density:** Mật độ câu từ (dày đặc tự sự như Rap/Spoken Word hay thưa thoáng, giàu khoảng lặng như Indie Folk).
-2. **Rhythmic Behavior:** Nhịp điệu câu chữ (đảo phách/syncopation, laid-back trễ nhịp hay thẳng phách 4/4).
-3. **Rhyme & Prosody Style:** Thói quen gieo vần (vần đôi, vần ba, hay chuộng vần lưng và hài âm tự nhiên).
-4. **Emotional Pacing:** Nhịp biến chuyển cảm xúc (cháy âm ỉ rồi nổ tung ở Bridge hay giữ nguyên trạng thái chiêm nghiệm).
-5. **Imagery Texture:** Trường liên tưởng (hình ảnh đời thường dung dị hay biểu tượng trừu tượng, điện ảnh).
-6. **Vocal Personality:** Bản sắc giọng (khàn ấm, thì thầm gần micro, hay vang sáng, lộng lẫy).
-7. **Production World:** Thế giới âm thanh (mộc acoustic, analog cổ điển thập niên 80, hay không gian điện tử hiện đại).
+### 8 Chiều Đặc Trưng Âm Nhạc Quan Sát Được (Observable Characteristics):
+1. **Phrase Density:** Mật độ câu từ (dày đặc tự sự hội thoại hay thưa thoáng, giàu khoảng lặng ngắt nghỉ).
+2. **Melodic Contour Tendency:** Xu hướng đường nét giai điệu (bước nhảy quãng rộng phóng khoáng hay di chuyển liền bậc êm đềm).
+3. **Instrumentation & Texture:** Nhạc cụ thực tế cấu thành âm thanh (acoustic mộc, synthesizer analog cổ điển, hay bộ gõ tối giản).
+4. **Rhythmic Feel & Groove:** Tính chất nhịp điệu (đảo phách/syncopation, laid-back trễ nhịp, swing, hay thẳng phách 4/4).
+5. **Vocal Register & Stance:** Vùng giọng và thế phát ngôn (thủ thỉ kề cận micro, tự sự trung tính, hay phóng khoáng vang xa).
+6. **Arrangement Density & Space:** Độ dày bản phối và khoảng trống âm thanh (minimalism chắt chiu hay wall of sound nhiều tầng bè).
+7. **Emotional Pacing:** Nhịp biến chuyển cảm xúc (cháy âm ỉ tích lũy rồi bùng nổ hay duy trì một không gian chiêm nghiệm tĩnh lặng).
+8. **Imagery Density:** Mật độ hình ảnh trong ca từ (ngôn ngữ đời thường trực diện hay biểu tượng trừu tượng mang tính điện ảnh).
 
-### Điều cấm tuyệt đối (Negative Guardrail):
-- **CẤM sao chép nguyên văn lời bài hát:** Tuyệt đối không mượn cụm từ đặc trưng, câu hook, cách ví von signature hay tình tiết riêng tư của nghệ sĩ nguồn.
-- **CẤM nhái tên nghệ sĩ trong prompt:** Không đưa tên nghệ sĩ vào Style prompt của Suno (tránh vi phạm bản quyền và bị model từ chối). Output của bước này là một **bản đặc tả sáng tạo trừu tượng (Abstract Creative Specification)** để viết một bài hát hoàn toàn mới.
+### Rào cản phủ định nghiêm ngặt (Negative Guardrails):
+- **CẤM sao chép ca từ & motif signature:** Tuyệt đối không mượn cụm từ đặc trưng, câu hook, cách ví von nhận diện thương hiệu hay chi tiết cá nhân từ tác phẩm tham chiếu.
+- **CẤM đưa tên nghệ sĩ/tác phẩm vào Prompt:** Không đưa tên nghệ sĩ, ban nhạc hay bài hát vào Style prompt của Suno hoặc brief sáng tác.
+- **Mục tiêu duy nhất:** Tạo ra một **bản đặc tả âm nhạc khách quan (Objective Musical Specification)** để sáng tác một ca khúc hoàn toàn mới, mang giá trị tự thân.
