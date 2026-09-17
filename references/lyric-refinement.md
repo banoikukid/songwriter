@@ -25,9 +25,9 @@
      ▼                        ▼                        ▼
 [1] LYRIC CRAFT       [2] LANGUAGE REALIZATION  [3] SONIC REALIZATION
 ├── Rough → Lyric     ├── Conversational ≠ Flat ├── Line Landing
-├── Compression       └── Freshness             ├── Sonic Craft
-├── Thesis Detector                             └── Mouth-Feel Spot Check
-└── Image/Statement
+├── Compression       ├── Freshness             ├── Sonic Craft
+├── Thesis Detector   └── Romantic vs Household └── Mouth-Feel Spot Check
+└── Pop Compression
 ```
 
 ---
@@ -45,11 +45,6 @@ Rough line làm nhiệm vụ giữ đúng ý và đúng sự thật cảm xúc. 
 - **Strong Landing:** Điểm rơi cuối dòng vững vàng;
 - **Conversational Truth:** Chân thực của khẩu ngữ đời sống, không hoa mỹ giả tạo.
 
-*Ví dụ đối chứng:*
-- **ROUGH (văn xuôi/giải thích):** *"Sau tất cả những tháng ngày bên nhau, điều làm tôi đau nhất là việc hai người phải im lặng bước qua đời nhau."*
-- **Vấn đề:** Câu đang làm nhiệm vụ của một bài văn luận — giải thích toàn bộ theme và cảm xúc cho người nghe.
-- **REFINED (lyric line):** Nén lại, để khoảng lặng giữa hai hành động tự nói lên sự kết thúc, không cần phát ngôn triết lý.
-
 ---
 
 ### COMPRESSION & SUBTEXT — Nói ít hơn không có nghĩa là khó hiểu hơn
@@ -58,9 +53,26 @@ Khi một dòng nói trọn cả nguyên nhân + cảm xúc + kết luận, hãy
 Ưu tiên thứ tự:
 $$\text{Action / Image / Phrase} > \text{Explanation} > \text{Thesis}$$
 
-*Nguyên tắc:*
-- Để hành động cụ thể và khoảng lặng tự mang sức nặng cảm xúc thay vì kể lể tâm trạng.
-- Không biến subtext thành câu đố mơ hồ. Người nghe vẫn phải nắm chắc tình huống và hướng cảm xúc chính.
+---
+
+### KỸ NGHỆ NÉN & BIỂU ĐẠT CẢM XÚC HIỆN ĐẠI (MODERN POP EMOTIONAL TECHNIQUES)
+
+Học hỏi các kỹ nghệ sáng tác ca khúc đương đại hiệu quả:
+
+1. **Emotional Compression (Nén cảm xúc về một điểm tựa):**
+   Một hình tượng, hành động hoặc cụm từ đắt giá có thể gánh trọn vẹn một trạng thái tâm lý rộng lớn.
+   - *Nguyên tắc:* Ưu tiên **1 carrier cảm xúc mạnh** thay vì **8 câu diễn giải phân tích tâm trạng**.
+2. **Emotional Escalation (Leo thang áp lực cảm xúc):**
+   Sự lặp lại (repetition) phải làm thay đổi áp lực cảm xúc, không chỉ đơn thuần nói lại cùng một nội dung:
+   $$\text{Cảm xúc ban đầu} \rightarrow \text{Mâu thuẫn / Cản trở} \rightarrow \text{Căng thẳng gia tăng} \rightarrow \text{Nhận thức bùng nổ}$$
+3. **Emotional Metaphor (Ẩn dụ phục vụ cảm xúc):**
+   Cho phép trạng thái nội tâm hóa thân thành hình ảnh vật lý, chuyển động hoặc biểu tượng lặp lại. Điều kiện tiên quyết: ẩn dụ phải phục vụ làm sáng tỏ cảm xúc trung tâm, không làm dáng.
+4. **Direct Emotional Declaration at Payoff (Phát ngôn cảm xúc trực diện đúng thời điểm):**
+   Cho phép những lời tuyên bố cảm xúc trực tiếp, mãnh liệt ở những thời khắc có giá trị cao (*Chorus, Bridge, Final Chorus*). Phát ngôn trực diện này phải là **cú nổ giải tỏa (payoff)** được tích lũy từ bối cảnh trước đó (*earned*), không phải khẩu hiệu rỗng.
+5. **Chorus as Emotional Release (Chorus là nơi giải phóng cảm xúc):**
+   Chorus không phải bản tóm tắt lại những gì vừa xảy ra ở Verse. Chorus là nơi kết tinh, bùng nổ hoặc giải phóng sự thật cảm xúc mà Verse đã gieo mầm.
+6. **Repetition with Variation (Lặp lại có biến chuyển):**
+   Khi giai điệu hoặc ca từ Chorus quay trở lại, nó phải mang theo hàm ý sâu hơn, áp lực cảm xúc lớn hơn hoặc góc nhìn biến đổi sau khi đã đi qua Verse 2 và Bridge.
 
 ---
 
@@ -70,10 +82,6 @@ Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
 - Mở đầu bằng: *"hóa ra...", "điều đau nhất là...", "thì ra tình yêu...", "có những cuộc chia tay...", "chỉ là..."*; hoặc
 - Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện (*ví dụ: hành động mẹ lau chiếc ly của cha đã đủ mạnh; nếu viết thêm "đủ để con hiểu người đã không còn..." thì thành over-explanation làm loãng dư ba*).
 - **Quy tắc cho Bridge:** Bridge phải mang lại góc nhìn mới (*new angle*), hành động (*action*), mâu thuẫn (*contradiction*), hình ảnh (*image*) hoặc bước ngoặt cảm xúc (*emotional turn*). Tránh mặc định dùng các cụm giải thích: *"để con hiểu", "đủ để nhận ra", "nghĩa là", "bởi vì", "cho thấy rằng"*.
-
-**Quy tắc xử lý:**
-- Thesis line chỉ được giữ lại khi: (1) Voice nhân vật bắt buộc phải thốt lên trực diện; (2) Chính nó là câu hook trung tâm; hoặc (3) Lời nói thẳng tạo ra cú nổ cảm xúc (payoff).
-- Nếu hình ảnh hay hành động trước đó đã truyền tải trọn vẹn, ưu tiên cắt hoặc nén câu thesis.
 
 ---
 
@@ -101,6 +109,22 @@ Natural Vietnamese không có nghĩa là chép nguyên văn lời nói chuyện 
 
 ---
 
+### CHI TIẾT QUAN HỆ LÃNG MẠN ≠ CHI TIẾT GIA DỤNG (ROMANTIC VS HOUSEHOLD)
+
+Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người luôn có giá trị cao hơn nhiều so với việc kiểm kê đồ vật môi trường xung quanh:
+- **Chi tiết quan hệ giàu sức nặng (Ưu tiên):**
+  - Một cách gọi riêng biệt chỉ hai người dùng;
+  - Một câu nói dở dang nhưng người kia nghe ra hết;
+  - Một trò đùa chung;
+  - Một thói quen/nghi thức nhỏ được lặp đi lặp lại;
+  - Một khoảng lặng có ý nghĩa;
+  - Một sự mong đợi không cần nói thành lời;
+  - Cách người kể tự thay đổi bản thân khi ở cạnh người kia.
+- **Chi tiết gia dụng đơn thuần (Cần tiết chế):**
+  - Dắt xe, mở khóa, dép lê, quạt gió, nấu nướng, đồ đạc... nếu không phục vụ làm lộ ra tình cảm thì chỉ là sự thật hiện trường, không có giá trị ca từ tự thân.
+
+---
+
 ### FRESHNESS WITHOUT FORCED POETRY — Làm mới không cần ép thơ
 
 Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt đối không tự động thay bằng ẩn dụ cầu kỳ hay từ ngữ lạ tai. Thử theo 6 bước ưu tiên:
@@ -110,8 +134,6 @@ Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt 
 4. **Nén câu:** Cắt bỏ râu ria giải thích để giữ lại hạt nhân;
 5. **Dùng chi tiết thật:** Một thói quen, cử chỉ hoặc dấu vết cụ thể;
 6. **Chỉ sau cùng mới cân nhắc metaphor:** Nếu ẩn dụ thực sự làm sáng Tứ.
-
-*Nguyên tắc:* Freshness đến từ cách quan sát chính xác và chân thực, không đến từ việc làm câu khó hiểu hay "AI thơ".
 
 ---
 
@@ -130,7 +152,6 @@ Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt 
 - **Quy tắc giảm làm dáng (Reduce ornament before adding ornament):** Khi phát hiện một từ/cụm từ hơi "cố" hoặc artificial, phản xạ sửa mặc định là **giảm độ làm dáng, đưa về cách nói dung dị chân thật**:
   - *Ưu tiên:* (1) Giản hóa câu từ; (2) Tự nhiên hóa cú pháp đời sống; (3) Cắt bỏ từ trừu tượng thừa; (4) Giữ hình ảnh gốc nếu nó có chức năng.
   - *Tuyệt đối KHÔNG:* Thêm metaphor mới, thêm tính từ mô tả, thêm từ Hán-Việt hay thêm đạo cụ mới để "cứu câu". Tuyệt đối không nâng lên thành các từ ngữ văn chương ước lệ (*thềm xưa, gạch rêu, hiên vắng, mái cũ*).
-
 
 ---
 

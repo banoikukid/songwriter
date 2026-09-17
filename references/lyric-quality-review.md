@@ -30,7 +30,7 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc)
   - Thay bằng lối diễn đạt đúng thực tế bằng chứng: *“Không phát hiện rõ lỗi...”*, *“Không thấy lỗi đáng kể ở mức lyric-only...”*, *“Có risk nhẹ ở...”*, *“Chưa thể xác nhận điểm rơi/ngân nếu chưa có audio...”*.
 - **Phân loại theo 3 cấp độ ưu tiên (thay thế điểm số cảm tính):**
   - `CRITICAL` (Lỗi sinh tử bắt buộc sửa: gượng ép tiếng Việt nặng, sai provenance, hỏng cấu trúc);
-  - `SUGGESTED` (Khuyến nghị nâng cấp: khử writerly, dọn camera sweep, nén câu, show don't explain);
+  - `SUGGESTED` (Khuyến nghị nâng cấp: khử writerly, dọn camera sweep, nén câu, show don't explain, paraphrase density, scene density);
   - `OPTIONAL` (Lựa chọn trau chuốt thêm nếu người dùng muốn).
 - **Quy tắc dừng sau chẩn đoán (Stop After Diagnosis):**
   - Sau khi chỉ ra $1 - 2$ vấn đề cụ thể, Reviewer KHÔNG tiếp tục bới thêm lỗi vụn vặt chỉ để bản review trông dày dặn.
@@ -49,7 +49,10 @@ Khi thẩm định độc lập, reviewer soi xét ca từ qua 6 lăng kính đ�
    Specific ≠ Artificial  |  Common ≠ Better  |  Poetic ≠ Better  |  Simple ≠ Flat
    ```
    - **Tính tương đối theo Register:** Ca từ tự nhiên của `Mainstream Pop ≠ Folk / Dân gian ≠ Literary / Thơ ≠ Cổ phong`. Ví dụ: *"cố nhân"* hoàn toàn tự nhiên và mang sức nặng trong không gian cổ phong/văn học, không bị ép đổi về *"người cũ"* của khẩu ngữ pop đời thường.
-3. **Emotional Credibility & Show, Don't Explain:** Độ tin cậy cảm xúc; để hành động và hình ảnh tự nói lên cảm xúc thay vì kèm câu thuyết minh giải thích bài học.
+3. **Emotional Credibility & Show vs. Tell Nuance:** 
+   - Độ tin cậy cảm xúc; để hành động và hình ảnh tự nói lên cảm xúc thay vì kèm câu thuyết minh giải thích bài học.
+   - **SHOW KHÔNG PHẢI LÀ TUYỆT ĐỐI:** Câu cảm xúc trực diện (DIRECT EMOTIONAL LANGUAGE) hoàn toàn được phép và có giá trị cao khi nó tạo ra cú nổ cảm xúc (payoff), được tích lũy từ trước (earned), và không phải slogan tình yêu chung chung. Tuyệt đối không tự động gắn mác lỗi "Tell" cho câu cảm xúc trực diện đắt giá.
+   - Ẩn dụ phục vụ cảm xúc trung tâm được **GIỮ LẠI (KEEP)**. Chi tiết quan hệ riêng tư có giá trị cao dù không hoa mỹ.
 4. **Lyric Behavior / Singability (Lyric-Only Heuristics):** Phân đoạn hơi thở khả dĩ, mật độ âm tiết, biên từ và điểm rơi. Syllable count chỉ là risk signal, không phải bằng chứng lỗi hát.
 5. **Image Necessity & Density:** Chi tiết có chức năng hay chỉ là đạo cụ trang trí? Nhận diện và cắt tỉa camera sweep (dồn dập liệt kê nhiều vật thể mà thiếu payoff).
 6. **Lexical / Writerly Naturalness:** Nhận diện các cụm từ làm dáng (*staged / writerly*), nhân hóa làm màu (*decorative personification*). Áp dụng triết lý: **"Reduce ornament before adding ornament"** (giản hóa, đưa về cách nói chân thực trước khi nghĩ đến việc thêm ẩn dụ hay chi tiết mới).
@@ -62,9 +65,9 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Audio-Claim-Violation]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Audio-Claim-Violation]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng, phẳng cảm xúc hoặc phô diễn chữ]
-- TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA, giữ nguyên mạch section]
+- TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA hoặc NÉN NGHĨA, giữ nguyên mạch section]
 ```
 
 ---
@@ -83,35 +86,42 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 1. **Show, Don't Explain & Over-Explanation (Thuyết minh thừa thãi):**
    - Mô thức: `Hình ảnh / Hành động + Câu giải thích nghĩa của hình ảnh đó`.
      *Ví dụ:* `Mẹ lau lại chiếc ly của cha` $\rightarrow$ Hành động này đã đủ mạnh và đắt giá. Nếu viết tiếp: `Đủ để con hiểu người đã không còn...` $\rightarrow$ Đây là over-explanation làm loãng dư ba.
-   - **Quy tắc cho Bridge:** Bridge phải mang lại góc nhìn mới (*new angle*), hành động (*action*), mâu thuẫn (*contradiction*), hình ảnh (*image*) hoặc bước ngoặt cảm xúc (*emotional turn*). Tránh mặc định dùng các cụm giải thích: *"để con hiểu", "đủ để nhận ra", "nghĩa là", "bởi vì", "cho thấy rằng"*.
 2. **Semantic Redundancy (Trùng lặp chức năng ngữ nghĩa giữa các đoạn):**
    - Hai câu ở các section liền kề cùng thực hiện một nhiệm vụ ngữ nghĩa (ví dụ: Verse 1 kết bằng *"Mọi thứ trôi đi như một buổi sáng bình thường"*, sau đó Chorus lại mở bằng *"Nhà mình sáng nay chẳng thiếu một thứ gì..."*).
    - *Xử lý:* Đánh dấu `SUGGESTED - Semantic redundancy between sections`. Ưu tiên giữ câu mạnh hơn ở Chorus, làm câu ở Verse cụ thể hơn bằng chi tiết vật lý, hoặc bỏ hẳn câu tổng kết ở Verse.
 3. **Image Density & Camera Sweep (Dồn dập liệt kê đạo cụ thiếu payoff):**
    - Quét lia lịa qua quá nhiều đối tượng: `vật A → địa điểm B → thời tiết C → phương tiện D → bức tường E → chậu cây F → nền đất G` mà các chi tiết không cùng phục vụ một chức năng cảm xúc hay dẫn tới payoff.
    - *Xử lý:* Gom cụm hoặc lược bớt $1 - 2$ chi tiết giá trị thấp để không gian có chỗ thở. Tuyệt đối không viết lại toàn bộ Verse.
-4. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
+4. **Narrative / Scene Density (Dồn dập đồ vật/hành động thiếu chuyển động cảm xúc):**
+   - Kích hoạt khi nhiều dòng liên tiếp chỉ toàn là: đồ vật, hành động vật lý, địa điểm, chi tiết giác quan mà không có chuyển động cảm xúc (ví dụ: *dắt xe, treo mũ, tiếng dép, mở chốt, mùi dầu ăn, hành phi, quạt thông gió, tháo giày*).
+   - Reviewer TUYỆT ĐỐI KHÔNG nói: *"thêm chi tiết nữa đi"*.
+   - Reviewer yêu cầu: *"Chuyển 1–2 sự thật cảnh quan (scene facts) thành chi tiết mang tải trọng quan hệ hoặc câu biểu đạt cảm xúc."* Luôn hỏi: *"Tại sao người kể lại chú ý điều này vì tình yêu?"*
+5. **Emotional Paraphrase Density (Mật độ diễn giải cảm xúc lặp lại):**
+   - Kích hoạt khi nhiều dòng liên tiếp nhắc lại cùng một kết luận cảm xúc mà không đưa thêm thông tin quan hệ, hình tượng hay góc nhìn mới (ví dụ: *không cần gồng, không cần giỏi, được vụng về, được ngồi im, không sợ khoảng lặng, buông vai diễn, thả lỏng...*).
+   - Reviewer yêu cầu: Giữ lại biểu đạt mạnh nhất, chuyển các câu lặp lại thành hình ảnh, nghĩa ngầm (subtext), ký ức riêng tư của mối quan hệ, thế đối lập, hoặc góc nhìn cảm xúc mới.
+6. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
+   - Đặt câu hỏi: *"Câu này có thể bê sang 10 bài tình ca khác mà không thay đổi điều gì không?"* (ví dụ: *em muốn anh tốt hơn, anh được là chính mình, em luôn ở bên anh, anh thấy bình yên, tình yêu làm mọi thứ tốt đẹp*).
+   - Nếu có: Gắn nhãn `SUGGESTED`. Yêu cầu tìm kiếm một hình tượng riêng của bài, một quan sát riêng về mối quan hệ, một cách nén từ đáng nhớ hoặc một góc nhìn cảm xúc mới mẻ (không ép dùng ẩn dụ).
+7. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
+   - Ngăn chặn việc Chorus biến thành một danh sách các mệnh đề logic: `không X, mà Y, nên Z, thành ra A, thành ra B`.
+   - Chorus cần sự nén lại về nhạc tính và cảm xúc: 1 ý niệm trung tâm + 1 carrier đáng nhớ + 1 bước leo thang cảm xúc. Vẫn cho phép ngôn từ trực diện.
+8. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
+   - Không để Bridge rơi vào mô thức bài giảng: `Ngày trước tôi nghĩ X, sau đó tôi nhận ra Y, vậy nên tình yêu là Z`.
+   - Ưu tiên: `Niềm tin cũ → Một mâu thuẫn cụ thể → Bước ngoặt cảm xúc`. Để người nghe tự hoàn thiện một phần sự nhận ra.
+9. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
    - Cụm từ nghe như được tạo ra để "làm thơ", kết hợp từ lạ tai (*unusual collocation*), trừu tượng chồng trừu tượng, hoặc nhân hóa đồ vật làm màu (*decorative personification*).
-     *Ví dụ đối chứng:*
-     - *"Gió đầu tháng chín lành lạnh mặt đường"* $\rightarrow$ Risk: Hơi văn vẻ, thiếu khẩu ngữ tự nhiên;
-     - *"Chiếc ly nằm yên đấy, như vừa xong một ngày"* $\rightarrow$ Risk: Nhân hóa trang trí không cần thiết;
-     - *"Theo một cách khác rồi"* $\rightarrow$ Risk: Khái niệm trừu tượng, giải thích thay vì gợi cảm giác.
-   - *Xử lý:* Gắn nhãn `SUGGESTED - Writerly Phrase` (tuyệt đối không đánh giá CRITICAL). Đề xuất giản hóa về cách nói chân thực mà vẫn giữ được không khí.
-5. **Decorative Specificity (Chi tiết cụ thể thiếu chức năng):**
+   - *Xử lý:* Gắn nhãn `SUGGESTED - Writerly Phrase`. Đề xuất giản hóa về cách nói chân thực mà vẫn giữ được không khí.
+10. **Decorative Specificity (Chi tiết cụ thể thiếu chức năng):**
    - Reviewer đặt câu hỏi: `Does this detail earn its place?` (Chi tiết này có tự chứng minh sự tất yếu không?).
    - Một chi tiết được giữ lại nếu nó có ít nhất một chức năng đáng kể: *provenance từ brief, ký ức vật lý, giá trị giác quan, chức năng tình huống, tín hiệu quan hệ, hoặc narrative turn*.
    - Nếu không có: Khuyến nghị **Giữ nguyên hoặc Giản hóa** (`KEEP or SIMPLIFY`, ví dụ: `sân gạch` $\rightarrow$ `sân nhà`). Tuyệt đối **không lập danh sách đen từ ngữ** (No Word Blacklisting).
-   - **Nguyên tắc giảm làm dáng (Reduce ornament before adding ornament):** Khi sửa một câu hơi artificial, ưu tiên: (1) Giản hóa; (2) Tự nhiên hóa cú pháp; (3) Bỏ bớt từ trừu tượng thừa; (4) Giữ hình ảnh gốc nếu có chức năng. TUYỆT ĐỐI KHÔNG thêm ẩn dụ mới, không thêm tính từ, không thêm Hán-Việt để "cứu câu".
-6. **Prose-to-Lyric (Văn xuôi xuống dòng):**
+11. **Prose-to-Lyric (Văn xuôi xuống dòng):**
    - Câu đúng ngữ pháp nhưng chứa quá nhiều từ nối (*"nên", "vì", "thực ra là"*), nhịp điệu phẳng lỳ, thiếu tính nén của ca từ.
-7. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
+12. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
    - Dòng trọng tâm của Chorus hoặc chốt đoạn kết thúc bằng một từ chức năng (*"nữa đâu", "được gì", "thế này"*); cần chuyển trọng tâm về động từ, danh từ cảm xúc hoặc khoảng lặng.
-8. **Cliché & Generic Tropes (Sáo mòn):**
+13. **Cliché & Generic Tropes (Sáo mòn):**
    - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
 
 ### C. OPTIONAL (Trau chuốt thêm)
-1. **Sonic Polish:**
-   - Thêm echo phụ âm đầu, lặp nguyên âm vang ở nốt ngân dự kiến để tăng độ bắt tai (chỉ nêu như gợi ý tùy chọn, không khẳng định hiệu ứng âm thanh khi chưa nghe render).
-2. **Image Freshness:**
-   - Thay một động từ quen thuộc bằng một động từ mang tính cử chỉ đời thường hơn.
-
+1. **Sonic Polish:** Thêm echo phụ âm đầu, lặp nguyên âm vang ở nốt ngân dự kiến (gợi ý tùy chọn).
+2. **Image Freshness:** Thay một động từ quen thuộc bằng một động từ mang tính cử chỉ đời thường hơn.

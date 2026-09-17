@@ -88,6 +88,56 @@
       "id": "w17-test-j-stop-condition",
       "split": "incident-regression",
       "prompt": "Một ca khúc sau lượt self-review có kết quả: 0 lỗi CRITICAL, 0 lỗi SUGGESTED, chỉ còn 1 điểm OPTIONAL (trau chuốt thanh học nhỏ theo sở thích).\nYêu cầu Reviewer:\n- Kích hoạt Stop Condition: Kết luận PASS và khuyên người dùng giữ nguyên bản, dừng quá trình chỉnh sửa (STOP).\n- Tuyệt đối KHÔNG tiếp tục polish quá đà làm mất độ tươi của cảm xúc."
+    },
+    {
+      "id": "w18-test-1-object-dump",
+      "split": "incident-regression",
+      "prompt": "Đánh giá đoạn Verse mở đầu:\n'Dắt chiếc xe vào góc hẹp chân cầu thang,\ntreo mũ bảo hiểm lên chiếc đinh sắt cũ.\nTiếng dép lê trong nhà bước vội ra,\nem mở chốt cửa rồi quay trở lại bếp.\nMùi dầu ăn với hành phi bay ra hành lang,\ntiếng quạt thông gió chạy rè rè quen thuộc.\nAnh tháo đôi giày đặt ngay ngắn bên thềm...'\nYêu cầu Reviewer:\n- Nhận diện lỗi NARRATIVE / SCENE DENSITY (Object / Action Dumping): Đoạn thơ dồn dập liệt kê 7-8 đồ vật/hành động sinh hoạt vật lý mà không có chuyển động cảm xúc.\n- Xuất nhãn: SUGGESTED - SCENE-HEAVY RISK.\n- Tuyệt đối KHÔNG đánh giá 'REALISM PASS -> ca từ hay'; yêu cầu chuyển 1–2 sự thật cảnh quan thành chi tiết mang tải trọng quan hệ hoặc câu cảm xúc."
+    },
+    {
+      "id": "w19-test-2-psychology-essay",
+      "split": "incident-regression",
+      "prompt": "Đánh giá ca từ có chuỗi câu lặp lại:\n'ở cạnh em anh không cần phải gồng\nkhông cần phải giỏi để được yêu\nđược vụng về, được ngồi im chẳng nói\nkhông sợ khoảng lặng làm hai đứa cách xa\nchẳng cần anh phải giải thích tròn vành rõ chữ\nkhông bắt mình phải gồng gánh bất cứ điều gì\nbuông hết mọi vai diễn ngoài đời\nđược làm một người bình thường nhất\nthả lỏng và thở thật một lần...'\nYêu cầu Reviewer:\n- Nhận diện lỗi EMOTIONAL PARAPHRASE DENSITY (Tiểu luận tâm lý): Quá nhiều dòng diễn giải lặp lại cùng một kết luận cảm xúc ('được là chính mình / không cần gồng') mà không đem lại hình tượng, ký ức hay sự tiến triển mới.\n- Xuất nhãn: SUGGESTED - High emotional paraphrase density.\n- Yêu cầu: Giữ biểu đạt mạnh nhất, chuyển các câu thừa thành hình ảnh, nghĩa ngầm, ký ức quan hệ hoặc thế đối lập."
+    },
+    {
+      "id": "w20-test-3-emotional-compression",
+      "split": "capability",
+      "prompt": "Đánh giá một đoạn Verse dài 8 câu liên tiếp chỉ để miêu tả cảm giác buồn bã, cô đơn và trống trải bằng các câu giải thích trừu tượng.\nYêu cầu Reviewer:\n- Nhận diện lỗi giải thích dông dài (Over-Explanation / Lack of Compression).\n- Khuyến nghị áp dụng kỹ nghệ EMOTIONAL COMPRESSION: Nén 8 câu giải thích về 1–2 carrier cảm xúc đắt giá (một hình ảnh hoặc hành động cụ thể mang trọn vẹn trạng thái tâm lý)."
+    },
+    {
+      "id": "w21-test-4-direct-emotion",
+      "split": "capability",
+      "prompt": "Đánh giá câu hát trực diện ở cao trào Chorus: 'Anh yêu em, ngay cả những ngày anh chẳng biết mình là ai.'\nYêu cầu Reviewer:\n- Áp dụng nguyên tắc 'Show, don't tell is not absolute': Câu cảm xúc trực diện (Direct emotional declaration) hoàn toàn hợp lệ và có giá trị cao khi là cú nổ cảm xúc (payoff) được tích lũy từ trước.\n- Kết luận: PASS. Tuyệt đối KHÔNG tự động gắn mác lỗi 'Tell' cho câu hát này."
+    },
+    {
+      "id": "w22-test-5-metaphor",
+      "split": "capability",
+      "prompt": "Đánh giá một ẩn dụ độc đáo phục vụ trực tiếp cho cảm xúc trung tâm của bài hát, không hề sáo mòn (ví dụ: ví tình yêu như chiếc áo len cũ sờn chỉ nhưng vừa vặn).\nYêu cầu Reviewer:\n- Nhận diện Emotional Metaphor: Ẩn dụ phục vụ cảm xúc trung tâm, không làm dáng.\n- Kết luận: KEEP. Tuyệt đối KHÔNG máy móc loại bỏ chỉ vì nó là ẩn dụ."
+    },
+    {
+      "id": "w23-test-6-romantic-specificity",
+      "split": "capability",
+      "prompt": "Đánh giá chi tiết: Một thói quen riêng tư hoặc câu nói lửng giữa hai người ('chỉ cần anh nhấp ngụm trà đầu tiên là em biết hôm nay ở sở làm có chuyện').\nYêu cầu Reviewer:\n- Nhận diện Romantic / Relational Detail: Chi tiết mang tính quan hệ sâu sắc, bộc lộ tình yêu và sự thấu hiểu ngầm.\n- Kết luận: VALUABLE (Giá trị cao), dù ngôn từ không hoa mỹ hay mang tính thơ ước lệ."
+    },
+    {
+      "id": "w24-test-7-generic-romantic-line",
+      "split": "incident-regression",
+      "prompt": "Đánh giá câu hát: 'Tình yêu của em đã làm cuộc đời anh trở nên tốt đẹp hơn từng ngày.'\nYêu cầu Reviewer:\n- Đặt câu hỏi: 'Câu này có thể bê sang 10 bài tình ca khác mà không thay đổi gì không?'\n- Nhận diện: GENERIC EMOTIONAL LANGUAGE.\n- Xuất nhãn: SUGGESTED (không đánh CRITICAL). Khuyến nghị tìm kiếm một hình tượng hoặc cách diễn đạt riêng biệt mang dấu ấn của bài hát."
+    },
+    {
+      "id": "w25-test-8-bridge-perspective-shift",
+      "split": "incident-regression",
+      "prompt": "Đánh giá đoạn Bridge chỉ lặp lại nội dung và cảm xúc của Chorus bằng những từ đồng nghĩa khác (không có sự kiện, không có góc nhìn mới, không có mâu thuẫn được giải quyết).\nYêu cầu Reviewer:\n- Nhận diện: Bridge thiếu bước ngoặt góc nhìn (Insufficient Perspective Shift).\n- Xuất nhãn: SUGGESTED - Bridge Anti-Essay. Yêu cầu tái cấu trúc theo mô thức: Niềm tin cũ → Mâu thuẫn cụ thể → Bước ngoặt cảm xúc."
+    },
+    {
+      "id": "w26-test-9-self-review-honesty",
+      "split": "incident-regression",
+      "prompt": "Reviewer thực hiện đánh giá một bản lyric-only (chưa có audio).\nYêu cầu Reviewer:\n- Áp dụng nguyên tắc Honest Self-Review: Tuyệt đối không dùng các từ tự khen hay khẳng định vô căn cứ ('hoàn hảo', 'tuyệt đối tự nhiên', 'vocal landing chắc chắn êm ái').\n- Sử dụng ngôn ngữ rủi ro khách quan: RISK, LIKELY, UNVERIFIED."
+    },
+    {
+      "id": "w27-test-10-register",
+      "split": "incident-regression",
+      "prompt": "Đánh giá từ ngữ và cú pháp trong một bài hát mang âm hưởng Cổ phong / Dân gian / Thơ truyền thống.\nYêu cầu Reviewer:\n- Áp dụng nguyên tắc Naturalness is register-relative: Đánh giá độ tự nhiên trong chính ngữ vực và thế giới thẩm mỹ của bài hát.\n- Tuyệt đối KHÔNG gượng ép bình dân hóa câu chữ thành khẩu ngữ pop hiện đại tầm thường."
     }
   ]
 }

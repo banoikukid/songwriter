@@ -8,10 +8,10 @@
 
 ```yaml
 skill: songwriting-min
-version: 1.3.1
+version: 1.3.2
 release_date: 2026-08-11
 last_updated: 2026-09-17
-purpose: "Writer-First Vietnamese Songwriting Skill: Return to Roots Core Reset with Closed 4-Brakes & Pure Agent Architecture (v1.3.1)"
+purpose: "Writer-First Vietnamese Songwriting Skill: Return to Emotional Core, 8-Level Priority Hierarchy, Anti-Flatness & Pure Agent Architecture (v1.3.2)"
 repository: "https://github.com/banoikukid/songwriter"
 source_canonical: "https://github.com/banoikukid/songwriter"
 upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills/songwriting-min (Internal Origin)"
