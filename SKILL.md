@@ -65,7 +65,7 @@ Khi user chỉ yêu cầu sửa 2–4 câu Chorus/Verse, đổi vần, thay từ
 - Giữ nguyên bối cảnh, nhân vật và trọng lực cảm xúc hiện có của đoạn.
 - Sửa trực tiếp tại chỗ theo thứ tự ưu tiên: **Tiếng Việt tự nhiên > Sáng nghĩa > Nhịp điệu, điểm rơi và vần**.
 - Với micro-rewrite, chỉ dùng lens liên quan khi cần: **Naturalness**, **Emotional Temperature**, **Mouth-feel** hoặc **local rhyme/prosody**; không ép chạy đồng loạt.
-- Đọc/hát nhẩm để kiểm tra hơi thở và độ ca hóa; đưa ra 2–3 phương án tinh gọn để user chọn.
+- Đọc/hát nhẩm để kiểm tra hơi thở và độ ca hóa; đưa ra tối đa 2 phương án tinh gọn (hoặc lên đến 3 nếu user yêu cầu nhiều lựa chọn) để user chọn.
 
 ### Draft nhanh
 
@@ -109,7 +109,7 @@ Trước writer-pass, **decompile arm thắng**: giữ tiền đề cảm xúc, 
 | Chỉ hook/chorus | Chốt brief rút gọn, Tứ và vai section |
 | Packet Tứ/Cốt/Song System đã khóa | **FROZEN WRITER PACKET**: không chạy lại discovery hay đổi hướng; viết raw lyric rồi chẩn artifact |
 | Audit/tối ưu skill | Đọc `references/audit-and-evaluation.md`; corpus không vào generation |
-| Xuất/khắc phục Suno | Đọc `references/suno-handoff.md` |
+| Xuất/khắc phục Suno | Đọc `references/suno-production.md` (chuẩn 3-block & ma trận lỗi) + `references/suno-handoff.md` (tóm tắt xuất tag) |
 
 ### Lane FROZEN WRITER PACKET
 
@@ -328,7 +328,7 @@ Chỉ bật công cụ tương ứng:
 - Câu giải thích lại điều hành động/hình ảnh đã nói rõ: chạy **EXPLAINING LINE**; bỏ thesis line nếu action đã đủ.
 - Chorus bị loãng bởi các câu kể/giải thích hoàn cảnh: chạy **HOOK DISTILLATION** tại `references/idea-and-structure.md`; cắt bớt các câu giải thích để làm nổi bật câu hook payoff.
 - Final Chorus bị dài dòng, nhồi chữ hoặc gượng ép cao trào: tuân thủ **FINAL CHORUS ≠ MORE WORDS**; kết luận bằng biến nghĩa, rút bớt từ hoặc đổi góc nhìn, không nhồi thêm chữ.
-- Khi user flag trực tiếp một từ/câu là `thô · cứng · gượng · chưa mềm · không hợp câu/đoạn`, coi đó là evidence kích hoạt **NATURALNESS-SWEEP** local cho `từ · collocation · register · material`; không thay đồng nghĩa ngay. Nếu lỗi nằm ở quan hệ nghĩa/section job/Tứ, chuyển owner sang **ROUGH-LYRIC SEMANTIC GATE**; nếu nằm ở phrase/hơi/cadence, chuyển sang **SCOPE A**. Giữ dòng gốc làm option 0, viết lại tối đa hai phương án trong owner đúng rồi chạy **REWRITE CLOSURE** trên toàn section trước khi trả.
+- Khi user flag trực tiếp một từ/câu là `thô · cứng · gượng · chưa mềm · không hợp câu/đoạn`, coi đó là evidence kích hoạt **NATURALNESS-SWEEP** local cho `từ · collocation · register · material`; không thay đồng nghĩa ngay. Nếu lỗi nằm ở quan hệ nghĩa/section job/Tứ, chuyển owner sang **ROUGH-LYRIC SEMANTIC GATE**; nếu nằm ở phrase/hơi/cadence, chuyển sang **SCOPE A**. Giữ dòng gốc làm option 0, viết lại tối đa hai phương án (hoặc lên đến 3 nếu user yêu cầu) trong owner đúng rồi chạy **REWRITE CLOSURE** trên toàn section trước khi trả.
 - Body/material/thành ngữ gây cấn: chạy một **NATURALNESS-SWEEP** và chọn đúng một subcase chính. Lượng từ có nghi vấn mới chạy **QUANTITY-PROVENANCE** riêng; không chồng hai sweep trên cùng câu trong một pass.
 - Vần, âm tiết, điểm lấy hơi hoặc cuối câu cấn: chạy line/sound pass và phrase-map. Trước khi xuất bản lời, chạy **PRE-RELEASE MOUTH-FEEL SPOT CHECK** trên các line rủi ro cao (hook, line dài nhất, final payoff, sustain slot) để đảm bảo không nuốt chữ hay hụt hơi.
 - Nhiều bài trong cùng phiên lặp skeleton/hook grammar: chạy **SESSION-DECONTAMINATION/SURFACE-OVERLAP**; sửa tầng gốc, không thay đồng nghĩa từng chữ.
@@ -391,26 +391,7 @@ Trạng thái handoff:
 
 Nếu người dùng yêu cầu xuất sang Suno, kích hoạt **Suno Adapter** (`references/suno-production.md` và `references/suno-handoff.md`).
 - **Suno Adapter Output Contract:** Khối định dạng `STYLE PROMPT` – `LYRICS BLOCK` – `CONTROLS / SETTINGS` chỉ là *hợp đồng định dạng xuất ra* (output contract) dành cho Suno, **tuyệt đối không phải mô hình tư duy nội tại** (cognitive model) của người viết. Quá trình sáng tác luôn đi từ: `Tứ → Central Intent → Hook → Image System → Form → Lyric`.
-- **Chính sách chẩn đoán lỗi Suno (Suno Failure Diagnosis Runtime Policy):**
-  1. **Nguồn quan sát & Bất biến chẩn đoán (Observation Source & Invariant):**
-      - `USER_REPORT`: Người dùng nghe trực tiếp và báo lỗi cụ thể (Confidence = High).
-      - `AUDIO_OBSERVATION`: Phân tích file audio demo thực tế (Confidence = High/Medium).
-      - `MODEL_INFERENCE`: Mô hình tự suy đoán rủi ro (Confidence = Low / Provisional Hypothesis). *Tuyệt đối không tự ý patch bài hát chỉ dựa trên suy diễn chủ quan khi chưa có bằng chứng quan sát thực tế!*
-      - **Bất biến chẩn đoán:** Heuristic âm học (như nguyên âm mở, đếm âm tiết) chỉ có quyền tăng mức độ nghi vấn (`Suspicion ↑`), tuyệt đối không có quyền biến giả thuyết thành quan sát thực tế để vội vã kết luận lỗi thuộc về ca từ.
-  2. **Kiểm tra tính lặp lại (Repeatability Check):**
-     - Suno có tính ngẫu nhiên và tạo sinh (stochastic / generative), kết quả có thể biến thiên giữa các lần tạo. Nếu lỗi chỉ xảy ra 1 lần (`Single-output anomaly`), giải pháp đầu tiên luôn là **Re-roll** (tạo lại lượt mới) với cùng prompt.
-     - Chỉ can thiệp chỉnh sửa khi lỗi lặp lại có tính quy luật (`Repeatable pattern`).
-  3. **Đánh giá nguyên nhân & Vá lỗi đúng tầng (Cause Confidence & Targeted Layer Patching):**
-     ```
-     OBSERVATION → REPEATABILITY CHECK → LIKELY CAUSE (Confidence) → FAILED LAYER → TARGETED PATCH
-     ```
-     - Trước khi kết luận tầng lỗi, đánh giá nguyên nhân khả dĩ (`Cause Confidence`: High / Medium / Low):
-       - Lỗi phát âm lặp lại $\rightarrow$ Likely cause: `PHONETIC_FIT` (High) $\rightarrow$ Vá tầng *Lyrics / Phonetics*.
-       - Trôi giọng / đổi giới tính $\rightarrow$ Likely cause: `GENDER_DRIFT` (High) $\rightarrow$ Vá tầng *Controls / Vocal Gender* hoặc *Style*.
-       - Ngân dài cuối câu $\rightarrow$ Kiểm tra: nếu do lyric (`LYRIC_INDUCED`) $\rightarrow$ Vá *Lyrics / Line Landing*; nếu do cue (`CUE_INDUCED`) $\rightarrow$ Bỏ cue; nếu do ngẫu nhiên (`MODEL_VARIANCE`) $\rightarrow$ Re-roll.
-       - Cấu trúc/lời/hát đã ổn nhưng mix/sound/texture chưa đạt $\rightarrow$ Likely cause: `PRODUCTION_TEXTURE` $\rightarrow$ Cân nhắc tính năng **Remaster** thay vì gen lại cả bài.
-       - Bẹt năng lượng / thiếu tương phản $\rightarrow$ Likely cause: `ENERGY_DEFICIT` $\rightarrow$ Vá tầng *Arrangement Cues / Controls*.
-     - *Tuyệt đối không rewrite toàn bài hát hay thay đổi Tứ vì lỗi render của engine!*
+- **Chính sách chẩn đoán lỗi Suno (Suno Failure Diagnosis Runtime Invariant):** Tuân thủ luồng: `OBSERVATION → REPEATABILITY CHECK → LIKELY CAUSE (Confidence: High/Med/Low) → FAILED LAYER → TARGETED PATCH`. `MODEL_INFERENCE` đơn độc không được phép kích hoạt patch bài khi chưa có user report hoặc audio evidence. Chi tiết ma trận chẩn đoán và hướng xử lý theo tầng: đọc `references/suno-production.md`.
 - **Vocal Realization:** Khi cần chỉ dẫn vocal chi tiết, tham chiếu `references/vocal-realization.md` (phân 3 tầng: Identity, Performance, Production; vocal prosody tiếng Việt) để lập **VOCAL-DIRECTION MAP**; không mặc định công thức rập khuôn. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
 
 ## Điều không thương lượng

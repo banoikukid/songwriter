@@ -13,7 +13,8 @@ release_date: 2026-08-11
 last_updated: 2026-09-17
 purpose: "Writer-First Vietnamese Songwriting Skill with Adaptive Discovery Flow & Pilot Proofing (v1.3.0 Hardened Release)"
 repository: "https://github.com/banoikukid/songwriter"
-source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills/songwriting-min"
+source_canonical: "https://github.com/banoikukid/songwriter"
+upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills/songwriting-min (Internal Origin)"
 ```
 
 ---
