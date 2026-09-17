@@ -80,7 +80,7 @@ songwriter/
     └── *.json & *.md                      # Schemas kiểm định, test suites & báo cáo audit
 ```
 
-> **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, attack surface tối thiểu (Zero shell execution, Zero token leak) khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
+> **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, attack surface tối thiểu. Skill không chứa executable runtime hay dependency bên ngoài. Package không tự gọi shell/network; context usage và quyền dữ liệu phụ thuộc host agent khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
 
 ---
 
@@ -93,7 +93,7 @@ songwriter/
 
 ## 🤖 Hướng Dẫn Nạp Vào AI Agent (Usage with AI Agents)
 
-Để sử dụng bộ kỹ năng này với bất kỳ AI coding assistant nào mà không tốn chi phí API riêng:
+Để sử dụng bộ kỹ năng này với các AI coding assistant (Skill không yêu cầu API/service riêng của chính nó; model quota/cost phụ thuộc provider đang dùng):
 
 ### 1. Claude Code
 Clone trực tiếp vào thư mục skills toàn cục:

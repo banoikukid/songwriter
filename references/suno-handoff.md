@@ -69,6 +69,6 @@ Nghe rồi chẩn đúng triệu chứng:
 - Sai vocal: dùng Vocal Gender/control chuyên dụng và vocal descriptor.
 - Vocal đều giữa các section: kiểm lyric/section job trước; nếu bài đã có lực, chạy Vocal-direction map và A/B cue thay vì mặc định tăng lên Belt.
 
-Cập nhật verdict vào `case-log.md`.
+Cập nhật verdict vào session state (theo `references/case-log-protocol.md`).
 
 Nếu render là prototype, quay về bước Rewrite: sửa đúng tầng rồi re-render. Chỉ gọi production candidate sau khi lyric–melody–harmony–rhythm và performance đã được nghe, không chỉ đọc.

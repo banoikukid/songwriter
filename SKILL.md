@@ -306,12 +306,7 @@ Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototy
 
 - Ví dụ, corpus, bài tham chiếu và session fingerprint không được làm seed câu/Tứ hoặc bị chép lyric/hook/skeleton.
 - Không mặc định người viết = người kể = người hát; không yêu cầu trải nghiệm đời tư làm điều kiện để sinh Tứ.
-- **PROVENANCE GATE — Lời kể không được biết quá điều brief cho phép:** Với mọi câu mô tả nhân vật khác ngoài người kể:
-  - `OBSERVED`: người kể trực tiếp thấy/nghe/biết từ brief.
-  - `SHARED HISTORY`: dữ kiện quá khứ đã được user cung cấp.
-  - `INFERENCE`: người kể có thể suy đoán nhưng không biết chắc (phải viết dạng mong ước, khả năng, câu hỏi: *"anh mong...", "liệu rằng..."*).
-  - `UNAUTHORIZED`: nội tâm, ý định, hành vi tương lai hoặc sự kiện chưa được brief cung cấp (tuyệt đối KHÔNG phát biểu như fact; phải rewrite).
-  *(BAD: "Mai này em sẽ có người mới." / BETTER: "Rồi căn bếp ấy sẽ đổi khác." hoặc "Anh mong căn bếp ấy vẫn ấm." — BAD: "Sáng mai em lại pha cà phê." / BETTER: "Sáng mai chiếc cốc vẫn nằm trên bàn.")*
+- **PROVENANCE GATE — Lời kể không được biết quá điều brief cho phép:** Không khẳng định như fact nội tâm, ý định, hành vi tương lai hoặc sự kiện tương lai của nhân vật khác nếu brief/scene không cấp quyền biết. Suy đoán, mong ước hoặc khả năng vẫn được phép khi câu đánh dấu rõ đó là suy đoán/mong ước (ví dụ: *"anh mong...", "liệu rằng..."*).
 - Nghĩa và tiếng Việt tự nhiên thắng vần; lỗi phrase/sound phải được nghe hoặc đánh dấu đúng scope.
 - Không dùng mood/genre làm proxy cho nhau; không ép một cửa vào hay một engine cho mọi bài.
 - Không gọi lyric-only là ca khúc hoàn chỉnh hoặc `music-fit PASS` khi chưa có artifact nghe được.

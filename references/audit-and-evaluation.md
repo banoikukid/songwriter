@@ -24,7 +24,7 @@ Dùng audit cycle và release discipline bên dưới khi thay rule, chạy forw
 3. **Regression suite:** ca đã từng pass hoặc failure đã sửa; giữ ổn định để bắt backslide.
 4. **Sealed holdout:** brief mới, không mở khi viết rule hay sinh arm; chỉ dùng ở release gate.
 
-`case-log.md` là recent-memory và nguồn incident, **không phải** eval suite. Corpus nổi tiếng là nguồn prior/phản-ví-dụ, **không phải** đáp án mẫu.
+Session state (theo `references/case-log-protocol.md`) là recent-memory và nguồn incident, **không phải** eval suite. Corpus nổi tiếng là nguồn prior/phản-ví-dụ, **không phải** đáp án mẫu.
 
 ## 3. Cấp độ bằng chứng
 
@@ -106,9 +106,9 @@ Kiểm bằng bốn câu hỏi:
 
 Chỉ rút quy trình tổng quát sau khi có ít nhất ba dạng đối chứng khác cơ chế. Đóng reference trước generation; không chuyển tên bài, lyric, hook, đạo cụ, tình tiết đặc trưng, bộ ảnh hoặc skeleton riêng sang arm mới. Forward-test phải dùng brief mới và kiểm cả hai chiều: route phải bắn khi liên tưởng cần sinh bài, và phải `N/A` khi direct/narrative đã đủ.
 
-## 8. Case-log và release discipline
+## 8. Session memory và release discipline
 
-Chỉ đọc fingerprint gần nhất của `case-log.md` khi đang sinh một chuỗi ca, retest regression hoặc có dấu hiệu convergence. Một ca độc lập không tải lịch sử lỗi vào generation packet mặc định. Không đọc verdict/câu cũ để làm seed; không chép lại lyric đầy đủ.
+Chỉ đọc fingerprint gần nhất trong session state (theo `references/case-log-protocol.md`) khi đang sinh một chuỗi ca, retest regression hoặc có dấu hiệu convergence. Một ca độc lập không tải lịch sử lỗi vào generation packet mặc định. Không đọc verdict/câu cũ để làm seed; không chép lại lyric đầy đủ.
 
 Sau mỗi artifact, append: goal/entry · Tứ+skeleton · behavior · hook stack · demo status · session-overlap verdict · fingerprint `cot · line · sound · music · base` · verdict để trống. Sau nghe render, cập nhật phát âm, flow, hook recall, hard fail và verdict người nghe.
 

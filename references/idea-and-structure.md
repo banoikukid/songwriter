@@ -165,9 +165,9 @@ Khi học từ reference, chỉ trích `hạt nhân → nguồn kết dính → 
 
 ### Chống rập khuôn
 
-Khi đang viết một chuỗi ca trong cùng phiên, đọc fingerprint gần nhất trong `case-log.md`; một ca độc lập không phải tải lịch sử lỗi vào seed packet mặc định.
+Khi đang viết một chuỗi ca trong cùng phiên, đọc fingerprint gần nhất trong session state (theo `references/case-log-protocol.md`); một ca độc lập không phải tải lịch sử lỗi vào seed packet mặc định.
 
-Mọi ví dụ trong skill, reference và case-log chỉ giải thích luật, không làm seed. Chạy test bỏ danh từ: nếu “pha hai ly”, “gọi hai phần”, “mua hai vé” cùng rút về một quan hệ nhân quả thì đó là một tứ, không phải ba.
+Mọi ví dụ trong skill, reference và session protocol chỉ giải thích luật, không làm seed. Chạy test bỏ danh từ: nếu “pha hai ly”, “gọi hai phần”, “mua hai vé” cùng rút về một quan hệ nhân quả thì đó là một tứ, không phải ba.
 
 Corpus chỉ được mở khi audit hoặc user yêu cầu đối chiếu thị trường. Học phân bố, độ rộng và music-fit; đóng corpus trước khi generation. Không dùng tên bài, câu hook, đạo cụ hay một skeleton cụ thể làm seed.
 

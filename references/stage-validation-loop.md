@@ -162,6 +162,6 @@ Một carrier ngoại hiện mới chỉ được tính là cải thiện khi h�
 
 ## Log và promotion
 
-`case-log.md` ghi artifact thật và fingerprint ngắn; registry eval riêng ghi `case-id · split · skill-version · model/harness · trial · graders · result · reviewer · contamination-status`.
+Session state (theo `references/case-log-protocol.md`) ghi artifact thật và fingerprint ngắn; registry eval riêng ghi `case-id · split · skill-version · model/harness · trial · graders · result · reviewer · contamination-status`.
 
 Với mẫu nhỏ, báo số đếm và uncertainty. Promotion theo `audit-and-evaluation.md`: capability → candidate → sealed holdout + regression → validated theo scope.
