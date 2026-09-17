@@ -115,7 +115,26 @@ Suno là hệ thống khuếch tán âm thanh có tính ngẫu nhiên (stochasti
 
 ---
 
-### 3.3. Ma Trận Vá Lỗi Theo Tầng (Targeted Layer Patching Matrix)
+### 3.3. Đánh Giá Độ Tin Cậy Của Nguyên Nhân (Cause Confidence Assessment)
+
+Trước khi quyết định vá tầng nào, agent phải đánh giá xem nguyên nhân gây ra lỗi đến từ đâu, tránh vội vã sửa ca từ khi lỗi bắt nguồn từ mô hình hoặc biểu diễn:
+
+```text
+TRIỆU CHỨNG (ví dụ: Ngân chữ cuối quá dài)
+   │
+   ├── LYRIC-INDUCED (Confidence: Cao nếu từ kết dòng là nguyên âm quá mở và không có dấu ngắt)
+   ├── VOCAL-PERFORMANCE-INDUCED (Confidence: Cao nếu có cue [Belt]/[Soaring] kéo dài)
+   ├── MELODY-INDUCED (Do tiết tấu và beat drop tại cadence)
+   ├── MODEL-VARIANCE (Do model ngẫu nhiên giữ note)
+   └── UNKNOWN (Chưa đủ căn cứ → Re-roll trước)
+```
+
+- Nếu `Cause Confidence` vào tầng Lyric là cao $\rightarrow$ Vá tầng `Lyrics / Line Landing`.
+- Nếu lỗi do model variance hoặc vocal cue $\rightarrow$ Tinh chỉnh cue hoặc re-roll, **tuyệt đối KHÔNG sửa ca từ**.
+
+---
+
+### 3.4. Ma Trận Vá Lỗi Theo Tầng (Targeted Layer Patching Matrix)
 
 ```
              QUAN SÁT THỰC TẾ (USER_REPORT / AUDIO)
@@ -124,6 +143,9 @@ Suno là hệ thống khuếch tán âm thanh có tính ngẫu nhiên (stochasti
         KIỂM TRA TÍNH LẶP LẠI (Repeatable Evidence Check)
          ├─ Lỗi đơn lẻ ngẫu nhiên ──► RE-ROLL (Giữ nguyên prompt)
          └─ Có bằng chứng quy luật
+                               │
+                               ▼
+        ĐÁNH GIÁ NGUYÊN NHÂN (Cause Confidence Assessment)
                                │
                                ▼
                      XÁC ĐỊNH TẦNG BỊ LỖI
@@ -136,12 +158,13 @@ Suno là hệ thống khuếch tán âm thanh có tính ngẫu nhiên (stochasti
 | Triệu chứng lỗi lặp lại | Tầng lỗi thực tế | Hành động vá lỗi cục bộ (Targeted Patch) | Điều TUYỆT ĐỐI KHÔNG làm |
 |---|---|---|---|
 | **Hát lơ lớ, ngọng dấu thanh điệu** | `LYRICS / PHONETIC FIT` | Tìm đúng từ/cụm bị sai; thay bằng từ đồng nghĩa có thanh điệu tự nhiên hơn hoặc đổi sang nguyên âm mở. | Không viết lại Tứ; không sửa Style prompt. |
-| **Giọng hát bị đổi giới tính (nam $\leftrightarrow$ nữ)** | `STYLE / VOCAL IDENTITY` | Dùng tùy chọn Vocal Gender chính thức trong Advanced Options nếu có; hoặc thêm từ khóa nhấn mạnh vào Style: `solo female vocal throughout` (hoặc `male vocal only`). | Không sửa lời bài hát; không đụng vào melody. |
+| **Giọng hát bị đổi giới tính (nam $\leftrightarrow$ nữ)** | `CONTROLS / VOCAL GENDER` hoặc `STYLE / VOCAL IDENTITY` | Ưu tiên chọn Vocal Gender trong Advanced Options; nếu không có, thêm từ khóa nhấn mạnh vào Style: `solo female vocal throughout` (hoặc `male vocal only`). | Không sửa lời bài hát; không đụng vào melody. |
 | **Dồn chữ, nuốt chữ ở cuối câu** | `LYRICS / ONE-BREATH` | Dòng đó quá dài; bổ sung dấu phẩy ngắt nhịp hoặc cắt bớt 2–3 chữ thừa/hư từ để phrase có chỗ thở tự nhiên. | Không sửa các câu xung quanh; không đổi cấu trúc đoạn. |
-| **Ngân chữ cuối quá dài, kéo lê thê** | `LYRICS / LINE LANDING` | Từ cuối dòng rơi vào nguyên âm quá mở hoặc thiếu điểm dừng; đổi từ kết dòng thành âm có điểm rơi gọn, hoặc thêm dấu phẩy ngắt nhịp. | Không viết lại cả Chorus. |
+| **Ngân chữ cuối quá dài, kéo lê thê** | `LYRICS / LINE LANDING` (nếu lyric-induced) hoặc `CONTROLS / CUE` (nếu do cue) | Nếu do lyric: đổi từ kết dòng sang âm có điểm rơi gọn hoặc thêm dấu phẩy ngắt nhịp. Nếu do cue: bỏ các tag [Soaring]/[Belt] ở cuối đoạn hoặc re-roll. | Không vội vã sửa ca từ khi lỗi do model variance hoặc cue; không viết lại cả Chorus. |
 | **Section bị phẳng lì, không có cao trào** | `CONTROLS / ARRANGEMENT CUE` | Thêm cue năng lượng ở đầu đoạn: `[Chorus: Powerful beat drop, soaring vocal]` hoặc nén nhịp ca từ ngắn lại. | Không thay đổi cốt truyện hay Tứ của bài. |
 | **Hát luôn cả thẻ tag vào lời** | `LYRICS / METATAG BLEED` | Tag quá phức tạp hoặc đặt sai chỗ; lược bỏ các từ rườm rà trong ngoặc vuông, đưa hướng dẫn nhạc cụ về Style Prompt. | Không đổi lời ca. |
 | **Lệch / trôi thể loại (Genre Drift)** | `STYLE / GENRE TRIAGE` | Phân loại rõ: <br>1. `PROMPT_CONFLICT`: Thể loại triệt tiêu nhau $\rightarrow$ Tinh lọc lại danh mục nhạc cụ.<br>2. `MODEL_VARIANCE`: Model có độ biến thiên cao (nhánh wild) $\rightarrow$ Siết chặt từ khóa neo thể loại hoặc chọn model profile tiêu chuẩn.<br>3. `INTENTIONAL_FUSION`: Người dùng chủ ý lai tạo phong cách $\rightarrow$ Giữ nguyên, chỉ cân chỉnh tỉ trọng từ khóa. | Không đụng vào ca từ; không tự tiện xóa bỏ ý đồ lai tạo thể loại của người dùng. |
+
 
 ---
 

@@ -114,6 +114,23 @@ Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt 
 
 ---
 
+### LEXICAL NATURALNESS & CHỐNG "POLISH QUÁ TAY"
+
+> **Nguyên tắc cốt tử:**  
+> `NATURALNESS FIX MUST NOT INTRODUCE DECORATIVE SPECIFICITY`  
+> (Sửa cho tự nhiên thì tuyệt đối không được đưa thêm chi tiết làm dáng).
+
+- **CORRECT ≠ NATURAL ≠ FRESH ≠ POETICALLY EFFECTIVE:**  
+  Một từ có thể hoàn toàn đúng ngữ pháp, có tính hình tượng, nhưng lại tạo cảm giác "cố ý chọn chữ" (*writerly / show-off wording*).  
+  *Ví dụ:* `Nắng sớm lấm tấm trên khoảng sân gạch` $\rightarrow$ `sân gạch` đúng, có chi tiết vật liệu, nhưng có thể hơi "làm văn" nếu chi tiết gạch không có chức năng đẩy cảm xúc hay ký ức. Thay bằng `sân nhà` mang lại cảm giác đời thường, ấm áp và mở không gian rộng hơn.
+- **Natural Specificity vs Decorative Specificity:**  
+  - *Natural Specificity (Chi tiết tự nhiên / có căn cứ):* Mang dấu ấn provenance từ brief, hoặc trực tiếp tạo ra hành động, va chạm cảm xúc, âm thanh cụ thể $\rightarrow$ **GIỮ**.
+  - *Decorative Specificity (Chi tiết trang trí / AI tự vẽ):* Model tự thêm vào để nghe có vẻ "thơ và cụ thể hơn" mà không phục vụ việc gì $\rightarrow$ **ĐƠN GIẢN HÓA** về cách nói tự nhiên.
+- **Quy tắc giảm làm dáng:** Khi phát hiện một từ/cụm từ hơi "cố", phản xạ sửa mặc định là **giảm độ làm dáng, đưa về cách nói dung dị chân thật**, tuyệt đối không nâng lên thành các từ ngữ văn chương ước lệ (*thềm xưa, gạch rêu, hiên vắng, mái cũ*).
+
+
+---
+
 ## 5. Trụ cột 3: SONIC REALIZATION & LANDING (Âm thanh và điểm rơi)
 
 ### LINE LANDING — Điểm rơi cuối dòng có lực

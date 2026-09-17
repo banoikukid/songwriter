@@ -158,6 +158,28 @@ Vật hiện đại/kỹ thuật như `máy`, `điện thoại`, `màn hình`, `
 
 Không cấm vật hiện đại trong quê hương: cuộc gọi xa nhà có thể rất thật. Nhưng phải hỏi vật đó đang làm ấm ký ức hay chỉ ló ra như một món đồ công nghiệp. Nếu bỏ vật và giữ được giọng/người/quan hệ mạnh hơn, bỏ vật.
 
+#### Lexical Naturalness và Tính tất yếu của Chi tiết (Natural Specificity vs Decorative Specificity)
+
+```text
+CORRECT ≠ NATURAL ≠ FRESH ≠ POETICALLY EFFECTIVE
+```
+
+Một từ/cụm từ có thể hoàn toàn đúng ngữ pháp, có tính tạo hình cụ thể, nhưng lại tạo cảm giác "cố ý chọn chữ" (*writerly / show-off wording*) thay vì một cách phát ngôn chân thực chạm vào người nghe:
+- *Ví dụ đối chứng:* `Nắng sớm lấm tấm trên khoảng sân gạch`
+  - `sân gạch`: đúng ngữ pháp, có hình ảnh vật liệu cụ thể, nhưng có thể hơi "làm văn" nếu chi tiết gạch không có chức năng đẩy cảm xúc hay ký ức.
+  - `sân nhà`: cách nói tự nhiên, mở rộng không gian ký ức rộng hơn, ít cảm giác phô diễn chữ nghĩa.
+- **Quy tắc phán đoán tính tất yếu của chi tiết:**
+  ```text
+  Chi tiết cụ thể (Specificity)
+         ↓
+  Chi tiết này có "tự chứng minh sự tất yếu" (Earn its place) không?
+         ├─ CÓ (Mang provenance từ brief, tạo âm thanh bước chân, ký ức vật lý) ──► GIỮ
+         └─ KHÔNG (Chỉ là AI tự sinh để "trông thơ/cụ thể hơn") ────────────────► ĐƠN GIẢN HÓA (Đổi sang cách nói tự nhiên, mở hơn)
+  ```
+- **Nguyên tắc giảm làm dáng:**
+  `NATURALNESS FIX MUST NOT INTRODUCE DECORATIVE SPECIFICITY`  
+  Khi phát hiện một từ hơi gượng hoặc làm dáng, hướng sửa mặc định là **giảm độ làm dáng, đưa về cách nói dung dị tự nhiên**, TUYỆT ĐỐI KHÔNG tăng thêm độ hoa mỹ văn chương như *thềm xưa, gạch rêu, hiên vắng*.
+
 #### Thành ngữ và register
 
 Thành ngữ, cụm khuếch đại và collocation quen chỉ giữ khi chúng còn nguyên nghĩa, đúng trường cảm xúc và hợp register. Đừng cắt một nửa cụm quen hoặc ghép nó với một đối tượng khiến câu nghe như văn dịch. Với tình yêu mainstream, ưu tiên lời xác nhận, so sánh mềm, câu hỏi và thế đối đời thường; không dùng scale tai họa/đại ngôn để chứng minh cảm xúc lớn nếu bài không cố ý hài, theatrical, rock/rap phóng đại hoặc parody.

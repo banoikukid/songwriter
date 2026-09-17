@@ -33,6 +33,11 @@
       "id": "w6-suno-targeted-patch-repeatability",
       "split": "incident-regression",
       "prompt": "Người dùng chạy render Suno cho ca khúc và báo lỗi: 'Qua 2 lần gen liên tiếp, câu cuối Chorus chữ \"cũ\" đều bị ca sĩ hát lơ lớ thành \"cú\", và đoạn Chorus đang bị bẹt năng lượng so với Verse'. Hãy thực hiện chẩn đoán và đưa ra gói vá lỗi có mục tiêu (Targeted Patch) theo đúng quy chuẩn:\n- Xác định nguồn quan sát và độ tin cậy của bằng chứng (USER_REPORT, High Confidence, Repeatable Evidence: 2 lần liên tiếp cùng vị trí và triệu chứng).\n- Phân loại 2 tầng lỗi riêng biệt: tầng phát âm (LYRICS / PHONETIC) và tầng năng lượng (CONTROLS / ARRANGEMENT CUE).\n- Xuất bản vá tối thiểu (Minimal Targeted Patch) cho đúng 2 vị trí đó; tuyệt đối KHÔNG viết lại toàn bài, không đổi Tứ hay sửa Style prompt chung."
+    },
+    {
+      "id": "w7-lexical-naturalness-specificity",
+      "split": "capability",
+      "prompt": "Xét dòng ca từ bản nháp: 'Nắng sớm lấm tấm trên khoảng sân gạch'. Đánh giá và tinh chỉnh theo quy chuẩn LEXICAL NATURALNESS:\n- Kiểm tra tính tất yếu của chi tiết (Does this specificity earn its place?): Xác định xem 'sân gạch' có mang provenance từ brief hoặc chức năng cảm xúc/hành động cụ thể hay chỉ là chi tiết vật liệu trang trí do AI tự thêm.\n- Áp dụng nguyên tắc 'Naturalness fix must not introduce decorative specificity': Đưa ra giải pháp chuyển đổi về cách nói tự nhiên, dung dị đời thường hơn ('khoảng sân nhà' hoặc 'sân trước') thay vì nâng cấp thành từ ngữ văn chương hoa mỹ ('thềm xưa', 'gạch rêu')."
     }
   ]
 }

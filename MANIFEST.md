@@ -8,10 +8,10 @@
 
 ```yaml
 skill: songwriting-min
-version: 1.2.0
+version: 1.3.0
 release_date: 2026-08-11
 last_updated: 2026-09-17
-purpose: "Writer-First Vietnamese Songwriting Skill with Adaptive Discovery Flow & Pilot Proofing"
+purpose: "Writer-First Vietnamese Songwriting Skill with Adaptive Discovery Flow & Pilot Proofing (v1.3.0 Hardened Release)"
 repository: "https://github.com/banoikukid/songwriter"
 source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills/songwriting-min"
 ```
@@ -24,7 +24,7 @@ source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 | :--- | :--- | :--- |
 | `LICENSE` | Giấy phép mã nguồn mở MIT License | ✅ Active |
 | `README.md` | Giới thiệu tổng quan & hướng dẫn nạp vào Agent | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Flow khám phá thích nghi, Pilot Proofing, Gates & Checklists (v1.2.0) | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Flow khám phá thích nghi, Pilot Proofing, Gates & Checklists (v1.3.0) | ✅ Active |
 | `MANIFEST.md` | Bảng kê khai tài nguyên và phiên bản | ✅ Active |
 | `agents/openai.yaml` | Cấu hình interface cho agent | ✅ Active |
 

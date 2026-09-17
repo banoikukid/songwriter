@@ -28,20 +28,34 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc)
 
 ---
 
-## 2. Cấu Trúc Báo Cáo Thẩm Định (Review Output Format)
+## 2. Sáu Lớp Thẩm Định Chất Lượng (The 6 Quality Lenses)
+
+Khi thẩm định độc lập, reviewer soi xét ca từ qua 6 lăng kính độc lập:
+
+1. **Semantic Correctness:** Tính chính xác của ngữ nghĩa, đúng Tứ, logic nhân vật và section jobs.
+2. **Natural Vietnamese:** Cú pháp tiếng Việt tự nhiên, trật tự từ đời sống, không gượng ép.
+3. **Emotional Credibility:** Độ tin cậy cảm xúc, đúng nhiệt độ (không làm nguội, không bi lụy hóa giả tạo).
+4. **Lyric Behavior / Singability:** Tính nén của ca từ, phân đoạn hơi thở, nhịp điệu và điểm rơi có lực.
+5. **Image Necessity:** Tính tất yếu của hình ảnh (chi tiết có chức năng đẩy chuyện/quan hệ hay chỉ là đạo cụ trang trí?).
+6. **Lexical Naturalness:** Độ tự nhiên từ vựng (từ ngữ dung dị chân thật hay cố ý chọn chữ/làm dáng văn vẻ?).
+   *(Lưu ý phân biệt: `Image Necessity ≠ Lexical Naturalness`)*
+
+---
+
+## 3. Cấu Trúc Báo Cáo Thẩm Định (Review Output Format)
 
 Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông tin:
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Prose / Weak Landing / Forced Rhyme]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Prose / Weak Landing / Forced Rhyme / Decorative Specificity]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng hoặc phẳng cảm xúc]
 - TARGETED FIX: [1–2 phương án sửa tại chỗ, giữ nguyên mạch của section]
 ```
 
 ---
 
-## 3. Danh Mục Các Lỗi Trọng Tâm (Anti-Slop & Quality Checklist)
+## 4. Danh Mục Các Lỗi Trọng Tâm (Anti-Slop & Quality Checklist)
 
 ### A. CRITICAL (Bắt buộc sửa)
 1. **Thesis Line & Analysis Leakage:**
@@ -58,9 +72,14 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
    - Dòng trọng tâm của Chorus hoặc chốt đoạn kết thúc bằng một từ chức năng (*"nữa đâu", "được gì", "thế này"*); cần chuyển trọng tâm về động từ, danh từ cảm xúc hoặc khoảng lặng.
 3. **Cliché & Generic Tropes (Sáo mòn):**
    - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
+4. **Unnecessary / Decorative Specificity (Chi tiết trang trí thiếu tất yếu):**
+   - Thêm chi tiết vật liệu hoặc cảnh vật cụ thể một cách máy móc (*"sân gạch", "tường rêu", "cửa sắt"*...) mà không có provenance từ brief hoặc không phục vụ chức năng cảm xúc/hành động. Reviewer hỏi: *"Chi tiết này có tự chứng minh sự tất yếu (earn its place) không?"* Nếu không, gợi ý đơn giản hóa về cách nói tự nhiên rộng hơn (*"sân nhà", "bức tường"*).
+5. **Lexical Pretentiousness / Over-Writerly (Làm dáng từ vựng):**
+   - Dùng từ ngữ hoa mỹ ước lệ để cố gắng "thơ hơn" (*"thềm xưa", "tiếng tơ", "mộng tàn"*...) trong khi một cách nói chân thật sẽ truyền cảm hơn nhiều.
 
 ### C. OPTIONAL (Trau chuốt thêm)
 1. **Sonic Polish:**
    - Thêm echo phụ âm đầu, lặp nguyên âm vang ở nốt ngân để tăng độ bắt tai.
 2. **Image Freshness:**
    - Thay một động từ quen thuộc bằng một động từ mang tính vật lý/cử chỉ đời thường hơn.
+
