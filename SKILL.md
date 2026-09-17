@@ -391,10 +391,11 @@ Trạng thái handoff:
 Nếu người dùng yêu cầu xuất sang Suno, kích hoạt **Suno Adapter** (`references/suno-production.md` và `references/suno-handoff.md`).
 - **Suno Adapter Output Contract:** Khối định dạng `STYLE PROMPT` – `LYRICS BLOCK` – `CONTROLS / SETTINGS` chỉ là *hợp đồng định dạng xuất ra* (output contract) dành cho Suno, **tuyệt đối không phải mô hình tư duy nội tại** (cognitive model) của người viết. Quá trình sáng tác luôn đi từ: `Tứ → Central Intent → Hook → Image System → Form → Lyric`.
 - **Chính sách chẩn đoán lỗi Suno (Suno Failure Diagnosis Runtime Policy):**
-  1. **Nguồn quan sát (Observation Source & Confidence):**
-     - `USER_REPORT`: Người dùng nghe trực tiếp và báo lỗi cụ thể (Confidence = High).
-     - `AUDIO_OBSERVATION`: Phân tích file audio demo thực tế (Confidence = High/Medium).
-     - `MODEL_INFERENCE`: Mô hình tự suy đoán rủi ro (Confidence = Low / Provisional Hypothesis). *Tuyệt đối không tự ý patch bài hát chỉ dựa trên suy diễn chủ quan khi chưa có bằng chứng quan sát thực tế!*
+  1. **Nguồn quan sát & Bất biến chẩn đoán (Observation Source & Invariant):**
+      - `USER_REPORT`: Người dùng nghe trực tiếp và báo lỗi cụ thể (Confidence = High).
+      - `AUDIO_OBSERVATION`: Phân tích file audio demo thực tế (Confidence = High/Medium).
+      - `MODEL_INFERENCE`: Mô hình tự suy đoán rủi ro (Confidence = Low / Provisional Hypothesis). *Tuyệt đối không tự ý patch bài hát chỉ dựa trên suy diễn chủ quan khi chưa có bằng chứng quan sát thực tế!*
+      - **Bất biến chẩn đoán:** Heuristic âm học (như nguyên âm mở, đếm âm tiết) chỉ có quyền tăng mức độ nghi vấn (`Suspicion ↑`), tuyệt đối không có quyền biến giả thuyết thành quan sát thực tế để vội vã kết luận lỗi thuộc về ca từ.
   2. **Kiểm tra tính lặp lại (Repeatability Check):**
      - Suno có tính ngẫu nhiên và tạo sinh (stochastic / generative), kết quả có thể biến thiên giữa các lần tạo. Nếu lỗi chỉ xảy ra 1 lần (`Single-output anomaly`), giải pháp đầu tiên luôn là **Re-roll** (tạo lại lượt mới) với cùng prompt.
      - Chỉ can thiệp chỉnh sửa khi lỗi lặp lại có tính quy luật (`Repeatable pattern`).

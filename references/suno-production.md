@@ -123,10 +123,14 @@ Suno có tính ngẫu nhiên và tạo sinh (stochastic / generative), kết qu�
 
 Trước khi quyết định vá tầng nào, agent phải đánh giá xem nguyên nhân gây ra lỗi đến từ đâu, tránh vội vã sửa ca từ khi lỗi bắt nguồn từ mô hình hoặc biểu diễn:
 
+> **BẤT BIẾN CHẨN ĐOÁN (EVIDENCE-FIRST INVARIANT):**  
+> **Heuristic chỉ có quyền tăng mức độ nghi vấn (Suspicion ↑), tuyệt đối không có quyền biến giả thuyết (hypothesis) thành quan sát thực tế (observation).**  
+> *Ví dụ:* Từ kết dòng là nguyên âm mở $\rightarrow$ `Suspicion ↑`, **chứ không phải** `Cause = Lyric`. Chỉ khi người dùng nghe bản render xác nhận chữ đó bị ngân lê thê lặp lại trên cùng setup, thì mới có căn cứ xem xét `LYRIC_INDUCED`. Nếu chưa có bằng chứng audio/người nghe, mọi phán đoán âm học chỉ dừng ở mức *giả thuyết tạm thời* (`MODEL_INFERENCE` — Confidence Low).
+
 ```text
 TRIỆU CHỨNG (ví dụ: Ngân chữ cuối quá dài)
    │
-   ├── LYRIC-INDUCED (Confidence: Cao nếu từ kết dòng là nguyên âm quá mở và không có dấu ngắt)
+   ├── LYRIC-INDUCED (Confidence: Cao chỉ khi nghe audio/user report xác nhận từ kết âm mở không có điểm dừng)
    ├── VOCAL-PERFORMANCE-INDUCED (Confidence: Cao nếu có cue [Belt]/[Soaring] kéo dài)
    ├── MELODY-INDUCED (Do tiết tấu và beat drop tại cadence)
    ├── MODEL-VARIANCE (Do model ngẫu nhiên giữ note)
@@ -163,7 +167,7 @@ TRIỆU CHỨNG (ví dụ: Ngân chữ cuối quá dài)
 |---|---|---|---|---|
 | **Hát lơ lớ, ngọng dấu thanh điệu** | `PHONETIC_FIT` (Confidence: High nếu lặp lại ở cùng một từ) | `LYRICS / PHONETIC FIT` | Tìm đúng từ/cụm bị sai; thay bằng từ đồng nghĩa có thanh điệu tự nhiên hơn hoặc đổi sang nguyên âm mở. | Không viết lại Tứ; không sửa Style prompt. |
 | **Giọng hát bị đổi giới tính (nam $\leftrightarrow$ nữ)** | `GENDER_DRIFT` (Confidence: High nếu prompt thiếu chỉ định hoặc model bỏ qua prompt) | `CONTROLS / VOCAL GENDER` hoặc `STYLE / VOCAL IDENTITY` | Ưu tiên chọn Vocal Gender trong Advanced Options; nếu không có, thêm từ khóa nhấn mạnh vào Style: `solo female vocal throughout` (hoặc `male vocal only`). | Không sửa lời bài hát; không đụng vào melody. |
-| **Dồn chữ, nuốt chữ ở cuối câu** | `BREATH_OVERLOAD` (Confidence: High nếu câu > 10 âm tiết không có dấu ngắt) | `LYRICS / ONE-BREATH` | Bổ sung dấu phẩy ngắt nhịp hoặc cắt bớt 2–3 chữ thừa/hư từ để phrase có chỗ thở tự nhiên. | Không sửa các câu xung quanh; không đổi cấu trúc đoạn. |
+| **Dồn chữ, nuốt chữ ở cuối câu** | `BREATH_OVERLOAD` (Confidence: High chỉ khi audio/user report xác nhận hát bị dồn dập, hoặc câu vượt quá không gian phrase/hơi thở cho phép; số âm tiết chỉ là signal, không phải ngưỡng cứng) | `LYRICS / ONE-BREATH` | Bổ sung dấu phẩy ngắt nhịp hoặc cắt bớt 2–3 chữ thừa/hư từ để phrase có chỗ thở tự nhiên. | Không sửa các câu xung quanh; không đổi cấu trúc đoạn. |
 | **Ngân chữ cuối quá dài, kéo lê thê** | 1. `LYRIC_INDUCED` (nguyên âm quá mở)<br>2. `CUE_INDUCED` (tag soaring/belt)<br>3. `MODEL_VARIANCE` | `LYRICS / LINE LANDING` (nếu lyric) hoặc `CONTROLS / CUE` (nếu do cue) | Nếu do lyric: đổi từ kết dòng sang âm có điểm rơi gọn hoặc thêm dấu phẩy ngắt nhịp. Nếu do cue: bỏ các tag [Soaring]/[Belt] ở cuối đoạn. Nếu do model variance: re-roll. | Không vội vã sửa ca từ khi lỗi do model variance hoặc cue; không viết lại cả Chorus. |
 | **Section bị phẳng lì, không có cao trào** | `ENERGY_DEFICIT` (Confidence: High nếu thiếu dynamic contrast giữa các đoạn) | `CONTROLS / ARRANGEMENT CUE` | Thêm cue năng lượng ở đầu đoạn: `[Chorus: Powerful beat drop, soaring vocal]` hoặc nén nhịp ca từ ngắn lại. | Không thay đổi cốt truyện hay Tứ của bài. |
 | **Hát luôn cả thẻ tag vào lời** | `METATAG_BLEED` (Confidence: High nếu tag phức tạp hoặc chèn giữa câu) | `LYRICS / METATAG BLEED` | Lược bỏ các từ rườm rà trong ngoặc vuông, đưa hướng dẫn nhạc cụ về Style Prompt. | Không đổi lời ca. |
