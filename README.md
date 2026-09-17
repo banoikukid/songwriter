@@ -52,14 +52,14 @@
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill — v1.3.5)
+## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill — v1.3.6)
 
 ```
 songwriter/
 ├── LICENSE                                # Giấy phép mã nguồn mở MIT License
 ├── README.md                              # Giới thiệu tổng quan & hướng dẫn sử dụng
 ├── SKILL.md                               # Entry point, Adaptive Flow, Pilot Proofing, Micro-Polish & Gates
-├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.3.5)
+├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.3.6)
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
 └── references/                            # 33 tệp tri thức chuyên sâu (Phân tầng 3-Tier)

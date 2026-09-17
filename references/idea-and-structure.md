@@ -273,14 +273,13 @@ Chỉ chạy khi Tứ đã chọn cần một hình tượng hoặc hệ ảnh �
    Khi hai route đều có provenance và sinh Cốt khác hẳn, fan-out hai arm rồi chọn bằng brief/material necessity. Không lai route chỉ để có nhiều ảnh hơn.
 
 1. **Định vai và vị trí:** nhận ra hình tượng đang làm biến cố, bằng chứng, bản lề, đối sánh, cô đọng hook, refrain, place-anchor hay tâm của một constellation. Đây là chức năng đã có trong Tứ, không phải menu kỹ thuật.
-2. **Thử chuyển động:** hỏi hình tượng xuất hiện, đổi trạng thái/ý nghĩa hoặc trở lại ra sao qua các section. Không bắt nó trải một vòng đời vật lý; một lần đúng điểm rơi vẫn đủ.
-3. **Audition theo chức năng, không theo số lượng:** mỗi ảnh được giữ phải làm quan hệ hoặc semantic tension tiến bằng đào sâu, mở rộng, biến nghĩa hay dư vang. Với constellation, kiểm lực hút chung và phần đóng góp khác nhau của từng ảnh; ảnh không có section job nghe được thì loại.
-4. **Giữ đúng lane:** ở `MIXED`, premise, lời gọi, hành động quan hệ hoặc hệ quả vẫn phải nghe rõ. Ở `FIELD-DOMINANT`, con người có thể lùi khỏi vị trí chủ ngữ nhưng lực cảm xúc và referent không được biến mất.
-5. **Dừng sớm:** nếu hình tượng chính đã mang đủ bài, lyric trực tiếp mạnh hơn hoặc ảnh mới chỉ thay danh từ cho đẹp, sang Cốt.
+### ONE CENTRAL METAPHOR — Một ẩn dụ trung tâm đào sâu (nwp)
 
-Fail `IMAGE-INVENTORY` tại Tứ/Cốt khi các ảnh đúng chủ đề nhưng không có chức năng phân biệt, có thể đổi chỗ/thay thế mà section job, tension và payoff không đổi. Khi đó bỏ ảnh thừa hoặc quay lại vai của hình tượng chính; không chữa bằng thêm cầu giải thích. Kết quả audition chỉ là một ghi chú nén về `route → vai → chuyển động → vị trí`, không được rò thành lời phân tích trong lyric.
-
-Chỉ dùng `IMAGE-LITERALIZATION` cho route `EMBLEMATIC`: fail khi hình tượng biểu trưng tự sinh người tác động, đạo cụ, hành động hay biến cố vật lý ngoài provenance, khiến phép so sánh thành cảnh thật. Không dùng diagnostic này để cấm chuyển động tự nhiên của `LITERAL/EVENT` hoặc agency giàu cảm xúc của `EMOTIONAL-FIELD`. Các động từ như `tàn`, `rụng`, `trôi`, `phai` vẫn hợp khi giữ đúng phép tương đồng; sửa bằng cách trả hình tượng về vai so sánh/kết tinh, không xóa sạch hình ảnh.
+Khi concept thực sự cần ẩn dụ để biểu đạt:
+- **Ưu tiên 1 ẩn dụ mạnh được khám phá sâu (One Central Metaphor):** Thay vì rải nhiều ẩn dụ hỗn tạp (*lửa, nước, mây trời, đại dương, vì sao...*), hãy chọn **duy nhất một hình tượng trung tâm** và khai thác các biến thể, chiều sâu và điểm rơi của nó:
+  $$\text{Emotion} \rightarrow \text{Central Metaphor} \rightarrow \text{Variation / Deepening} \rightarrow \text{Payoff}$$
+- **Không ép mọi bài phải có ẩn dụ:** Một bài tình yêu hoàn toàn có thể không cần ẩn dụ nào mà vẫn lay động sâu sắc bằng sự thật cảm xúc, sự thật quan hệ và ngôn ngữ trực diện.
+- **Tránh ẩn dụ chồng chéo (Metaphor clutter):** Nếu Verse ví tình yêu như chiếc áo cũ, Chorus không nhảy sang ngọn hải đăng, rồi Bridge lại biến thành con thuyền giữa bão. Giữ tính nhất quán của thế giới hình tượng.
 
 ### Ngoại hiện cảm xúc — emotional field
 
@@ -389,12 +388,21 @@ Chorus của form V-C cần ba việc: khác vai với Verse, có câu đinh, ne
 
 Với declaration mainstream, Verse đặt câu hỏi/khó nói hoặc một mặt của mệnh đề; Pre tạo lực; Chorus trả lời. Dùng parallelism và repetition có chủ đích. Không bắt Bridge xoay; Bridge có thể rút nhạc, thú nhận ngắn hoặc nâng độ chắc của cùng thesis.
 
-Ghi section job bằng **chuyển động biểu đạt nghe được**: một speech act giữa người nói–người nghe, hoặc một thay đổi của thế đối, emotional field, hình tượng, nhịp cú pháp hay khoảng trống. `Gọi–hỏi–thú nhận–nhượng bộ` chỉ là một họ khả năng, không phải mặc định. Đặc biệt ở Bridge, không giao việc bằng một luận điểm giải thích ký ức, thời gian, tình yêu hay cơ chế tâm lý. Nếu job chỉ nén được thành `X nghĩa là/gây ra/giữ lại Y`, đó là ghi chú phân tích; chuyển nó thành khoảnh khắc nhận ra hoặc chuyển động biểu đạt trước khi sinh immediate utterance.
+### CÔNG CỤ TƯ DUY TÙY CHỌN (OPTIONAL THINKING TOOLS)
 
-### HOOK DISTILLATION & HOOK-FIRST REWRITE — chưng cất payoff, chống Chorus giải thích
+1. **Emotional Contradiction (Mâu thuẫn cảm xúc đồng hiện — aimusicpreneur):**
+   Khi concept bị phẳng hoặc quá quen thuộc, tự hỏi: *Có hai cảm xúc nào đang cùng tồn tại trong nhân vật lúc này?*
+   - *Ví dụ:* Yêu + sợ mất; hạnh phúc + bất an; muốn đến gần + sợ phụ thuộc; tha thứ + vẫn đau.
+   - Sức căng giữa hai cảm xúc này lập tức tạo ra chiều sâu tâm lý và độ rung cảm thật mà không cần drama ngoại cảnh.
+   - *Lưu ý:* Đây là công cụ tùy chọn (optional), chỉ dùng khi bài cần; không biến thành yêu cầu bắt buộc cho mọi bài.
+
+2. **Chorus-First Entry (Viết Chorus trước — regiellis & aimusicpreneur):**
+   Khi brief hoặc hạt mầm ý tưởng đã có một hook hay tâm cảm xúc rất rõ, có thể viết ngay Chorus để chốt **sự thật cảm xúc giản dị nhất (simplest emotional truth)**. Sau đó, viết Verse 1, Pre và Verse 2 để chuẩn bị đà nâng đỡ Chorus. Khi brief chưa rõ, vẫn đi theo trình tự thông thường.
+
+### HOOK DISTILLATION & CHORUS AS SIMPLEST EMOTIONAL TRUTH (regiellis)
 
 Sau rough Chorus, thực hiện một lượt refine riêng cho hook:
-1. **Xác định hook candidate:** Tìm 1 câu hoặc 1 cặp câu chứa payoff cảm xúc rõ nhất; câu nào người nghe có thể nhớ và ngân lại sau một lần nghe; câu nào trả lời trực diện tựa bài hoặc sức căng trung tâm (central tension) tốt nhất.
+1. **Xác định hook candidate:** Tìm 1 câu hoặc 1 cặp câu chứa payoff cảm xúc rõ nhất; câu nào người nghe có thể nhớ và ngân lại sau một lần nghe; mang **danh tính cảm xúc (emotional identity)** riêng biệt; câu nào trả lời trực diện tựa bài hoặc sức căng trung tâm tốt nhất.
 2. **Đặt hook ở vị trí có lực:** Đưa hook về đầu hoặc cuối Chorus để tạo điểm neo ghi nhớ vững chắc.
 3. **Phân vai các line còn lại:** Các dòng quanh hook chỉ được làm một trong ba việc:
    - *Prepare:* chuẩn bị lực, bối cảnh và nhịp thở để hook rơi xuống;
@@ -402,7 +410,7 @@ Sau rough Chorus, thực hiện một lượt refine riêng cho hook:
    - *Release/Payoff:* giải phóng cảm xúc, nâng đỡ dư ba của hook.
 
 **Chống biến Chorus thành luận đề:**
-- Chorus là nơi **giải phóng cảm xúc (emotional release)**, không phải bản tóm tắt tình huống hay bản lập luận logic.
+- Chorus là **sự thật cảm xúc giản dị nhất (simplest emotional truth)** và là nơi **giải phóng cảm xúc (emotional release)**, không phải bản tóm tắt tình huống hay bài lập luận logic.
 - Tránh mô thức luận đề: `Không cần X vì có Y là đủ` hoặc `không X, mà Y, nên Z`.
 - Nếu hook mạnh đang nằm giữa nhiều câu giải thích câu chuyện: cắt bớt các câu giải thích hoàn cảnh đã được Verse chuẩn bị; cho các line còn lại phục vụ hook, tuyệt đối không cạnh tranh hay chia nhỏ sự chú ý với hook.
 

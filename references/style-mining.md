@@ -11,6 +11,15 @@
 
 Mood không tự thắng genre và genre không tự cấp cốt, vật liệu hay vần. Khi các trục xung đột, giữ constraint được user/audio xác nhận; hỏi lại nếu lựa chọn sẽ làm đổi hẳn sản phẩm.
 
+## Khai thác phong cách từ bài mẫu (Pattern Extraction, Not Paraphrase — nwp)
+
+Khi user cung cấp nghệ sĩ, ca khúc tham chiếu hoặc bài mẫu:
+- **Được phép trích xuất (Extract Patterns):** Section pattern, line density, xu hướng số âm tiết/nhịp thở, hành vi gieo vần, chiến lược ẩn dụ, emotional arc, cách đặt hook, và mức độ khẩu ngữ/trực diện (conversational register).
+- **Tuyệt đối KHÔNG trích xuất (Never Copy):** Không sao chép câu hát đặc trưng, cụm từ riêng biệt, cốt truyện cụ thể, hình ảnh độc quyền hoặc từ ngữ ca từ của bài mẫu.
+- **Quy trình chuẩn hóa:**
+  $$\text{REFERENCE} \rightarrow \text{PATTERN EXTRACTION} \rightarrow \text{STYLE DNA} \rightarrow \text{ORIGINAL CONCEPT} \rightarrow \text{ORIGINAL LYRIC}$$
+  *(Tuyệt đối không chạy quy trình: REFERENCE → PARAPHRASE).*
+
 ## STYLE-SPEC tối thiểu
 
 Nén thành các trường cần thiết, không bắt điền đủ khi bằng chứng thiếu:

@@ -9,8 +9,8 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 
 ## 1. Triết lý sáng tác cốt lõi (Creative North Star)
 
-> **CẢM XÚC TRUNG TÂM LÀ MỤC TIÊU CHÍNH.**  
-> Ca từ phải làm người nghe cảm được điều đó. Mọi hình ảnh, hành động, chi tiết và kỹ thuật chỉ là phương tiện. Nếu một chi tiết chỉ làm nhiệm vụ dựng cảnh, chứng minh kỹ thuật hoặc làm bài có vẻ “thơ”, nhưng không làm cảm xúc hoặc ý nghĩa tiến lên, **bỏ nó**.  
+> **"STRUCTURE SERVES THE EMOTION, NOT THE OTHER WAY AROUND."**  
+> Cấu trúc phục vụ cảm xúc, không phải cảm xúc phục vụ cấu trúc. Mọi quy tắc (*Show don't tell, contrast, rhyme, form*) chỉ là **chỉ dẫn (guidelines, not rules)**. Ca từ phải làm người nghe cảm được sự thật tâm hồn của nhân vật. Nếu một chi tiết, kỹ thuật hay hình ảnh chỉ làm bài có vẻ “thơ” nhưng không làm cảm xúc tiến lên: **bỏ nó**.  
 > *(Mnemonic: Đừng mô tả tình yêu. Hãy làm người nghe cảm thấy tình yêu. Emotion first. Lyric second. Technique third.)*
 
 ### Mô hình tư duy 3 bước của Writer:
@@ -30,8 +30,9 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 - **Behavior Specificity (Phụ trợ tùy chọn):** Cử chỉ, hành vi cụ thể; chỉ giữ lại nếu bộc lộ sự thật cảm xúc lớn hơn, không thay thế cho tình yêu.
 
 ### Tự do cho Writer-pass & Chống máy móc:
-- **Tự do lựa chọn phương thức biểu đạt:** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: *câu trực diện (direct declaration), hình ảnh, hành động, tương tác, ẩn dụ, lặp từ, khoảng lặng, hoặc câu tự sự nội tâm*. Câu trực diện như *"Anh yêu em đến mức chẳng còn muốn đi đâu nữa"* có giá trị ca từ cao khi chân thật và đúng điểm rơi.
-- **Định vị ngôn ngữ:** `Natural ≠ ordinary`, `Poetic ≠ artificial`, `Direct ≠ bad`, `Specific ≠ artificial`. Ca từ được bay bổng, giàu nhạc tính; không ghìm câu chữ xuống thành transcript sinh hoạt hay kiểm kê đồ đạc.
+- **Tự do lựa chọn phương thức biểu đạt (Hermes & regiellis):** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: *câu trực diện (direct declaration), hình ảnh, hành động, tương tác, ẩn dụ, lặp từ, khoảng lặng, hoặc câu tự sự nội tâm*. Câu trực diện như *"Anh yêu em đến mức chẳng còn muốn đi đâu nữa"* có giá trị ca từ cao khi chân thật và đúng điểm rơi. Không cố ép câu trực tiếp thành ẩn dụ gượng gạo.
+- **Song, Not Prose (NuNaught):** Viết để hát chứ không chỉ để đọc. Ưu tiên nhịp thở tự nhiên (singable phrasing), dấu thanh ăn khớp ngữ điệu (natural stress), ngắt dòng có chủ ý. Vần là chất keo hỗ trợ, không phải chiếc lồng giam câu chữ.
+- **1–3 Human Details (Guidance, không áp quota):** Mỗi bài có thể có 1–3 chi tiết người thật nhớ được (cử chỉ, thói quen, cách gọi riêng). Không ép mỗi Verse phải có đồ vật; không biến việc chọn chi tiết thành worksheet. Chi tiết chỉ tồn tại nếu giúp người nghe cảm sâu hơn điều bài hát đang nói.
 - **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe (có thể đứng độc lập như một câu hát lay động). Các câu này có thể tập trung ở Chorus hoặc phân bố tự nhiên theo dòng cảm xúc; tuyệt đối không ép mỗi section phải có quota một câu "làm thơ".
 - **Minimal Packet cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ truyền: *central intent, relationship, emotional movement, section guidance, hook/payoff, register*.
 
@@ -69,14 +70,14 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 4. **Provenance & Điểm nhìn (POV):** Tôn trọng phạm vi quan sát của nhân vật; không tự bịa quyền biết chắc nội tâm người khác.
 
 ### Định hướng chuyển động cảm xúc từng đoạn (Section Guidance - Preferred Behavior)
-*Đây là hướng dẫn định hình để Writer tự do triển khai theo mạch tự nhiên, không phải các phanh cấm đoán hay checklist cứng:*
+*Đây là hướng dẫn định hình theo regiellis & Hermes để Writer tự do triển khai, không phải các phanh cấm đoán hay checklist cứng:*
 
-- **VERSE:** Bộc lộ cách nhân vật trải nghiệm mối quan hệ; tránh biến thành danh mục kiểm kê đồ đạc hay hoạt cảnh sinh hoạt.
-- **PRE-CHORUS:** Gia tăng áp lực cảm xúc, tạo đà mong chờ cho sự thật sắp hé mở.
-- **CHORUS:** Nơi giải phóng cảm xúc (*emotional release*), kết tinh sự thật cảm xúc trung tâm; chứa hook đáng nhớ nhất; tránh viết thành luận đề (*không X mà Y, không cần X vì có Y*).
-- **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc thông tin quan hệ mới; tránh lặp lại cơ chế hay chỉ đổi sang một địa điểm khác.
-- **BRIDGE:** Khoảnh khắc thú nhận (*confession*), bước ngoặt cảm xúc (*turn*), sự thật chưa từng nói; tránh biến thành bài thuyết trình so sánh triết lý (*Người ta thường... nhưng nhìn em anh mới hiểu...*).
-- **FINAL CHORUS:** Trở về với ý nghĩa cảm xúc đã biến chuyển sâu sắc hơn; ưu tiên leo thang độ thân mật (*intimacy escalation*), tránh phóng đại từ ngữ vĩ mô (*Big-Word Escalation*).
+- **VERSE:** Đưa người nghe bước vào thế giới cảm xúc và hoàn cảnh quan hệ (*concrete situation/relationship*); chỉ giữ chi tiết nếu nó giúp cảm xúc vận động, tránh kiểm kê ngoại cảnh.
+- **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*pressure/lift*), tạo đà mong chờ cho sự thật sắp hé mở (không bắt buộc bài nào cũng phải có).
+- **CHORUS:** Nơi giải phóng cảm xúc (*emotional release*), kết tinh **sự thật cảm xúc giản dị và sâu sắc nhất (simplest emotional truth)**; chứa hook mang danh tính cảm xúc (*emotional identity*); tránh viết thành luận đề (*không X mà Y, không cần X vì có Y*).
+- **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc góc nhìn mới; tránh lặp lại cơ chế hay chỉ đổi sang một địa điểm khác.
+- **BRIDGE:** Khoảnh khắc thú nhận (*confession*), góc nhìn mới (*new angle*), mâu thuẫn cảm xúc (*contradiction*) hoặc bước ngoặt cảm xúc (*turn*); tránh biến thành bài thuyết trình so sánh triết lý (*Người ta thường... nhưng nhìn em anh mới hiểu...*).
+- **FINAL CHORUS:** Trở về hook với ý nghĩa hoặc trạng thái cảm xúc đã biến chuyển sâu sắc hơn (*return to hook with changed meaning / deeper emotional state*); ưu tiên leo thang độ thân mật (*intimacy escalation*), tránh phóng đại từ ngữ vĩ mô (*Big-Word Escalation*).
 
 > [!IMPORTANT]
 > **Hiến pháp bảo vệ ngòi bút:**
@@ -98,19 +99,20 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 ```
 
 ### Bảng Ưu tiên Thẩm định Chất lượng (Lyric Quality Bar):
-- **P0: Có cảm xúc không?** Người nghe có rung động trước central emotion không?
-- **P0: Có phải bài hát không?** Là ca từ giàu nhạc tính hay chỉ là văn xuôi/hoạt cảnh tự sự?
-- **P1: Cảm xúc có chuyển động không?** Các section có đào sâu/đổi nghĩa không hay chỉ đổi địa điểm?
-- **P1: Có câu đáng nhớ không?** Hook/payoff có identity riêng, neo được vào lòng người nghe không?
-- **P1: Câu chữ có tự nhiên không?** Tiếng Việt đời sống đúng ngữ vực, không gượng ép.
-- **P2: Hình ảnh/chữ có đẹp không?** Image, nhạc điệu, vần (đẹp câu chữ không được phép thắng cảm xúc).
-- **P2: Có gì dư không?** Chi tiết không gánh cảm xúc thì kiên quyết bỏ bớt.
+- **P0: Cảm xúc có sống không?** Người nghe có rung động trước central emotion không?
+- **P0: Có phải bài hát (lyric/song) không, hay là văn xuôi (prose)?** Câu từ có nhịp thở âm nhạc không?
+- **P1: Hook có bản sắc (identity) riêng không?** Dễ nhớ, có thể ngân nga, neo giữ được người nghe.
+- **P1: Cảm xúc có chuyển động (emotional progression) không?** Hay các section đứng yên một chỗ?
+- **P1: Verse 2 có phát triển không?** Đi sâu hơn, tăng vulnerability, không twin lặp lại Verse 1.
+- **P1: Có thesis/explanation dư thừa không?** Có dòng nào đang đứng ngoài giải thích bài hát không?
+- **P2: Nhạc tính, nhịp thở & miệng hát (Prosody & singability):** Điểm rơi, ngắt hơi tự nhiên.
+- **P2: Vần điệu, hình ảnh & chi tiết (Rhyme, cliché, imagery):** Đẹp câu chữ không được phép thắng cảm xúc.
 
 ### 3 câu hỏi kiểm tra nhanh trước khi release:
 1. **Nếu bỏ phần mô tả bối cảnh, cảm xúc cốt lõi còn sống không?** (Bối cảnh có nâng đỡ cảm xúc hay chỉ là cảnh tĩnh/kê khai?)
 2. **Có section nào đang kể việc hoặc giải thích ý thay vì hát cảm xúc không?** (Tránh hoạt cảnh tự sự và tiểu luận tâm lý).
 3. **Sau khi đọc xong, có câu/hook nào còn ở lại vì cảm xúc hoặc cách nói, không chỉ vì thông tin?** (Đủ sức nặng ca từ).
-*(Nếu không đạt $\rightarrow$ nén cảnh, cắt giải thích, tập trung vào sự thật cảm xúc).*
+*(Nếu không đạt $\rightarrow$ nén cảnh, cắt giải thích, tập trung vào sự thật cảm xúc theo quy trình: CUT → COMPRESS → REPOSITION → REPURPOSE → only then ADD).*
 
 ### Phân tầng xử lý & Chẩn đoán nhẹ:
 1. **Lỗi ở Tứ / Ý niệm cốt lõi:** Lạc đề, sai miền nghĩa brief $\rightarrow$ sửa Tứ tại `references/idea-and-structure.md`.

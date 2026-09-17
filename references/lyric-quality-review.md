@@ -76,9 +76,9 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / SCENE-REPORT / PSYCHOLOGY-ESSAY / BIG-WORD-ESCALATION / Audio-Claim-Violation]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / SCENE-REPORT / PSYCHOLOGY-ESSAY / BIG-WORD-ESCALATION / ABSTRACT-NOUN-STACKING / OVER-EXPLAINED-METAPHOR / CLICHE-ESCALATION / MISSING-IDIOSYNCRASY / PROSE-AI-TELL / Audio-Claim-Violation]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng, phẳng cảm xúc hoặc phô diễn chữ]
-- TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA hoặc NÉN NGHĨA, giữ nguyên mạch section]
+- TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA hoặc NÉN NGHĨA theo thứ tự: CUT → COMPRESS → REPOSITION → REPURPOSE → only then ADD, giữ nguyên mạch section]
 ```
 
 ---
@@ -147,7 +147,23 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 14. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
    - Dòng trọng tâm của Chorus hoặc chốt đoạn kết thúc bằng một từ chức năng (*"nữa đâu", "được gì", "thế này"*); cần chuyển trọng tâm về động từ, danh từ cảm xúc hoặc khoảng lặng.
 15. **Cliché & Generic Tropes (Sáo mòn):**
-   - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
+    - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
+16. **Abstract Noun Stacking (Xếp chồng danh từ trừu tượng — voice-checker):**
+    - *Dấu hiệu:* Quá nhiều danh từ trừu tượng đứng cạnh nhau trong cùng một câu/đoạn (*tình yêu, hy vọng, ánh sáng, định mệnh, bình yên, tổn thương, ký ức*).
+    - *Nguy cơ:* Dùng danh từ trừu tượng làm phím tắt cảm xúc thay vì chạm vào cảm giác thật.
+    - *Xử lý:* Gắn nhãn `SUGGESTED - Abstract Noun Stacking`. Nén bớt danh từ trừu tượng, giữ lại 1 hạt nhân và neo bằng cử chỉ hoặc sự thật quan hệ. (Không cấm danh từ trừu tượng, chỉ cảnh báo khi lạm dụng).
+17. **Over-Explained Metaphor (Ẩn dụ bị giải thích thừa thãi — voice-checker):**
+    - *Dấu hiệu:* Ẩn dụ vừa xuất hiện thì ngay sau đó tác giả đã nhảy vào giải thích cặn kẽ ý nghĩa của nó: `image → explanation → explanation`.
+    - *Xử lý:* Gắn nhãn `SUGGESTED - Over-Explained Metaphor`. Cắt bỏ phần giải thích thừa, để người nghe tự hoàn thiện khoảng trống thẩm mỹ.
+18. **Cliché Escalation (Leo thang từ ngữ sáo mòn — voice-checker):**
+    - *Dấu hiệu:* Đoạn kết cố tạo cảm giác cao trào bằng chuỗi từ phóng đại: *yêu → mãi mãi → cả đời → vĩnh cửu → định mệnh* mà không có sự khám phá cảm xúc mới.
+    - *Xử lý:* Gắn nhãn `SUGGESTED - Cliché Escalation`. Chuyển sang leo thang độ thân mật (*intimacy escalation*), một sự thật dễ tổn thương hơn của nhân vật.
+19. **Missing Idiosyncrasy (Thiếu dấu vân tay riêng của bài hát — voice-checker):**
+    - *Dấu hiệu:* Bài hát đúng chủ đề, đúng kỹ thuật nhưng hoàn toàn vắng bóng một chi tiết, một cách nói hay một góc nhìn riêng biệt của cặp đôi, nghe như bài hát chung chung AI viết cho bất kỳ ai.
+    - *Xử lý:* Gắn nhãn `SUGGESTED - Missing Idiosyncrasy`. Nhắc: *"Bài đang đúng chủ đề nhưng chưa có một chi tiết/câu nói mang dấu vân tay riêng"*. Khuyến khích đưa vào 1 thói quen ngầm hoặc cách nói riêng (tuyệt đối không ép thêm chi tiết kỳ quặc/quirky khiên cưỡng).
+20. **Prose-AI-Tell (Câu văn xuôi AI kể chuyện — voice-checker):**
+    - *Dấu hiệu:* Câu ca từ có cấu trúc giống văn xuôi giải thích được ngắt dòng, chứa nhiều từ nối giải thích (*"để rồi", "thực ra", "bởi vì thế"*), nhịp phẳng, thiếu nhạc tính.
+    - *Xử lý:* Gắn nhãn `SUGGESTED - Prose-AI-Tell`. Reviewer chỉ flag và đề xuất nén hoặc chuyển đổi nhịp điệu; tuyệt đối không tự động viết lại cả bài.
 
 ### C. OPTIONAL (Trau chuốt thêm)
 1. **Sonic Polish:** Thêm echo phụ âm đầu, lặp nguyên âm vang ở nốt ngân dự kiến (gợi ý tùy chọn).
