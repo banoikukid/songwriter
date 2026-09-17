@@ -1,6 +1,6 @@
 # Quy Chuẩn Thẩm Định Độc Lập (Lyric Quality Review)
 
-> **Mục đích:** Đóng vai trò chuyên gia thẩm định (Reviewer) độc lập, đánh giá chất lượng ca từ hoàn thiện nhằm phát hiện sáo rỗng (AI-slop), văn xuôi xuống dòng, thesis line, writerly phrasing, camera sweep và lỗi điểm rơi mà không làm gián đoạn dòng chảy của người viết (Writer).
+> **Mục đích:** Đóng vai trò chuyên gia thẩm định (Reviewer) độc lập, đánh giá chất lượng ca từ hoàn thiện nhằm phát hiện sáo rỗng (AI-slop), văn xuôi xuống dòng, thesis line, writerly phrasing, camera sweep, hoạt cảnh tự sự (sitcom narrative) và lỗi điểm rơi mà không làm gián đoạn dòng chảy của người viết (Writer).
 
 ---
 
@@ -30,7 +30,7 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc)
   - Thay bằng lối diễn đạt đúng thực tế bằng chứng: *“Không phát hiện rõ lỗi...”*, *“Không thấy lỗi đáng kể ở mức lyric-only...”*, *“Có risk nhẹ ở...”*, *“Chưa thể xác nhận điểm rơi/ngân nếu chưa có audio...”*.
 - **Phân loại theo 3 cấp độ ưu tiên (thay thế điểm số cảm tính):**
   - `CRITICAL` (Lỗi sinh tử bắt buộc sửa: gượng ép tiếng Việt nặng, sai provenance, hỏng cấu trúc);
-  - `SUGGESTED` (Khuyến nghị nâng cấp: khử writerly, dọn camera sweep, nén câu, show don't explain, paraphrase density, scene density);
+  - `SUGGESTED` (Khuyến nghị nâng cấp: khử writerly, dọn camera sweep, nén câu, show don't explain, narrative-to-lyric, psychology-to-lyric);
   - `OPTIONAL` (Lựa chọn trau chuốt thêm nếu người dùng muốn).
 - **Quy tắc dừng sau chẩn đoán (Stop After Diagnosis):**
   - Sau khi chỉ ra $1 - 2$ vấn đề cụ thể, Reviewer KHÔNG tiếp tục bới thêm lỗi vụn vặt chỉ để bản review trông dày dặn.
@@ -57,6 +57,17 @@ Khi thẩm định độc lập, reviewer soi xét ca từ qua 6 lăng kính đ�
 5. **Image Necessity & Density:** Chi tiết có chức năng hay chỉ là đạo cụ trang trí? Nhận diện và cắt tỉa camera sweep (dồn dập liệt kê nhiều vật thể mà thiếu payoff).
 6. **Lexical / Writerly Naturalness:** Nhận diện các cụm từ làm dáng (*staged / writerly*), nhân hóa làm màu (*decorative personification*). Áp dụng triết lý: **"Reduce ornament before adding ornament"** (giản hóa, đưa về cách nói chân thực trước khi nghĩ đến việc thêm ẩn dụ hay chi tiết mới).
 
+### Tiêu chuẩn Thẩm định Thực chất (Gỡ bỏ False Positives):
+Reviewer TUYỆT ĐỐI KHÔNG coi những yếu tố sau là bằng chứng của một ca khúc hay:
+- Hành vi cụ thể/dễ thương của cặp đôi (behavior specificity);
+- Không có từ cliché trong blacklist;
+- Hội thoại đời thường tự nhiên;
+- Nhiều chi tiết hành động thực tế.
+Đây chỉ là vật liệu phụ trợ, không chứng minh chất lượng ca từ. Reviewer bắt buộc soi xét qua 3 câu hỏi thực chất:
+1. **Lyricicity Check (Chất ca từ):** Dòng này có tạo ra trải nghiệm thẩm mỹ/ca từ mà văn xuôi tự sự không làm được không?
+2. **Emotional Resonance Check (Rung cảm):** Dòng này làm người nghe RUNG ĐỘNG hay chỉ giúp họ HIỂU điều nhân vật đang làm/nghĩ?
+3. **Musical-Language Check (Nhạc tính):** Câu từ có được gọt giũa theo nhịp thở của một câu hát không, hay chỉ là câu văn nói chép lại?
+
 ---
 
 ## 3. Cấu Trúc Báo Cáo Thẩm Định (Review Output Format)
@@ -65,7 +76,7 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Audio-Claim-Violation]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / Audio-Claim-Violation]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng, phẳng cảm xúc hoặc phô diễn chữ]
 - TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA hoặc NÉN NGHĨA, giữ nguyên mạch section]
 ```
@@ -92,34 +103,40 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 3. **Image Density & Camera Sweep (Dồn dập liệt kê đạo cụ thiếu payoff):**
    - Quét lia lịa qua quá nhiều đối tượng: `vật A → địa điểm B → thời tiết C → phương tiện D → bức tường E → chậu cây F → nền đất G` mà các chi tiết không cùng phục vụ một chức năng cảm xúc hay dẫn tới payoff.
    - *Xử lý:* Gom cụm hoặc lược bớt $1 - 2$ chi tiết giá trị thấp để không gian có chỗ thở. Tuyệt đối không viết lại toàn bộ Verse.
-4. **Narrative / Scene Density (Dồn dập đồ vật/hành động thiếu chuyển động cảm xúc):**
+4. **Narrative-to-Lyric Failure (Tỉ lệ tự sự / hoạt cảnh sitcom quá cao):**
+   - Kích hoạt khi ca từ có thể được tóm tắt thành một chuỗi sự kiện, hành vi hoặc hội thoại đời thường mà không mất đi phần lớn giá trị cảm xúc (ví dụ: *em mở cửa → em kéo tay → em cười → em hát → anh trêu → em nhìn → anh bật cười → anh mê em*).
+   - *Xử lý:* Thay thế $1 - 3$ dòng tự sự/hành vi bằng các dòng mang hình tượng cảm xúc (*Lyric Carrying Lines*) hoặc sự nén cảm xúc.
+5. **Psychology-to-Lyric Failure (Hội chứng thuyết trình tâm lý):**
+   - Kích hoạt khi nhiều dòng liên tiếp giải thích nghĩa của tình yêu / điều người kể nhận ra / lý do mối quan hệ có ý nghĩa.
+   - *Xử lý:* Nén lời giải thích thành: (1) một hình ảnh cảm xúc; (2) một thế đối lập; (3) một ẩn dụ phục vụ Tứ; (4) một câu phát ngôn trực diện; hoặc (5) một bước ngoặt góc nhìn.
+6. **Narrative / Scene Density (Dồn dập đồ vật/hành động thiếu chuyển động cảm xúc):**
    - Kích hoạt khi nhiều dòng liên tiếp chỉ toàn là: đồ vật, hành động vật lý, địa điểm, chi tiết giác quan mà không có chuyển động cảm xúc (ví dụ: *dắt xe, treo mũ, tiếng dép, mở chốt, mùi dầu ăn, hành phi, quạt thông gió, tháo giày*).
    - Reviewer TUYỆT ĐỐI KHÔNG nói: *"thêm chi tiết nữa đi"*.
    - Reviewer yêu cầu: *"Chuyển 1–2 sự thật cảnh quan (scene facts) thành chi tiết mang tải trọng quan hệ hoặc câu biểu đạt cảm xúc."* Luôn hỏi: *"Tại sao người kể lại chú ý điều này vì tình yêu?"*
-5. **Emotional Paraphrase Density (Mật độ diễn giải cảm xúc lặp lại):**
+7. **Emotional Paraphrase Density (Mật độ diễn giải cảm xúc lặp lại):**
    - Kích hoạt khi nhiều dòng liên tiếp nhắc lại cùng một kết luận cảm xúc mà không đưa thêm thông tin quan hệ, hình tượng hay góc nhìn mới (ví dụ: *không cần gồng, không cần giỏi, được vụng về, được ngồi im, không sợ khoảng lặng, buông vai diễn, thả lỏng...*).
    - Reviewer yêu cầu: Giữ lại biểu đạt mạnh nhất, chuyển các câu lặp lại thành hình ảnh, nghĩa ngầm (subtext), ký ức riêng tư của mối quan hệ, thế đối lập, hoặc góc nhìn cảm xúc mới.
-6. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
+8. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
    - Đặt câu hỏi: *"Câu này có thể bê sang 10 bài tình ca khác mà không thay đổi điều gì không?"* (ví dụ: *em muốn anh tốt hơn, anh được là chính mình, em luôn ở bên anh, anh thấy bình yên, tình yêu làm mọi thứ tốt đẹp*).
    - Nếu có: Gắn nhãn `SUGGESTED`. Yêu cầu tìm kiếm một hình tượng riêng của bài, một quan sát riêng về mối quan hệ, một cách nén từ đáng nhớ hoặc một góc nhìn cảm xúc mới mẻ (không ép dùng ẩn dụ).
-7. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
+9. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
    - Ngăn chặn việc Chorus biến thành một danh sách các mệnh đề logic: `không X, mà Y, nên Z, thành ra A, thành ra B`.
    - Chorus cần sự nén lại về nhạc tính và cảm xúc: 1 ý niệm trung tâm + 1 carrier đáng nhớ + 1 bước leo thang cảm xúc. Vẫn cho phép ngôn từ trực diện.
-8. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
+10. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
    - Không để Bridge rơi vào mô thức bài giảng: `Ngày trước tôi nghĩ X, sau đó tôi nhận ra Y, vậy nên tình yêu là Z`.
    - Ưu tiên: `Niềm tin cũ → Một mâu thuẫn cụ thể → Bước ngoặt cảm xúc`. Để người nghe tự hoàn thiện một phần sự nhận ra.
-9. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
+11. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
    - Cụm từ nghe như được tạo ra để "làm thơ", kết hợp từ lạ tai (*unusual collocation*), trừu tượng chồng trừu tượng, hoặc nhân hóa đồ vật làm màu (*decorative personification*).
    - *Xử lý:* Gắn nhãn `SUGGESTED - Writerly Phrase`. Đề xuất giản hóa về cách nói chân thực mà vẫn giữ được không khí.
-10. **Decorative Specificity (Chi tiết cụ thể thiếu chức năng):**
+12. **Decorative Specificity (Chi tiết cụ thể thiếu chức năng):**
    - Reviewer đặt câu hỏi: `Does this detail earn its place?` (Chi tiết này có tự chứng minh sự tất yếu không?).
    - Một chi tiết được giữ lại nếu nó có ít nhất một chức năng đáng kể: *provenance từ brief, ký ức vật lý, giá trị giác quan, chức năng tình huống, tín hiệu quan hệ, hoặc narrative turn*.
    - Nếu không có: Khuyến nghị **Giữ nguyên hoặc Giản hóa** (`KEEP or SIMPLIFY`, ví dụ: `sân gạch` $\rightarrow$ `sân nhà`). Tuyệt đối **không lập danh sách đen từ ngữ** (No Word Blacklisting).
-11. **Prose-to-Lyric (Văn xuôi xuống dòng):**
+13. **Prose-to-Lyric (Văn xuôi xuống dòng):**
    - Câu đúng ngữ pháp nhưng chứa quá nhiều từ nối (*"nên", "vì", "thực ra là"*), nhịp điệu phẳng lỳ, thiếu tính nén của ca từ.
-12. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
+14. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
    - Dòng trọng tâm của Chorus hoặc chốt đoạn kết thúc bằng một từ chức năng (*"nữa đâu", "được gì", "thế này"*); cần chuyển trọng tâm về động từ, danh từ cảm xúc hoặc khoảng lặng.
-13. **Cliché & Generic Tropes (Sáo mòn):**
+15. **Cliché & Generic Tropes (Sáo mòn):**
    - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
 
 ### C. OPTIONAL (Trau chuốt thêm)

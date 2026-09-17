@@ -138,6 +138,16 @@
       "id": "w27-test-10-register",
       "split": "incident-regression",
       "prompt": "Đánh giá từ ngữ và cú pháp trong một bài hát mang âm hưởng Cổ phong / Dân gian / Thơ truyền thống.\nYêu cầu Reviewer:\n- Áp dụng nguyên tắc Naturalness is register-relative: Đánh giá độ tự nhiên trong chính ngữ vực và thế giới thẩm mỹ của bài hát.\n- Tuyệt đối KHÔNG gượng ép bình dân hóa câu chữ thành khẩu ngữ pop hiện đại tầm thường."
+    },
+    {
+      "id": "w28-test-narrative-to-lyric",
+      "split": "incident-regression",
+      "prompt": "Đánh giá ca từ tình cảm chứa chuỗi hoạt cảnh đời thường kiểu sitcom:\n'Em mở chốt cửa rồi quay lại bếp,\nnghiêng đầu nheo mắt gọi anh là con mèo lớn.\nEm kéo tay anh lắc lắc bắt nhảy điệu ngớ ngẩn,\nrồi nghêu ngao hát sai lời hỏi em hát hay không,\nanh bảo dở tệ nhưng bụng thì nghĩ thầm mê phát điên.'\nYêu cầu Reviewer:\n- Nhận diện lỗi NARRATIVE-TO-LYRIC FAILURE: Ca từ bị biến thành chuỗi hành vi trêu chọc/dễ thương kiểu hoạt cảnh sitcom đời thường, thiếu vẻ đẹp ca từ và nhạc tính.\n- Xuất nhãn: SUGGESTED - Narrative-to-lyric ratio is too high.\n- Yêu cầu: Giản lược các hành vi dễ thương đơn thuần, thay bằng ít nhất 1–2 Lyric Carrying Lines mang hình tượng cảm xúc sâu sắc và vẻ đẹp thi ca."
+    },
+    {
+      "id": "w29-test-lyric-carrying-line",
+      "split": "capability",
+      "prompt": "Kiểm tra sự hiện diện của Lyric Carrying Line trong một đoạn Verse ca khúc tình cảm.\nYêu cầu Reviewer:\n- Đặt câu hỏi: Đoạn này có ít nhất một câu hát mà nhiệm vụ chính KHÔNG PHẢI là kể sự việc hay tường thuật hành động không?\n- Đánh giá câu hát có khả năng đứng độc lập mang rung động cảm xúc tự thân (ví dụ: 'Ánh mắt em làm một ngày u ám bỗng tự tìm về đúng chỗ').\n- Kết luận: PASS nếu có Lyric Carrying Line rõ nét."
     }
   ]
 }

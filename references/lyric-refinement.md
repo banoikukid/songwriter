@@ -26,8 +26,8 @@
 [1] LYRIC CRAFT       [2] LANGUAGE REALIZATION  [3] SONIC REALIZATION
 ├── Rough → Lyric     ├── Conversational ≠ Flat ├── Line Landing
 ├── Compression       ├── Freshness             ├── Sonic Craft
-├── Thesis Detector   └── Romantic vs Household └── Mouth-Feel Spot Check
-└── Pop Compression
+├── Lyric Carrying    ├── Romantic vs Household └── Mouth-Feel Spot Check
+└── Pop Compression   └── Emotional Precision
 ```
 
 ---
@@ -44,6 +44,15 @@ Rough line làm nhiệm vụ giữ đúng ý và đúng sự thật cảm xúc. 
 - **Sonic Movement:** Chuyển động âm thanh hài hòa, dễ hát;
 - **Strong Landing:** Điểm rơi cuối dòng vững vàng;
 - **Conversational Truth:** Chân thực của khẩu ngữ đời sống, không hoa mỹ giả tạo.
+
+---
+
+### LYRIC CARRYING LINE — DÒNG GÁNH CA TỪ & VẺ ĐẸP THI CA
+
+Mỗi section lớn (*Verse, Chorus, Bridge*) phải chứa ít nhất một **Lyric Carrying Line**:
+- **Đặc trưng:** Nhiệm vụ chính của dòng này KHÔNG PHẢI là kể lại xem chuyện gì vừa xảy ra hay hai người vừa làm gì.
+- **Chức năng:** Mang tải trọng cảm xúc cốt lõi, một hình tượng khó quên, một sự nén cảm xúc sâu sắc, hoặc một sự thật tâm hồn lay động.
+- **Tiêu chuẩn kiểm tra:** Một Lyric Carrying Line phải có khả năng **đứng độc lập như một câu hát đẹp**, tạo ra rung cảm tự thân chứ không chỉ đóng vai trò truyền tải thông tin tự sự.
 
 ---
 
@@ -115,13 +124,24 @@ Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người l
 - **Chi tiết quan hệ giàu sức nặng (Ưu tiên):**
   - Một cách gọi riêng biệt chỉ hai người dùng;
   - Một câu nói dở dang nhưng người kia nghe ra hết;
-  - Một trò đùa chung;
   - Một thói quen/nghi thức nhỏ được lặp đi lặp lại;
   - Một khoảng lặng có ý nghĩa;
   - Một sự mong đợi không cần nói thành lời;
   - Cách người kể tự thay đổi bản thân khi ở cạnh người kia.
-- **Chi tiết gia dụng đơn thuần (Cần tiết chế):**
-  - Dắt xe, mở khóa, dép lê, quạt gió, nấu nướng, đồ đạc... nếu không phục vụ làm lộ ra tình cảm thì chỉ là sự thật hiện trường, không có giá trị ca từ tự thân.
+- **Chi tiết gia dụng đơn thuần (Chỉ làm nền - Grounding Reality):**
+  - Dắt xe, mở khóa, dép lê, quạt gió, nấu nướng... chỉ có vai trò làm phông nền neo giữ hiện thực. Tuyệt đối không để chuỗi chi tiết này chiếm lĩnh trọng tâm cảm xúc của đoạn.
+- **Hành vi dễ thương không thay thế cho tình yêu:** Biệt danh đùa, trêu chọc hay cử chỉ ngớ ngẩn (sitcom moments) chỉ có giá trị khi bộc lộ một sự thật cảm xúc lớn hơn.
+
+---
+
+### ANTI-CHEESINESS VS. EMOTIONAL PRECISION (Chống sến sáo bằng độ chính xác cảm xúc)
+
+Khi một câu hát cảm giác còn yếu, sáo rỗng hoặc thiếu sức lay động:
+- **TUYỆT ĐỐI KHÔNG giải quyết bằng cách:** Thêm tính từ lãng mạn chung chung (*ngọt ngào, dịu dàng, say đắm, tuyệt vời*), thêm mỹ từ định mệnh (*mãi mãi, ngàn năm*), hay nhồi nhét ẩn dụ thiên nhiên trang trí (*mưa, mây, sao, gió*).
+- **GIẢI PHÁP ĐÚNG LÀ TĂNG ĐỘ CHÍNH XÁC CẢM XÚC (Increase Emotional Precision):**
+  - Định danh chính xác cảm giác tinh tế mà nhân vật đang trải qua;
+  - Tìm kiếm một cảm giác vật lý cụ thể, một thế đối lập bất ngờ, hoặc một nghịch lý trong tâm tưởng;
+  - Nén sự thật cảm xúc vào một cách diễn đạt chân thực và giàu tính nhạc.
 
 ---
 
@@ -144,8 +164,7 @@ Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt 
 > (Sửa cho tự nhiên thì tuyệt đối không được đưa thêm chi tiết làm dáng).
 
 - **CORRECT ≠ NATURAL ≠ FRESH ≠ POETICALLY EFFECTIVE:**  
-  Một từ có thể hoàn toàn đúng ngữ pháp, có tính hình tượng, nhưng lại tạo cảm giác "cố ý chọn chữ" (*writerly / show-off wording*).  
-  *Ví dụ:* `Nắng sớm lấm tấm trên khoảng sân gạch` $\rightarrow$ `sân gạch` đúng, có chi tiết vật liệu, nhưng có thể hơi "làm văn" nếu chi tiết gạch không có chức năng đẩy cảm xúc hay ký ức. Thay bằng `sân nhà` mang lại cảm giác đời thường, ấm áp và mở không gian rộng hơn.
+  Một từ có thể hoàn toàn đúng ngữ pháp, có tính hình tượng, nhưng lại tạo cảm giác "cố ý chọn chữ" (*writerly / show-off wording*).
 - **Natural Specificity vs Decorative Specificity:**  
   - *Natural Specificity (Chi tiết tự nhiên / có căn cứ):* Mang dấu ấn provenance từ brief, hoặc trực tiếp tạo ra hành động, va chạm cảm xúc, âm thanh cụ thể $\rightarrow$ **GIỮ**.
   - *Decorative Specificity (Chi tiết trang trí / AI tự vẽ):* Model tự thêm vào để nghe có vẻ "thơ và cụ thể hơn" mà không phục vụ việc gì $\rightarrow$ **ĐƠN GIẢN HÓA** về cách nói tự nhiên.
@@ -161,7 +180,7 @@ Khi một cụm từ quá quen thuộc hoặc có nguy cơ sáo rỗng, tuyệt 
 
 Với các dòng quan trọng (hook, dòng kết thúc section, câu chốt nghĩa), kiểm tra từ/cụm ở đuôi câu:
 - **Điểm rơi tốt:** Từ mang hình ảnh, động từ chuyển động, danh từ có trọng lượng cảm xúc, cụm hook, hoặc một từ mở ra khoảng trống cảm xúc.
-- **Tránh:** Kết thúc bằng từ chức năng lửng lơ hoặc phần giải thích yếu (*ví dụ: "...và chẳng còn biết phải làm gì nữa đâu"* $\rightarrow$ hỏi phần nào mới là điểm đau: sự bất lực? sự buông tay? hay sự im lặng? rồi viết lại quanh đúng điểm đó).
+- **Tránh:** Kết thúc bằng từ chức năng lửng lơ hoặc phần giải thích yếu.
 - **Veto:** Không đảo cú pháp bất tự nhiên chỉ để lấy landing đẹp. Tiếng Việt tự nhiên luôn có quyền phủ quyết.
 
 ---
