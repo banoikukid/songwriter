@@ -52,6 +52,10 @@ Chỉ mở discovery/gate trước writer-pass khi brief thật sự cần lựa
     - *Suno production:* `SKILL.md` + $2 - 3$ refs (`suno-production.md`, `suno-handoff.md`, `vocal-realization.md`).
     - *Failure diagnosis:* `SKILL.md` + đúng ref sở hữu tầng lỗi cần vá.
     - *Audit / Benchmark:* Chỉ mở `audit-and-evaluation.md` và test suites khi có yêu cầu kiểm thử hệ thống.
+- **TOKEN & CONTEXT DISCIPLINE (Bất biến phân tách vai trò để tối ưu Token):**
+  - `SKILL.md = Routing + Invariants + Stop Conditions` (chỉ chứa các quy tắc rẽ nhánh, bất biến runtime và điều kiện dừng).
+  - `references/*.md = Domain Knowledge + Detailed Procedures` (chứa tri thức chuyên môn sâu, phân tích ngữ âm, checklist và ví dụ).
+  - **Bất biến duy trì:** Tuyệt đối không nhồi thêm domain knowledge chi tiết vào `SKILL.md` trừ khi kiến thức đó trực tiếp thay đổi quyết định routing. Đây là kỷ luật tối thượng để giữ cho context thường trực của agent luôn gọn nhẹ và tiết kiệm token qua mọi phiên hội thoại.
 
 
 ### Sửa nhanh / Chỉnh sửa cục bộ (Micro-rewrite / Polish)
