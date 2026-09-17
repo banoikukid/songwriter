@@ -68,9 +68,7 @@ Chi tiết đời thường chỉ được giữ nếu nó làm ít nhất một
 Nếu nhiều đạo cụ cùng làm một chức năng, chọn chi tiết mạnh nhất. Không dùng "độ chân thực" làm lý do để liệt kê danh sách đồ vật.
 
 Rule heuristic: 1 section thường chỉ nên có vài material anchors thực sự hữu ích.
-Ví dụ trong một cảnh dọn nhà chia tay:
-- `carton`, `chìa khóa`, `hai chiếc cốc` là đủ.
-- Không cần thêm: `áo khoác`, `sổ tay`, `bồn rửa`, `kính`, `giá gỗ`... nếu chúng không tạo ra nghĩa mới hay thúc đẩy hành động.
+Ví dụ: Nếu 4–5 đạo cụ cùng chỉ chứng minh một trạng thái không gian (như "căn phòng đã dọn xong"), chỉ giữ 1–2 vật thực sự mang quan hệ hoặc tạo payoff (như chiếc chìa khóa đặt lại trên bàn). Tránh liệt kê danh sách đồ vật nếu chúng không tạo ra nghĩa mới hay thúc đẩy hành động.
 
 ## 3. Ngữ pháp lời hát
 
@@ -84,49 +82,6 @@ Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có 
 - Mood-wash được phép nghĩa lỏng có chủ đích; không dùng chuẩn tight-meaning để giết sound-flow.
 
 Ẩn dụ phải tiến nghĩa. Lặp từ miền ẩn dụ không tính là phát triển. Không đổi nghĩa bóng thành cảnh thật nếu cốt chưa dựng.
-
-### ROUGH LINE → LYRIC LINE
-
-Rough line làm nhiệm vụ giữ đúng ý. Lyric line phải giữ ý nhưng có thêm ít nhất một phẩm chất nghe/hát:
-- **compression:** độ nén cảm xúc;
-- **subtext:** nghĩa ngầm và khoảng lặng;
-- **memorable phrasing:** cụm từ gợi nhớ;
-- **image/action:** hình ảnh hoặc hành động mang nghĩa;
-- **sonic movement:** chuyển động âm thanh;
-- **strong landing:** điểm rơi cuối dòng vững vàng;
-- **conversational truth:** chân thực của khẩu ngữ đời sống.
-
-Không bắt mọi line phải thơ hoặc giàu hình ảnh. Một line rất trực tiếp vẫn tốt nếu nó có timing, voice và điểm rơi.
-
-*Ví dụ:*
-- **ROUGH:** "Hóa ra điều làm người ta đau nhất không phải là chia tay, mà là sự kết thúc này cũng không có tên."
-- **Vấn đề:** Câu đang làm nhiệm vụ giải thích toàn bộ theme cho listener như một bài luận.
-- **Refinement:** Giữ nghĩa nhưng bớt giải thích, để hình ảnh / hành động / hook tự tạo kết luận (không cấp đáp án mẫu cố định để tránh model copy pattern).
-
-### COMPRESSION & SUBTEXT
-
-Khi một line nói trọn cả nguyên nhân + cảm xúc + kết luận, thử bỏ phần listener đã có thể tự hiểu từ ngữ cảnh.
-Ưu tiên:
-$$\text{action / image / phrase} > \text{explanation} > \text{thesis}$$
-
-*Ví dụ logic:*
-Câu *"Anh buồn vì em đã xem nhưng không trả lời"* thường yếu hơn việc để chi tiết *"đã xem"* + khoảng lặng + hành vi của speaker tự mang nỗi buồn.
-
-Không biến subtext thành mơ hồ. Listener vẫn phải hiểu rõ tình huống và cảm xúc chính.
-**Rule cốt lõi: Nói ít hơn không có nghĩa là khó hiểu hơn.**
-
-### THESIS LINE (mở rộng EXPLAINING LINE & ANALYSIS-LEAKAGE)
-
-Một line có nguy cơ thành thesis khi nó:
-- Mở đầu bằng: *"hóa ra...", "điều đau nhất là...", "thì ra tình yêu...", "có những cuộc chia tay...", "chỉ là..."*; hoặc
-- Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện.
-
-Thesis line không mặc định sai. Giữ nó chỉ khi:
-- Voice nhân vật thực sự cần nói thẳng;
-- Nó chính là câu hook trung tâm;
-- Hoặc sự trực diện tạo payoff cảm xúc lớn.
-
-Nếu image/action trước đó đã truyền được cùng nghĩa, ưu tiên cắt hoặc nén thesis. Đây là diagnostic nhận diện rủi ro, không phải blacklist từ.
 
 ### PROSE-TO-LYRIC — chỉ mở khi câu đúng nghĩa nhưng không có lyric behavior
 
@@ -149,54 +104,21 @@ Khi sửa:
 Mục tiêu là lyric behavior, không phải poetic decoration.
 
 *Ví dụ:*
-- PROSE: "Nên gói ghém nhẹ nhàng, không có gì phải giấu."
-- HỎI: Ý chính là gì? (Không còn điều gì phải giải thích / chia tay không oán trách / hai người đã chấp nhận?) $\rightarrow$ Viết lại quanh đúng một ý đó.
-
-### CONVERSATIONAL ≠ FLAT — tự nhiên nhưng có hình dáng âm nhạc
-
-Natural Vietnamese không có nghĩa là chép nguyên văn lời nói chuyện ngoài đời rồi xuống dòng. Lời hát hội thoại có thể:
-- lược bớt hư từ và từ chức năng thừa;
-- tạo nhịp điệu và ngắt nghỉ có chủ ý;
-- đặt lại điểm rơi vào từ có sức nặng;
-- dùng repetition có chủ đích;
-- dùng hình ảnh/vật liệu cụ thể để neo cảm xúc;
-- để một câu lửng chưa nói hết.
-
-Miễn là người Việt nghe vẫn cảm thấy câu đó thuộc về một người thật đang hát trong hoàn cảnh thật.
-**Mục tiêu: "Tự nhiên nhưng có hình dáng âm nhạc", không phải "văn nói được xuống dòng".**
-
-### IMAGE / STATEMENT BALANCE
-
-Một section không nên chỉ gồm toàn: giải thích, nhận định hoặc kết luận cảm xúc trừu tượng. Nó cần đủ material/action để listener tự cảm được một phần nghĩa.
-
-Ngược lại, cũng không được nhồi nhét hình ảnh hay đạo cụ trang trí vô cớ.
-- Nếu một section có 4–5 câu liên tiếp đều là abstract statement: tìm một action/image cụ thể có provenance để neo lại.
-- Nếu section có quá nhiều props: quay lại `DETAIL BUDGET` và cắt giảm (chỉ giữ vật có chức năng đẩy chuyện, mang quan hệ hoặc tạo payoff).
-
-### FRESHNESS WITHOUT FORCED POETRY
-
-Khi một phrase quá quen thuộc hoặc có nguy cơ sáo rỗng, đừng tự động thay bằng ẩn dụ phức tạp hay từ ngữ lạ tai. Thử theo thứ tự ưu tiên:
-1. **Cụ thể hóa:** thay cụm chung chung bằng chi tiết xác thực;
-2. **Đổi góc nhìn:** nhìn từ phía đồ vật, không gian hoặc hành động;
-3. **Đổi động từ:** tìm động từ mang tính vật lý/chuyển động hơn;
-4. **Nén câu:** cắt bỏ râu ria giải thích để giữ lại hạt nhân;
-5. **Dùng chi tiết thật:** một thói quen hoặc dấu vết đời sống;
-6. **Chỉ sau cùng mới cân nhắc metaphor:** nếu ẩn dụ thực sự nâng tầm Tứ.
-
-*Nguyên tắc:* Freshness đến từ cách nhìn chính xác, không phải từ việc làm câu khó hiểu hay "AI thơ".
+- PROSE: "Gói ghém mọi thứ thật gọn gàng, không có gì phải giấu giếm cả."
+- HỎI: Ý chính là gì? (Không còn điều gì phải giải thích / rời đi trong thanh thản / chấp nhận thực tại?) $\rightarrow$ Viết lại quanh đúng một ý đó.
 
 ### EXPLAINING LINE — bỏ câu giải thích khi hành động đã đủ
 
-Nếu một line chỉ nói cho listener biết nên hiểu hình ảnh như thế nào, kiểm xem hình ảnh/action trước đó đã tự truyền được nghĩa chưa.
-
-Nếu có, ưu tiên bỏ hoặc thay bằng hành động/hình ảnh cụ thể.
+Nếu một line chỉ nói cho listener biết nên hiểu hình ảnh như thế nào, kiểm xem hình ảnh/action trước đó đã tự truyền được nghĩa chưa. Nếu có, ưu tiên bỏ hoặc thay bằng hành động/hình ảnh cụ thể.
 
 Không cấm statement trực tiếp. Statement chỉ yếu khi nó lặp lại hoặc giải thích điều listener đã hiểu.
 
 *Ví dụ:*
-- ACTION: Anh cầm chiếc cốc sứt quai rồi đặt lại ngay ngắn.
-- EXPLANATION (Thừa): "Đồ vật không có lỗi gì với chúng ta."
+- ACTION: Người đó cất chiếc dù ướt vào góc cửa.
+- EXPLANATION (Thừa): "Những ngày mưa thường làm lòng người ta chùng lại."
 $\rightarrow$ Nếu action và bối cảnh đã đủ truyền tải, không cần thêm thesis line triết lý hóa.
+
+> **Tham chiếu mở rộng:** Khi full-song rough pass đã xong và cần nâng cấp toàn diện ca từ (bớt giải thích, nén câu, tăng subtext, cân bằng image/statement, làm mới cụm sáo, điểm rơi cuối dòng, sonic craft), xem chi tiết tại **`references/lyric-refinement.md`**.
 
 ### NATURALNESS-SWEEP — chọn một nguyên nhân chính
 
@@ -452,7 +374,7 @@ Với line quan trọng (hook, line cuối section, câu chốt nghĩa), kiểm 
 - một cụm hook chính;
 - hoặc một từ mở ra khoảng trống cảm xúc / dư ba.
 
-Tránh để line quan trọng kết thúc bằng từ chức năng lửng lơ hoặc phần giải thích yếu (*ví dụ: "cũng chẳng biết lấy tư cách gì" $\rightarrow$ tự hỏi phần nào mới thật sự là điểm đau: "tư cách"? "buông"? "gọi tên"? Rồi rewrite quanh đúng điểm đau đó*).
+Tránh để line quan trọng kết thúc bằng từ chức năng lửng lơ hoặc phần giải thích yếu (*ví dụ: "...và chẳng còn biết phải làm gì nữa đâu" $\rightarrow$ tự hỏi phần nào mới là điểm đau: sự bất lực? sự buông tay? hay sự im lặng? Rồi rewrite quanh đúng điểm đó*).
 Không đảo cú pháp chỉ để lấy landing đẹp. Natural Vietnamese luôn có quyền veto.
 
 ### SONIC CRAFT — nhạc tính nhẹ, không ép vần
@@ -548,7 +470,7 @@ Không rà soát toàn bộ bài. Chỉ kiểm tra các line có rủi ro cao tr
 - final payoff ở Final Chorus;
 - phrase có sustain slot hoặc chuỗi phụ âm đóng.
 
-Nếu line chỉ hát vừa bằng cách nuốt âm, tăng tốc hoặc dồn phrase, bắt buộc rewrite trước khi release. Tránh để lọt những câu dài lê thê kiểu: *"Chiếc cốc ấy vẫn sẵn lòng chờ thêm một chiếc nữa kề bên."*
+Nếu line chỉ hát vừa bằng cách nuốt âm, tăng tốc hoặc dồn phrase, bắt buộc rewrite trước khi release. Tránh để lọt những câu dài lê thê nhồi nhét hai ba mệnh đề vào một hơi thở.
 
 Đọc quy trình đầy đủ tại `music-sketch-and-demo.md`. Chưa có artifact nghe được thì chỉ được kết luận Scope A; không suy `music-fit PASS` từ số chữ.
 

@@ -62,9 +62,10 @@ songwriter/
 ├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
-└── references/                            # 29 tệp tri thức chuyên sâu (Markdown & JSON Schemas)
+└── references/                            # 30 tệp tri thức chuyên sâu (Markdown & JSON Schemas)
     ├── idea-and-structure.md              # Khung ý tưởng, Tứ, Form, Hook, Material Affordance, Phá cách
     ├── vietnamese-line-and-sound.md       # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & vần
+    ├── lyric-refinement.md                # Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft
     ├── stage-validation-loop.md           # Các cổng kiểm định ngữ nghĩa (Semantic Gate & Scope-A)
     ├── suno-handoff.md                    # Quy chuẩn đóng gói prompt & tag cho Suno AI
     ├── music-sketch-and-demo.md           # Hướng dẫn dựng demo và kiểm tra nhạc-lời

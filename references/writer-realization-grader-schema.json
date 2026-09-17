@@ -8,13 +8,14 @@
     "scores": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["natural_vietnamese", "emotional_voice", "image_necessity", "section_realization", "singable_on_page"],
+      "required": ["natural_vietnamese", "emotional_voice", "image_necessity", "section_realization", "singable_on_page", "lyric_craft"],
       "properties": {
         "natural_vietnamese": {"type": "integer", "minimum": 1, "maximum": 10},
         "emotional_voice": {"type": "integer", "minimum": 1, "maximum": 10},
         "image_necessity": {"type": "integer", "minimum": 1, "maximum": 10},
         "section_realization": {"type": "integer", "minimum": 1, "maximum": 10},
-        "singable_on_page": {"type": "integer", "minimum": 1, "maximum": 10}
+        "singable_on_page": {"type": "integer", "minimum": 1, "maximum": 10},
+        "lyric_craft": {"type": "integer", "minimum": 1, "maximum": 10}
       }
     },
     "hard_failures": {"type": "array", "items": {"type": "string"}},

@@ -361,7 +361,7 @@ Nếu hook mạnh đang nằm giữa nhiều câu giải thích câu chuyện:
 - Cắt bớt các câu giải thích hoàn cảnh đã được Verse chuẩn bị;
 - Cho các line còn lại phục vụ hook, tuyệt đối không cạnh tranh hay chia nhỏ sự chú ý với hook;
 - Chorus không cần kể lại toàn bộ story hay chứa trọn luận điểm của bài; nó cần kết tinh (crystallize) cảm xúc trung tâm.
-*Heuristic:* Nếu bỏ 30–40% số chữ của Chorus mà payoff cảm xúc rõ ràng và vang hơn, Chorus đang bị over-explaining.
+*Nguyên tắc:* Nếu cắt bớt đáng kể phần giải thích hoàn cảnh mà hook rõ hơn và không mất essential meaning, Chorus đang bị over-explaining. Cắt cho đến khi các line còn lại đều phục vụ hook; không đặt quota số từ.
 
 ### FINAL CHORUS REFINEMENT (FINAL CHORUS ≠ MORE WORDS) — kết luận bằng biến nghĩa, không bằng nhồi chữ
 

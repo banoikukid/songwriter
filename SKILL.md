@@ -266,14 +266,14 @@ Chỉ bật công cụ tương ứng:
 - Đạo cụ/chi tiết đời thường bị liệt kê quá nhiều làm loãng bài: chạy **DETAIL BUDGET** tại `references/vietnamese-line-and-sound.md`; chỉ giữ vật có chức năng đẩy chuyện, mang quan hệ hoặc tạo payoff.
 - Câu đúng nghĩa nhưng giống văn xuôi xuống dòng, nhiều từ nối/giải thích: chạy **PROSE-TO-LYRIC**; nén về một ý chính, đưa từ trọng tâm gần điểm rơi và đảm bảo nói được trong một hơi (One-breath).
 - Câu giải thích lại điều hành động/hình ảnh đã nói rõ: chạy **EXPLAINING LINE**; bỏ thesis line nếu action đã đủ.
-- Chorus bị loãng bởi các câu kể/giải thích hoàn cảnh: chạy **HOOK DISTILLATION** tại `references/idea-and-structure.md`; nén 30–40% chữ thừa để làm nổi bật câu hook payoff.
+- Chorus bị loãng bởi các câu kể/giải thích hoàn cảnh: chạy **HOOK DISTILLATION** tại `references/idea-and-structure.md`; cắt bớt các câu giải thích để làm nổi bật câu hook payoff.
 - Final Chorus bị dài dòng, nhồi chữ hoặc gượng ép cao trào: tuân thủ **FINAL CHORUS ≠ MORE WORDS**; kết luận bằng biến nghĩa, rút bớt từ hoặc đổi góc nhìn, không nhồi thêm chữ.
 - Khi user flag trực tiếp một từ/câu là `thô · cứng · gượng · chưa mềm · không hợp câu/đoạn`, coi đó là evidence kích hoạt **NATURALNESS-SWEEP** local cho `từ · collocation · register · material`; không thay đồng nghĩa ngay. Nếu lỗi nằm ở quan hệ nghĩa/section job/Tứ, chuyển owner sang **ROUGH-LYRIC SEMANTIC GATE**; nếu nằm ở phrase/hơi/cadence, chuyển sang **SCOPE A**. Giữ dòng gốc làm option 0, viết lại tối đa hai phương án trong owner đúng rồi chạy **REWRITE CLOSURE** trên toàn section trước khi trả.
 - Body/material/thành ngữ gây cấn: chạy một **NATURALNESS-SWEEP** và chọn đúng một subcase chính. Lượng từ có nghi vấn mới chạy **QUANTITY-PROVENANCE** riêng; không chồng hai sweep trên cùng câu trong một pass.
 - Vần, âm tiết, điểm lấy hơi hoặc cuối câu cấn: chạy line/sound pass và phrase-map. Trước khi xuất bản lời, chạy **PRE-RELEASE MOUTH-FEEL SPOT CHECK** trên các line rủi ro cao (hook, line dài nhất, final payoff, sustain slot) để đảm bảo không nuốt chữ hay hụt hơi.
 - Nhiều bài trong cùng phiên lặp skeleton/hook grammar: chạy **SESSION-DECONTAMINATION/SURFACE-OVERLAP**; sửa tầng gốc, không thay đồng nghĩa từng chữ.
 
-Các công cụ nằm trong `references/vietnamese-line-and-sound.md` và `references/idea-and-structure.md`. Trước mọi handoff Suno lyrics-first, bản lời phải PASS **ROUGH-LYRIC SEMANTIC GATE** trong `references/stage-validation-loop.md`, rồi mới chạy **SCOPE-A RELEASE GATE**: phrase-map cho Chorus/Pre-Chorus và section dùng lại melody; kiểm biên phrase, hơi, mật độ âm tiết, slot nhấn, cadence/vần, từ cuối và terminal-repeat. Chênh âm tiết được phép nếu có phrasing hợp lý.
+Các công cụ nằm trong `references/vietnamese-line-and-sound.md`, `references/lyric-refinement.md` và `references/idea-and-structure.md`. Trước mọi handoff Suno lyrics-first, bản lời phải PASS **ROUGH-LYRIC SEMANTIC GATE** trong `references/stage-validation-loop.md`, rồi mới chạy **SCOPE-A RELEASE GATE**: phrase-map cho Chorus/Pre-Chorus và section dùng lại melody; kiểm biên phrase, hơi, mật độ âm tiết, slot nhấn, cadence/vần, từ cuối và terminal-repeat. Chênh âm tiết được phép nếu có phrasing hợp lý.
 
 Sau mỗi diagnostic rewrite, chạy **REWRITE CLOSURE** tại `references/stage-validation-loop.md` trên toàn section; không PASS chỉ vì triệu chứng ban đầu đã biến mất. Chỉ sau semantic non-regression mới chạy lại Scope A hoặc re-demo phần đã sửa. Dừng khi không còn cải thiện rõ hoặc cần tai người; không polish vô hạn.
 
@@ -303,7 +303,7 @@ Rough lyric không mặc định là release-ready. Với full-song hoặc secti
 4. Từ khóa quan trọng có nằm ở điểm rơi tốt không?
 5. Line ending có đủ lực và dễ nhớ không?
 
-Chỉ sửa line cần sửa. Không polish đồng đều toàn bài. Micro-rewrite 2–4 câu không cần chạy toàn bộ refinement pass. Chi tiết kỹ thuật tại `references/vietnamese-line-and-sound.md`.
+Chỉ sửa line cần sửa. Không polish đồng đều toàn bài. Micro-rewrite 2–4 câu không cần chạy toàn bộ refinement pass. Chi tiết kỹ thuật tại `references/lyric-refinement.md`.
 
 ### LYRIC QUALITY BAR
 
@@ -349,6 +349,7 @@ Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototy
 | Brief, cửa vào, Tứ, Hook+Form, Cốt, ambition | `references/idea-and-structure.md` |
 | Melody/harmony/groove, rough demo, feedback | `references/music-sketch-and-demo.md` |
 | Câu tiếng Việt, material, vần, thanh, Scope A | `references/vietnamese-line-and-sound.md` |
+| Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft | `references/lyric-refinement.md` |
 | Audit/A-B/corpus/release | `references/audit-and-evaluation.md` + `references/stage-validation-loop.md` |
 | Suno export và sau-gen | `references/suno-handoff.md` |
 | Style prompt | `references/style-mining.md` |
