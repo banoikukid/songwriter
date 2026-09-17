@@ -26,10 +26,27 @@ Chốt tối thiểu các tín hiệu cần cho bài; không biến danh sách n
 
 Tình yêu nhạc trẻ cần biết giai đoạn: crush, mập mờ, đang yêu, rạn vỡ hoặc hậu chia tay. Quê hương cần biết quy mô và địa phương hay toàn quốc. Thiếu dữ kiện nhưng user yêu cầu làm ngay thì nêu giả định ngắn, không lặng lẽ tự lấp.
 
-### Generation-packet hygiene
+### Generation-packet hygiene & Inverted Material Bridge
 
-Phân biệt **material** với **câu minh họa**. Câu thoại, thói quen, mốc giờ, đạo cụ hoặc vi cảnh do model tự đặt để giải thích một brief không tự trở thành lyric seed. Trước writer-pass:
+Phân biệt **material** với **câu minh họa**. Câu thoại, thói quen, mốc giờ, đạo cụ hoặc vi cảnh do model tự đặt để giải thích một brief không tự trở thành lyric seed.
 
+**Đảo ngược cơ chế Material-to-Emotion Bridge:**
+- *Sai lầm:* `material → tìm cách biến thành hình ảnh/ẩn dụ → nhồi vào ca từ` (dẫn tới việc tự động vẽ ra danh mục phố, đèn, xe, gió, áo, đường...).
+- *Đúng:* `emotion → cần biểu đạt điều gì → material có giúp không? → nếu có thì dùng → nếu không thì bỏ`.
+Vật liệu chỉ là phương tiện phục vụ cảm xúc, không phải chỉ tiêu (quota) phải lấp đầy.
+
+**Minimal Generation Packet cho Open / Simple Briefs:**
+Khi brief mở hoặc đơn giản (ví dụ: *"Viết ca khúc tình yêu nam nữ"* hoặc *"Người đàn ông về nhà gặp người yêu"*):
+- **Bỏ qua toàn bộ heavy machinery:** Không kích hoạt association engine, audition tables, camera arc, scale arc hay externalization contract.
+- **Generation Packet chỉ mang 6 trường cốt lõi:**
+  1. `Central Intent`: Cảm xúc trung tâm cần làm người nghe rung động.
+  2. `Relationship`: Ai với ai, mức độ gắn kết thế nào.
+  3. `Emotional Movement`: Cảm xúc vận động từ đâu tới đâu qua bài.
+  4. `Section Jobs`: Nhiệm vụ cảm xúc của từng đoạn (Verse, Pre, Chorus, Verse 2, Bridge, Final Chorus).
+  5. `Hook / Payoff`: Câu đinh đáng nhớ, kết tinh sự thật cảm xúc.
+  6. `Register`: Pop đời sống, ballad mộc, hay thơ nhẹ.
+
+Trước writer-pass:
 1. Giữ nguyên chữ chỉ với material user cấp hoặc motif user cho phép sáng tạo và khóa lại.
 2. Với ví dụ do model tự thêm, xóa bề mặt câu và nén về chức năng quan hệ, như `né tránh đối thoại`, `lời nói mất độ gần`, `một bên mời gọi — một bên chưa hồi đáp`.
 3. Chỉ chuyển chức năng này qua `section job → immediate utterance → phrase → từ`; không paraphrase ví dụ, đổi đại từ hoặc dựng cặp đối xứng từ nó.
@@ -357,22 +374,21 @@ Sau rough Chorus, thực hiện một lượt refine riêng cho hook:
    - *Contrast:* tạo thế đối xứng hoặc khoảng lặng để tôn bật hook;
    - *Release/Payoff:* giải phóng cảm xúc, nâng đỡ dư ba của hook.
 
-Nếu hook mạnh đang nằm giữa nhiều câu giải thích câu chuyện:
-- Cắt bớt các câu giải thích hoàn cảnh đã được Verse chuẩn bị;
-- Cho các line còn lại phục vụ hook, tuyệt đối không cạnh tranh hay chia nhỏ sự chú ý với hook;
-- Chorus không cần kể lại toàn bộ story hay chứa trọn luận điểm của bài; nó cần kết tinh (crystallize) cảm xúc trung tâm.
-*Nguyên tắc:* Nếu cắt bớt đáng kể phần giải thích hoàn cảnh mà hook rõ hơn và không mất essential meaning, Chorus đang bị over-explaining. Cắt cho đến khi các line còn lại đều phục vụ hook; không đặt quota số từ.
+**Chống biến Chorus thành luận đề:**
+- Chorus là nơi **giải phóng cảm xúc (emotional release)**, không phải bản tóm tắt tình huống hay bản lập luận logic.
+- Tránh mô thức luận đề: `Không cần X vì có Y là đủ` hoặc `không X, mà Y, nên Z`.
+- Nếu hook mạnh đang nằm giữa nhiều câu giải thích câu chuyện: cắt bớt các câu giải thích hoàn cảnh đã được Verse chuẩn bị; cho các line còn lại phục vụ hook, tuyệt đối không cạnh tranh hay chia nhỏ sự chú ý với hook.
 
-### FINAL CHORUS REFINEMENT (FINAL CHORUS ≠ MORE WORDS) — kết luận bằng biến nghĩa, không bằng nhồi chữ
+### FINAL CHORUS REFINEMENT (FINAL CHORUS ≠ MORE WORDS & NO BIG-WORD ESCALATION)
 
-Final Chorus không mặc định phải:
-- dài hơn các Chorus trước;
-- chứa nhiều chữ/nhiều thông tin mới hơn;
-- hát cao hơn hay kịch tính hóa giả tạo;
-- thêm mini-story hoặc câu dài lê thê để giải thích bài học/kết cục.
+Final Chorus không mặc định phải dài hơn, nhiều chữ hơn, hay cố kịch tính hóa giả tạo.
+
+**Chặn Big-Word Escalation:**
+- Tuyệt đối không cố tạo cảm giác vĩ mô bằng cách phóng đại kích cỡ từ ngữ: `con đường → năm tháng → cuộc đời → kỳ diệu → tất cả`.
+- Leo thang ca từ thực chất là: **tăng độ sâu thân mật, sự phụ thuộc, một lời thú nhận tổn thương hơn, hoặc một hình ảnh quen quay lại mang nghĩa mới**.
 
 Final Chorus cần tạo cảm giác kết luận (resolution), chuyển nghĩa hoặc dư ba bằng cách:
-- thay đúng một line chốt;
+- thay đúng một line chốt mang tính thú nhận sâu nhất;
 - đổi một đại từ (pronoun) hoặc đổi ngôi quan sát;
 - đổi một hình ảnh bản lề;
 - rút bớt chữ để nén lại sự tĩnh lặng;
@@ -422,12 +438,12 @@ Dựng scaffold:
 
 | Section | Việc phải làm |
 |---|---|
-| Verse 1 | Dựng shared premise hoặc tình thế |
+| Verse 1 | Dựng shared premise hoặc tình thế; có ít nhất một Lyric Carrying Line |
 | Pre-Chorus | Dồn câu hỏi, áp lực hoặc chuyển độ cao |
-| Chorus | Kết tinh Tứ và hook |
-| Verse 2 | Đổi vai, góc hoặc stakes; không kể lại Verse 1 |
-| Bridge | Mở sâu, lựa chọn, lớp stakes cao nhất hoặc đổi flow đúng behavior |
-| Final | Trả payoff đã được cốt trao quyền |
+| Chorus | Nơi giải phóng cảm xúc (emotional release), kết tinh Tứ và hook; chống viết thành luận đề (`không cần X vì có Y`) |
+| Verse 2 | Đào sâu ý nghĩa cảm xúc, tăng độ thân mật/vulnerability; cấm chỉ đổi địa điểm (`Verse 2 ≠ Verse 1 + một địa điểm khác`) |
+| Bridge | Khoảnh khắc thú nhận (confession), bước ngoặt cảm xúc; cấm bài thuyết trình so sánh triết lý (`Người ta thường... nhưng nhìn em anh mới hiểu...`) |
+| Final | Trả payoff đã được cốt trao quyền; chặn Big-Word Escalation |
 
 ### EXTERNALIZATION CONTRACT — có điều kiện trước writer-pass
 

@@ -76,7 +76,7 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 
 ```text
 - LOCATION: [Tên Section, Dòng số X]
-- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / Audio-Claim-Violation]
+- PROBLEM:  [Tên triệu chứng: Cliché / Thesis Line / Provenance / Forced Rhyme / Prose-to-Lyric / Weak Landing / Writerly Phrase / Decorative Specificity / Show-Don't-Explain / Semantic Redundancy / Camera Sweep / Narrative Density / Paraphrase Density / Generic Emotion / Chorus Anti-Essay / Bridge Anti-Essay / Narrative-to-Lyric / Psychology-to-Lyric / SCENE-REPORT / PSYCHOLOGY-ESSAY / BIG-WORD-ESCALATION / Audio-Claim-Violation]
 - WHY:      [Lý do tại sao dòng này làm giảm chất lượng, phẳng cảm xúc hoặc phô diễn chữ]
 - TARGETED FIX: [1–2 phương án sửa tại chỗ bằng cách GIẢN HÓA hoặc NÉN NGHĨA, giữ nguyên mạch section]
 ```
@@ -94,37 +94,42 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
    - Đảo cú pháp bất thường hoặc chọn một từ xa lạ, ngô nghê chỉ để bắt vần với câu trên.
 
 ### B. SUGGESTED (Khuyến nghị nâng cấp)
-1. **Show, Don't Explain & Over-Explanation (Thuyết minh thừa thãi):**
+1. **SCENE-REPORT (Báo cáo cảnh vật / Dồn dập ngoại cảnh thiếu tải trọng cảm xúc):**
+   - *Dấu hiệu:* Nhiều dòng chỉ thuần túy ghi nhận cảnh vật, thời tiết, hoạt động thường nhật (*phố xá, đèn đường, dắt xe, kéo khóa, quạt gió, ngã tư...*). Thấy hai người đang làm gì nhưng chưa cảm được họ có ý nghĩa gì với nhau; bỏ cảnh đi cảm xúc bài vẫn nguyên.
+   - *4 câu hỏi xử lý cục bộ:*
+     1. *Cảnh này đang làm người nghe cảm gì?*
+     2. *Quan hệ thay đổi ở đâu?*
+     3. *Nếu bỏ chi tiết này, emotional meaning có mất không?*
+     4. *Có câu cảm xúc / tương tác nào mạnh hơn đang bị cảnh che mất không?*
+   - *Xử lý:* Cắt bớt cảnh thuần túy; chuyển $1 - 2$ dòng quan sát thành câu bộc lộ cảm xúc trực diện hoặc chi tiết mang tải trọng quan hệ (*Lyric Carrying Line*).
+2. **PSYCHOLOGY-ESSAY (Hội chứng thuyết trình tâm lý & nghị luận tình cảm):**
+   - *Dấu hiệu:* Tác giả đứng ngoài phân tích tâm lý thay vì để nhân vật cất lời; giải thích quá nhiều *"tình yêu là..."*, *"anh hiểu rằng..."*; đưa ra các chân lý tổng quát đao to búa lớn (*"Điều dũng cảm nhất của một người đàn ông..."*); Bridge giống bài phát biểu so sánh triết lý (`Người ta thường gom nhặt những điều lớn lao... nhưng nhìn em anh mới hiểu...`).
+   - *Câu hỏi xử lý:* *"Đây có phải câu hát bật ra từ nhân vật, hay tác giả đang đứng ngoài giải thích bài hát cho người nghe?"*
+   - *Xử lý:* Nén lại, chuyển thành câu cảm xúc trực diện chân thành (*"Anh mệt lắm, nhưng thấy em cười là quên hết"*), thế đối lập, hoặc bỏ hẳn đoạn nghị luận.
+3. **BIG-WORD-ESCALATION (Leo thang từ ngữ giả tạo ở Final Chorus):**
+   - *Dấu hiệu:* Cố tạo cảm giác cao trào, vĩ mô bằng cách phóng đại kích cỡ từ ngữ: từ *con đường, góc phố* ở Verse nhảy vọt lên *năm tháng, cuộc đời, kỳ diệu, mãi mãi, định mệnh, tất cả* ở Final Chorus mà không có tích lũy chiều sâu quan hệ.
+   - *Xử lý:* Ngăn chặn việc tăng kích cỡ từ ngữ. Thay bằng **leo thang độ thân mật (intimacy escalation)**: một sự thật dễ tổn thương hơn, một lời thú nhận phụ thuộc, hoặc một hình ảnh quen quay lại mang nghĩa mới.
+4. **Show, Don't Explain & Over-Explanation (Thuyết minh thừa thãi):**
    - Mô thức: `Hình ảnh / Hành động + Câu giải thích nghĩa của hình ảnh đó`.
      *Ví dụ:* `Mẹ lau lại chiếc ly của cha` $\rightarrow$ Hành động này đã đủ mạnh và đắt giá. Nếu viết tiếp: `Đủ để con hiểu người đã không còn...` $\rightarrow$ Đây là over-explanation làm loãng dư ba.
-2. **Semantic Redundancy (Trùng lặp chức năng ngữ nghĩa giữa các đoạn):**
+5. **Semantic Redundancy (Trùng lặp chức năng ngữ nghĩa giữa các đoạn):**
    - Hai câu ở các section liền kề cùng thực hiện một nhiệm vụ ngữ nghĩa (ví dụ: Verse 1 kết bằng *"Mọi thứ trôi đi như một buổi sáng bình thường"*, sau đó Chorus lại mở bằng *"Nhà mình sáng nay chẳng thiếu một thứ gì..."*).
    - *Xử lý:* Đánh dấu `SUGGESTED - Semantic redundancy between sections`. Ưu tiên giữ câu mạnh hơn ở Chorus, làm câu ở Verse cụ thể hơn bằng chi tiết vật lý, hoặc bỏ hẳn câu tổng kết ở Verse.
-3. **Image Density & Camera Sweep (Dồn dập liệt kê đạo cụ thiếu payoff):**
+6. **Image Density & Camera Sweep (Dồn dập liệt kê đạo cụ thiếu payoff):**
    - Quét lia lịa qua quá nhiều đối tượng: `vật A → địa điểm B → thời tiết C → phương tiện D → bức tường E → chậu cây F → nền đất G` mà các chi tiết không cùng phục vụ một chức năng cảm xúc hay dẫn tới payoff.
    - *Xử lý:* Gom cụm hoặc lược bớt $1 - 2$ chi tiết giá trị thấp để không gian có chỗ thở. Tuyệt đối không viết lại toàn bộ Verse.
-4. **Narrative-to-Lyric Failure (Tỉ lệ tự sự / hoạt cảnh sitcom quá cao):**
+7. **Narrative-to-Lyric Failure (Tỉ lệ tự sự / hoạt cảnh sitcom quá cao):**
    - Kích hoạt khi ca từ có thể được tóm tắt thành một chuỗi sự kiện, hành vi hoặc hội thoại đời thường mà không mất đi phần lớn giá trị cảm xúc (ví dụ: *em mở cửa → em kéo tay → em cười → em hát → anh trêu → em nhìn → anh bật cười → anh mê em*).
    - *Xử lý:* Thay thế $1 - 3$ dòng tự sự/hành vi bằng các dòng mang hình tượng cảm xúc (*Lyric Carrying Lines*) hoặc sự nén cảm xúc.
-5. **Psychology-to-Lyric Failure (Hội chứng thuyết trình tâm lý):**
-   - Kích hoạt khi nhiều dòng liên tiếp giải thích nghĩa của tình yêu / điều người kể nhận ra / lý do mối quan hệ có ý nghĩa.
-   - *Xử lý:* Nén lời giải thích thành: (1) một hình ảnh cảm xúc; (2) một thế đối lập; (3) một ẩn dụ phục vụ Tứ; (4) một câu phát ngôn trực diện; hoặc (5) một bước ngoặt góc nhìn.
-6. **Narrative / Scene Density (Dồn dập đồ vật/hành động thiếu chuyển động cảm xúc):**
-   - Kích hoạt khi nhiều dòng liên tiếp chỉ toàn là: đồ vật, hành động vật lý, địa điểm, chi tiết giác quan mà không có chuyển động cảm xúc (ví dụ: *dắt xe, treo mũ, tiếng dép, mở chốt, mùi dầu ăn, hành phi, quạt thông gió, tháo giày*).
-   - Reviewer TUYỆT ĐỐI KHÔNG nói: *"thêm chi tiết nữa đi"*.
-   - Reviewer yêu cầu: *"Chuyển 1–2 sự thật cảnh quan (scene facts) thành chi tiết mang tải trọng quan hệ hoặc câu biểu đạt cảm xúc."* Luôn hỏi: *"Tại sao người kể lại chú ý điều này vì tình yêu?"*
-7. **Emotional Paraphrase Density (Mật độ diễn giải cảm xúc lặp lại):**
-   - Kích hoạt khi nhiều dòng liên tiếp nhắc lại cùng một kết luận cảm xúc mà không đưa thêm thông tin quan hệ, hình tượng hay góc nhìn mới (ví dụ: *không cần gồng, không cần giỏi, được vụng về, được ngồi im, không sợ khoảng lặng, buông vai diễn, thả lỏng...*).
-   - Reviewer yêu cầu: Giữ lại biểu đạt mạnh nhất, chuyển các câu lặp lại thành hình ảnh, nghĩa ngầm (subtext), ký ức riêng tư của mối quan hệ, thế đối lập, hoặc góc nhìn cảm xúc mới.
-8. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
+8. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
+   - Ngăn chặn việc Chorus biến thành một danh sách các mệnh đề logic: `không X, mà Y, nên Z, thành ra A, thành ra B` hoặc `Không cần X vì có Y là đủ`.
+   - Chorus cần sự nén lại về nhạc tính và cảm xúc: 1 ý niệm trung tâm + 1 carrier đáng nhớ + 1 bước giải phóng cảm xúc (emotional release). Vẫn cho phép ngôn từ trực diện.
+9. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
+   - Không để Bridge rơi vào mô thức bài giảng: `Ngày trước tôi nghĩ X, sau đó tôi nhận ra Y, vậy nên tình yêu là Z` hoặc `Người ta thường... nhưng nhìn em anh mới hiểu...`.
+   - Ưu tiên: `Niềm tin cũ → Một mâu thuẫn cụ thể → Bước ngoặt cảm xúc (Confession / Turn)`. Để người nghe tự hoàn thiện một phần sự nhận ra.
+10. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
    - Đặt câu hỏi: *"Câu này có thể bê sang 10 bài tình ca khác mà không thay đổi điều gì không?"* (ví dụ: *em muốn anh tốt hơn, anh được là chính mình, em luôn ở bên anh, anh thấy bình yên, tình yêu làm mọi thứ tốt đẹp*).
    - Nếu có: Gắn nhãn `SUGGESTED`. Yêu cầu tìm kiếm một hình tượng riêng của bài, một quan sát riêng về mối quan hệ, một cách nén từ đáng nhớ hoặc một góc nhìn cảm xúc mới mẻ (không ép dùng ẩn dụ).
-9. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
-   - Ngăn chặn việc Chorus biến thành một danh sách các mệnh đề logic: `không X, mà Y, nên Z, thành ra A, thành ra B`.
-   - Chorus cần sự nén lại về nhạc tính và cảm xúc: 1 ý niệm trung tâm + 1 carrier đáng nhớ + 1 bước leo thang cảm xúc. Vẫn cho phép ngôn từ trực diện.
-10. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
-   - Không để Bridge rơi vào mô thức bài giảng: `Ngày trước tôi nghĩ X, sau đó tôi nhận ra Y, vậy nên tình yêu là Z`.
-   - Ưu tiên: `Niềm tin cũ → Một mâu thuẫn cụ thể → Bước ngoặt cảm xúc`. Để người nghe tự hoàn thiện một phần sự nhận ra.
 11. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
    - Cụm từ nghe như được tạo ra để "làm thơ", kết hợp từ lạ tai (*unusual collocation*), trừu tượng chồng trừu tượng, hoặc nhân hóa đồ vật làm màu (*decorative personification*).
    - *Xử lý:* Gắn nhãn `SUGGESTED - Writerly Phrase`. Đề xuất giản hóa về cách nói chân thực mà vẫn giữ được không khí.

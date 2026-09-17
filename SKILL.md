@@ -9,8 +9,9 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 
 ## 1. Triết lý sáng tác cốt lõi (Creative North Star)
 
-> **"DON'T DESCRIBE LOVE. MAKE THE LISTENER FEEL LOVE."**  
-> Đừng chỉ miêu tả, tường thuật hành vi hay giải thích tình yêu bằng một chuỗi hành động và lời thoại. Hãy tạo ra cảm xúc trong người nghe bằng ngôn từ ca từ, hình tượng cảm xúc, nhịp điệu, độ nén, thế đối lập và chuyển động nội tâm.
+> **CẢM XÚC TRUNG TÂM LÀ MỤC TIÊU CHÍNH.**  
+> Ca từ phải làm người nghe cảm được điều đó. Mọi hình ảnh, hành động, chi tiết và kỹ thuật chỉ là phương tiện. Nếu một chi tiết chỉ làm nhiệm vụ dựng cảnh, chứng minh kỹ thuật hoặc làm bài có vẻ “thơ”, nhưng không làm cảm xúc hoặc ý nghĩa tiến lên, **bỏ nó**.  
+> *(Mnemonic: Đừng mô tả tình yêu. Hãy làm người nghe cảm thấy tình yêu. Emotion first. Lyric second. Technique third.)*
 
 ### Mô hình tư duy 3 bước của Writer:
 ```text
@@ -20,21 +21,19 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
        ↓
 3. VÀI CHI TIẾT NÀO ĐẮT GIÁ NHẤT ĐỦ ĐỂ NÂNG ĐỠ NÓ? (Which few details help?)
 ```
-*Tuyệt đối không bắt đầu bằng: "Mình cần nhét những chi tiết đời thường hay hành động dễ thương nào vào đây?"*
+*Material-to-Emotion Bridge đảo ngược: `emotion → cần biểu đạt gì → material có giúp không? (có thì dùng, không thì bỏ)`. Tuyệt đối không bắt đầu bằng việc kiểm kê đồ đạc hay tự động vẽ ra danh mục phố xá.*
 
-### Bốn cấp độ chi tiết (The 4 Types of Specificity):
+### Phân định cấp độ chi tiết (Specificity Hierarchy):
 $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text{BEHAVIOR SPECIFICITY}$$
-- **Emotional & Lyric Specificity (Linh hồn):** Sự thật cảm xúc chuẩn xác và câu hát đắt giá mang tải trọng cảm xúc đó.
-- **Relationship Specificity (Chiều sâu):** Điều mang ý nghĩa riêng đối với hai người.
-- **Behavior Specificity (Phụ trợ tùy chọn):** Hành vi kỳ quặc/dễ thương của cặp đôi (trêu đùa, làm mặt xấu, nhảy ngớ ngẩn...).
-- **Cảnh báo cốt tử:** Dừng việc lấy sự "dễ thương / tiểu phẩm sitcom" thay thế cho tình yêu lãng mạn. Biệt danh trêu đùa hay cử chỉ hài hước chỉ được giữ lại nếu nó bộc lộ một sự thật cảm xúc lớn hơn; nếu không, hãy kiên quyết lược bỏ.
+- **Emotional & Lyric Specificity (Linh hồn - Ưu tiên cao nhất):** Sự thật cảm xúc chuẩn xác và câu hát đắt giá mang tải trọng cảm xúc đó.
+- **Relationship Specificity (Chiều sâu):** Điều mang ý nghĩa riêng đối với hai người (thói quen ngầm, khoảng lặng, sự thấu hiểu).
+- **Behavior Specificity (Phụ trợ tùy chọn):** Cử chỉ, hành vi cụ thể; chỉ giữ lại nếu bộc lộ sự thật cảm xúc lớn hơn, không thay thế cho tình yêu.
 
-### Hiệu chỉnh quan trọng:
-- **Chi tiết đời thường chỉ là bối cảnh nền (Supporting Material):** Chi tiết sinh hoạt tạo không khí và neo giữ hiện thực; sau đó cảm xúc và hình tượng phải là thứ dẫn dắt toàn bộ đoạn. Không tối đa hóa hiện thực đời thường.
-- **Hình tượng cảm xúc (Emotional Image):** Trước khi viết, tự hỏi: *Hình tượng, sự so sánh, chuyển đổi, đối lập hay cảm giác nào mang tải trọng cảm xúc tốt nhất ở đây?* (ẩn dụ, biểu tượng lặp lại, tương phản thị giác, cảm giác vật lý, nghịch lý cảm xúc).
-- **Dòng gánh ca từ (Lyric Carrying Line):** Mỗi section lớn phải có ít nhất một câu hát mà nhiệm vụ chính không phải kể việc vừa xảy ra, mà mang tải trọng cảm xúc, hình tượng, chiều sâu hoặc sự rung động có thể đứng độc lập như một câu hát đáng nhớ.
-- **Cho phép ngôn ngữ thơ ca và nhạc tính:** `Natural ≠ conversational transcript`, `Natural ≠ ordinary`, `Natural ≠ unpoetic`. Ca từ được phép bay bổng, ẩn dụ, tương phản, lặp từ trong thế giới thẩm mỹ của bài hát; không ghìm ca từ xuống thành transcript ghi âm đời thực.
-- **Show, Don't Tell không phải tuyệt đối:** Câu cảm xúc trực diện (DIRECT EMOTIONAL LANGUAGE) hoàn toàn được chào đón khi nó tạo ra cú nổ cảm xúc (payoff) được tích lũy từ trước (*earned*), không phải khẩu hiệu rỗng.
+### Tự do cho Writer-pass & Chống máy móc:
+- **Tự do lựa chọn phương thức biểu đạt:** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: *câu trực diện (direct declaration), hình ảnh, hành động, tương tác, ẩn dụ, lặp từ, khoảng lặng, hoặc câu tự sự nội tâm*. Câu trực diện như *"Anh yêu em đến mức chẳng còn muốn đi đâu nữa"* có giá trị ca từ cao khi chân thật và đúng điểm rơi.
+- **Định vị ngôn ngữ:** `Natural ≠ ordinary`, `Poetic ≠ artificial`, `Direct ≠ bad`, `Specific ≠ artificial`. Ca từ được bay bổng, giàu nhạc tính; không ghìm câu chữ xuống thành transcript sinh hoạt hay kiểm kê đồ đạc.
+- **Dòng gánh ca từ (Lyric Carrying Line):** Mỗi section lớn cần ít nhất một câu hát có thể đứng độc lập như một câu hát đáng nhớ, mang vẻ đẹp biểu đạt chứ không chỉ tường thuật sự việc.
+- **Minimal Packet cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ truyền: *central intent, relationship, emotional movement, section jobs, hook/payoff, register*.
 
 ## 2. Kỷ luật phân tách vai trò (Token & Role Discipline)
 
@@ -62,12 +61,12 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 Viết trọn vẹn một mạch rough pass từ đầu đến cuối section để giữ đà cảm xúc trước khi soi xét chữ nghĩa vi mô.
 
 ### Định hướng nhiệm vụ từng đoạn (Section Jobs):
-- **VERSE:** Bộc lộ cách nhân vật trải nghiệm mối quan hệ; không chỉ dựng bối cảnh hay kiểm kê đồ đạc/hành vi. Chứa ít nhất một *Lyric Carrying Line*.
+- **VERSE:** Bộc lộ cách nhân vật trải nghiệm mối quan hệ; không biến thành danh mục kiểm kê đồ đạc hay hoạt cảnh sinh hoạt. Có ít nhất một *Lyric Carrying Line*.
 - **PRE-CHORUS:** Gia tăng áp lực cảm xúc, tạo đà mong chờ cho sự thật sắp hé mở.
-- **CHORUS:** Kết tinh hoặc giải phóng sự thật cảm xúc trung tâm; chứa carrier đáng nhớ nhất; **chống viết thành bài luận** (không liệt kê mệnh đề: *không X, mà Y, nên Z*).
-- **VERSE 2:** Đào sâu ý nghĩa cảm xúc, đưa vào thông tin quan hệ mới; tránh lặp lại tâm lý đã nói ở Chorus.
-- **BRIDGE:** Tạo bước ngoặt góc nhìn (Perspective Shift), làm sáng tỏ điều chưa thấy; **chống viết thành bài giảng** (ưu tiên: *niềm tin cũ → mâu thuẫn cụ thể → bước ngoặt cảm xúc*, tránh *trước nghĩ X, sau hiểu Y, vậy nên Z*).
-- **FINAL CHORUS:** Trở về với ý nghĩa cảm xúc đã biến chuyển sâu sắc hơn; không copy nguyên xi; không cần nhồi thêm chữ (`Final Chorus ≠ More Words`).
+- **CHORUS:** Nơi giải phóng cảm xúc (emotional release), kết tinh sự thật cảm xúc trung tâm; chứa hook đáng nhớ nhất; **chống viết thành luận đề** (không liệt kê: *không X, mà Y, nên Z* hay *không cần X vì có Y*).
+- **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (vulnerability) hoặc thông tin quan hệ mới; **cấm chỉ đổi địa điểm** (`Verse 2 ≠ Verse 1 + một địa điểm khác`).
+- **BRIDGE:** Khoảnh khắc thú nhận (confession), bước ngoặt cảm xúc (emotional turn), sự thật chưa từng nói; **chống viết thành bài thuyết trình** (cấm mô thức: *Người ta thường... nhưng nhìn em anh mới hiểu... điều lớn nhất là...*).
+- **FINAL CHORUS:** Trở về với ý nghĩa cảm xúc đã biến chuyển sâu sắc hơn; **chặn Big-Word Escalation** (`Final Chorus ≠ Chorus + "cả cuộc đời"` hay phóng đại từ ngữ: *con đường → năm tháng → cuộc đời → kỳ diệu*); tăng độ sâu thân mật, không tăng kích cỡ từ ngữ.
 
 ### Bốn phanh tối thượng của Writer (Danh sách đóng)
 Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soát của **duy nhất 4 phanh** (Closed List):
@@ -96,19 +95,28 @@ Chỉ mở các công cụ chẩn đoán chuyên biệt khi bản nháp đã vi�
 ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌM TẦNG LỖI → VÁ ĐÚNG DUY NHẤT TẦNG ĐÓ → DỪNG
 ```
 
-### Bộ 4 bài test kiểm tra nhanh trước khi release (Test A/B/C/D):
+### Bảng Ưu tiên Thẩm định Chất lượng (Lyric Quality Bar):
+- **P0: Có cảm xúc không?** Người nghe có rung động trước central emotion không?
+- **P0: Có phải bài hát không?** Là ca từ giàu nhạc tính hay chỉ là văn xuôi/hoạt cảnh tự sự?
+- **P1: Cảm xúc có chuyển động không?** Các section có đào sâu/đổi nghĩa không hay chỉ đổi địa điểm?
+- **P1: Có câu đáng nhớ không?** Hook/payoff có identity riêng, neo được vào lòng người nghe không?
+- **P1: Câu chữ có tự nhiên không?** Tiếng Việt đời sống đúng ngữ vực, không gượng ép.
+- **P2: Hình ảnh/chữ có đẹp không?** Image, nhạc điệu, vần (đẹp câu chữ không được phép thắng cảm xúc).
+- **P2: Có gì dư không?** Chi tiết không gánh cảm xúc thì kiên quyết bỏ bớt.
+
+### Bộ test kiểm tra nhanh trước khi release (Test A/B/C/D):
 1. **Test A (Vẻ đẹp ca từ):** Nếu bỏ hết các động từ hành động sinh hoạt, bài hát có còn vẻ đẹp cảm xúc nào không?
 2. **Test B (Lõi tình yêu):** Nếu bỏ hết các trò trêu đùa/hành vi dễ thương, bài có còn một lõi tình cảm sâu sắc nhận ra được không?
 3. **Test C (Sức nhớ ca từ):** Có ít nhất $2 - 4$ câu hát được người nghe nhớ đến vì vẻ đẹp biểu đạt chứ không chỉ vì thông tin sự việc không?
 4. **Test D (Chuyển động cảm xúc):** Mỗi section có thực sự làm biến chuyển ý nghĩa cảm xúc không, hay chỉ thêm một mẩu chuyện đời thường mới?
 *(Nếu phần lớn bài test trên thất bại $\rightarrow$ bản nháp đang mắc lỗi Narrative/Sitcom, chưa sẵn sàng xuất bản).*
 
-### Phân tầng xử lý:
+### Phân tầng xử lý & Chẩn đoán nhẹ:
 1. **Lỗi ở Tứ / Ý niệm cốt lõi:** Lạc đề, sai miền nghĩa brief $\rightarrow$ sửa Tứ tại `references/idea-and-structure.md`.
-2. **Lỗi ở Cấu trúc / Section Jobs:** Bài đều đều, thiếu chuyển động cảm xúc, Hook loãng, Bridge luận đề $\rightarrow$ gọt Hook, đổi góc nhìn Bridge.
+2. **Lỗi ở Cấu trúc / Section Jobs:** Bài đều đều, thiếu chuyển động cảm xúc, Hook loãng, Bridge luận đề $\rightarrow$ gọt Hook, đổi góc nhìn Bridge; chặn `Big-Word Escalation` ở Final Chorus.
 3. **Lỗi ở Tự nhiên / Cảm xúc (Lyric Voltage):** 
-   - Liệt kê hành động/hoạt cảnh kiểu sitcom (`NARRATIVE-TO-LYRIC`) $\rightarrow$ thay $1 - 3$ câu tự sự bằng câu mang hình tượng cảm xúc (*Lyric Carrying Line*);
-   - Lặp lại cùng một kết luận tâm lý (`PSYCHOLOGY-TO-LYRIC` / `PARAPHRASE DENSITY`) $\rightarrow$ nén thành 1 hình ảnh hoặc thế đối lập (`references/lyric-refinement.md`).
+   - Liệt kê cảnh vật/hành động lấn át cảm xúc (`SCENE-REPORT` / `NARRATIVE-TO-LYRIC`) $\rightarrow$ tự hỏi: *cảnh này làm người nghe cảm gì?* Thay $1 - 3$ dòng cảnh bằng câu mang cảm xúc (*Lyric Carrying Line*);
+   - Thuyết trình triết lý/diễn giải tâm lý (`PSYCHOLOGY-ESSAY` / `PARAPHRASE DENSITY`) $\rightarrow$ nén hoặc chuyển thành câu cảm xúc trực diện, thế đối lập, hoặc bỏ bớt (`references/lyric-refinement.md`).
 4. **Lỗi ở Ngữ âm / Miệng hát (Prosody & Mouth-feel):** Nuốt chữ, dồn hơi, cấn dấu thanh $\rightarrow$ tinh chỉnh vần, cắt chữ thừa (`references/vietnamese-line-and-sound.md`).
 5. **Lỗi ở Engine AI / Render (Suno & Vocal):** 
    - Tuân thủ bất biến: `OBSERVATION (User/Audio) → REPEATABILITY CHECK → LIKELY CAUSE → FAILED LAYER → TARGETED PATCH`.

@@ -56,11 +56,15 @@ Mỗi section lớn (*Verse, Chorus, Bridge*) phải chứa ít nhất một **L
 
 ---
 
-### COMPRESSION & SUBTEXT — Nói ít hơn không có nghĩa là khó hiểu hơn
+### COMPRESSION & SUBTEXT — Chọn cách biểu đạt cảm xúc mạnh nhất
 
-Khi một dòng nói trọn cả nguyên nhân + cảm xúc + kết luận, hãy thử bỏ phần người nghe đã có thể tự suy ra từ bối cảnh.
-Ưu tiên thứ tự:
-$$\text{Action / Image / Phrase} > \text{Explanation} > \text{Thesis}$$
+Khi một dòng nói trọn cả nguyên nhân + cảm xúc + kết luận, hãy bỏ phần người nghe đã có thể tự suy ra từ bối cảnh.
+
+**Chặn thiên kiến ép thành hình ảnh (Anti Forced-Image Bias):**
+- Tuyệt đối không mặc định: *"phải biến câu này thành hình ảnh hoặc đồ vật"*.
+- Tự hỏi: **"Cách nào truyền tải cảm xúc mạnh nhất ở câu này?"**
+  - Có thể là: *hình ảnh, hành động, đối thoại, phát ngôn trực diện (direct statement), khoảng lặng, cắt bỏ râu ria, đổi điểm rơi, điệp từ, thế tương phản, hay sự leo thang thân mật*.
+- Phát ngôn trực diện (*"Anh yêu em đến mức chẳng còn muốn đi đâu nữa"*) ở đúng thời điểm có sức lay động lớn hơn việc cố gán ghép một hình ảnh đồ vật khiên cưỡng.
 
 ---
 
@@ -79,18 +83,19 @@ Học hỏi các kỹ nghệ sáng tác ca khúc đương đại hiệu quả:
 4. **Direct Emotional Declaration at Payoff (Phát ngôn cảm xúc trực diện đúng thời điểm):**
    Cho phép những lời tuyên bố cảm xúc trực tiếp, mãnh liệt ở những thời khắc có giá trị cao (*Chorus, Bridge, Final Chorus*). Phát ngôn trực diện này phải là **cú nổ giải tỏa (payoff)** được tích lũy từ bối cảnh trước đó (*earned*), không phải khẩu hiệu rỗng.
 5. **Chorus as Emotional Release (Chorus là nơi giải phóng cảm xúc):**
-   Chorus không phải bản tóm tắt lại những gì vừa xảy ra ở Verse. Chorus là nơi kết tinh, bùng nổ hoặc giải phóng sự thật cảm xúc mà Verse đã gieo mầm.
-6. **Repetition with Variation (Lặp lại có biến chuyển):**
-   Khi giai điệu hoặc ca từ Chorus quay trở lại, nó phải mang theo hàm ý sâu hơn, áp lực cảm xúc lớn hơn hoặc góc nhìn biến đổi sau khi đã đi qua Verse 2 và Bridge.
+   Chorus không phải bản tóm tắt lại những gì vừa xảy ra ở Verse, cũng không phải bản luận đề (*"không cần X vì có Y"*). Chorus là nơi kết tinh, bùng nổ hoặc giải phóng sự thật cảm xúc mà Verse đã gieo mầm.
+6. **Repetition with Variation & Intimacy Escalation:**
+   Khi Chorus quay trở lại, nó phải mang theo hàm ý sâu hơn hoặc góc nhìn biến đổi sau khi đã đi qua Verse 2 và Bridge.
+   - **Chặn Big-Word Escalation:** Final Chorus không tạo cao trào bằng cách phóng to từ ngữ (*con đường → năm tháng → cuộc đời → kỳ diệu*), mà bằng **tăng độ sâu thân mật, tính tổn thương, hoặc một hình ảnh quen quay lại mang nghĩa mới**.
 
 ---
 
-### THESIS LINE & EXPLAINING LINE — Khử câu kết luận bài học & Show, Don't Explain
+### THESIS LINE & EXPLAINING LINE — Khử câu kết luận bài học & Chống Bridge Essay
 
 Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
 - Mở đầu bằng: *"hóa ra...", "điều đau nhất là...", "thì ra tình yêu...", "có những cuộc chia tay...", "chỉ là..."*; hoặc
 - Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện (*ví dụ: hành động mẹ lau chiếc ly của cha đã đủ mạnh; nếu viết thêm "đủ để con hiểu người đã không còn..." thì thành over-explanation làm loãng dư ba*).
-- **Quy tắc cho Bridge:** Bridge phải mang lại góc nhìn mới (*new angle*), hành động (*action*), mâu thuẫn (*contradiction*), hình ảnh (*image*) hoặc bước ngoặt cảm xúc (*emotional turn*). Tránh mặc định dùng các cụm giải thích: *"để con hiểu", "đủ để nhận ra", "nghĩa là", "bởi vì", "cho thấy rằng"*.
+- **Chống Bridge Essay (Bài giảng triết lý):** Cấm tuyệt đối mô thức diễn thuyết so sánh: *"Người ta thường gom nhặt những điều lớn lao... nhưng nhìn em anh mới hiểu... điều dũng cảm nhất là..."*. Bridge phải là: **Khoảnh khắc thú nhận (Confession) / Bước ngoặt cảm xúc (Turn) / Một mâu thuẫn cụ thể chạm tới sự thật chưa từng nói**.
 
 ---
 

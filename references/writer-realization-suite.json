@@ -148,6 +148,21 @@
       "id": "w29-test-lyric-carrying-line",
       "split": "capability",
       "prompt": "Kiểm tra sự hiện diện của Lyric Carrying Line trong một đoạn Verse ca khúc tình cảm.\nYêu cầu Reviewer:\n- Đặt câu hỏi: Đoạn này có ít nhất một câu hát mà nhiệm vụ chính KHÔNG PHẢI là kể sự việc hay tường thuật hành động không?\n- Đánh giá câu hát có khả năng đứng độc lập mang rung động cảm xúc tự thân (ví dụ: 'Ánh mắt em làm một ngày u ám bỗng tự tìm về đúng chỗ').\n- Kết luận: PASS nếu có Lyric Carrying Line rõ nét."
+    },
+    {
+      "id": "w30-test-open-romance",
+      "split": "incident-regression",
+      "prompt": "Viết một ca khúc tiếng Việt về tình yêu nam nữ.\n\nYêu cầu:\n- Tự chọn Tứ và góc nhìn cảm xúc trung tâm của bài hát.\n- Viết một bài tình ca lay động, giàu nhạc tính và vẻ đẹp ca từ, không biến thành bản tường thuật hoạt cảnh đời thường hay kiểm kê đồ đạc.\n- Có hook/payoff đáng nhớ; các section chuyển động cảm xúc rõ nét, không essay triết lý ở Bridge, không big-word escalation ở Final Chorus."
+    },
+    {
+      "id": "w31-test-everyday-scene-trap",
+      "split": "incident-regression",
+      "prompt": "Viết một ca khúc về một người đàn ông trở về nhà sau một ngày dài và gặp người mình yêu.\n\nYêu cầu:\n- Tránh bẫy kiểm kê hành vi đời thường (dắt xe, treo mũ, mở cửa, tiếng dép, quạt gió, nấu ăn...).\n- Tập trung vào cảm xúc rung động và sự kết nối giữa hai con người.\n- Có Lyric Carrying Line; Verse 2 đào sâu mức độ thân mật chứ không chỉ đổi địa điểm; Bridge là sự thú nhận/bước ngoặt cảm xúc chứ không thuyết trình."
+    },
+    {
+      "id": "w32-test-direct-romance",
+      "split": "incident-regression",
+      "prompt": "Viết một ca khúc về một người đàn ông nhận ra mình yêu một người phụ nữ rất nhiều.\n\nYêu cầu:\n- Dám sử dụng ngôn ngữ cảm xúc trực diện, chân thật và mãnh liệt khi cần thiết; không gượng ép biến mọi cảm xúc thành ẩn dụ đồ vật xa lạ.\n- Đi thẳng vào sự thật tâm hồn của nhân vật; cấu trúc có bước chuyển cảm xúc thực chất."
     }
   ]
 }
