@@ -347,38 +347,40 @@ Với declaration mainstream, Verse đặt câu hỏi/khó nói hoặc một m�
 
 Ghi section job bằng **chuyển động biểu đạt nghe được**: một speech act giữa người nói–người nghe, hoặc một thay đổi của thế đối, emotional field, hình tượng, nhịp cú pháp hay khoảng trống. `Gọi–hỏi–thú nhận–nhượng bộ` chỉ là một họ khả năng, không phải mặc định. Đặc biệt ở Bridge, không giao việc bằng một luận điểm giải thích ký ức, thời gian, tình yêu hay cơ chế tâm lý. Nếu job chỉ nén được thành `X nghĩa là/gây ra/giữ lại Y`, đó là ghi chú phân tích; chuyển nó thành khoảnh khắc nhận ra hoặc chuyển động biểu đạt trước khi sinh immediate utterance.
 
-### HOOK DISTILLATION — chưng cất payoff, chống Chorus giải thích
+### HOOK DISTILLATION & HOOK-FIRST REWRITE — chưng cất payoff, chống Chorus giải thích
 
-Sau rough Chorus, tìm:
-- 1 câu hoặc 1 cặp câu chứa payoff cảm xúc rõ nhất;
-- câu nào người nghe có thể nhớ và ngân lại sau một lần nghe;
-- câu nào trả lời trực diện tựa bài hoặc sức căng trung tâm (central tension) tốt nhất.
+Sau rough Chorus, thực hiện một lượt refine riêng cho hook:
+1. **Xác định hook candidate:** Tìm 1 câu hoặc 1 cặp câu chứa payoff cảm xúc rõ nhất; câu nào người nghe có thể nhớ và ngân lại sau một lần nghe; câu nào trả lời trực diện tựa bài hoặc sức căng trung tâm (central tension) tốt nhất.
+2. **Đặt hook ở vị trí có lực:** Đưa hook về đầu hoặc cuối Chorus để tạo điểm neo ghi nhớ vững chắc.
+3. **Phân vai các line còn lại:** Các dòng quanh hook chỉ được làm một trong ba việc:
+   - *Prepare:* chuẩn bị lực, bối cảnh và nhịp thở để hook rơi xuống;
+   - *Contrast:* tạo thế đối xứng hoặc khoảng lặng để tôn bật hook;
+   - *Release/Payoff:* giải phóng cảm xúc, nâng đỡ dư ba của hook.
 
 Nếu hook mạnh đang nằm giữa nhiều câu giải thích câu chuyện:
-- cắt bớt các câu giải thích hoàn cảnh đã được Verse chuẩn bị;
-- đưa hook gần đầu hoặc cuối Chorus để tạo điểm neo;
-- cho các line còn lại phục vụ hook, không cạnh tranh hay chia nhỏ sự chú ý với hook.
-
-Chorus không cần kể lại toàn bộ story. Nó cần kết tinh (crystallize) cảm xúc trung tâm.
+- Cắt bớt các câu giải thích hoàn cảnh đã được Verse chuẩn bị;
+- Cho các line còn lại phục vụ hook, tuyệt đối không cạnh tranh hay chia nhỏ sự chú ý với hook;
+- Chorus không cần kể lại toàn bộ story hay chứa trọn luận điểm của bài; nó cần kết tinh (crystallize) cảm xúc trung tâm.
 *Heuristic:* Nếu bỏ 30–40% số chữ của Chorus mà payoff cảm xúc rõ ràng và vang hơn, Chorus đang bị over-explaining.
 
-### FINAL CHORUS ≠ MORE WORDS — kết luận bằng biến nghĩa, không bằng nhồi chữ
+### FINAL CHORUS REFINEMENT (FINAL CHORUS ≠ MORE WORDS) — kết luận bằng biến nghĩa, không bằng nhồi chữ
 
 Final Chorus không mặc định phải:
 - dài hơn các Chorus trước;
 - chứa nhiều chữ/nhiều thông tin mới hơn;
-- hát cao hơn hay kịch tính hóa giả tạo.
+- hát cao hơn hay kịch tính hóa giả tạo;
+- thêm mini-story hoặc câu dài lê thê để giải thích bài học/kết cục.
 
-Final Chorus cần tạo cảm giác kết luận (resolution), chuyển nghĩa hoặc dư ba.
-Có thể làm điều đó bằng cách:
+Final Chorus cần tạo cảm giác kết luận (resolution), chuyển nghĩa hoặc dư ba bằng cách:
 - thay đúng một line chốt;
 - đổi một đại từ (pronoun) hoặc đổi ngôi quan sát;
 - đổi một hình ảnh bản lề;
 - rút bớt chữ để nén lại sự tĩnh lặng;
 - giữ nguyên hook nhưng đổi ngữ cảnh của các câu dẫn;
+- để hook cũ nghe khác hẳn vì Bridge đã thay đổi ý nghĩa của toàn bộ tình huống;
 - hoặc thậm chí hát nhỏ lại (pull back).
 
-Nếu Final Chorus phải thêm một câu dài lê thê để giải thích bài học hay kết cục, ưu tiên sửa emotional arc ở các section trước thay vì nhồi chữ vào đoạn kết.
+Nếu Final Chorus cần giải thích, ưu tiên sửa emotional arc ở các section trước thay vì nhồi chữ vào đoạn kết.
 
 ### Nhận ra dòng chảy tu từ trước khi viết câu
 

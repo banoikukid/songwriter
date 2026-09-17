@@ -85,6 +85,49 @@ Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có 
 
 Ẩn dụ phải tiến nghĩa. Lặp từ miền ẩn dụ không tính là phát triển. Không đổi nghĩa bóng thành cảnh thật nếu cốt chưa dựng.
 
+### ROUGH LINE → LYRIC LINE
+
+Rough line làm nhiệm vụ giữ đúng ý. Lyric line phải giữ ý nhưng có thêm ít nhất một phẩm chất nghe/hát:
+- **compression:** độ nén cảm xúc;
+- **subtext:** nghĩa ngầm và khoảng lặng;
+- **memorable phrasing:** cụm từ gợi nhớ;
+- **image/action:** hình ảnh hoặc hành động mang nghĩa;
+- **sonic movement:** chuyển động âm thanh;
+- **strong landing:** điểm rơi cuối dòng vững vàng;
+- **conversational truth:** chân thực của khẩu ngữ đời sống.
+
+Không bắt mọi line phải thơ hoặc giàu hình ảnh. Một line rất trực tiếp vẫn tốt nếu nó có timing, voice và điểm rơi.
+
+*Ví dụ:*
+- **ROUGH:** "Hóa ra điều làm người ta đau nhất không phải là chia tay, mà là sự kết thúc này cũng không có tên."
+- **Vấn đề:** Câu đang làm nhiệm vụ giải thích toàn bộ theme cho listener như một bài luận.
+- **Refinement:** Giữ nghĩa nhưng bớt giải thích, để hình ảnh / hành động / hook tự tạo kết luận (không cấp đáp án mẫu cố định để tránh model copy pattern).
+
+### COMPRESSION & SUBTEXT
+
+Khi một line nói trọn cả nguyên nhân + cảm xúc + kết luận, thử bỏ phần listener đã có thể tự hiểu từ ngữ cảnh.
+Ưu tiên:
+$$\text{action / image / phrase} > \text{explanation} > \text{thesis}$$
+
+*Ví dụ logic:*
+Câu *"Anh buồn vì em đã xem nhưng không trả lời"* thường yếu hơn việc để chi tiết *"đã xem"* + khoảng lặng + hành vi của speaker tự mang nỗi buồn.
+
+Không biến subtext thành mơ hồ. Listener vẫn phải hiểu rõ tình huống và cảm xúc chính.
+**Rule cốt lõi: Nói ít hơn không có nghĩa là khó hiểu hơn.**
+
+### THESIS LINE (mở rộng EXPLAINING LINE & ANALYSIS-LEAKAGE)
+
+Một line có nguy cơ thành thesis khi nó:
+- Mở đầu bằng: *"hóa ra...", "điều đau nhất là...", "thì ra tình yêu...", "có những cuộc chia tay...", "chỉ là..."*; hoặc
+- Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện.
+
+Thesis line không mặc định sai. Giữ nó chỉ khi:
+- Voice nhân vật thực sự cần nói thẳng;
+- Nó chính là câu hook trung tâm;
+- Hoặc sự trực diện tạo payoff cảm xúc lớn.
+
+Nếu image/action trước đó đã truyền được cùng nghĩa, ưu tiên cắt hoặc nén thesis. Đây là diagnostic nhận diện rủi ro, không phải blacklist từ.
+
 ### PROSE-TO-LYRIC — chỉ mở khi câu đúng nghĩa nhưng không có lyric behavior
 
 Một dòng có thể tự nhiên trong văn xuôi nhưng vẫn yếu khi hát.
@@ -108,6 +151,39 @@ Mục tiêu là lyric behavior, không phải poetic decoration.
 *Ví dụ:*
 - PROSE: "Nên gói ghém nhẹ nhàng, không có gì phải giấu."
 - HỎI: Ý chính là gì? (Không còn điều gì phải giải thích / chia tay không oán trách / hai người đã chấp nhận?) $\rightarrow$ Viết lại quanh đúng một ý đó.
+
+### CONVERSATIONAL ≠ FLAT — tự nhiên nhưng có hình dáng âm nhạc
+
+Natural Vietnamese không có nghĩa là chép nguyên văn lời nói chuyện ngoài đời rồi xuống dòng. Lời hát hội thoại có thể:
+- lược bớt hư từ và từ chức năng thừa;
+- tạo nhịp điệu và ngắt nghỉ có chủ ý;
+- đặt lại điểm rơi vào từ có sức nặng;
+- dùng repetition có chủ đích;
+- dùng hình ảnh/vật liệu cụ thể để neo cảm xúc;
+- để một câu lửng chưa nói hết.
+
+Miễn là người Việt nghe vẫn cảm thấy câu đó thuộc về một người thật đang hát trong hoàn cảnh thật.
+**Mục tiêu: "Tự nhiên nhưng có hình dáng âm nhạc", không phải "văn nói được xuống dòng".**
+
+### IMAGE / STATEMENT BALANCE
+
+Một section không nên chỉ gồm toàn: giải thích, nhận định hoặc kết luận cảm xúc trừu tượng. Nó cần đủ material/action để listener tự cảm được một phần nghĩa.
+
+Ngược lại, cũng không được nhồi nhét hình ảnh hay đạo cụ trang trí vô cớ.
+- Nếu một section có 4–5 câu liên tiếp đều là abstract statement: tìm một action/image cụ thể có provenance để neo lại.
+- Nếu section có quá nhiều props: quay lại `DETAIL BUDGET` và cắt giảm (chỉ giữ vật có chức năng đẩy chuyện, mang quan hệ hoặc tạo payoff).
+
+### FRESHNESS WITHOUT FORCED POETRY
+
+Khi một phrase quá quen thuộc hoặc có nguy cơ sáo rỗng, đừng tự động thay bằng ẩn dụ phức tạp hay từ ngữ lạ tai. Thử theo thứ tự ưu tiên:
+1. **Cụ thể hóa:** thay cụm chung chung bằng chi tiết xác thực;
+2. **Đổi góc nhìn:** nhìn từ phía đồ vật, không gian hoặc hành động;
+3. **Đổi động từ:** tìm động từ mang tính vật lý/chuyển động hơn;
+4. **Nén câu:** cắt bỏ râu ria giải thích để giữ lại hạt nhân;
+5. **Dùng chi tiết thật:** một thói quen hoặc dấu vết đời sống;
+6. **Chỉ sau cùng mới cân nhắc metaphor:** nếu ẩn dụ thực sự nâng tầm Tứ.
+
+*Nguyên tắc:* Freshness đến từ cách nhìn chính xác, không phải từ việc làm câu khó hiểu hay "AI thơ".
 
 ### EXPLAINING LINE — bỏ câu giải thích khi hành động đã đủ
 
@@ -365,6 +441,31 @@ Không bắt AABB/ABAB. Mono-rhyme chỉ là lỗi khi nó đi cùng meter, cú 
 Chạy **TERMINAL-REPEAT** ở mỗi section: flag hai dòng liền nhau kết bằng đúng một từ nếu đó không phải refrain/epistrophe có chủ đích. Từ cuối lặp chỉ được giữ khi lượt sau đổi hoặc tăng nghĩa đủ rõ; đừng gọi việc lặp cùng một chữ là vần. Với phrasal meaning khác nhau, vẫn đọc to vì điểm rơi giống hệt có thể làm câu nghe vô tình.
 
 **Nghĩa > vần:** vần sinh từ treo, vô nghĩa, thô hoặc body-image không provenance thì đổi vần, kể cả đổi cả cặp.
+
+### LINE LANDING — điểm rơi cuối dòng có lực
+
+Với line quan trọng (hook, line cuối section, câu chốt nghĩa), kiểm từ/cụm kết thúc dòng.
+Điểm rơi tốt thường là:
+- từ mang hình ảnh hoặc giác quan;
+- động từ mang chuyển động;
+- danh từ có trọng lượng cảm xúc;
+- một cụm hook chính;
+- hoặc một từ mở ra khoảng trống cảm xúc / dư ba.
+
+Tránh để line quan trọng kết thúc bằng từ chức năng lửng lơ hoặc phần giải thích yếu (*ví dụ: "cũng chẳng biết lấy tư cách gì" $\rightarrow$ tự hỏi phần nào mới thật sự là điểm đau: "tư cách"? "buông"? "gọi tên"? Rồi rewrite quanh đúng điểm đau đó*).
+Không đảo cú pháp chỉ để lấy landing đẹp. Natural Vietnamese luôn có quyền veto.
+
+### SONIC CRAFT — nhạc tính nhẹ, không ép vần
+
+Sau khi nghĩa và tiếng Việt tự nhiên đã ổn, kiểm nhẹ tính âm thanh:
+- lặp nguyên âm (assonance) hoặc phụ âm đầu (alliteration);
+- âm mở ở điểm ngân;
+- echo nhịp điệu giữa hai line;
+- internal rhyme / vần lưng tự nhiên;
+- repetition có chủ ý.
+
+Không cần rhyme scheme cứng. Tuyệt đối không đổi nghĩa hay bẻ cú pháp để lấy vần. Một chút âm vang nội bộ có thể biến câu đúng nghĩa thành câu dễ nhớ.
+*Writer có tai không chỉ hỏi "câu này có vần không?", mà hỏi:* **"Hai line này có nói cùng một nhạc không?"**
 
 ### Scope A và Scope B
 

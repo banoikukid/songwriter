@@ -288,7 +288,36 @@ Khi phát hiện cấn hoặc artifact có lỗi, xử lý theo thứ tự ưu t
 6. **Mouth-feel Spot Check & One-Breath Test:** Có bị vấp cụm phụ âm, nuốt chữ, dồn hơi ở các line trọng tâm không?
 7. **Local Rhyme & Sound Polish:** Tinh chỉnh vần chân, vần lưng cục bộ.
 
-*(Lưu ý: Đây là thứ tự ưu tiên chẩn đoán khi có lỗi, không phải checklist tuần tự bắt buộc chạy trên mọi dòng).*
+### LYRIC REFINEMENT — từ bản nháp đúng ý thành ca từ
+
+Rough lyric không mặc định là release-ready. Với full-song hoặc section mới được viết từ đầu, sau khi central meaning đã ổn, thực hiện một lượt refinement ngắn:
+
+**Mục tiêu:**
+- Giữ nguyên Tứ, POV và section job; không viết lại concept; không thêm drama; không “làm thơ” toàn bộ bài.
+- Chỉ nâng những line còn mang tính báo cáo, giải thích hoặc quá literal.
+
+**Refinement hỏi 5 câu:**
+1. Câu này đang hát hay đang giải thích?
+2. Có thể nói ít hơn mà cảm nhiều hơn không?
+3. Hình ảnh / action có thể mang phần nghĩa này thay cho thesis không?
+4. Từ khóa quan trọng có nằm ở điểm rơi tốt không?
+5. Line ending có đủ lực và dễ nhớ không?
+
+Chỉ sửa line cần sửa. Không polish đồng đều toàn bài. Micro-rewrite 2–4 câu không cần chạy toàn bộ refinement pass. Chi tiết kỹ thuật tại `references/vietnamese-line-and-sound.md`.
+
+### LYRIC QUALITY BAR
+
+Trước khi trả full lyrics cuối cùng, tự kiểm ở cấp toàn bài:
+- Có section nào chỉ đang kể việc?
+- Có section nào chỉ đang giải thích theme?
+- Hook có câu thực sự đáng nhớ không?
+- Có line nào đúng nghĩa nhưng quá prose?
+- Có line nào quá "AI thơ" so với voice còn lại?
+- Có đủ khoảng trống cho listener tự hiểu không?
+- Có chi tiết nào dư?
+- Có từ/cụm nào được giữ chỉ vì vần?
+
+Chỉ rewrite những điểm fail. Không tái viết toàn bài nếu phần lớn đã tốt. Đây là quality bar cho artifact cuối, không phải checklist line-by-line.
 
 ### 8. Chọn, Xuất và Học
 
