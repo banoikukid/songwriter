@@ -44,11 +44,11 @@ Mô tả vocal chỉ có giá trị khi nó bám chặt vào cấu trúc dòng c
 ```text
 DÒNG CA TỪ: "Ngỡ bên người qua nghìn năm mộng cũ"
     │
-    ├── Số âm tiết: 9 (gọn trong 1 hơi)
+    ├── Số âm tiết: 8 (gọn trong một nhịp thở tự nhiên)
     ├── Chữ chốt nghĩa (Semantic Landing Word): "cũ"
     │     ├── Loại âm: Nguyên âm bán khép, dấu ngã (falling-rising)
-    │     ├── Rủi ro luyến (Melisma risk): Cao nếu hát nốt quá dài
-    │     └── Giải pháp: Hát dứt khoát hoặc lướt nhẹ, không kéo dài quá 2 phách
+    │     ├── Chỉ dấu rủi ro (Risk Indicator): High melisma risk nếu ngân dài qua nhiều cao độ
+    │     └── Hướng xử lý: Phát âm dứt khoát hoặc lướt nhẹ, tránh uốn nốt phức tạp làm lệch dấu
     └── Điểm lấy hơi (Breath Group): [Ngỡ bên người] / [qua nghìn năm mộng cũ]
 ```
 
@@ -73,11 +73,11 @@ DÒNG CA TỪ: "Ngỡ bên người qua nghìn năm mộng cũ"
 
 ### B. Kiểm Soát Luyến Láy (Melisma & Run Restraint)
 - Trong tiếng Việt, luyến láy quá nhiều nốt trên một âm tiết (`melisma`) rất dễ làm **bẻ gãy thanh điệu**, khiến người nghe hiểu sai nghĩa (*ví dụ: "yêu" luyến nốt thấp thành "yểu" hoặc "yếu"*).
-- **Quy định:** Mặc định ưu tiên `clean articulation`, `minimal runs/melisma`. Chỉ cho phép luyến nhẹ ở các từ thanh bằng (ngang, huyền) không có phụ âm tắc.
+- **Khuyến nghị âm học:** Mặc định ưu tiên `clean articulation`, `minimal runs/melisma`. Hạn chế luyến phức tạp trên các từ mang thanh trắc gãy (hỏi, ngã, nặng); nếu muốn phô diễn kỹ thuật luyến (runs), ưu tiên đặt vào các từ thanh bằng (ngang, huyền) có âm vị mở để tránh bẻ gãy ngữ nghĩa.
 
 ### C. Nhóm Hơi & Biên Từ (Breath Grouping & Word Boundaries)
 - Không ngắt hơi giữa các từ ghép cố định (*"hạnh - [lấy hơi] - phúc"* là lỗi nghiêm trọng).
-- Áp dụng `One-Breath Rule`: Một cụm câu hát chuẩn phải hoàn tất trong một hơi thở tự nhiên ($7 - 11$ âm tiết). Nếu phrase dài hơn, phải có dấu phẩy hoặc điểm ngắt tự nhiên.
+- **Chỉ dẫn phân đoạn hơi thở (One-Breath Guideline):** Một phrase hát tự nhiên thường thoải mái trong khoảng 6–10 âm tiết tùy tempo và thể loại. Nếu câu dài hơn, cần bố trí biên từ và dấu ngắt hợp lý để người hát hoặc AI không bị dồn hơi, nuốt âm ở cuối dòng.
 
 ---
 

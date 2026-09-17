@@ -16,7 +16,7 @@
 ├──────────────────────────────────────────────────────────────┤
 │ 2. LYRICS & CUES (Structure tags, Vocal Direction, Lyrics)   │
 ├──────────────────────────────────────────────────────────────┤
-│ 3. CONTROL PARAMETERS (Model version, Style/Audio Influence) │
+│ 3. CONTROL PARAMETERS (Model Selection, Vocal Gender, Params)│
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -32,31 +32,50 @@
 - **Viết đủ các lượt lặp:** Viết trọn vẹn mọi lần xuất hiện của Chorus, không dùng ghi chú `"Lặp lại Chorus 2 lần"`.
 
 ### Khối 3: CONTROL PARAMETERS
-- **Model Version:** Khuyến nghị Suno v3.5 hoặc v4 cho tiếng Việt tự nhiên nhất.
-- **Generation Parameters:** Ghi chú rõ các tham số nếu platform hỗ trợ (Style Influence, Weirdness, Audio Extend timestamp).
+- **Model Profile & Selection:** Sử dụng model production hiện hành (như Suno v6 hoặc phiên bản mới nhất được platform chính thức hỗ trợ). Với các nhu cầu thể nghiệm âm thanh và lai tạo phong cách táo bạo, có thể dùng các nhánh chuyên biệt (như v6-wild).
+- **Advanced Options:** Khai thác các tính năng điều khiển chính thức nếu giao diện/API hỗ trợ (như tùy chọn Vocal Gender nam/nữ, Style/Audio Influence, Weirdness slider, Audio Extend timestamp).
 
 ---
 
 ## 2. Ngân Sách Ký Tự & Hồ Sơ Nền Tảng (Prompt Budget & Platform Profile)
 
-Ngân sách ký tự là ràng buộc kỹ thuật của nền tảng bên ngoài (external constraint), được quản lý dưới dạng **Platform Profile** cấu hình linh hoạt:
+Để phân định rạch ròi giữa **giới hạn kỹ thuật của nền tảng (Platform Limits)** và **kinh nghiệm tối ưu nội bộ (Recommended Heuristics)**:
 
 ```yaml
 platform: suno
-current_profile: "v3.5_v4_production"
-fields:
+model_profile:
+  preferred: "current_production" # Model mới nhất đang phục vụ ổn định trên platform (ví dụ v6)
+  experimental: "wild_or_creative" # Model nhánh thử nghiệm cho phép biến thiên thể loại cao (ví dụ v6-wild)
+  fallback: "compatible"          # Các phiên bản tương thích trước đó
+  verify_official_docs: true      # Luôn đối chiếu tài liệu và giao diện thực tế tại thời điểm chạy
+
+budget_policy:
   style_prompt:
-    hard_limit: 1000        # Giới hạn kỹ thuật tối đa của giao diện Suno
-    recommended_budget: 150 # Khoảng tối ưu để prompt cô đọng, tránh loãng attention
-    guideline: "Ưu tiên từ khóa âm nhạc đắt giá; bỏ liên từ rườm rà."
+    platform_limit:
+      value: PLATFORM_DEPENDENT   # Ràng buộc UI/API của platform tại thời điểm thực tế
+      source: OFFICIAL_UI_OR_DOCS
+    recommended_budget:
+      value: 120-180 ký tự
+      type: INTERNAL_HEURISTIC   # Tránh làm loãng attention của mô hình AI; tập trung từ khóa âm nhạc đắt
+      guideline: "Ưu tiên từ khóa âm nhạc trọng tâm; bỏ liên từ và giải thích rườm rà."
+
   lyrics_sheet:
-    hard_limit: 3000        # Giới hạn hiển thị và render an toàn
-    recommended_budget: 1800 # Độ dài bài chuẩn (2 Verses, 1-2 Pre, 2-3 Choruses, Bridge, Outro)
-    guideline: "Viết đầy đủ các section lặp; đảm bảo cấu trúc bài hoàn chỉnh."
+    platform_limit:
+      value: PLATFORM_DEPENDENT   # Giới hạn ô nhập lời của giao diện
+      source: OFFICIAL_UI_OR_DOCS
+    recommended_budget:
+      value: 1200-2500 ký tự
+      type: INTERNAL_HEURISTIC   # Độ dài tiêu chuẩn cho ca khúc hoàn chỉnh có đầy đủ section lặp
+      guideline: "Viết đầy đủ các section lặp; đảm bảo tính toàn vẹn của cấu trúc bài."
+
   section_cue:
-    hard_limit: 60          # Ký tự tối đa trong 1 cặp ngoặc vuông
-    recommended_budget: 35
-    guideline: "Tối đa 1 cue ở đầu section; cấm chèn cue giữa dòng lyric."
+    platform_limit:
+      value: PLATFORM_DEPENDENT
+      source: OFFICIAL_UI_OR_DOCS
+    recommended_budget:
+      value: <= 40 ký tự
+      type: INTERNAL_HEURISTIC   # Tối giản để triệt tiêu nguy cơ metatag bleed
+      guideline: "Tối đa 1 cue ở đầu section; tuyệt đối cấm chèn cue giữa dòng lyric."
 ```
 
 ---
@@ -75,16 +94,19 @@ Trước khi kết luận bất kỳ lỗi nào trên bản render, agent phải
 
 ---
 
-### 3.2. Kiểm Tra Tính Lặp Lại: Stochastic Variation vs Repeatable Pattern
+### 3.2. Đánh Giá Bằng Chứng Lặp Lại (Evidence-Based Repeatability)
 
-Suno là một hệ thống khuếch tán âm thanh có tính ngẫu nhiên cao (stochastic model). Cùng một prompt có thể sinh ra các bản render rất khác nhau:
+Suno là hệ thống khuếch tán âm thanh có tính ngẫu nhiên (stochastic). Không dùng ngưỡng cứng nhắc (như máy móc đếm đủ 3 lần), mà đánh giá dựa trên **bằng chứng lặp lại (Repeatable Evidence)**:
 
-- **Single-Output Anomaly (Bất thường đơn lẻ 1 lần):**  
-  *Ví dụ:* 3 lần gen đều là giọng nữ đúng yêu cầu, nhưng 1 lần đột nhiên nhảy sang giọng nam; hoặc 1 lần bị trượt nhịp ngẫu nhiên.  
-  $\rightarrow$ **Giải pháp:** **RE-ROLL** (tạo lại lượt mới với đúng prompt đó). **Tuyệt đối không can thiệp sửa prompt/lyric khi chưa xác nhận lỗi có tính lặp lại.**
-- **Repeatable Pattern (Lỗi có tính quy luật lặp lại):**  
-  *Ví dụ:* $3/3$ lần gen đều bị ngọng cùng một từ; hoặc tất cả các bản render đều bị bẹt năng lượng ở Chorus.  
-  $\rightarrow$ **Giải pháp:** Đã có bằng chứng xác đáng (evidence). Kích hoạt **Targeted Layer Patching**.
+- **Single-Output Anomaly (Bất thường ngẫu nhiên đơn lẻ):**  
+  *Ví dụ:* Lần đầu gen đúng giọng nữ, lần hai đột nhiên nhảy sang giọng nam; hoặc một nốt bị trượt nhịp ngẫu nhiên 1 lần.  
+  $\rightarrow$ **Giải pháp:** **RE-ROLL** (tạo lại lượt mới với cùng prompt). **Không can thiệp sửa prompt/lyric khi lỗi chỉ là ngẫu nhiên đơn lẻ.**
+- **Repeatable Evidence (Bằng chứng có tính quy luật):**  
+  Xác định khi hội đủ các tín hiệu:
+  - **Frequency & Specificity:** Lỗi xuất hiện lặp lại (ví dụ 2 lần liên tiếp người dùng đều nghe thấy cùng một từ bị ngọng).
+  - **Same Location & Symptom:** Cùng rơi vào đúng từ/câu/vị trí section cụ thể (chữ kết dòng Chorus, nốt cao Bridge).
+  - **Same Generation Setup:** Xảy ra trên cùng một model profile và cùng cấu hình tham số.  
+  $\rightarrow$ **Giải pháp:** Đã có bằng chứng xác đáng. Kích hoạt **Targeted Layer Patching**.
 
 ---
 
@@ -94,9 +116,9 @@ Suno là một hệ thống khuếch tán âm thanh có tính ngẫu nhiên cao 
              QUAN SÁT THỰC TẾ (USER_REPORT / AUDIO)
                                │
                                ▼
-        KIỂM TRA TÍNH LẶP LẠI (Repeatability Check)
-         ├─ Lỗi đơn lẻ 1 lần ──► RE-ROLL (Giữ nguyên prompt)
-         └─ Lỗi lặp lại nhiều lần
+        KIỂM TRA TÍNH LẶP LẠI (Repeatable Evidence Check)
+         ├─ Lỗi đơn lẻ ngẫu nhiên ──► RE-ROLL (Giữ nguyên prompt)
+         └─ Có bằng chứng quy luật
                                │
                                ▼
                      XÁC ĐỊNH TẦNG BỊ LỖI
@@ -109,12 +131,12 @@ Suno là một hệ thống khuếch tán âm thanh có tính ngẫu nhiên cao 
 | Triệu chứng lỗi lặp lại | Tầng lỗi thực tế | Hành động vá lỗi cục bộ (Targeted Patch) | Điều TUYỆT ĐỐI KHÔNG làm |
 |---|---|---|---|
 | **Hát lơ lớ, ngọng dấu thanh điệu** | `LYRICS / PHONETIC FIT` | Tìm đúng từ/cụm bị sai; thay bằng từ đồng nghĩa có thanh điệu tự nhiên hơn hoặc đổi sang nguyên âm mở. | Không viết lại Tứ; không sửa Style prompt. |
-| **Giọng hát bị đổi giới tính (nam $\leftrightarrow$ nữ)** | `STYLE / VOCAL IDENTITY` | Thêm từ khóa nhấn mạnh vào Style: `solo female vocal throughout` (hoặc `male vocal only`). | Không sửa lời bài hát; không đụng vào melody. |
-| **Dồn chữ, nuốt chữ ở cuối câu** | `LYRICS / ONE-BREATH` | Dòng đó quá dài ($>12$ âm tiết); cắt bớt 2–3 chữ thừa/hư từ để phrase có chỗ thở. | Không sửa các câu xung quanh; không đổi cấu trúc đoạn. |
+| **Giọng hát bị đổi giới tính (nam $\leftrightarrow$ nữ)** | `STYLE / VOCAL IDENTITY` | Dùng tùy chọn Vocal Gender chính thức trong Advanced Options nếu có; hoặc thêm từ khóa nhấn mạnh vào Style: `solo female vocal throughout` (hoặc `male vocal only`). | Không sửa lời bài hát; không đụng vào melody. |
+| **Dồn chữ, nuốt chữ ở cuối câu** | `LYRICS / ONE-BREATH` | Dòng đó quá dài; bổ sung dấu phẩy ngắt nhịp hoặc cắt bớt 2–3 chữ thừa/hư từ để phrase có chỗ thở tự nhiên. | Không sửa các câu xung quanh; không đổi cấu trúc đoạn. |
 | **Ngân chữ cuối quá dài, kéo lê thê** | `LYRICS / LINE LANDING` | Từ cuối dòng rơi vào nguyên âm quá mở hoặc thiếu điểm dừng; đổi từ kết dòng thành âm có điểm rơi gọn, hoặc thêm dấu phẩy ngắt nhịp. | Không viết lại cả Chorus. |
 | **Section bị phẳng lì, không có cao trào** | `CONTROLS / ARRANGEMENT CUE` | Thêm cue năng lượng ở đầu đoạn: `[Chorus: Powerful beat drop, soaring vocal]` hoặc nén nhịp ca từ ngắn lại. | Không thay đổi cốt truyện hay Tứ của bài. |
 | **Hát luôn cả thẻ tag vào lời** | `LYRICS / METATAG BLEED` | Tag quá phức tạp hoặc đặt sai chỗ; lược bỏ các từ rườm rà trong ngoặc vuông, đưa hướng dẫn nhạc cụ về Style Prompt. | Không đổi lời ca. |
-| **Lạc sang thể loại khác (Genre Drift)** | `STYLE / PROMPT CONFLICT` | Style prompt chứa các thể loại triệt tiêu nhau (ví dụ: `acoustic folk` đi cùng `heavy synthesizer`); tinh lọc lại danh mục nhạc cụ. | Không đụng vào ca từ. |
+| **Lệch / trôi thể loại (Genre Drift)** | `STYLE / GENRE TRIAGE` | Phân loại rõ: <br>1. `PROMPT_CONFLICT`: Thể loại triệt tiêu nhau $\rightarrow$ Tinh lọc lại danh mục nhạc cụ.<br>2. `MODEL_VARIANCE`: Model có độ biến thiên cao (nhánh wild) $\rightarrow$ Siết chặt từ khóa neo thể loại hoặc chọn model profile tiêu chuẩn.<br>3. `INTENTIONAL_FUSION`: Người dùng chủ ý lai tạo phong cách $\rightarrow$ Giữ nguyên, chỉ cân chỉnh tỉ trọng từ khóa. | Không đụng vào ca từ; không tự tiện xóa bỏ ý đồ lai tạo thể loại của người dùng. |
 
 ---
 
@@ -124,7 +146,7 @@ Suno là một hệ thống khuếch tán âm thanh có tính ngẫu nhiên cao 
    - Handoff với nhãn `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]`.
    - Sinh $1 - 2$ biến thể để kiểm tra: (a) Giọng hát có đúng tính cách không; (b) Phát âm tiếng Việt có rõ dấu không; (c) Nhịp điệu và năng lượng có nâng đỡ ca từ không.
 2. **Pass 2 — Targeted Patching:**
-   - Chỉ khi phát hiện lỗi lặp lại qua quan sát thực tế (User report / Audio), áp dụng Targeted Patch ở Mục 3.
+   - Chỉ khi phát hiện lỗi lặp lại có bằng chứng qua quan sát thực tế (User report / Audio), áp dụng Targeted Patch ở Mục 3.
    - Sửa cục bộ đúng dòng/từ hoặc tham số bị lỗi.
 3. **Pass 3 — Production Candidate:**
    - Chỉ gắn nhãn `[PRODUCTION CANDIDATE]` khi cả 3 yếu tố: **Ý nghĩa lời – Ngữ âm phát âm – Hòa âm phối khí** đều hòa quyện và được tai người xác nhận.

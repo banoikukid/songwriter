@@ -27,7 +27,12 @@
     {
       "id": "w5-vocal-suno-production",
       "split": "capability",
-      "prompt": "Viết ca khúc tiếng Việt hoàn chỉnh và đóng gói Suno Production Handoff với tựa đề “Quán Cũ Bàn Ba”.\n\nBỐI CẢNH: Một quán quen gắn liền với tình bạn thời sinh viên, nhiều năm sau một người trở lại thấy bàn quen vẫn ở đó nhưng nhóm bạn đã tản mác muôn nơi.\nCENTRAL INTENT: Hoài niệm ấm áp, biết ơn một đoạn đường đời đã qua, không bi lụy.\nCONSTRAINTS:\n- Lời ca tiếng Việt tự nhiên, không rơi vào danh mục liệt kê món ăn/đồ vật.\n- Phân định rõ 3 tầng vocal (Identity: nam ấm/mộc; Performance: thủ thỉ tự sự mở dần sang hoài niệm rộng; Production: vocal khô mộc gần tai ở Verse, airy reverb ở Chorus).\n- Xuất đủ 3-block Suno Handoff (STYLE PROMPT, LYRICS BLOCK, CONTROLS / SETTINGS) tuân thủ Character Budgets (Style <= 1000 chars, Lyrics <= 3000 chars).\n- Tránh cliché: 'thanh xuân như một giấc mơ', 'thời gian trôi mau', 'nước mắt nghẹn ngào', 'mãi mãi không quên'."
+      "prompt": "Viết ca khúc tiếng Việt hoàn chỉnh và đóng gói Suno Production Handoff với tựa đề “Quán Cũ Bàn Ba”.\n\nBỐI CẢNH: Một quán quen gắn liền với tình bạn thời sinh viên, nhiều năm sau một người trở lại thấy bàn quen vẫn ở đó nhưng nhóm bạn đã tản mác muôn nơi.\nCENTRAL INTENT: Hoài niệm ấm áp, biết ơn một đoạn đường đời đã qua, không bi lụy.\nCONSTRAINTS:\n- Lời ca tiếng Việt tự nhiên, không rơi vào danh mục liệt kê món ăn/đồ vật.\n- Phân định rõ 3 tầng vocal (Identity: nam ấm/mộc; Performance: thủ thỉ tự sự mở dần sang hoài niệm rộng; Production: vocal khô mộc gần tai ở Verse, airy reverb ở Chorus).\n- Xuất đủ 3-block Suno Handoff (STYLE PROMPT, LYRICS BLOCK, CONTROLS / SETTINGS) tuân thủ ngân sách tối ưu (recommended budget cô đọng, tránh loãng attention; lyrics viết đủ các section lặp).\n- Tránh cliché: 'thanh xuân như một giấc mơ', 'thời gian trôi mau', 'nước mắt nghẹn ngào', 'mãi mãi không quên'."
+    },
+    {
+      "id": "w6-suno-targeted-patch-repeatability",
+      "split": "incident-regression",
+      "prompt": "Người dùng chạy render Suno cho ca khúc và báo lỗi: 'Qua 2 lần gen liên tiếp, câu cuối Chorus chữ \"cũ\" đều bị ca sĩ hát lơ lớ thành \"cú\", và đoạn Chorus đang bị bẹt năng lượng so với Verse'. Hãy thực hiện chẩn đoán và đưa ra gói vá lỗi có mục tiêu (Targeted Patch) theo đúng quy chuẩn:\n- Xác định nguồn quan sát và độ tin cậy của bằng chứng (USER_REPORT, High Confidence, Repeatable Evidence: 2 lần liên tiếp cùng vị trí và triệu chứng).\n- Phân loại 2 tầng lỗi riêng biệt: tầng phát âm (LYRICS / PHONETIC) và tầng năng lượng (CONTROLS / ARRANGEMENT CUE).\n- Xuất bản vá tối thiểu (Minimal Targeted Patch) cho đúng 2 vị trí đó; tuyệt đối KHÔNG viết lại toàn bài, không đổi Tứ hay sửa Style prompt chung."
     }
   ]
 }
