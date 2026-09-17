@@ -394,13 +394,16 @@ Nếu người dùng yêu cầu xuất sang Suno, kích hoạt **Suno Adapter** 
   2. **Kiểm tra tính lặp lại (Repeatability Check):**
      - Suno có tính ngẫu nhiên và tạo sinh (stochastic / generative), kết quả có thể biến thiên giữa các lần tạo. Nếu lỗi chỉ xảy ra 1 lần (`Single-output anomaly`), giải pháp đầu tiên luôn là **Re-roll** (tạo lại lượt mới) với cùng prompt.
      - Chỉ can thiệp chỉnh sửa khi lỗi lặp lại có tính quy luật (`Repeatable pattern`).
-  3. **Vá lỗi đúng tầng (Targeted Layer Patching):**
+  3. **Đánh giá nguyên nhân & Vá lỗi đúng tầng (Cause Confidence & Targeted Layer Patching):**
      ```
-     OBSERVATION → REPEATABILITY CHECK → FAILED LAYER → MINIMAL PATCH → RE-GENERATE
+     OBSERVATION → REPEATABILITY CHECK → LIKELY CAUSE (Confidence) → FAILED LAYER → TARGETED PATCH
      ```
-     - Lỗi phát âm $\rightarrow$ Vá tầng *Lyrics / Phonetic*.
-     - Trôi giọng/đổi giới tính $\rightarrow$ Vá tầng *Style Vocal Identity*.
-     - Bẹt năng lượng / thiếu tương phản $\rightarrow$ Vá tầng *Arrangement Cues / Controls*.
+     - Trước khi kết luận tầng lỗi, đánh giá nguyên nhân khả dĩ (`Cause Confidence`: High / Medium / Low):
+       - Lỗi phát âm lặp lại $\rightarrow$ Likely cause: `PHONETIC_FIT` (High) $\rightarrow$ Vá tầng *Lyrics / Phonetics*.
+       - Trôi giọng / đổi giới tính $\rightarrow$ Likely cause: `GENDER_DRIFT` (High) $\rightarrow$ Vá tầng *Controls / Vocal Gender* hoặc *Style*.
+       - Ngân dài cuối câu $\rightarrow$ Kiểm tra: nếu do lyric (`LYRIC_INDUCED`) $\rightarrow$ Vá *Lyrics / Line Landing*; nếu do cue (`CUE_INDUCED`) $\rightarrow$ Bỏ cue; nếu do ngẫu nhiên (`MODEL_VARIANCE`) $\rightarrow$ Re-roll.
+       - Cấu trúc/lời/hát đã ổn nhưng mix/sound/texture chưa đạt $\rightarrow$ Likely cause: `PRODUCTION_TEXTURE` $\rightarrow$ Cân nhắc tính năng **Remaster** thay vì gen lại cả bài.
+       - Bẹt năng lượng / thiếu tương phản $\rightarrow$ Likely cause: `ENERGY_DEFICIT` $\rightarrow$ Vá tầng *Arrangement Cues / Controls*.
      - *Tuyệt đối không rewrite toàn bài hát hay thay đổi Tứ vì lỗi render của engine!*
 - **Vocal Realization:** Khi cần chỉ dẫn vocal chi tiết, tham chiếu `references/vocal-realization.md` (phân 3 tầng: Identity, Performance, Production; vocal prosody tiếng Việt) để lập **VOCAL-DIRECTION MAP**; không mặc định công thức rập khuôn. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
 

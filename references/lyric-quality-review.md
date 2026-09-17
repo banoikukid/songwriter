@@ -74,9 +74,11 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
    - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
 4. **Lexical Naturalness / Decorative Specificity (Độ tự nhiên từ vựng vs. Chi tiết trang trí):**
    - **Bản chất (Soft Lens — lăng kính mềm, không phải luật cứng):**
+     - *Khung phán đoán:* `Specific ≠ Artificial | Common ≠ Good | Poetic ≠ Better | Simple ≠ Flat`.
+     - *Không dùng danh sách đen (No Word Blacklisting):* Tuyệt đối không dán nhãn bất kỳ từ nào là "AI word" hay cấm đoán máy móc. `sân gạch` không phải từ xấu; nó chỉ là chi tiết có thể chưa earned. Reviewer phải soi xét trong ngữ cảnh và độ tất yếu, không bao giờ dùng checklist từ cấm.
      - *Chi tiết / từ ngữ đó có sai không?* $\rightarrow$ **Không.** (Đúng cú pháp, không lỗi vần, tả thực chính xác).
      - *Nó có thực sự cần thiết không?* $\rightarrow$ Xem xét qua **Provenance** (brief có đưa vào không) và **Material Necessity** (chi tiết đó có làm việc gì cho Tứ, cảm xúc hay hành động không, hay chỉ được ném vào để tỏ ra "cụ thể/văn vẻ"?).
-     - *Nếu không cần thiết:* $\rightarrow$ Thử cách gọi tự nhiên, mộc mạc và chân thật hơn của đời sống thường nhật (ví dụ: *“sân gạch” $\rightarrow$ “sân nhà”*). Tuyệt đối không thay bằng một từ ước lệ hoa mỹ khác (*“thềm xưa”, “gạch rêu”*).
+     - *Nếu không cần thiết:* $\rightarrow$ Thử cách gọi tự nhiên, mộc mạc và chân thật hơn của đời sống thường nhật (ví dụ: *“sân gạch” $\rightarrow$ “sân nhà”* hay *“khoảng sân”*). Tuyệt đối không thay bằng một từ ước lệ hoa mỹ khác (*“thềm xưa”, “gạch rêu”*).
      - *Nếu cần thiết:* $\rightarrow$ (Nếu có lai lịch từ đề bài, hoặc chất liệu gạch mang tính va đập/đối thoại với cảm xúc) $\rightarrow$ Giữ nguyên *“sân gạch”*.
 5. **Lexical Pretentiousness / Over-Writerly (Làm dáng từ vựng):**
    - Dùng từ ngữ hoa mỹ ước lệ để cố gắng "thơ hơn" (*"thềm xưa", "tiếng tơ", "mộng tàn"*...) trong khi một cách nói chân thật sẽ truyền cảm hơn nhiều.

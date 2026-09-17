@@ -162,12 +162,15 @@ Không cấm vật hiện đại trong quê hương: cuộc gọi xa nhà có th
 
 ```text
 CORRECT ≠ NATURAL ≠ FRESH ≠ POETICALLY EFFECTIVE
+SPECIFIC ≠ ARTIFICIAL  |  COMMON ≠ GOOD
+POETIC ≠ BETTER        |  SIMPLE ≠ FLAT
 ```
 
 Một từ/cụm từ có thể hoàn toàn đúng ngữ pháp, có tính tạo hình cụ thể, nhưng lại tạo cảm giác "cố ý chọn chữ" (*writerly / show-off wording*) thay vì một cách phát ngôn chân thực chạm vào người nghe:
 - *Ví dụ đối chứng:* `Nắng sớm lấm tấm trên khoảng sân gạch`
   - `sân gạch`: đúng ngữ pháp, có hình ảnh vật liệu cụ thể, nhưng có thể hơi "làm văn" nếu chi tiết gạch không có chức năng đẩy cảm xúc hay ký ức.
-  - `sân nhà`: cách nói tự nhiên, mở rộng không gian ký ức rộng hơn, ít cảm giác phô diễn chữ nghĩa.
+  - `sân nhà` / `khoảng sân`: cách nói tự nhiên, mở rộng không gian ký ức rộng hơn, ít cảm giác phô diễn chữ nghĩa.
+- **Không lập danh sách đen (No Word Blacklisting):** Tuyệt đối không biến một từ cụ thể thành "AI word" hay cấm đoán máy móc. `sân gạch` không phải là từ xấu; nó chỉ là chi tiết chưa chắc đã earned. Nếu gạch không mang thêm ký ức, chức năng, hoặc tương tác va chạm thực tế, `sân nhà` hay `khoảng sân` có thể tự nhiên hơn. Nếu ngữ cảnh cần chính xác chất liệu đó, giữ nguyên `sân gạch`. Reviewer phải nhìn vào **ngữ cảnh và tính tất yếu (Context & Earned Necessity)**, tuyệt đối không dùng danh sách đen để quy kết từ ngữ.
 - **Quy tắc phán đoán tính tất yếu của chi tiết:**
   ```text
   Chi tiết cụ thể (Specificity)

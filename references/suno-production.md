@@ -35,7 +35,9 @@
 - **Model Profile & Selection:** Sử dụng model production hiện hành (`v6` flagship / default production model) làm mặc định về tính biểu cảm, linh hoạt và độ kiểm soát; dùng `v6-wild` khi muốn thể nghiệm âm thanh và lai tạo phong cách (genre-blending); dùng `v6-mini` khi cần lặp nhanh prototype.
 - **Vocal Controls & Platform Capabilities:**
   - `Vocal Gender`: Chọn Male / Female toggle trong Advanced Options ở Custom Mode (thay vì chỉ trông chờ vào Style prompt).
-  - `Voice Profile / Personas`: Gán Voice đã lưu hoặc Custom Model nếu tài khoản người dùng có sẵn.
+  - `VOICE_PROFILE` (Voices / Personas): Lớp cá nhân hóa giọng hát (Voice Personalization) giúp giữ màu giọng và âm sắc nhất quán giữa các bài/lần gen.
+  - `CUSTOM_MODEL`: Mô hình riêng biệt được huấn luyện/tạo từ các track của người dùng (tài khoản hỗ trợ).
+  - `REMASTER`: Tái xử lý âm thanh giữ nguyên cấu trúc/lyrics/performance tương đối ổn định để cải thiện độ nét (clarity), chi tiết mix/texture và độ rõ phát âm.
   - `Generation Parameters`: Tinh chỉnh Style Influence, Weirdness slider, Audio Extend timestamp tùy nhu cầu bản phối.
 
 ---
@@ -51,7 +53,9 @@ model_profile:
   preferred: "v6"                # Current flagship / default production model
   experimental: "v6-wild"        # Cho phép unexpected choices, genre-blending, thử nghiệm âm thanh
   fast_iteration: "v6-mini"      # Model nhẹ, nhanh cho prototype
-  custom_models: "supported"     # Khai thác Custom Models / Personas nếu tài khoản hỗ trợ
+  voice_profiles: "supported"    # Tách biệt: Voices / Personas (cá nhân hóa âm sắc giọng hát)
+  custom_models: "supported"     # Tách biệt: Custom Models (model riêng tạo từ tracks)
+  remaster: "supported"          # Tái xử lý âm thanh giữ cấu trúc/lời để nâng clarity & mix
   verify_official_docs: true     # Luôn đối chiếu tài liệu và giao diện thực tế tại thời điểm chạy
 
 budget_policy:
@@ -163,6 +167,7 @@ TRIỆU CHỨNG (ví dụ: Ngân chữ cuối quá dài)
 | **Ngân chữ cuối quá dài, kéo lê thê** | 1. `LYRIC_INDUCED` (nguyên âm quá mở)<br>2. `CUE_INDUCED` (tag soaring/belt)<br>3. `MODEL_VARIANCE` | `LYRICS / LINE LANDING` (nếu lyric) hoặc `CONTROLS / CUE` (nếu do cue) | Nếu do lyric: đổi từ kết dòng sang âm có điểm rơi gọn hoặc thêm dấu phẩy ngắt nhịp. Nếu do cue: bỏ các tag [Soaring]/[Belt] ở cuối đoạn. Nếu do model variance: re-roll. | Không vội vã sửa ca từ khi lỗi do model variance hoặc cue; không viết lại cả Chorus. |
 | **Section bị phẳng lì, không có cao trào** | `ENERGY_DEFICIT` (Confidence: High nếu thiếu dynamic contrast giữa các đoạn) | `CONTROLS / ARRANGEMENT CUE` | Thêm cue năng lượng ở đầu đoạn: `[Chorus: Powerful beat drop, soaring vocal]` hoặc nén nhịp ca từ ngắn lại. | Không thay đổi cốt truyện hay Tứ của bài. |
 | **Hát luôn cả thẻ tag vào lời** | `METATAG_BLEED` (Confidence: High nếu tag phức tạp hoặc chèn giữa câu) | `LYRICS / METATAG BLEED` | Lược bỏ các từ rườm rà trong ngoặc vuông, đưa hướng dẫn nhạc cụ về Style Prompt. | Không đổi lời ca. |
+| **Bản thu bị đục, thiếu độ nét mix/texture hoặc phát âm chưa sáng (trong khi cấu trúc, ca từ và diễn xuất vocal đã ưng ý)** | `PRODUCTION_TEXTURE / MIX_CLARITY` (Confidence: High khi cấu trúc bài, lyric và performance đã hoàn thành tốt) | `PRODUCTION / REMASTER` | Sử dụng tính năng **Remaster** của Suno để tinh chỉnh độ trong (clarity), chi tiết mix/texture hoặc phát âm mà vẫn giữ ổn định cấu trúc và bản diễn xuất; tinh chỉnh nhẹ Style prompt nếu cần. | Không viết lại ca từ; không xóa bản thu ưng ý để re-generate toàn bộ track từ đầu. |
 | **Lệch / trôi thể loại (Genre Drift)** | 1. `PROMPT_CONFLICT`<br>2. `MODEL_VARIANCE`<br>3. `INTENTIONAL_FUSION` | `STYLE / GENRE TRIAGE` | Phân loại rõ: <br>1. Xung đột prompt $\rightarrow$ Tinh lọc danh mục nhạc cụ.<br>2. Biến thiên model $\rightarrow$ Siết chặt từ khóa neo thể loại hoặc chọn model profile tiêu chuẩn.<br>3. Ý đồ lai tạo $\rightarrow$ Giữ nguyên, chỉ cân chỉnh tỉ trọng từ khóa. | Không đụng vào ca từ; không tự tiện xóa bỏ ý đồ lai tạo thể loại của người dùng. |
 
 
