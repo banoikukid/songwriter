@@ -53,7 +53,7 @@ source_canonical: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 #### Nhóm 2: Công cụ Thẩm định & Chẩn đoán (Diagnostic Sidecars — 2 tệp)
 *Chỉ nạp khi người dùng yêu cầu review độc lập hoặc chẩn đoán ca từ có vấn đề:*
 14. `references/lyric-quality-review.md`: Đánh giá chất lượng lời độc lập theo 6 lăng kính (CRITICAL, SUGGESTED, OPTIONAL)
-15. `references/case-log-protocol.md`: Giao thức ghi nhớ ngắn hạn trong phiên làm việc (Session Memory Protocol)
+15. `references/case-log-protocol.md`: Giao thức ghi nhớ phiên làm việc (Session Memory Protocol — CHỈ nạp khi host hỗ trợ session continuity hoặc cần truy vết bộ nhớ phiên; KHÔNG nạp mặc định khi sáng tác)
 
 #### Nhóm 3: Tài nguyên Kiểm định, Schemas & Báo cáo Audit (Evaluation Assets — 18 tệp)
 *Tài nguyên phục vụ benchmark, kiểm thử hồi quy offline và lưu trữ lịch sử; KHÔNG nạp vào generation context:*

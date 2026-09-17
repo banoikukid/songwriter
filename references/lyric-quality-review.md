@@ -33,7 +33,7 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc)
 Khi thẩm định độc lập, reviewer soi xét ca từ qua 6 lăng kính độc lập:
 
 1. **Semantic Correctness:** Tính chính xác của ngữ nghĩa, đúng Tứ, logic nhân vật và section jobs.
-2. **Natural Vietnamese:** Cú pháp tiếng Việt tự nhiên, trật tự từ đời sống, không gượng ép.
+2. **Natural Vietnamese (Register-Relative):** Cú pháp tiếng Việt tự nhiên, không gượng ép. **Naturalness is register-relative:** Độ tự nhiên gắn chặt với phong cách ngôn ngữ/register của bài (`Mainstream ≠ Folk ≠ Literary ≠ Cổ phong`). Ví dụ: *"cố nhân"* hoàn toàn tự nhiên và đúng chỗ trong phong cách cổ phong/văn học, không bị ép đổi về *"người cũ"* của khẩu ngữ pop.
 3. **Emotional Credibility:** Độ tin cậy cảm xúc, đúng nhiệt độ (không làm nguội, không bi lụy hóa giả tạo).
 4. **Lyric Behavior / Singability:** Tính nén của ca từ, phân đoạn hơi thở, nhịp điệu và điểm rơi có lực.
 5. **Image Necessity:** Tính tất yếu của hình ảnh (chi tiết có chức năng đẩy chuyện/quan hệ hay chỉ là đạo cụ trang trí?).
@@ -75,6 +75,7 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 4. **Lexical Naturalness / Decorative Specificity (Độ tự nhiên từ vựng vs. Chi tiết trang trí):**
    - **Bản chất (Soft Lens — lăng kính mềm, không phải luật cứng):**
      - *Khung phán đoán:* `Specific ≠ Artificial | Common ≠ Good | Poetic ≠ Better | Simple ≠ Flat`.
+     - *Tính tương đối theo Register (Naturalness is Register-Relative):* Tự nhiên không đồng nghĩa với việc bình dân hóa mọi phong cách. Ca từ tự nhiên của Mainstream pop $\neq$ Dân tộc/Folk $\neq$ Thơ/Văn học $\neq$ Cổ phong. Ví dụ: *"cố nhân"* hoàn toàn tự nhiên và giàu sức gợi trong bài cổ phong, không mặc định kém tự nhiên hơn *"người cũ"*. Reviewer không kéo bài thơ/cổ phong về khẩu ngữ đường phố.
      - *Không dùng danh sách đen (No Word Blacklisting):* Tuyệt đối không dán nhãn bất kỳ từ nào là "AI word" hay cấm đoán máy móc. `sân gạch` không phải từ xấu; nó chỉ là chi tiết có thể chưa earned. Reviewer phải soi xét trong ngữ cảnh và độ tất yếu, không bao giờ dùng checklist từ cấm.
      - *Chi tiết / từ ngữ đó có sai không?* $\rightarrow$ **Không.** (Đúng cú pháp, không lỗi vần, tả thực chính xác).
      - *Nó có thực sự cần thiết không?* $\rightarrow$ Xem xét qua **Provenance** (brief có đưa vào không) và **Material Necessity** (chi tiết đó có làm việc gì cho Tứ, cảm xúc hay hành động không, hay chỉ được ném vào để tỏ ra "cụ thể/văn vẻ"?).

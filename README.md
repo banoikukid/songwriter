@@ -79,7 +79,7 @@ songwriter/
     │   └── dominant-analysis.md           # Phân tích hợp âm, hòa thanh & trục cảm xúc
     ├── [Nhóm 2: Công cụ thẩm định chẩn đoán — 2 tệp]
     │   ├── lyric-quality-review.md        # Đánh giá độc lập 6 lăng kính (CRITICAL / SUGGESTED / OPTIONAL)
-    │   └── case-log-protocol.md           # Giao thức ghi nhớ phiên làm việc (Session Memory Protocol)
+    │   └── case-log-protocol.md           # Session memory protocol (CHỈ nạp khi host cần session continuity)
     └── [Nhóm 3: Tài nguyên kiểm định & Báo cáo audit — 18 tệp (KHÔNG nạp vào generation context)]
         ├── eval-suite.json, semantic-movement-suite.json, writer-realization-suite.json... (8 schemas/suites)
         └── audit-process-audit-*, b6-baseline-*, cot-corpus-*, tu-corpus-*... (10 historical reports)
