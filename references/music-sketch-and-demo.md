@@ -98,4 +98,24 @@ Chỉ chuyển từ rough demo sang full demo/production khi:
 - Người hát/range/phát âm phù hợp.
 - Feedback không còn lỗi gốc lặp lại, hoặc user chủ động chấp nhận trade-off.
 
+## 7. Music Blueprint & Arrangement Arc
+
+Khi user cần định hình hòa âm phối khí chi tiết hoặc chuẩn bị sản xuất chuyên sâu, xây dựng **Arrangement Arc** mô tả chuyển động năng lượng qua từng section:
+
+```text
+SECTION → ENERGY (1-10) → INSTRUMENTATION → VOCAL DYNAMICS → TRANSITION
+```
+
+### Quy tắc Blueprint tương đối (Relative Specification)
+- **Mô tả theo section, KHÔNG bịa timestamps giả:** Tuyệt đối không tự bịa mốc thời gian (như `0:00 - 0:30`) khi chưa có file audio thực tế được phân tích. Dùng vị trí section làm đơn vị đo lường.
+- **Đường cong năng lượng mẫu:**
+  - *Verse 1:* Năng lượng 3–4/10; nhạc cụ mộc/tối giản (acoustic guitar, piano mộc, bass mềm); giọng gần gũi, thủ thỉ.
+  - *Pre-Chorus:* Năng lượng 5–6/10; trống/percussion bắt đầu vào nhịp; vocal đẩy cao dần, tạo lực căng (tension).
+  - *Chorus 1:* Năng lượng 7–8/10; đầy đủ dàn nhạc (full drums, synth/strings nở rộng); giọng ngân vang, mở sáng.
+  - *Verse 2:* Năng lượng 4–5/10; giữ nhịp groove của Chorus nhưng tiết chế bớt nhạc cụ hòa âm để tạo chỗ thở.
+  - *Bridge:* Năng lượng đổi hướng (hoặc drop xuống 2–3/10 với nhạc cụ mộc, hoặc bùng nổ lên 9/10); đổi hòa thanh hoặc nhịp điệu.
+  - *Final Chorus:* Năng lượng đỉnh cao (9–10/10); bè dày (stacked harmonies), nhạc cụ dày nhất, tạo cảm giác giải phóng trọn vẹn (resolution).
+  - *Outro:* Năng lượng hạ dần; nhạc cụ thưa dần để lại dư ba.
+- **Chuyển đoạn (Transitions):** Nêu rõ cách kết nối giữa các section (drum fill, silence/pause, reverse cymbal, vocal swell). Không ép bài hát đơn giản phải dùng beat switch phức tạp.
+
 Không phải bài nào cũng cần full demo. Với Suno, render đầu là vòng thử; bản được chọn sau nghe, sửa và re-render mới là candidate để chốt.

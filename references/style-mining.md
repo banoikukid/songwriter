@@ -101,3 +101,34 @@ Chọn tối đa một cue phù hợp ở đầu mỗi section; không bắt dù
 ```
 
 Sau render, nghe lại Scope B. Preset này tăng xác suất ra texture/groove tương tự, không đảm bảo melody hoặc arrangement cố định.
+
+---
+
+## Style Research → Style DNA (Chiết xuất bản sắc âm nhạc trừu tượng)
+
+Khi user yêu cầu lấy cảm hứng từ một nghệ sĩ, ban nhạc hoặc tác phẩm cụ thể, áp dụng quy trình chiết xuất bản sắc:
+
+```text
+Nghệ sĩ / Tác phẩm tham chiếu
+             ↓
+    Nghiên cứu đặc trưng
+             ↓
+     Trừu tượng hóa
+             ↓
+         STYLE DNA
+             ↓
+    Ca khúc nguyên bản mới
+```
+
+### Các thành phần của Style DNA:
+1. **Phrase Density:** Mật độ câu từ (dày đặc tự sự như Rap/Spoken Word hay thưa thoáng, giàu khoảng lặng như Indie Folk).
+2. **Rhythmic Behavior:** Nhịp điệu câu chữ (đảo phách/syncopation, laid-back trễ nhịp hay thẳng phách 4/4).
+3. **Rhyme & Prosody Style:** Thói quen gieo vần (vần đôi, vần ba, hay chuộng vần lưng và hài âm tự nhiên).
+4. **Emotional Pacing:** Nhịp biến chuyển cảm xúc (cháy âm ỉ rồi nổ tung ở Bridge hay giữ nguyên trạng thái chiêm nghiệm).
+5. **Imagery Texture:** Trường liên tưởng (hình ảnh đời thường dung dị hay biểu tượng trừu tượng, điện ảnh).
+6. **Vocal Personality:** Bản sắc giọng (khàn ấm, thì thầm gần micro, hay vang sáng, lộng lẫy).
+7. **Production World:** Thế giới âm thanh (mộc acoustic, analog cổ điển thập niên 80, hay không gian điện tử hiện đại).
+
+### Điều cấm tuyệt đối (Negative Guardrail):
+- **CẤM sao chép nguyên văn lời bài hát:** Tuyệt đối không mượn cụm từ đặc trưng, câu hook, cách ví von signature hay tình tiết riêng tư của nghệ sĩ nguồn.
+- **CẤM nhái tên nghệ sĩ trong prompt:** Không đưa tên nghệ sĩ vào Style prompt của Suno (tránh vi phạm bản quyền và bị model từ chối). Output của bước này là một **bản đặc tả sáng tạo trừu tượng (Abstract Creative Specification)** để viết một bài hát hoàn toàn mới.

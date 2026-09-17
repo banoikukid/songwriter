@@ -4,7 +4,7 @@ Trước khi handoff, xác định render là **prototype** hay **production can
 
 Lyrics-first chỉ được handoff với nhãn `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]` sau `SCOPE-A RELEASE GATE` ở `vietnamese-line-and-sound.md`. Không ghi `Suno-ready` trần. Chỉ dùng `[PRODUCTION CANDIDATE]` sau khi đã nghe render/demo có lời và pass Scope B + performance + feedback.
 
-Đây là nguồn vận hành duy nhất trong skill cho handoff Suno. Không tải playbook AI-music cũ vào generation; các marker hoặc setting chưa được tài liệu chính thức xác nhận chỉ được nêu như giả thuyết A/B, không làm mặc định.
+Đây là nguồn tóm tắt vận hành cho handoff Suno. Khi xuất trọn gói production package (3-block: Style, Lyrics, Controls), tra cứu character budget, hoặc tra cứu **Suno Failure Diagnosis Matrix** (vá lỗi theo đúng tầng), tham chiếu `references/suno-production.md`. Về kỹ thuật vocal prosody tiếng Việt và phân tầng vocal, tham chiếu `references/vocal-realization.md`. Không tải playbook AI-music cũ vào generation; các marker hoặc setting chưa được tài liệu chính thức xác nhận chỉ được nêu như giả thuyết A/B, không làm mặc định.
 
 ## Xuất cơ bản
 

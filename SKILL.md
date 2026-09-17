@@ -139,6 +139,14 @@ DIAGNOSE
 
 Tuyệt đối không biến bốn nhánh trên thành checklist chạy tuần tự.
 
+### Đường suy luận tối thiểu & Phân tách Writer / Reviewer
+
+- **Minimum Sufficient Reasoning Path (Đường suy luận tối thiểu đủ dùng):** Đi con đường ngắn nhất từ brief/cảm hứng đến câu hát sống động. Không lạm dụng bộ khung lý thuyết để giải thích dài dòng khi đề bài đã rõ. Chỉ mở tài liệu tham chiếu chuyên sâu khi bản nháp bộc lộ triệu chứng cần xử lý.
+- **Phân tách Writer / Reviewer:**
+  - **Writer Pass (Sáng tác):** Viết liền mạch, dấn thân vào nhân vật/tình huống và cảm xúc; tuyệt đối không tự ngắt mạch giữa chừng để làm micro-audit hoặc giải trình thuật ngữ.
+  - **Reviewer Pass (Độc lập đánh giá):** Chỉ kích hoạt sau khi đã có bản nháp hoàn chỉnh hoặc khi người dùng yêu cầu review/audit. Phân loại theo 3 cấp độ: `CRITICAL` (lỗi sinh tử: gượng gạo tiếng Việt, sai provenance, hỏng cấu trúc), `SUGGESTED` (cải thiện rõ lực ca từ), `OPTIONAL` (tinh chỉnh sở thích). Luôn trả phản hồi theo cấu trúc: `LOCATION → PROBLEM → WHY → TARGETED FIX` (chi tiết tại `references/lyric-quality-review.md`).
+
+
 ## Quy trình runtime
 
 ### 1. Chốt Goal và Brief
@@ -329,7 +337,7 @@ Trạng thái handoff:
 
 *Lưu ý UX:* Các nhãn trạng thái này mặc định là telemetry/audit nội bộ; chỉ xuất ra khi user yêu cầu quy trình formal, export file Suno hoặc debug. Trong giao tiếp sáng tác thông thường, trả ca từ tự nhiên mà không chèn nhãn kỹ thuật vào output.
 
-Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototype, nghe–sửa–re-render. Khi user muốn vocal bớt đều hoặc giống một màn trình diễn có chủ ý hơn, dựng **VOCAL-DIRECTION MAP** theo section job và phrase thực tế; không mặc định `Verse → Chest`, `Pre-Chorus → Mix`, `Chorus → Belt`, `Outro → Falsetto`. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
+Nếu dùng Suno, đọc `references/suno-handoff.md` và `references/suno-production.md` (chuẩn 3-block: Style, Lyrics, Controls/Settings cùng Character Budgets). Render đầu là prototype, nghe–sửa–re-render. Khi render có lỗi (phát âm, trôi giọng, năng lượng bẹt, cấu trúc lệch), áp dụng **Suno Failure Diagnosis Matrix**: chẩn đoán đúng tầng lỗi (Style prompt vs Lyrics vs Controls/Structure) và chỉ vá đúng tầng đó, tuyệt đối không viết lại cả bài hát hay đổi Tứ. Khi user muốn vocal bớt đều hoặc giống một màn trình diễn có chủ ý hơn, tham chiếu `references/vocal-realization.md` (phân 3 tầng: Identity, Performance, Production; vocal prosody tiếng Việt) để dựng **VOCAL-DIRECTION MAP**; không mặc định `Verse → Chest`, `Pre-Chorus → Mix`, `Chorus → Belt`, `Outro → Falsetto`. Lưu session fingerprint ngắn hạn (nếu host hỗ trợ session memory theo `references/case-log-protocol.md`) để tránh lặp cơ chế trong cùng phiên; không ghi đè file tĩnh trong skill.
 
 ## Điều không thương lượng
 
@@ -350,9 +358,12 @@ Nếu dùng Suno, đọc `references/suno-handoff.md`; render đầu là prototy
 | Melody/harmony/groove, rough demo, feedback | `references/music-sketch-and-demo.md` |
 | Câu tiếng Việt, material, vần, thanh, Scope A | `references/vietnamese-line-and-sound.md` |
 | Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft | `references/lyric-refinement.md` |
+| Vocal realization, 3 tầng vocal & vocal prosody tiếng Việt | `references/vocal-realization.md` |
+| Suno 3-block production, character budgets & failure matrix | `references/suno-production.md` |
+| Đánh giá chất lượng lời độc lập (Reviewer protocol) | `references/lyric-quality-review.md` |
 | Audit/A-B/corpus/release | `references/audit-and-evaluation.md` + `references/stage-validation-loop.md` |
-| Suno export và sau-gen | `references/suno-handoff.md` |
-| Style prompt | `references/style-mining.md` |
+| Suno export và sau-gen (tóm tắt vận hành) | `references/suno-handoff.md` |
+| Style prompt & Style DNA | `references/style-mining.md` |
 | Audit genre × truyền thống ca từ × lane biểu đạt (PROVISIONAL) | `references/genre-and-lyric-routing.md` |
 | Line device/dominant khi audit | `references/dominant-analysis.md` |
 | Phổ thơ | `references/poem-to-song.md`; form Việt có chủ ý đọc thêm `references/folk-prosody.md` |

@@ -62,17 +62,20 @@ songwriter/
 ├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
-└── references/                            # 30 tệp tri thức chuyên sâu (Markdown & JSON Schemas)
+└── references/                            # 33 tệp tri thức chuyên sâu (Markdown & JSON Schemas)
     ├── idea-and-structure.md              # Khung ý tưởng, Tứ, Form, Hook, Material Affordance, Phá cách
     ├── vietnamese-line-and-sound.md       # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & vần
     ├── lyric-refinement.md                # Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft
+    ├── vocal-realization.md               # Phân tầng vocal (Identity, Performance, Production) & vocal prosody tiếng Việt
+    ├── suno-production.md                 # Chuẩn 3-block Suno, Character Budgets & Suno Failure Diagnosis Matrix
+    ├── lyric-quality-review.md            # Đánh giá độc lập chất lượng lời ca (CRITICAL / SUGGESTED / OPTIONAL)
     ├── stage-validation-loop.md           # Các cổng kiểm định ngữ nghĩa (Semantic Gate & Scope-A)
-    ├── suno-handoff.md                    # Quy chuẩn đóng gói prompt & tag cho Suno AI
-    ├── music-sketch-and-demo.md           # Hướng dẫn dựng demo và kiểm tra nhạc-lời
+    ├── suno-handoff.md                    # Tóm tắt vận hành đóng gói prompt & tag cho Suno AI
+    ├── music-sketch-and-demo.md           # Dựng demo, Music Blueprint & kiểm tra nhạc-lời
     ├── genre-and-lyric-routing.md         # Định tuyến ca từ theo thể loại âm nhạc
     ├── folk-prosody.md                    # Thơ dân gian, lục bát và biến thể vào ca khúc
     ├── poem-to-song.md                    # Phương pháp phổ thơ thành ca khúc
-    ├── style-mining.md                    # Khai thác phong cách tác giả & bản sắc riêng
+    ├── style-mining.md                    # Style DNA, phong cách tác giả & bản sắc riêng
     ├── dominant-analysis.md               # Phân tích hợp âm, hòa thanh & trục cảm xúc
     ├── case-log-protocol.md               # Giao thức ghi nhớ phiên làm việc (Session Memory Protocol)
     ├── audit-and-evaluation.md            # Phương pháp tự chấm điểm và đánh giá ca khúc
