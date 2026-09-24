@@ -227,14 +227,20 @@ Trước khi fan-out Tứ, nén các bài trong phiên thành **session-negative
 
 Không đưa toàn văn bài cũ, câu hay hoặc danh sách phương án sửa vào generation packet. Khi đã có overlap evidence, packet sạch chỉ mang **phần fingerprint đang trùng** cùng brief mới, seed có provenance, music constraint và motif được user chủ ý cho phép tái diễn; không truyền toàn bộ fingerprint đề phòng. Chưa có overlap evidence thì generation packet không mang fingerprint.
 
+**Bốn lớp quét nhận diện trùng lặp (Detectors — chỉ kích hoạt khi có evidence):**
+1. **Distinctive phrase:** Cụm từ nội dung đặc trưng bị lặp nguyên hoặc gần nguyên (chuỗi 3 từ chỉ là detector gợi ý, không tự động là hard fail).
+2. **Lexical cluster:** Nhiều từ nội dung cùng trường xuất hiện với mật độ và vai section tương đồng bài trước.
+3. **Sentence / hook frame:** Cùng thế phủ định–khẳng định, điều kiện–cam kết, câu hỏi–trả lời hoặc hook grammar lặp qua nhiều dòng.
+4. **Cadence signature:** Cùng độ dài, vị trí điệp, từ cuối và nhịp cú pháp khiến bài mới mang cùng khẩu khí dù từ ngữ đã đổi.
+
 Chọn lại Tứ nếu topic mới nhưng vẫn chạy cùng quan hệ nhân quả, cùng payoff và cùng cách Chorus tuyên bố. Chọn carrier hoặc behavior khác khi chính chúng đang gây hội tụ. Không bắt mọi tầng đều khác: form Vpop, đại từ, từ chủ đề thiết yếu và ngữ pháp tự nhiên có thể trùng; điều cần tránh là **cụm nhiều tầng cùng hội tụ** khiến người nghe nhận ra bài cũ dưới tên mới.
 
 Kết quả:
 
-- **PASS:** khác ở gốc phát triển; bề mặt chưa tạo cụm lặp đáng chú ý.
-- **RESEED:** trùng skeleton/payoff/hook grammar; quay Tứ/Cốt.
-- **REWRITE:** gốc khác nhưng section dùng lại kho câu/cadence; đổi speech act hoặc cách dựng câu ở section đó.
-- **ALLOW:** sự lặp là motif album/series, reprise hoặc yêu cầu rõ của user; ghi phạm vi được phép.
+- **PASS / KEEP:** Khác ở gốc phát triển; bề mặt chỉ trùng đại từ, hư từ, từ chủ đề thiết yếu, thành ngữ tự nhiên hoặc form genre.
+- **RESEED:** Trùng skeleton/payoff/hook grammar; quay Tứ/Cốt, không polish câu.
+- **REWRITE:** Gốc khác nhưng section dùng lại kho câu/cadence; đổi speech act hoặc cách dựng câu ở section đó.
+- **ALLOW:** Sự lặp là motif album/series, reprise hoặc yêu cầu rõ của user; ghi phạm vi được phép.
 
 Không giải quyết bằng blacklist từ đơn hay thay đồng nghĩa máy móc. Cách đó thường làm ca từ gượng mà logic cũ vẫn còn. Decontamination chỉ chống lặp cấu trúc; nó không được ép bài xa khỏi trường cảm xúc tự nhiên hoặc làm bản mới lạnh hơn baseline.
 

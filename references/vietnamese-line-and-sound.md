@@ -274,23 +274,11 @@ LANGUAGE/SOUND chỉ can thiệp trở lại khi giải pháp viết lại nén 
 
 ### SURFACE-OVERLAP SWEEP — sau rough pass khi có tín hiệu trùng
 
-Chỉ chạy khi phiên có lyric trước đó hoặc user yêu cầu một loạt ca, **và** rough pass bộc lộ một cụm phrase, trường từ, hook frame hoặc cadence giống bài cũ đủ để chỉ ra. Nếu chỉ có lịch sử phiên mà chưa có overlap evidence, ghi `N/A` và không đưa fingerprint vào rewrite. Dùng session-negative fingerprint từ `idea-and-structure.md`; không mở bài nổi tiếng/corpus và không lấy bài cũ làm nguồn câu.
+Thẩm định tính trùng lặp giữa các bài hát trong cùng phiên sáng tác (cross-song / session overlap) và quyết định khử nhiễm (decontamination: RESEED / REWRITE / ALLOW) thuộc quyền sở hữu chuẩn của **`references/idea-and-structure.md`** (`SESSION-DECONTAMINATION`). Việc lưu trữ session fingerprint (khi môi trường hỗ trợ) tuân theo **`references/case-log-protocol.md`**.
 
-Quét theo bốn lớp:
+LANGUAGE/SOUND không tự quyết định tính nguyên bản hay yêu cầu reseed. Sau khi một section được viết lại để khử trùng lặp, LANGUAGE/SOUND chỉ can thiệp trở lại để thẩm định độ tự nhiên từ vựng, cú pháp, ngữ vực, vần và chất lượng tiết tấu/âm thanh (*cadence sound quality*).
 
-1. **Distinctive phrase:** cụm từ nội dung đủ đặc trưng bị lặp nguyên hoặc gần nguyên. Chuỗi ba từ chỉ là detector, không tự động là hard fail.
-2. **Lexical cluster:** nhiều từ nội dung cùng trường xuất hiện với mật độ và vai section giống bài trước.
-3. **Sentence/hook frame:** cùng thế phủ định–khẳng định, điều kiện–cam kết, câu hỏi–trả lời hoặc hook grammar được lặp qua nhiều dòng.
-4. **Cadence signature:** cùng độ dài, vị trí điệp, từ cuối và nhịp cú pháp khiến bài mới mang cùng giọng dù từ đã đổi.
-
-Định vị rồi sửa đúng tầng:
-
-- Trùng skeleton/payoff/hook grammar cùng lúc → **RESEED**, không polish câu.
-- Gốc khác, chỉ một section nhiễm surface/cadence → **REWRITE SECTION** bằng speech act hoặc carrier khác.
-- Chỉ trùng đại từ, hư từ, từ chủ đề thiết yếu, thành ngữ tự nhiên đơn lẻ hoặc form genre → **KEEP**.
-- Motif được user chủ ý giữ trong album/series → **ALLOW** và ghi phạm vi.
-
-Không áp quota từ cấm hoặc ép tìm từ hiếm. Sau rewrite, đọc lại nghĩa, register và Scope A; nếu bản mới chỉ “khác chữ” nhưng lạnh/gượng hơn, hoàn nguyên và reseed ở tầng cao hơn.
+*Phân định ranh giới tiết tấu (Cadence):* Sự trùng lặp tiết tấu giữa các bài hát trong phiên (*cadence similarity across songs*) do `SESSION-DECONTAMINATION` quản lý; trong khi chất lượng và nhạc tính của tiết tấu trên từng dòng câu (*cadence sound quality*) thuộc quyền thẩm định của `LANGUAGE/SOUND`.
 
 ## 5. Âm, vần, điệu
 
