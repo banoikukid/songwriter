@@ -160,12 +160,22 @@ Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người l
 
 ### ANTI-CHEESINESS VS. EMOTIONAL PRECISION (Chống sến sáo bằng độ chính xác cảm xúc)
 
-Khi một câu hát cảm giác còn yếu, sáo rỗng hoặc thiếu sức lay động:
-- **TUYỆT ĐỐI KHÔNG giải quyết bằng cách:** Thêm tính từ lãng mạn chung chung (*ngọt ngào, dịu dàng, say đắm, tuyệt vời*), thêm mỹ từ định mệnh (*mãi mãi, ngàn năm*), hay nhồi nhét ẩn dụ thiên nhiên trang trí (*mưa, mây, sao, gió*).
-- **GIẢI PHÁP ĐÚNG LÀ TĂNG ĐỘ CHÍNH XÁC CẢM XÚC (Increase Emotional Precision):**
-  - Định danh chính xác cảm giác tinh tế mà nhân vật đang trải qua;
-  - Tìm kiếm một cảm giác vật lý cụ thể, một thế đối lập bất ngờ, hoặc một nghịch lý trong tâm tưởng;
-  - Nén sự thật cảm xúc vào một cách diễn đạt chân thực và giàu tính nhạc.
+Từ ngữ và hình ảnh quen thuộc (*mưa, mây, gió, con tim, ánh mắt, ngàn năm...*) **bản thân chúng không cấu thành lỗi**. Kỹ năng không áp dụng danh sách từ cấm (lexical blacklist) hay đòi hỏi độc lạ cực đoan (novelty maximizer). Cần phân biệt rõ 3 trạng thái:
+1. **Quen thuộc nhưng có chức năng (Familiar but functional — KEEP):** Từ ngữ phổ thông nhưng gánh vác sự thật cảm xúc thật, neo giữ bối cảnh, là hook/title carrier, hoặc phù hợp với ngữ vực thể loại (ballad truyền thống, pop đại chúng, phong vị văn học "nàng thơ"). Phát ngôn cảm xúc trực diện (*"Anh vẫn còn yêu em"*) khi đã được bối cảnh nâng đỡ (earned) là điểm chạm chân thực mạnh mẽ, tuyệt đối không ép đổi thành ẩn dụ.
+2. **Chung chung / Tùy tiện thay thế (Generic / replaceable — REFINE):** Hình ảnh hoặc cụm từ được dùng như một phím tắt lười biếng, thiếu bản sắc quan hệ. Áp dụng *Bài test tính thay thế chức năng* bên dưới để tinh lọc.
+3. **Chồng chất mô-típ sáo rỗng (Cliché stacking — COMPRESS / REPLACE):** Xếp chồng liên tiếp nhiều mô-típ quen (*con tim tan vỡ + nước mắt + mưa đêm + ngàn năm*) nhằm tạo cường độ giả tạo mà không mang lại sự thật cảm xúc mới. Tinh lọc bằng cách nén lại và neo vào một sự thật cụ thể.
+
+- **Bài test tính thay thế chức năng (Functional Replaceability Test):**
+  - Đặt câu hỏi: *"Nếu thay hình ảnh/cụm từ quen thuộc này bằng một mô-típ quen khác (ví dụ: thay mưa bằng đêm/gió/hoàng hôn), sự thật quan hệ, chuyển động cảm xúc, danh tính hook hoặc nhiệm vụ của section có gần như không đổi không?"*
+  - Nếu **CÓ (Replaceable):** Chi tiết mang tính trang trí/thay thế tùy ý $\rightarrow$ tinh lọc để tăng độ chuẩn xác cảm xúc hoặc bản sắc ca từ.
+  - Nếu **KHÔNG (Functional):** Chi tiết đang thực hiện công việc cảm xúc thực sự (title carrier, motif xuyên suốt, ký ức gắn với hoàn cảnh/provenance, điểm rơi payoff) $\rightarrow$ **KEEP** hoàn toàn chuẩn mực dù từ ngữ rất phổ thông.
+
+- **Khi câu hát cảm giác còn yếu hoặc sáo rỗng:**
+  - **TUYỆT ĐỐI KHÔNG giải quyết bằng cách:** Nhồi nhét thêm tính từ lãng mạn chung chung (*ngọt ngào, dịu dàng, say đắm*), mỹ từ định mệnh (*mãi mãi, ngàn năm*), hay ẩn dụ thiên nhiên trang trí (*mưa, mây, sao, gió*) nhằm che lấp cảm xúc mờ nhạt.
+  - **GIẢI PHÁP ĐÚNG LÀ TĂNG ĐỘ CHÍNH XÁC CẢM XÚC (Increase Emotional Precision):**
+    - Định danh chính xác cảm giác tinh tế mà nhân vật đang trải qua;
+    - Tìm kiếm một cảm giác vật lý cụ thể, một thế đối lập bất ngờ, hoặc một nghịch lý trong tâm tưởng;
+    - Nén sự thật cảm xúc vào một cách diễn đạt chân thực và giàu tính nhạc.
 - **Đo nhiệt độ cảm xúc (Emotional Temperature Calibration):**
   - Cường độ câu chữ phải tương thích với central intent và trạng thái của section; từ vựng nặng/mạnh hơn không đồng nghĩa với hay hơn, và làm nhẹ/mềm đi cũng chưa chắc đã tự nhiên hơn.
   - Kiểm tra độ mạnh của động từ, mức độ trực diện, mức tuyệt đối hóa, và lượng từ trừu tượng. Ví dụ: trạng thái tiếc nuối nhưng chấp nhận không nên bị nâng thành tuyệt vọng bi lụy chỉ vì từ mạnh nghe "thơ" hơn; khoảnh khắc dứt khoát không bị làm mờ thành chung chung để giữ vần.
@@ -181,8 +191,8 @@ $$\text{Specific Feeling} > \text{Specific Relationship Truth} > \text{Specific 
 
 1. **Cảm giác cụ thể (Specific Feeling):** Gọi tên đúng rung cảm/trạng thái nội tâm thay vì tính từ chung chung;
 2. **Sự thật quan hệ (Specific Relationship Truth):** Một thói quen ngầm, khoảng lặng, cử chỉ hoặc sự thấu hiểu riêng giữa hai người;
-3. **Cách diễn đạt riêng (Specific Phrasing):** Nén câu, đổi khẩu khí, tìm cách nói đời thường độc đáo mang bản sắc nhân vật;
-4. **Hình ảnh / Ẩn dụ (Image only if useful):** Chỉ cân nhắc hình tượng khi nó thực sự nâng đỡ cảm xúc trung tâm; tuyệt đối không ép dùng ẩn dụ để "chữa" câu sáo mòn.
+3. **Cách diễn đạt riêng (Specific Phrasing):** Nén câu, đổi khẩu khí, tìm cách nói đời thường độc đáo mang bản sắc nhân vật. Phát ngôn trực diện, chân thật luôn có sức lay động cao hơn một ẩn dụ gượng ép;
+4. **Hình ảnh / Ẩn dụ (Image only if useful):** Chỉ cân nhắc hình tượng khi nó thực sự nâng đỡ cảm xúc trung tâm; tuyệt đối không ép dùng ẩn dụ để "chữa" câu sáo mòn hay để phô trương thi tính.
 
 ---
 
