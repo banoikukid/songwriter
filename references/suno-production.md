@@ -16,7 +16,7 @@
 >   2. *Cổng 2 (Sound & Prosody):* Đạt phán quyết `Scope A PASS` tại `references/vietnamese-line-and-sound.md` (rà soát rủi ro phát âm mô tả được trên văn bản: biên phrase, hơi thở, và Hook Vocal Affordance).
 >   Chỉ khi **cả hai cổng cùng PASS**, Suno Adapter mới đóng gói trọn vẹn sang 3-block và gắn nhãn `SUNO PROTOTYPE-READY — Lyric Readiness PASS & Scope A PASS; music-fit UNKNOWN`.
 > - Tuyệt đối không khẳng định về độ cộng hưởng, vang ngân hay khớp giai điệu thực tế khi chưa có audio/melody (`actual music-fit UNKNOWN`).
-> - Với ca từ do người dùng cung cấp sẵn chỉ để đóng gói sang Suno: không tự ý viết lại hay ép qua các cổng thẩm định nội bộ; xuất 3-block trực tiếp theo yêu cầu và gắn trạng thái `USER-SUPPLIED LYRICS — Suno packaged; internal gates bypassed`.
+> - Với ca từ do người dùng cung cấp sẵn chỉ để đóng gói sang Suno: không tự ý viết lại (no silent rewrite) hay ép qua các cổng thẩm định nội bộ; xuất 3-block trực tiếp theo yêu cầu và gắn trạng thái `USER-SUPPLIED LYRICS — Suno packaged; internal gates bypassed`. Trạng thái này xác lập nguyên tắc **PACKAGED ≠ VALIDATED** (tuyệt đối không hàm ý Lyric Readiness PASS, Scope A PASS hay music-fit PASS). Nếu phát hiện rủi ro hiển hiện trên bản lời (như quá tải phân đoạn, phát âm ngoại lai chưa rõ, hoặc định dạng có nguy cơ metatag bleed), adapter được phép cảnh báo ngắn gọn (`WARN`) mà không tự ý sửa lời của người dùng.
 > - Suno Adapter không tự định nghĩa hay lặp lại các bộ kiểm tra ca từ/ngữ âm; vai trò là thực thi nghiêm ngặt hợp đồng handoff 2 cổng.
 
 ---

@@ -208,8 +208,8 @@ SUNO PROTOTYPE-READY (references/suno-production.md)
 > **Nguyên tắc điều hướng Runtime (Runtime Routing Policy):**
 > - Một tài liệu có liên quan đến chủ đề **KHÔNG** đồng nghĩa với việc nó phải được nạp. Chỉ nạp tài liệu tham chiếu khi: (1) yêu cầu của người dùng đòi hỏi năng lực chuyên sâu của tài liệu đó; HOẶC (2) xuất hiện triệu chứng cấn rõ ràng cần giải quyết. Với sáng tác mở/đơn giản thông thường: **không nạp bất kỳ tài liệu tham chiếu WRITE chuyên biệt nào là hoàn toàn chuẩn mực (zero specialized WRITE references is valid).**
 > - Router mặc định chỉ expose các lane cần thiết cho task hiện tại. Chỉ load 1–2 reference cần thiết khi có thể.
-> - **AUDIT là lane riêng:** Chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng.
-> - Tuyệt đối **không load** `stage-validation-loop.md`, eval suites, historical audits hoặc `dominant-analysis.md` vào normal writer-pass.
+> - **AUDIT là lane riêng (opt-in / failure-driven):** Mặc định chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng. **Ngoại lệ duy nhất:** Cổng Release Falsification trong `references/lyric-quality-review.md` bắt buộc phải nạp sau khi hoàn thành bản nháp (post-draft) trước khi tự cấp `LYRIC READINESS PASS` hoặc `SUNO PROTOTYPE-READY` cho ca từ mới sáng tác hoặc biên tập sâu (không nạp các tài liệu audit/eval khác).
+> - Tuyệt đối **không load** `stage-validation-loop.md`, eval suites, historical audits hoặc `dominant-analysis.md` vào normal writer-pass hay release pass.
 
 | Lane | Nhu cầu chuyên sâu | Tài liệu tham chiếu |
 |---|---|---|
