@@ -87,7 +87,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Xuất / Khắc phục Suno** | Mặc định đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets). Không tự động nạp cùng sidecar; chỉ đọc `references/suno-handoff.md` khi thực sự cần compatibility / quick-handoff. |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
-- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Emotion → Relationship → 1 Tứ khả thi → Working Hook → Section Guidance → Writer`. Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc ẩn dụ sâu, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
+- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Emotion → Relationship → 1 Tứ khả thi → Working Hook → Section Guidance → Writer`. Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc ẩn dụ sâu, người dùng chủ động yêu cầu phân tích/xây dựng Tứ, Cốt, Form hay kiến trúc concept chuyên sâu, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
 - **Genre / Lane đã xác định (Ballad, Bolero, Indie, R&B...):** Tùy chọn nạp `references/vietnamese-style-dna.md` làm nền tảng định vị soundscape và nhả chữ; Writer vẫn hoàn toàn tự do sáng tác.
 - **Brief chỉ nói chung chung ("Viết nhạc Việt"):** Không auto chọn V-Pop. Đối chiếu cảm xúc/ngữ vực để chọn lane phù hợp (trưởng thành $\rightarrow$ Ballad/Acoustic; trẻ trung $\rightarrow$ V-Pop/R&B; hoài niệm $\rightarrow$ Bolero/Trữ tình).
 - **Ca từ có số, tiếng Anh, viết tắt hoặc cần hát chuẩn AI:** Nạp `references/vietnamese-spoken-form.md` để chẩn đoán rủi ro phát âm mà không làm bẩn bản hiển thị.
@@ -199,7 +199,7 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 | Lane | Nhu cầu chuyên sâu | Tài liệu tham chiếu |
 |---|---|---|
 | **WRITE — FAST** | Brief mở/đơn giản, miền nghĩa rõ, sáng tác trọn bài thông thường | **SKILL.md built-in Fast Path** (không nạp tài liệu tham chiếu ngoài mặc định) |
-| **WRITE — DEEP** | Khái niệm phức tạp/đa nghĩa/giàu vật liệu, nhiều Tứ, reseed cấu trúc, kiến trúc liên tưởng/ngoại hóa | `references/idea-and-structure.md` |
+| **WRITE — DEEP** | Khái niệm phức tạp/đa nghĩa/giàu vật liệu, yêu cầu dựng Tứ/Cốt/Form chuyên sâu, nhiều Tứ, reseed cấu trúc, kiến trúc liên tưởng/ngoại hóa | `references/idea-and-structure.md` |
 | **WRITE** | Phổ thơ sang ca khúc | `references/poem-to-song.md` (+ `references/folk-prosody.md`) |
 | **LANGUAGE** | Tiếng Việt, ngữ âm, vần điệu, dấu thanh, thanh điệu ca từ | `references/vietnamese-line-and-sound.md` |
 | **REFINE** | Tinh lọc ca từ, nén nghĩa, điểm rơi, subtext, sonic craft | `references/lyric-refinement.md` |
