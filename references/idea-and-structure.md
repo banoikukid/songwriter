@@ -11,7 +11,7 @@
 4. Kiến trúc liên tưởng
 5. Chọn engine phát triển
 6. Hook đi cùng Form
-7. Dựng Cốt
+7. Cốt tùy chọn & Ánh xạ vào Section
 8. Chế độ tham vọng phá cách
 
 ## 1. Brief sáng tác
@@ -44,7 +44,7 @@ Khi brief mở hoặc đơn giản (ví dụ: *"Viết ca khúc tình yêu nam n
 - **Generation Packet chỉ mang 6 trường cốt lõi:**
   1. `Central Intent`: Cảm xúc trung tâm cần làm người nghe rung động.
   2. `Relationship`: Ai với ai, mức độ gắn kết thế nào.
-  3. `Emotional Movement`: Cảm xúc vận động từ đâu tới đâu qua bài.
+  3. `Emotional Movement`: Cảm xúc vận động từ đâu tới đâu qua bài (không bắt buộc Cốt sự kiện).
   4. `Section Jobs`: Nhiệm vụ cảm xúc của từng đoạn (Verse, Pre, Chorus, Verse 2, Bridge, Final Chorus).
   5. `Hook / Payoff`: Câu đinh đáng nhớ, kết tinh sự thật cảm xúc.
   6. `Register`: Pop đời sống, ballad mộc, hay thơ nhẹ.
@@ -54,7 +54,7 @@ Trước writer-pass:
 2. Với ví dụ do model tự thêm, xóa bề mặt câu và nén về chức năng quan hệ, như `né tránh đối thoại`, `lời nói mất độ gần`, `một bên mời gọi — một bên chưa hồi đáp`.
 3. Chỉ chuyển chức năng này qua `section job → immediate utterance → phrase → từ`; không paraphrase ví dụ, đổi đại từ hoặc dựng cặp đối xứng từ nó.
 
-Nếu bỏ câu minh họa mà Tứ/Cốt không còn sinh được section, hướng đó chưa đủ Generate. Đào lại trục thay vì cho ví dụ làm nạng. Quy tắc này không xóa material cụ thể có provenance và không cấm model sáng tạo cảnh mới trong rough pass.
+Nếu bỏ câu minh họa mà Tứ / Emotional Movement (hoặc Cốt nếu có) không còn sinh được section, hướng đó chưa đủ Generate. Đào lại trục thay vì cho ví dụ làm nạng. Quy tắc này không xóa material cụ thể có provenance và không cấm model sáng tạo cảnh mới trong rough pass.
 
 ### DOMAIN-SENSE — khóa nghĩa trước khi sinh Tứ
 
@@ -355,11 +355,11 @@ Khi sửa scale trên một lyric đã có melody hoặc bản Suno tốt, giữ
 
 Chọn engine trước Hook+Form và Cốt:
 
-- **NARRATIVE/TRANSFORM:** bài cần sự kiện, lựa chọn hoặc reframe làm tình thế đổi.
-- **DECLARATION/AMPLIFY:** bài bắt đầu từ một tâm cảm xúc rõ nét rồi khuếch đại bằng các biến thể cảm xúc, các tầng nghĩa quan hệ hoặc sự tăng áp lực nội tâm (không phải chứng minh luận đề).
-- **STATE/SUSTAIN:** trạng thái ít đổi về bản chất; groove, lament hoặc mood được repetition, nhịp, giai điệu và độ tăng lực gánh.
+- **NARRATIVE/TRANSFORM:** Bài thật sự cần sự kiện, lựa chọn có hệ quả, hoặc reframe làm đổi tình thế quan hệ. Cốt vĩ mô (3–5 beats phi section) hữu ích ở đây để giữ nhân quả trước khi ánh xạ vào Section Map. Lộ trình: `Tứ → Cốt (3–5 beats) → Hook/Form → Section Map → Writer`.
+- **DECLARATION/AMPLIFY:** Bài bắt đầu từ một tâm cảm xúc rõ nét rồi khuếch đại bằng các biến thể cảm xúc, các tầng nghĩa quan hệ hoặc sự tăng áp lực nội tâm (không phải chứng minh luận đề). Cốt thường **KHÔNG CẦN THIẾT**; không tự bịa sự kiện/cốt truyện chỉ để biện minh cho các đoạn. Lộ trình: `Tứ → Hook → Emotional Movement / Layers → Section Map → Writer`.
+- **STATE/SUSTAIN:** Trạng thái ít đổi về bản chất; groove, lament hoặc mood được repetition, nhịp, giai điệu và độ tăng lực gánh. Cốt thường **KHÔNG CẦN THIẾT**; không ép mô thức `setup → biến cố → vỡ lẽ → kết thúc` lên bài hát sống nhờ độ ngân rung cảm xúc. Lộ trình: `Tứ / Emotional State → Refrain/Hook → Đào sâu / mở rộng / vọng lại → Section Map → Writer`.
 
-Không dùng độ phức tạp của plot để xếp hạng ba engine. Corpus hiện có đã cho thấy declaration và sustain có thể đúng với nhạc trẻ đại chúng; đây là prior **PROVISIONAL**, tai người vẫn quyết.
+Không dùng độ phức tạp của plot để xếp hạng ba engine. Với pop ballad đại chúng, declaration và sustain thường đi thẳng từ Emotional Movement mà không cần qua tầng Cốt.
 
 ### Engine tuyên ngôn & khuếch đại cảm xúc (Emotional Amplification)
 
@@ -478,31 +478,44 @@ Semantic skeleton là ghi chú hậu trường, không phải kho câu. Chỉ kh
 
 `Pressure`, `cost`, `speech act` và `withheld core` có thể giúp chẩn đúng một đoạn lạnh, nhưng không phải bốn ô bắt buộc cho mọi section. Không chữa bản lạnh bằng cách rải vật, body-part hoặc từ “thơ”; cũng không bắt mọi câu phải kịch tính. Câu bình thường vẫn có thể chạm nếu đúng giọng, đúng nhịp và đúng điểm rơi.
 
-## 7. Dựng Cốt
+## 7. Cốt tùy chọn & Ánh xạ vào Section (Optional Cốt & Section Map)
 
-Nén cốt thành skeleton không còn đạo cụ. Đổi quán thành sân ga nhưng vẫn “có → mất → vật gợi → buông” là chưa đổi cốt.
+### 7.1 Bất biến: Tứ vs Cốt vs Dàn bài (Core Invariant)
+- **TỨ (Hạt nhân cảm xúc):** Trả lời *"Bài hát này cảm nhận chủ đề bằng góc nhìn độc đáo, riêng biệt nào?"* Tứ là góc nhìn tạo sinh (generative angle), KHÔNG phải tóm tắt cốt truyện hay dàn bài từng đoạn.
+- **EMOTIONAL MOVEMENT (Chuyển động cảm xúc):** Bước tiến tối thiểu (2–4 beats: `trạng thái → áp lực/đào sâu → giải phóng cảm xúc → chuyển hóa/payoff`) để bài hát không bị đứng yên. Chuyển động cảm xúc **không bắt buộc phải có sự kiện hay biến cố**.
+- **CỐT (Tùy chọn - Optional Macro Sequence):** Chuỗi biến chuyển vĩ mô phi section (3–5 beats) khi bài hát thực sự phụ thuộc vào sự kiện, lựa chọn, bước ngoặt quan hệ hoặc nhân quả tự sự. Cốt trả lời: *"Điều gì thực sự thay đổi từ đầu đến cuối?"*
+- **DÀN BÀI / SECTION MAP (Ánh xạ Section):** Bố trí Emotional Movement hoặc Cốt đã có vào các section của bài hát. **SECTION MAP = PLACEMENT, KHÔNG PHẢI SINH NỘI DUNG MỚI** (không tự động vẽ thêm quán xá, điện thoại, ly tách hay hoạt cảnh vụn vặt chỉ để làm cho đoạn có vẻ "cụ thể").
 
-Chọn một hành vi phát triển chính:
+$$\mathbf{CỐT \ne DÀN\ BÀI} \quad \text{và} \quad \mathbf{DÀN\ BÀI\ KHÔNG\ BẮT\ BUỘC\ PHẢI\ CÓ\ CỐT}$$
 
-- **EVENT:** sự kiện đổi tình thế.
-- **INTENSIFY:** cùng sự thật nhưng lực/stakes tăng.
-- **ACCUMULATE:** thêm các lớp không trùng.
-- **REFRAME:** nhìn lại sự thật bằng một nghĩa khác.
-- **SCOPE-EXPAND:** riêng/nhỏ mở tới nghĩa rộng hơn.
-- **CYCLE-DEEPEN:** trở lại anchor với nghĩa sâu hơn.
-- **DECLARE/AMPLIFY:** giữ một thesis, thêm chiều đo/chứng minh và tăng lực xác nhận.
-- **SUSTAIN/GROOVE:** trạng thái giữ; hook/flow/âm gánh.
+*Chống lập kế hoạch thừa cho Pop/Ballad đại chúng:* Không nhầm lẫn tính chân thực cảm xúc với tính trọn vẹn của hồ sơ tự sự. Người nghe không cần trọn vẹn tiểu sử, niên biểu quan hệ hay mỗi đoạn một màn kịch nhỏ; người nghe cần khoảng trống để nén cảm xúc và tự phóng chiếu trải nghiệm của chính mình (**"Đủ để cảm, không cần đủ để lập hồ sơ nhân vật"**).
 
-Dựng scaffold:
+### 7.2 Cốt — Chuyển động vĩ mô tùy chọn (Optional Macro Cốt)
+Cốt chỉ được tạo khi: (1) Bài hát theo engine NARRATIVE/TRANSFORM thực sự cần sự kiện hoặc bước ngoặt tự sự để đổi tình thế; HOẶC (2) Người dùng chủ động yêu cầu (*"tạo cốt", "xây story", "lên storyline", "dựng narrative"*).
 
-| Section | Việc phải làm |
-|---|---|
-| Verse 1 | Dựng shared premise hoặc tình thế; có ít nhất một Lyric Carrying Line |
-| Pre-Chorus | Dồn câu hỏi, áp lực hoặc chuyển độ cao |
-| Chorus | Nơi giải phóng cảm xúc (emotional release), kết tinh Tứ và hook; chống viết thành luận đề (`không cần X vì có Y`) |
-| Verse 2 | Đào sâu ý nghĩa cảm xúc, tăng độ thân mật/vulnerability; cấm chỉ đổi địa điểm (`Verse 2 ≠ Verse 1 + một địa điểm khác`) |
-| Bridge | Khoảnh khắc thú nhận (confession), bước ngoặt cảm xúc; cấm bài thuyết trình so sánh triết lý (`Người ta thường... nhưng nhìn em anh mới hiểu...`) |
-| Final | Trả payoff đã được cốt trao quyền; chặn Big-Word Escalation |
+Các hành vi phát triển vĩ mô (Development Behaviors - không đồng nghĩa mọi bài đều cần plot):
+- **EVENT:** sự kiện đổi tình thế quan hệ.
+- **INTENSIFY:** cùng sự thật nhưng áp lực / độ tổn thương tăng lên.
+- **ACCUMULATE:** thêm các lát cắt / biến thể cảm xúc không trùng lặp.
+- **REFRAME:** nhìn lại sự thật ban đầu bằng một ý nghĩa khác.
+- **SCOPE-EXPAND:** từ nỗi niềm riêng mở ra quy mô chia sẻ rộng hơn.
+- **CYCLE-DEEPEN:** trở lại anchor cũ với độ thấm thía sâu sắc hơn.
+- **DECLARE/AMPLIFY:** giữ vững một lời khẳng định, tăng dần sức nặng biểu cảm (Cốt = `N/A`).
+- **SUSTAIN/GROOVE:** duy trì trạng thái cảm xúc; nhịp điệu và độ ngân rung gánh vác (Cốt = `N/A`).
+
+*Quy cách của Cốt (khi được kích hoạt):* Nén cốt thành skeleton không còn đạo cụ (đổi quán thành sân ga nhưng vẫn "có → mất → vật gợi → buông" là chưa đổi cốt). Giữ ở 3–5 macro beats; **tuyệt đối phi section (section-agnostic)** — chưa gắn nhãn Verse/Chorus; không kiểm kê đạo cụ, không lập danh mục đối thoại hay kịch bản cảnh chi tiết.
+
+### 7.3 Ánh xạ Section / Dàn bài (Section Map)
+Section Map ánh xạ chuyển động cảm xúc (hoặc Cốt nếu có) vào form ca khúc mà không tạo thêm câu chuyện thứ hai:
+
+| Section | Chức năng Section Map | Lưu ý phi kịch bản |
+|---|---|---|
+| **Verse 1** | Đưa người nghe vào hoàn cảnh quan hệ / tâm thế cảm xúc; có ít nhất một Lyric Carrying Line | Không bắt buộc phải có màn kịch hay đạo cụ cụ thể. |
+| **Pre-Chorus** | Tích tụ áp lực cảm xúc, dồn nén câu hỏi hoặc đẩy đà mong chờ | Không bắt buộc phải có biến cố mới. |
+| **Chorus** | Nơi giải phóng cảm xúc (emotional release), kết tinh Tứ và hook giản dị nhất | Chống viết thành bài tóm tắt cốt truyện hay chuỗi logic (`không X vì có Y`). |
+| **Verse 2** | Đào sâu ý nghĩa cảm xúc, tăng độ thân mật hoặc tính tổn thương | Cấm chỉ đổi địa điểm (`Verse 2 ≠ Verse 1 + một địa điểm khác`); không cần chứng cứ vật lý mới. |
+| **Bridge** | Khoảnh khắc thú nhận (confession), góc nhìn mới hoặc bước ngoặt cảm xúc | Không cần biến cố ngoại cảnh mới; cấm bài giảng triết lý hay tự chẩn đoán tâm lý. |
+| **Final Chorus** | Trở về hook với trạng thái cảm xúc đã biến chuyển sâu sắc hơn | Chặn Big-Word Escalation; trả lại dư ba cảm xúc trọn vẹn. |
 
 ### EXTERNALIZATION CONTRACT — có điều kiện trước writer-pass
 

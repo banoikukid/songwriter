@@ -78,22 +78,24 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | Cửa vào (Input) | Lối xử lý (Discovery Route) |
 |---|---|
 | **Sửa vài câu / Polish** | Sửa trực tiếp tại chỗ theo lane Micro-rewrite; không chạy lại Tứ hay Cốt. |
-| **Đề tài / Ý tưởng / Title** | Tìm hạt mầm cảm xúc (Seed) $\rightarrow$ Tứ $\rightarrow$ Cốt; chạy DOMAIN-SENSE nếu title đa nghĩa. |
+| **Đề tài / Ý tưởng / Title** | Tìm hạt mầm cảm xúc (Seed) $\rightarrow$ Tứ $\rightarrow$ Emotional Movement (Cốt tùy chọn nếu cần biến chuyển tự sự); chạy DOMAIN-SENSE nếu title đa nghĩa. |
 | **Melody / Demo mộc** | Khóa phrase, biên hơi và âm vực rồi dệt lời theo giai điệu (`references/music-sketch-and-demo.md`). |
 | **Groove / Beat / Chords** | Lắng nghe chuyển động nhịp và không gian hòa âm để tìm cảm xúc chủ đạo. |
-| **Bản nháp lời có sẵn** | Đọc thành tiếng $\rightarrow$ chẩn ngược Tứ, Cốt và payoff; sửa gốc trước khi sửa chữ. |
+| **Bản nháp lời có sẵn** | Đọc thành tiếng $\rightarrow$ chẩn ngược Tứ, chuyển động cảm xúc / Cốt (nếu có) và payoff; sửa gốc trước khi sửa chữ. |
 | **Bài thơ** | Chuyển hóa nhịp thơ sang nhịp ca từ hát được (`references/poem-to-song.md`). |
 | **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên Tứ và form; tập trung 100% vào viết bản thô. |
 | **Xuất / Khắc phục Suno** | Mặc định đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets). Không tự động nạp cùng sidecar; chỉ đọc `references/suno-handoff.md` khi thực sự cần compatibility / quick-handoff. |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
-- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Emotion → Relationship → 1 Tứ khả thi → Working Hook → Section Guidance → Writer`. Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc ẩn dụ sâu, người dùng chủ động yêu cầu phân tích/xây dựng Tứ, Cốt, Form hay kiến trúc concept chuyên sâu, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
+- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Emotion → Relationship → 1 Tứ khả thi → Working Hook → Emotional Movement / Section Guidance → Writer` (hoàn toàn không yêu cầu artifact Cốt độc lập hay Dàn bài trùng lặp). Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc ẩn dụ sâu, người dùng chủ động yêu cầu phân tích/xây dựng Tứ, Cốt, Form hay kiến trúc concept chuyên sâu, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
 - **Genre / Lane đã xác định (Ballad, Bolero, Indie, R&B...):** Tùy chọn nạp `references/vietnamese-style-dna.md` làm nền tảng định vị soundscape và nhả chữ; Writer vẫn hoàn toàn tự do sáng tác.
 - **Brief chỉ nói chung chung ("Viết nhạc Việt"):** Không auto chọn V-Pop. Đối chiếu cảm xúc/ngữ vực để chọn lane phù hợp (trưởng thành $\rightarrow$ Ballad/Acoustic; trẻ trung $\rightarrow$ V-Pop/R&B; hoài niệm $\rightarrow$ Bolero/Trữ tình).
 - **Ca từ có số, tiếng Anh, viết tắt hoặc cần hát chuẩn AI:** Nạp `references/vietnamese-spoken-form.md` để chẩn đoán rủi ro phát âm mà không làm bẩn bản hiển thị.
 - **Cần nghiên cứu phân bố thời lượng, mật độ từ (WPM) hoặc benchmark:** Nạp `references/vietnamese-corpus-profile.md`.
 
 **Hội tụ trước khi viết:** Chốt nhanh 3 yếu tố: (1) **Cảm xúc trung tâm / Tứ**; (2) **Working Hook**; (3) **Section Guidance** (định hướng cảm xúc từng đoạn).
+- *Chống lập kế hoạch trùng lặp (No Duplicate Planning):* Nếu Tứ + Emotional Movement + Section Guidance đã đủ định hình một ca khúc cảm xúc mạch lạc, **tuyệt đối không lập thêm artifact Cốt độc lập hay dàn bài diễn giải trùng lặp** (`Tứ → diễn giải Cốt → diễn giải Dàn bài → Writer`). Cốt chỉ xuất hiện khi thật sự có biến chuyển tự sự/nhân quả vĩ mô mới hoặc người dùng chủ động yêu cầu dựng cốt/storyline.
+- *One-Shot Full Lyric:* Khi người dùng yêu cầu sáng tác trọn bài trong một lượt, không xuất các bảng phân tích trung gian riêng rẽ (Tứ, Cốt, Dàn bài, Section Jobs) trừ khi người dùng chủ động yêu cầu.
 
 ## 4. Quá trình viết bản thô (Writer-Pass)
 
