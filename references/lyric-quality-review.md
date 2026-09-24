@@ -101,18 +101,20 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
    - Người kể tự khẳng định như đinh đóng cột về nội tâm, suy nghĩ hoặc hành vi tương lai của người khác khi dữ liệu brief không cho phép.
 2. **Forced Rhyme Harm (Ép vần phá nghĩa):**
    - Đảo cú pháp bất thường hoặc chọn một từ xa lạ, ngô nghê chỉ để bắt vần với câu trên.
-3. **Thesis Line & Analysis Leakage (Leo thang có điều kiện thành CRITICAL):**
-   - **Mặc định phân loại là `SUGGESTED`** (xem mục B). Chỉ leo thang thành `CRITICAL` khi có bằng chứng thực tế cho thấy câu thuyết minh:
+3. **Escalated Thesis Line / Analysis Leakage:**
+   - Mục này **CHỈ ÁP DỤNG** khi có bằng chứng thực tế cho thấy câu thuyết minh:
      - Phá vỡ ý nghĩa trung tâm (*breaks central meaning*); HOẶC
      - Phá vỡ nhiệm vụ cốt lõi của một section lớn như Chorus hoặc Bridge (*breaks a major section job*); HOẶC
-     - Tạo ra vi phạm điểm nhìn / thẩm quyền trần thuật (*creates a POV/provenance violation*); HOẶC
-     - Biến section thành bài nghị luận/thuyết minh đủ nghiêm trọng để phá vỡ hệ thống ca khúc (*turns section into essay breaking the song system*).
-   - *Bộ nhận diện nghi vấn (Detectors — KHÔNG PHẢI blacklist từ cấm):* Sự xuất hiện của các cụm như *"hóa ra...", "điều đau nhất là...", "thì ra...", "chỉ là..."* chỉ đóng vai trò detectors, **tuyệt đối không tự động là lỗi và không tự động là CRITICAL**. Ngữ cảnh và chức năng biểu đạt sẽ quyết định.
+     - Gây ra vi phạm điểm nhìn / thẩm quyền trần thuật (*causes a POV/provenance violation*); HOẶC
+     - Biến section thành bài nghị luận/thuyết minh đủ nghiêm trọng để phá vỡ hệ thống ca khúc (*turns a major section into an essay severe enough to break the song system*).
 
 ### B. SUGGESTED (Khuyến nghị nâng cấp)
-*(Bao gồm mặc định: **Thesis Line & Analysis Leakage** — điều hướng xử lý về `references/lyric-refinement.md`; chỉ leo thang thành CRITICAL khi thỏa mãn các điều kiện có bằng chứng tại mục A.3)*
-
-1. **SCENE-REPORT (Báo cáo cảnh vật / Dồn dập ngoại cảnh thiếu tải trọng cảm xúc):**
+1. **Thesis Line & Analysis Leakage (Mặc định / Default):**
+   - *Phân loại mặc định:* Đây là phân loại mặc định (DEFAULT) cho các câu mang tính giải thích triết lý, thuyết minh kết luận thay vì để hành động và cảm xúc tự lên tiếng.
+   - *Bộ nhận diện nghi vấn (Detectors Only — KHÔNG PHẢI blacklist từ cấm):* Sự xuất hiện của các cụm như *"hóa ra...", "thì ra...", "chỉ là...", "điều đau nhất là..."* chỉ đóng vai trò detectors nhận diện điểm rơi nghi vấn. Chúng **không tự động cấu thành lỗi** và **không phải danh sách từ cấm**. Ngữ cảnh và chức năng biểu đạt trong câu hát sẽ quyết định.
+   - *Khả năng leo thang:* Vấn đề SUGGESTED này chỉ có thể leo thang sang `CRITICAL` (mục A.3) khi có bằng chứng rõ ràng thỏa mãn các điều kiện phá vỡ cấu trúc tại mục A.
+   - *Xử lý:* Điều hướng xử lý về `references/lyric-refinement.md` để nén câu, giản hóa hoặc chuyển thành câu cảm xúc trực diện.
+2. **SCENE-REPORT (Báo cáo cảnh vật / Dồn dập ngoại cảnh thiếu tải trọng cảm xúc):**
    - *Dấu hiệu:* Nhiều dòng chỉ thuần túy ghi nhận cảnh vật, thời tiết, hoạt động thường nhật (*phố xá, đèn đường, dắt xe, kéo khóa, quạt gió, ngã tư...*). Thấy hai người đang làm gì nhưng chưa cảm được họ có ý nghĩa gì với nhau; bỏ cảnh đi cảm xúc bài vẫn nguyên.
    - *4 câu hỏi xử lý cục bộ:*
      1. *Cảnh này đang làm người nghe cảm gì?*
@@ -124,62 +126,62 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
      2. **COMPRESS:** Nén bối cảnh lại thành một điểm tựa tối thiểu để người nghe chạm vào được;
      3. **REPURPOSE:** Tận dụng vật liệu sẵn có để gắn với một cử chỉ, thói quen quan hệ hoặc điểm rơi cảm xúc;
      4. **ADD (chỉ sau cùng khi thực sự cần):** Tuyệt đối không vội vã nhét thêm các câu nói chung chung (*"anh yêu em / anh bình yên"*); chỉ bổ sung câu cảm xúc khi mạch bài thực sự thiếu điểm tựa.
-2. **PSYCHOLOGY-ESSAY (Hội chứng thuyết trình tâm lý & nghị luận tình cảm):**
+3. **PSYCHOLOGY-ESSAY (Hội chứng thuyết trình tâm lý & nghị luận tình cảm):**
    - *Dấu hiệu:* Tác giả đứng ngoài phân tích tâm lý thay vì để nhân vật cất lời; giải thích quá nhiều *"tình yêu là..."*, *"anh hiểu rằng..."*; đưa ra các chân lý tổng quát đao to búa lớn (*"Điều dũng cảm nhất của một người đàn ông..."*); Bridge giống bài phát biểu so sánh triết lý (`Người ta thường gom nhặt những điều lớn lao... nhưng nhìn em anh mới hiểu...`).
    - *Câu hỏi xử lý:* *"Đây có phải câu hát bật ra từ nhân vật, hay tác giả đang đứng ngoài giải thích bài hát cho người nghe?"*
    - *Xử lý:* Nén lại, chuyển thành câu cảm xúc trực diện chân thành (*"Anh mệt lắm, nhưng thấy em cười là quên hết"*), thế đối lập, hoặc bỏ hẳn đoạn nghị luận.
-3. **BIG-WORD-ESCALATION (Leo thang từ ngữ giả tạo ở Final Chorus):**
+4. **BIG-WORD-ESCALATION (Leo thang từ ngữ giả tạo ở Final Chorus):**
    - *Dấu hiệu:* Cố tạo cảm giác cao trào, vĩ mô bằng cách phóng đại kích cỡ từ ngữ: từ *con đường, góc phố* ở Verse nhảy vọt lên *năm tháng, cuộc đời, kỳ diệu, mãi mãi, định mệnh, tất cả* ở Final Chorus mà không có tích lũy chiều sâu quan hệ.
    - *Xử lý:* Ngăn chặn việc tăng kích cỡ từ ngữ. Thay bằng **leo thang độ thân mật (intimacy escalation)**: một sự thật dễ tổn thương hơn, một lời thú nhận phụ thuộc, hoặc một hình ảnh quen quay lại mang nghĩa mới.
-4. **Show, Don't Explain & Over-Explanation (Thuyết minh thừa thãi):**
+5. **Show, Don't Explain & Over-Explanation (Thuyết minh thừa thãi):**
    - Mô thức: `Hình ảnh / Hành động + Câu giải thích nghĩa của hình ảnh đó`.
      *Ví dụ:* `Mẹ lau lại chiếc ly của cha` $\rightarrow$ Hành động này đã đủ mạnh và đắt giá. Nếu viết tiếp: `Đủ để con hiểu người đã không còn...` $\rightarrow$ Đây là over-explanation làm loãng dư ba.
-5. **Semantic Redundancy (Trùng lặp chức năng ngữ nghĩa giữa các đoạn):**
+6. **Semantic Redundancy (Trùng lặp chức năng ngữ nghĩa giữa các đoạn):**
    - Hai câu ở các section liền kề cùng thực hiện một nhiệm vụ ngữ nghĩa (ví dụ: Verse 1 kết bằng *"Mọi thứ trôi đi như một buổi sáng bình thường"*, sau đó Chorus lại mở bằng *"Nhà mình sáng nay chẳng thiếu một thứ gì..."*).
    - *Xử lý:* Đánh dấu `SUGGESTED - Semantic redundancy between sections`. Ưu tiên giữ câu mạnh hơn ở Chorus, làm câu ở Verse cụ thể hơn bằng chi tiết vật lý, hoặc bỏ hẳn câu tổng kết ở Verse.
-6. **Image Density & Camera Sweep (Dồn dập liệt kê đạo cụ thiếu payoff):**
+7. **Image Density & Camera Sweep (Dồn dập liệt kê đạo cụ thiếu payoff):**
    - Quét lia lịa qua quá nhiều đối tượng: `vật A → địa điểm B → thời tiết C → phương tiện D → bức tường E → chậu cây F → nền đất G` mà các chi tiết không cùng phục vụ một chức năng cảm xúc hay dẫn tới payoff.
    - *Xử lý:* Gom cụm hoặc lược bớt $1 - 2$ chi tiết giá trị thấp để không gian có chỗ thở. Tuyệt đối không viết lại toàn bộ Verse.
-7. **Narrative-to-Lyric Failure (Tỉ lệ tự sự / hoạt cảnh sitcom quá cao):**
+8. **Narrative-to-Lyric Failure (Tỉ lệ tự sự / hoạt cảnh sitcom quá cao):**
    - Kích hoạt khi ca từ có thể được tóm tắt thành một chuỗi sự kiện, hành vi hoặc hội thoại đời thường mà không mất đi phần lớn giá trị cảm xúc (ví dụ: *em mở cửa → em kéo tay → em cười → em hát → anh trêu → em nhìn → anh bật cười → anh mê em*).
    - *Xử lý:* Thay thế $1 - 3$ dòng tự sự/hành vi bằng các dòng mang hình tượng cảm xúc (*Lyric Carrying Lines*) hoặc sự nén cảm xúc.
-8. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
+9. **Chorus Anti-Essay (Chống Chorus biến thành bản luận đề):**
    - Ngăn chặn việc Chorus biến thành một danh sách các mệnh đề logic: `không X, mà Y, nên Z, thành ra A, thành ra B` hoặc `Không cần X vì có Y là đủ`.
    - Chorus cần sự nén lại về nhạc tính và cảm xúc: 1 ý niệm trung tâm + 1 carrier đáng nhớ + 1 bước giải phóng cảm xúc (emotional release). Vẫn cho phép ngôn từ trực diện.
-9. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
+10. **Bridge Anti-Essay (Chống Bridge biến thành bài giảng triết lý):**
    - Không để Bridge rơi vào mô thức bài giảng: `Ngày trước tôi nghĩ X, sau đó tôi nhận ra Y, vậy nên tình yêu là Z` hoặc `Người ta thường... nhưng nhìn em anh mới hiểu...`.
    - Ưu tiên: `Niềm tin cũ → Một mâu thuẫn cụ thể → Bước ngoặt cảm xúc (Confession / Turn)`. Để người nghe tự hoàn thiện một phần sự nhận ra.
-10. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
+11. **Generic Emotional Language (Ngôn ngữ cảm xúc chung chung):**
    - Đặt câu hỏi: *"Câu này có thể bê sang 10 bài tình ca khác mà không thay đổi điều gì không?"* (ví dụ: *em muốn anh tốt hơn, anh được là chính mình, em luôn ở bên anh, anh thấy bình yên, tình yêu làm mọi thứ tốt đẹp*).
    - Nếu có: Gắn nhãn `SUGGESTED`.
    - *Thứ tự ưu tiên sửa:* `Specific Feeling > Specific Relationship Truth > Specific Phrasing > Image (chỉ khi thực sự hữu ích)`. Tuyệt đối không để model vô thức hiểu lầm rằng gặp câu chung chung là phải đi tìm ẩn dụ / metaphor.
-11. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
+12. **Writerly / Staged Phrasing (Làm dáng văn vẻ / Nhân hóa trang trí):**
    - Cụm từ nghe như được tạo ra để "làm thơ", kết hợp từ lạ tai (*unusual collocation*), trừu tượng chồng trừu tượng, hoặc nhân hóa đồ vật làm màu (*decorative personification*).
    - *Xử lý:* Gắn nhãn `SUGGESTED - Writerly Phrase`. Đề xuất giản hóa về cách nói chân thực mà vẫn giữ được không khí.
-12. **Decorative Specificity (Chi tiết cụ thể thiếu chức năng):**
+13. **Decorative Specificity (Chi tiết cụ thể thiếu chức năng):**
    - Reviewer đặt câu hỏi: `Does this detail earn its place?` (Chi tiết này có tự chứng minh sự tất yếu không?).
    - Một chi tiết được giữ lại nếu nó có ít nhất một chức năng đáng kể: *provenance từ brief, ký ức vật lý, giá trị giác quan, chức năng tình huống, tín hiệu quan hệ, hoặc narrative turn*.
    - Nếu không có: Khuyến nghị **Giữ nguyên hoặc Giản hóa** (`KEEP or SIMPLIFY`, ví dụ: `sân gạch` $\rightarrow$ `sân nhà`). Tuyệt đối **không lập danh sách đen từ ngữ** (No Word Blacklisting).
-13. **Prose-to-Lyric (Văn xuôi xuống dòng):**
+14. **Prose-to-Lyric (Văn xuôi xuống dòng):**
    - Câu đúng ngữ pháp nhưng chứa quá nhiều từ nối (*"nên", "vì", "thực ra là"*), nhịp điệu phẳng lỳ, thiếu tính nén của ca từ.
-14. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
+15. **Weak Line Landing (Điểm rơi cuối dòng lửng lơ):**
    - Dòng trọng tâm của Chorus hoặc chốt đoạn kết thúc bằng một từ chức năng (*"nữa đâu", "được gì", "thế này"*); cần chuyển trọng tâm về động từ, danh từ cảm xúc hoặc khoảng lặng.
-15. **Cliché & Generic Tropes (Sáo mòn):**
+16. **Cliché & Generic Tropes (Sáo mòn):**
     - Sử dụng các cụm từ mòn vẹt: *"con tim tan vỡ", "định mệnh an bài", "nước mắt tuôn rơi", "yêu đến điên dại", "thanh xuân của anh"*; hoặc mặc định gọi mưa/mùa đông/hoàng hôn làm công cụ tạo buồn vô cớ.
-16. **Abstract Noun Stacking (Xếp chồng danh từ trừu tượng — voice-checker):**
+17. **Abstract Noun Stacking (Xếp chồng danh từ trừu tượng — voice-checker):**
     - *Dấu hiệu:* Quá nhiều danh từ trừu tượng đứng cạnh nhau trong cùng một câu/đoạn (*tình yêu, hy vọng, ánh sáng, định mệnh, bình yên, tổn thương, ký ức*).
     - *Nguy cơ:* Dùng danh từ trừu tượng làm phím tắt cảm xúc thay vì chạm vào cảm giác thật.
     - *Xử lý:* Gắn nhãn `SUGGESTED - Abstract Noun Stacking`. Nén bớt danh từ trừu tượng, giữ lại 1 hạt nhân và neo bằng cử chỉ hoặc sự thật quan hệ. (Không cấm danh từ trừu tượng, chỉ cảnh báo khi lạm dụng).
-17. **Over-Explained Metaphor (Ẩn dụ bị giải thích thừa thãi — voice-checker):**
+18. **Over-Explained Metaphor (Ẩn dụ bị giải thích thừa thãi — voice-checker):**
     - *Dấu hiệu:* Ẩn dụ vừa xuất hiện thì ngay sau đó tác giả đã nhảy vào giải thích cặn kẽ ý nghĩa của nó: `image → explanation → explanation`.
     - *Xử lý:* Gắn nhãn `SUGGESTED - Over-Explained Metaphor`. Cắt bỏ phần giải thích thừa, để người nghe tự hoàn thiện khoảng trống thẩm mỹ.
-18. **Cliché Escalation (Leo thang từ ngữ sáo mòn — voice-checker):**
+19. **Cliché Escalation (Leo thang từ ngữ sáo mòn — voice-checker):**
     - *Dấu hiệu:* Đoạn kết cố tạo cảm giác cao trào bằng chuỗi từ phóng đại: *yêu → mãi mãi → cả đời → vĩnh cửu → định mệnh* mà không có sự khám phá cảm xúc mới.
     - *Xử lý:* Gắn nhãn `SUGGESTED - Cliché Escalation`. Chuyển sang leo thang độ thân mật (*intimacy escalation*), một sự thật dễ tổn thương hơn của nhân vật.
-19. **Missing Idiosyncrasy (Thiếu dấu vân tay riêng của bài hát — voice-checker):**
+20. **Missing Idiosyncrasy (Thiếu dấu vân tay riêng của bài hát — voice-checker):**
     - *Dấu hiệu:* Bài hát đúng chủ đề, đúng kỹ thuật nhưng hoàn toàn vắng bóng một chi tiết, một cách nói hay một góc nhìn riêng biệt của cặp đôi, nghe như bài hát chung chung AI viết cho bất kỳ ai.
     - *Xử lý:* Gắn nhãn `SUGGESTED - Missing Idiosyncrasy`. Nhắc: *"Bài đang đúng chủ đề nhưng chưa có một chi tiết/câu nói mang dấu vân tay riêng"*. Khuyến khích đưa vào 1 thói quen ngầm hoặc cách nói riêng (tuyệt đối không ép thêm chi tiết kỳ quặc/quirky khiên cưỡng).
-20. **Prose-AI-Tell (Câu văn xuôi AI kể chuyện — voice-checker):**
+21. **Prose-AI-Tell (Câu văn xuôi AI kể chuyện — voice-checker):**
     - *Dấu hiệu:* Câu ca từ có cấu trúc giống văn xuôi giải thích được ngắt dòng, chứa nhiều từ nối giải thích (*"để rồi", "thực ra", "bởi vì thế"*), nhịp phẳng, thiếu nhạc tính.
     - *Xử lý:* Gắn nhãn `SUGGESTED - Prose-AI-Tell`. Reviewer chỉ flag và đề xuất nén hoặc chuyển đổi nhịp điệu; tuyệt đối không tự động viết lại cả bài.
 
