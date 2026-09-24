@@ -87,7 +87,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Xuất / Khắc phục Suno** | Mặc định đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets). Không tự động nạp cùng sidecar; chỉ đọc `references/suno-handoff.md` khi thực sự cần compatibility / quick-handoff. |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
-- **Open / Simple Brief ("Viết một ca khúc..."):** Giữ quy trình siêu nhẹ. Không nạp corpus hay style DNA; đi thẳng: `Emotion → Tứ → Hook → Writer`.
+- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Emotion → Relationship → 1 Tứ khả thi → Working Hook → Section Guidance → Writer`. Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc ẩn dụ sâu, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
 - **Genre / Lane đã xác định (Ballad, Bolero, Indie, R&B...):** Tùy chọn nạp `references/vietnamese-style-dna.md` làm nền tảng định vị soundscape và nhả chữ; Writer vẫn hoàn toàn tự do sáng tác.
 - **Brief chỉ nói chung chung ("Viết nhạc Việt"):** Không auto chọn V-Pop. Đối chiếu cảm xúc/ngữ vực để chọn lane phù hợp (trưởng thành $\rightarrow$ Ballad/Acoustic; trẻ trung $\rightarrow$ V-Pop/R&B; hoài niệm $\rightarrow$ Bolero/Trữ tình).
 - **Ca từ có số, tiếng Anh, viết tắt hoặc cần hát chuẩn AI:** Nạp `references/vietnamese-spoken-form.md` để chẩn đoán rủi ro phát âm mà không làm bẩn bản hiển thị.
@@ -191,13 +191,15 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 
 > [!IMPORTANT]
 > **Nguyên tắc điều hướng Runtime (Runtime Routing Policy):**
+> - Một tài liệu có liên quan đến chủ đề **KHÔNG** đồng nghĩa với việc nó phải được nạp. Chỉ nạp tài liệu tham chiếu khi: (1) yêu cầu của người dùng đòi hỏi năng lực chuyên sâu của tài liệu đó; HOẶC (2) xuất hiện triệu chứng cấn rõ ràng cần giải quyết. Với sáng tác mở/đơn giản thông thường: **không nạp bất kỳ tài liệu tham chiếu WRITE chuyên biệt nào là hoàn toàn chuẩn mực (zero specialized WRITE references is valid).**
 > - Router mặc định chỉ expose các lane cần thiết cho task hiện tại. Chỉ load 1–2 reference cần thiết khi có thể.
 > - **AUDIT là lane riêng:** Chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng.
 > - Tuyệt đối **không load** `stage-validation-loop.md`, eval suites, historical audits hoặc `dominant-analysis.md` vào normal writer-pass.
 
 | Lane | Nhu cầu chuyên sâu | Tài liệu tham chiếu |
 |---|---|---|
-| **WRITE** | Ý tưởng, Tứ, Cốt, Form, Hook, Chế độ tham vọng | `references/idea-and-structure.md` |
+| **WRITE — FAST** | Brief mở/đơn giản, miền nghĩa rõ, sáng tác trọn bài thông thường | **SKILL.md built-in Fast Path** (không nạp tài liệu tham chiếu ngoài mặc định) |
+| **WRITE — DEEP** | Khái niệm phức tạp/đa nghĩa/giàu vật liệu, nhiều Tứ, reseed cấu trúc, kiến trúc liên tưởng/ngoại hóa | `references/idea-and-structure.md` |
 | **WRITE** | Phổ thơ sang ca khúc | `references/poem-to-song.md` (+ `references/folk-prosody.md`) |
 | **LANGUAGE** | Tiếng Việt, ngữ âm, vần điệu, dấu thanh, thanh điệu ca từ | `references/vietnamese-line-and-sound.md` |
 | **REFINE** | Tinh lọc ca từ, nén nghĩa, điểm rơi, subtext, sonic craft | `references/lyric-refinement.md` |
