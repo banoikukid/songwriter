@@ -168,31 +168,11 @@ Flag các ca:
 
 Thử rewrite bằng: lời khẳng định trực tiếp, so sánh phổ thông nhưng có điểm rơi, hoặc một hành động giao tiếp cụ thể. Nếu cần khuếch đại, dùng parallelism/gradation mềm trước khi gọi thành ngữ lớn.
 
-### EMOTIONAL TEMPERATURE
+### EMOTIONAL TEMPERATURE — đo mức độ nhiệt cảm xúc
 
-Kiểm tra mức cường độ của câu chữ có khớp với central intent và trạng thái của section không.
+Cân chỉnh cường độ cảm xúc của câu chữ (diction quá nóng hoặc quá lạnh so với central intent và trạng thái section) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`ANTI-CHEESINESS VS. EMOTIONAL PRECISION`).
 
-Một câu có thể:
-- đúng nghĩa;
-- tự nhiên;
-- đẹp;
-- dễ hát;
-
-nhưng vẫn sai nếu diction đẩy cảm xúc quá nóng hoặc quá lạnh.
-
-Ví dụ:
-- một trạng thái tiếc nhưng đã chấp nhận không nên tự bị nâng thành tuyệt vọng chỉ vì từ mạnh nghe “thơ” hơn;
-- một khoảnh khắc quyết liệt không nên bị làm mờ thành chung chung chỉ để giữ vần.
-
-Kiểm:
-- độ mạnh của động từ;
-- mức trực diện;
-- mức tuyệt đối hóa;
-- lượng abstraction;
-- độ gần/xa của hình ảnh;
-- intensity so với section trước và sau.
-
-Không đồng nhất “nhiều cảm xúc hơn” với “hay hơn”.
+LANGUAGE/SOUND chỉ can thiệp trở lại khi phương án viết lại phát sinh vấn đề về ngữ pháp, ngữ vực (register), tính tự nhiên từ vựng (lexical naturalness) hoặc âm thanh lời hát.
 
 ### QUANTITY-PROVENANCE — chỉ mở khi lượng từ gây nghi vấn
 
@@ -244,21 +224,9 @@ Verse ưu tiên FACT/FRAME/ARC có hậu quả; Pre chỉ dùng đếm/tăng c�
 
 ### LYRIC-VOLTAGE — chỉ mở khi lời nghe như đang phân tích
 
-Đây là ear test, không phải rubric bắt mỗi câu phải “có giá phải trả”. Hỏi một lần: **đang nghe một người hát từ trong cảm xúc, hay một người đứng ngoài giải thích hoặc thông báo cảm xúc?**
+Thẩm định và xử lý lỗi phân tích cảm xúc, định nghĩa tâm lý, rò rỉ dàn bài / cơ chế (*Analysis-Leakage / Mechanism-Leakage*) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`THESIS LINE & EXPLAINING LINE` / `Lyric Voltage`).
 
-**Mật độ trừu tượng** chỉ là detector để kích hoạt pass này, không phải một diagnostic riêng. Một từ như `hạnh phúc`, `tổn thương`, `đổi thay`, `trọn vẹn` hay `sợ hãi` không tự fail; chỉ flag khi nhiều dòng liên tiếp nối khái niệm mà không còn hành động giao tiếp, quan hệ, tension hoặc âm hình. Câu châm-ngôn/caption chỉ giữ khi nó là hook trung tâm đã được phần dựng trao quyền; nếu mở thêm một bài học ngoài thesis, trả về mệnh đề chính.
-
-Chỉ flag khi nhiều dòng liên tiếp thành định nghĩa, lời khuyên, phân loại tâm lý, phép đối xứng lạnh, câu tóm tắt Tứ hoặc chuỗi báo cáo `chủ thể → làm/không làm → kết quả`.
-
-Một dạng thường gặp là **báo cáo đối xứng**: `A nói/làm X`, chen một câu hình ảnh hoặc âm thanh để tạo vẻ ngoại hiện, rồi `B cũng nói/làm X`. Chạy deletion-test trên carrier ở giữa: nếu bỏ nó đi mà phần còn lại vẫn chỉ là biên bản hai phía và cảm xúc không đổi hướng, carrier đang trang trí chứ chưa mang semantic tension. Rewrite cả cụm từ section job; không thay `nói` bằng động từ thơ hơn hoặc đổi riêng câu carrier.
-
-Không flag đối thoại chỉ vì có `nói/hỏi/đáp`. Giữ khi lời qua lại tạo xung đột, lựa chọn, tiết lộ, hồi đáp, nhịp call–response hoặc một hệ quả mà đổi vai hai người sẽ làm cảnh khác đi. Đối xứng có chủ ý vẫn hợp lệ khi nó là hook/refrain và lượt sau tăng hoặc lật nghĩa.
-
-**ANALYSIS-LEAKAGE** là subcase cho vị trí tải cao: một dòng ở Hook, Chorus, Bridge hoặc Outro có thể fail nếu nó chỉ diễn xuôi ghi chú Tứ/Cốt, định nghĩa một khái niệm trừu tượng hoặc giải thích cơ chế cảm xúc mà không còn tension, lời hướng tới ai, âm hình hay dư vang. Câu khái quát vẫn được giữ khi chính nó là hook/voice đã được phần dựng trao quyền; không cấm danh từ trừu tượng hoặc câu chủ–vị.
-
-**MECHANISM-LEAKAGE** thuộc cùng subcase, không phải gate mới: từ tải chính chỉ ở lại để gọi tên carrier, phrase behavior, transformation trace hoặc thành phần song system trong kế hoạch. Chạy deletion-test và nghe lại cả lượt phrase: nếu cơ chế vẫn rõ mà cảm xúc ấm hơn khi bỏ từ ấy, packet chưa được decompile sạch. Với Hook, Bridge và payoff, audition từ tải theo ba mặt `liên tưởng cảm xúc đúng register · tự nhiên khi hát · chịu được lặp`; fail thì viết lại speech act/cả phrase, không thay đồng nghĩa. Không cấm từ bình thường hoặc từ chỉ âm nhạc khi chúng thật sự thuộc giọng và thế cảm xúc của bài.
-
-Viết lại bằng **speech act**, không thay đồng nghĩa: với analysis leakage, quay section job/immediate utterance và chuyển báo cáo thành khoảnh khắc nhận ra, lời gọi/hỏi, thế đối, nhượng bộ, ellipsis, cadence, khoảng lặng hoặc chuyển động biểu tượng vốn có trong bài. Câu chủ–vị, câu plain và hình ảnh quen đều hợp lệ khi đang tạo giọng hoặc sức ép; không xóa chủ ngữ theo quota và không rải đạo cụ, body-part hay từ “thơ” để giả cảm xúc. `Pressure/cost` chỉ dùng nếu nó giúp hiểu đúng đoạn đang lạnh, không điền cho toàn bài.
+LANGUAGE/SOUND chỉ can thiệp trở lại khi câu sau khi viết lại bằng speech act vẫn còn gặp các vấn đề về cú pháp, kết hợp từ (collocation), tính tự nhiên từ vựng (lexical naturalness), vần, ngữ âm, điểm rơi (Line Landing), hoặc ngắt câu/hơi thở (breath / phrase boundary).
 
 ### AGENCY-BALANCE — chỉ mở khi bài bị khóa trong một loại chủ thể
 
@@ -308,19 +276,9 @@ Nghe ba điều: có một neo/cadence giữ tai; ảnh mới còn cùng lực c
 
 ### Gate chống văn xuôi dựng cảnh
 
-Flag một cụm tải cao hoặc nhiều dòng liên tiếp khi chúng chỉ trả lời `mấy giờ · ở đâu · ai làm gì · căn phòng phát ra âm gì` mà chưa có giọng người nói, semantic tension, âm hình hay thủ pháp trội. Một cặp câu mở Verse/Chorus/Bridge vẫn đủ evidence nếu câu thứ nhất kê thao tác và câu thứ hai chỉ thêm âm nền hoặc thời lượng mà quan hệ không tiến.
+Thẩm định và xử lý lỗi đoạn ca từ sa vào biên bản báo cáo bối cảnh (scene-report failure: liệt kê giờ giấc, nơi chốn, thao tác, âm nền mà thiếu chuyển động quan hệ hay giọng hát) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`IMAGE / STATEMENT BALANCE & CHỐNG CAMERA SWEEP` / `Chống văn xuôi dựng cảnh`).
 
-Phân owner với **LYRIC-VOLTAGE** bằng triệu chứng trội: nếu cụm chủ yếu kê vị trí, mốc và thao tác, gate dựng cảnh sở hữu; nếu cụm chủ yếu định nghĩa, giải thích tâm lý/quan hệ hoặc kết luận Tứ, `LYRIC-VOLTAGE` sở hữu. Khi một cụm có cả hai, quay section job và chọn owner của tầng sớm hơn; không chạy hai pass nối tiếp trên cùng bản câu. Rewrite một lần rồi nghe lại trước khi mở diagnostic còn lại.
-
-Với câu mở section, hỏi:
-
-1. Câu có tạo lời gọi, câu hỏi, thế đối, nhịp cú pháp, biểu tượng hoặc sức ép cảm xúc không?
-2. Nếu bỏ mốc thời gian/địa điểm, phần còn lại có mất điều không thể thay thế không?
-3. Nếu câu chỉ đặt camera, nén nó vào một dòng nền hoặc thay bằng phát ngôn đi thẳng vào Tứ.
-
-Khi fail bắt nguồn từ material tự sinh, quay **MATERIAL-TO-EMOTION BRIDGE** và viết lại cả đơn vị nghĩa. Không giữ nguyên biên bản sự việc rồi thay `gần sáng` bằng một mốc giờ thi vị hơn, hoặc thay âm nền bằng một vật thể mềm hơn; bản mới phải làm quan hệ, cái giá, dấu vết hay chuyển động cảm xúc nghe được.
-
-Không flag scene thật sự cần cho EVENT, chi tiết có dấu người hoặc câu kể có cadence/refrain. Mục tiêu là tránh **concrete-by-default**, không cấm tự sự hay câu plain.
+LANGUAGE/SOUND chỉ can thiệp trở lại khi giải pháp viết lại nén cảnh làm nảy sinh lỗi cú pháp, collocation, ngữ vực hoặc âm điệu.
 
 ### SURFACE-OVERLAP SWEEP — sau rough pass khi có tín hiệu trùng
 

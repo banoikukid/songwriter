@@ -101,6 +101,10 @@ Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
 - Mở đầu bằng: *"hóa ra...", "điều đau nhất là...", "thì ra tình yêu...", "có những cuộc chia tay...", "chỉ là..."*; hoặc
 - Tự giải thích ý nghĩa của hình ảnh / hành động vừa xuất hiện (*ví dụ: hành động mẹ lau chiếc ly của cha đã đủ mạnh; nếu viết thêm "đủ để con hiểu người đã không còn..." thì thành over-explanation làm loãng dư ba*).
 - **Chống Bridge Essay (Bài giảng triết lý):** Cấm tuyệt đối mô thức diễn thuyết so sánh: *"Người ta thường gom nhặt những điều lớn lao... nhưng nhìn em anh mới hiểu... điều dũng cảm nhất là..."*. Bridge phải là: **Khoảnh khắc thú nhận (Confession) / Bước ngoặt cảm xúc (Turn) / Một mâu thuẫn cụ thể chạm tới sự thật chưa từng nói**.
+- **Lyric Voltage & Khử Analysis Leakage (Nghe người trong cuộc hát, không nghe nhà phân tích):**
+  - *Dấu hiệu:* Người nghe cảm giác như đang nghe một nhà phân tích tâm lý, chuyên gia thông báo cảm xúc hoặc giảng giải cơ chế thay vì một con người đang hát từ bên trong hoàn cảnh cảm xúc.
+  - *Không cấm từ trừu tượng hay câu plain:* Bản thân danh từ trừu tượng (`hạnh phúc`, `tổn thương`, `sợ hãi`) hay phát ngôn trực diện hoàn toàn không có lỗi. Chỉ flag khi một cụm câu biến thành định nghĩa, kết luận Tứ, liệt kê diễn biến lạnh lùng hoặc lộ dàn bài/kế hoạch sáng tác (*Analysis-Leakage / Mechanism-Leakage*).
+  - *Hướng xử lý:* Viết lại bằng **hành vi ngôn ngữ (speech act)**: chuyển lời giải thích/báo cáo thành khoảnh khắc tự nhận thức, lời gọi/hỏi, lời thú nhận (confession), thế tương phản, nhượng bộ, dấu lửng (ellipsis) hoặc chuyển động biểu tượng sẵn có. Tuyệt đối không "sửa" bằng cách đắp thêm tính từ hay hình ảnh thơ hoa mỹ trang trí.
 
 ---
 
@@ -108,6 +112,10 @@ Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
 
 - Một đoạn không nên chỉ toàn nhận định, giải thích hay kết luận cảm xúc trừu tượng. Nó cần vài neo đời sống (action, vật liệu, giác quan) để người nghe chạm vào được.
 - **Chống Camera Sweep / Image Density dồn dập:** Không lia ống kính qua liên tiếp quá nhiều vật thể (vật A $\rightarrow$ địa điểm B $\rightarrow$ thời tiết C $\rightarrow$ phương tiện D $\rightarrow$ bức tường E $\rightarrow$ chậu cây F) nếu các chi tiết không cùng phục vụ một chức năng cảm xúc hay dẫn tới payoff. Nếu mật độ quá dày, gom cụm hoặc lược bỏ $1 - 2$ chi tiết giá trị thấp để không gian có chỗ thở.
+- **Chống văn xuôi dựng cảnh (Scene-Report Lyric Failure):**
+  - *Dấu hiệu:* Một cụm câu chỉ thuần túy làm biên bản báo cáo bối cảnh (*mấy giờ, ở đâu, thao tác gì, âm thanh nền nào*) mà không tạo ra giọng hát của nhân vật, không có chuyển động quan hệ, tension cảm xúc hay điểm rơi ca từ.
+  - *Không cấm tự sự:* Các cảnh thực sự cần cho sự kiện (EVENT), hành động quan hệ có ý nghĩa, hoặc câu tự sự mang nhạc tính/refrain vẫn hoàn toàn hợp lệ.
+  - *Hướng xử lý:* Ưu tiên **CẮT / NÉN / TẬN DỤNG LẠI (Cut / Compress / Repurpose)** trước khi thêm mới. Tuyệt đối không thay biên bản đời thường bằng cách đắp thêm đồ vật thơ mộng hay cảnh sắc ước lệ; mục tiêu là hành vi ca từ (lyric behavior) chứ không phải thêm đạo cụ thi vị.
 - **Khử trùng lặp ngữ nghĩa (Semantic Redundancy giữa các đoạn):** Kiểm tra xem câu chốt Verse có làm trùng chức năng với câu mở Chorus hay không (ví dụ: Verse kết bằng *"mọi thứ trôi đi như một buổi sáng bình thường"*, Chorus lại nói *"nhà mình chẳng thiếu thứ gì"*). Giữ câu mạnh hơn, cụ thể hóa hoặc bỏ câu tổng kết ở Verse.
 
 ---
@@ -152,6 +160,10 @@ Khi một câu hát cảm giác còn yếu, sáo rỗng hoặc thiếu sức lay
   - Định danh chính xác cảm giác tinh tế mà nhân vật đang trải qua;
   - Tìm kiếm một cảm giác vật lý cụ thể, một thế đối lập bất ngờ, hoặc một nghịch lý trong tâm tưởng;
   - Nén sự thật cảm xúc vào một cách diễn đạt chân thực và giàu tính nhạc.
+- **Đo nhiệt độ cảm xúc (Emotional Temperature Calibration):**
+  - Cường độ câu chữ phải tương thích với central intent và trạng thái của section; từ vựng nặng/mạnh hơn không đồng nghĩa với hay hơn, và làm nhẹ/mềm đi cũng chưa chắc đã tự nhiên hơn.
+  - Kiểm tra độ mạnh của động từ, mức độ trực diện, mức tuyệt đối hóa, và lượng từ trừu tượng. Ví dụ: trạng thái tiếc nuối nhưng chấp nhận không nên bị nâng thành tuyệt vọng bi lụy chỉ vì từ mạnh nghe "thơ" hơn; khoảnh khắc dứt khoát không bị làm mờ thành chung chung để giữ vần.
+  - Khi diction làm lệch nhiệt độ cảm xúc dự kiến (quá nóng hoặc quá lạnh), viết lại hướng về đúng rung cảm chân thực của nhân vật.
 
 ---
 
@@ -178,7 +190,7 @@ Tầng REFINE chỉ canh gác rủi ro làm dáng quá tay (*decorative over-pol
 
 ## 5. Trụ cột 3: SONIC REALIZATION & LANDING (Âm thanh và điểm rơi)
 
-Tầng REFINE tập trung vào góc độ kỹ thuật ca từ (craft): cấu trúc phrasing, trọng lượng của hook, và bảo đảm các chỉnh sửa không vô tình phá vỡ âm thanh bài hát.
+Tầng REFINE tập trung vào góc độ kỹ thuật ca từ (craft): trọng lượng của hook và chỉ lưu ý xem chỉnh sửa ngữ nghĩa/kỹ nghệ có vô tình tạo rủi ro âm thanh hoặc rủi ro ngắt nhịp (phrasing risk) ở hạ nguồn hay không. REFINE không sở hữu việc kiểm tra chi tiết cấu trúc phrase, tải hơi hay thực thi âm thanh.
 
 Quy chuẩn triển khai chi tiết, tiêu chí kiểm tra và quyền thực thi đối với:
 - **Line Landing** (Điểm rơi cuối dòng);
