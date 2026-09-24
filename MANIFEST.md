@@ -11,7 +11,7 @@ skill: songwriting-min
 version: 1.4.0
 release_date: 2026-08-11
 last_updated: 2026-09-24
-purpose: "Writer-First Vietnamese Songwriting Skill: Emotion First - Lyric Second - Technique Third, Hermes Freedom, regiellis Hook-First Simplest Emotional Truth, Voice-Checker Authenticity & Pure Agent Architecture (v1.4.0)"
+purpose: "Writer-First Vietnamese Songwriting Skill with Fast/Deep adaptive routing, 4 canonical Writer Brakes, symptom-triggered domain diagnostics, Reviewer sidecar, Suno production ownership, and isolated audit/evaluation lanes (v1.4.0 Stable)"
 repository: "https://github.com/banoikukid/songwriter"
 source_canonical: "https://github.com/banoikukid/songwriter"
 upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills/songwriting-min (Internal Origin)"
@@ -33,11 +33,14 @@ upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 
 ### Phân Tầng Tài Nguyên Tham Chiếu (3-Tier Reference Taxonomy — 36 tệp)
 
-> **Nguyên tắc Context Budget:** 36 tệp trong thư mục `references/` **không phải** là 36 tài liệu runtime đồng thời nạp vào prompt. Agent tuân thủ chính sách ngữ cảnh tối thiểu: router mặc định chỉ expose các lane cần thiết cho task hiện tại; mỗi lượt sáng tác/hiệu chỉnh chỉ nạp $1 - 2$ tệp theo đúng lane đang kích hoạt. AUDIT là lane riêng, chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng. Tuyệt đối **không nạp** `stage-validation-loop.md`, eval suites, historical audits hoặc `dominant-analysis.md` vào normal writer-pass.
+> **Nguyên tắc Context Budget:** 36 tệp trong thư mục `references/` **không phải** là 36 tài liệu runtime đồng thời nạp vào prompt. Agent tuân thủ chính sách ngữ cảnh tối thiểu:
+> - **WRITE — FAST (Brief mở/đơn giản):** Mặc định nạp **0 tài liệu tham chiếu chuyên biệt** (zero specialized WRITE references); quy trình nội tại của `SKILL.md` là đủ để viết.
+> - **Các lane chuyên sâu / Hiệu chỉnh:** Ưu tiên nạp **đúng 1 Canonical Owner** cho task hoặc triệu chứng hiện tại; chỉ nạp reference thứ hai khi năng lực thực sự cần phối hợp xuyên owner (ví dụ: `poem-to-song.md` + `folk-prosody.md`). Tuyệt đối không nạp tài liệu chỉ vì có liên quan chung chung.
+> - **AUDIT / Offline:** `stage-validation-loop.md` (chỉ nạp khi audit/failure tracing), `dominant-analysis.md` (analysis-only/demoted), cùng toàn bộ schemas, test suites JSON và báo cáo audit lịch sử hoàn toàn bị cô lập khỏi normal writer context.
 
-#### Nhóm 1: Tri thức Cốt lõi & Handoff Sản xuất (Runtime Knowledge — 16 tệp)
-*Chỉ nạp tệp tương ứng khi lane nghiệp vụ cụ thể được kích hoạt:*
-1. `references/idea-and-structure.md`: Khung ý tưởng, Tứ, Form, Hook, Material Affordance Audition, Chế độ phá cách
+#### Nhóm 1: Tri thức Cốt lõi & Handoff Sản xuất (Runtime Knowledge — 14 tệp)
+*Chỉ nạp tệp tương ứng khi lane nghiệp vụ cụ thể được kích hoạt (ưu tiên 1 owner chính):*
+1. `references/idea-and-structure.md`: Khung ý tưởng, Tứ, Form, Hook, Material Affordance Audition, Chế độ phá cách (WRITE — DEEP)
 2. `references/vietnamese-line-and-sound.md`: Âm thanh, thanh điệu tiếng Việt, nhịp điệu, tông vật liệu, vần & Lexical Naturalness
 3. `references/lyric-refinement.md`: Quy chuẩn tinh lọc ca từ (Lyric Craft, Compression, Subtext, Sonic Realization)
 4. `references/vocal-realization.md`: Phân tầng vocal (Identity, Performance, Production), âm sắc & vocal prosody tiếng Việt
@@ -51,13 +54,13 @@ upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 12. `references/vietnamese-style-dna.md`: 12 lanes nhạc Việt, soundscape DNA & nhả chữ
 13. `references/vietnamese-spoken-form.md`: Khẩu khí, ngữ âm khi hát & written-to-spoken diagnostics
 14. `references/vietnamese-corpus-profile.md`: Thống kê quần thể VietLyrics & WPM benchmark
-15. `references/stage-validation-loop.md`: Cổng kiểm định ngữ nghĩa (AUDIT / FAILURE DEBUGGER ONLY — KHÔNG nạp trong normal generation)
-16. `references/dominant-analysis.md`: Phân tích hợp âm, hòa thanh & trục cảm xúc (ANALYSIS-ONLY / DEMOTED — KHÔNG nạp khi viết)
 
-#### Nhóm 2: Công cụ Thẩm định & Chẩn đoán (Diagnostic Sidecars — 2 tệp)
-*Chỉ nạp khi người dùng yêu cầu review độc lập hoặc chẩn đoán ca từ có vấn đề:*
-17. `references/lyric-quality-review.md`: Đánh giá chất lượng lời độc lập theo 6 lăng kính (CRITICAL, SUGGESTED, OPTIONAL)
-18. `references/case-log-protocol.md`: Giao thức ghi nhớ phiên làm việc (Session Memory Protocol — CHỈ nạp khi host hỗ trợ session continuity hoặc cần truy vết bộ nhớ phiên; KHÔNG nạp mặc định khi sáng tác)
+#### Nhóm 2: Công cụ Thẩm định, Chẩn đoán & Bộ nhớ Phiên (Diagnostic / Audit / Continuity Sidecars — 4 tệp)
+*Chỉ nạp khi người dùng yêu cầu review độc lập, session continuity hoặc audit formal:*
+15. `references/lyric-quality-review.md`: Đánh giá chất lượng lời độc lập theo 6 lăng kính (REVIEW SIDECAR / explicit review only)
+16. `references/case-log-protocol.md`: Giao thức ghi nhớ phiên làm việc (Session Memory Protocol — Session continuity only)
+17. `references/stage-validation-loop.md`: Cổng đối chiếu ngữ nghĩa xuyên tầng (AUDIT / FAILURE DEBUGGER ONLY — tuyệt đối không nạp trong normal generation)
+18. `references/dominant-analysis.md`: Phân tích hợp âm, hòa thanh & trục cảm xúc (ANALYSIS-ONLY / DEMOTED — tuyệt đối không nạp khi viết)
 
 #### Nhóm 3: Tài nguyên Kiểm định, Schemas & Báo cáo Audit (Evaluation Assets — 18 tệp)
 *Tài nguyên phục vụ benchmark, kiểm thử hồi quy offline và lưu trữ lịch sử; KHÔNG nạp vào generation context:*

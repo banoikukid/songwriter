@@ -14,7 +14,10 @@
    - *Kể / Chuyển hóa (Narrative / Transformation)*
    - *Tuyên ngôn / Khuếch đại (Anthem / Amplification)*
    - *Trạng thái / Duy trì (Atmospheric / State-Holding)*
-5. **Flow khám phá thích nghi & Pilot Proofing (Adaptive Discovery Flow):** Chọn pilot ở nơi cần chứng minh nhất (Chorus cho declaration; Verse mở + turn cho narrative; quãng liền 8–12 dòng cho constellation; phrase khó cho melody-first). Đọc/hát pilot như người nghe trước khi viết trọn bài.
+5. **Điều hướng Thích nghi Fast / Deep (Adaptive Fast / Deep Routing):**
+   - *Brief mở / đơn giản / rõ ràng:* Sử dụng `WRITE — FAST` từ `SKILL.md` (`Emotion → Relationship → 1 Tứ khả thi → Working Hook → Section Guidance → Write`), viết ngay bản thô mà không cần nạp tài liệu kiến trúc ngoài.
+   - *Brief chuyên sâu / đa nghĩa / gieo vật liệu / yêu cầu kiến trúc:* Kích hoạt `WRITE — DEEP` và nạp `references/idea-and-structure.md`.
+   - *Pilot proofing có điều kiện:* Chỉ áp dụng trong nhánh `WRITE — DEEP` khi thực sự cần chứng minh một ý niệm, cơ chế đoạn, chiến lược vật liệu hoặc điểm cấn chưa chắc chắn trước khi triển khai toàn bài.
 6. **Suno & AI Music Handoff thực tế:** Lyrics-only không tự biết melody; Suno không deterministic. Demo rẻ dùng để kiểm lời–nhạc trước full production.
 7. **Tai người quyết định cuối cùng:** AI là bạn đồng sáng tác (cowriter); tai người quyết định điểm “chạm”, độ “tươi” và bản hoàn thiện cuối cùng. Không hứa tự tạo hit hay siêu phẩm.
 
@@ -22,32 +25,39 @@
 
 ## 🚀 Quy Trình Khám Phá Thích Nghi (Adaptive Discovery Flow)
 
-```
-                       User Brief / Seed / Melody / Chord
-                                      │
-                                      ▼
-             [1] Đánh giá Material Affordance & Central Intent
-                                      │
-                                      ▼
-             [2] Chọn Seed, Tứ & Working Hook (1 vòng cô đọng)
-                                      │
-                                      ▼
-             [3] Dựng Form & Section Jobs theo Engine phát triển
-                                      │
-                                      ▼
-             [4] Pilot Audition tại điểm cần chứng minh nhất
-                                      │
-                                      ▼
-             [5] Decompile thành Generation Packet & Viết Rough Pass
-                                      │
-                                      ▼
-             [6] ROUGH-LYRIC SEMANTIC GATE (Chẩn bệnh & hồi phục tầng sai)
-                                      │
-                                      ▼
-             [7] SCOPE-A RELEASE GATE (Kiểm tra trước khi handoff)
-                                      │
-                                      ▼
-             [8] Suno / AI Prototype Handoff ([SUNO PROTOTYPE-READY])
+```text
+                        USER REQUEST / BRIEF
+                                 │
+        ┌────────────────────────┴────────────────────────┐
+        ▼                                                 ▼
+  [WRITE — FAST]                                   [WRITE — DEEP]
+ (Brief mở/đơn giản,                              (Brief gieo vật liệu nặng,
+  miền nghĩa rõ ràng)                              title đa nghĩa, ẩn dụ sâu,
+        │                                          yêu cầu dựng Tứ/Cốt/Form)
+        │                                                 │
+  SKILL.md ONLY                                    idea-and-structure.md
+ (0 reference nạp ngoài)                          (Pilot proofing nếu cần)
+        │                                                 │
+        └────────────────────────┬────────────────────────┘
+                                 ▼
+                         ROUGH LYRIC PASS
+                                 │
+        ┌────────────────────────┼────────────────────────┐
+        │                        │                        │
+        ▼                        ▼                        ▼
+[Không có symptom /      [Có symptom cụ thể       [User yêu cầu lyrics-first /
+ task đã đạt chuẩn]       bộc lộ sau bản nháp]     Suno prototype handoff]
+        │                        │                        │
+        ▼                        ▼                        ▼
+  DELIVER / STOP        Nạp đúng 1 Canonical     SCOPE-A RELEASE GATE
+ (Không gọi diagnostic   Owner cần thiết:         (Kiểm tra phrasing, hơi thở,
+  không cần thiết)       - REFINE (Nén ca từ)     vần, mouth-feel trên lyric)
+                         - LANGUAGE/SOUND (Vần,           │
+                           ngữ âm, từ vựng)               ▼
+                         - IDEA (Tứ/Cốt gãy)      SUNO PRODUCTION HANDOFF
+                                 │                (references/suno-production.md)
+                                 ▼
+                         TARGETED PATCH & STOP
 ```
 
 ---
@@ -58,13 +68,13 @@
 songwriter/
 ├── LICENSE                                # Giấy phép mã nguồn mở MIT License
 ├── README.md                              # Giới thiệu tổng quan & hướng dẫn sử dụng
-├── SKILL.md                               # Entry point, Adaptive Flow, Pilot Proofing, Micro-Polish & Gates
-├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.4.0)
+├── SKILL.md                               # Runtime Constitution, Fast/Deep Routing, 4 Phanh Writer, Micro-Rewrite, Điều hướng Chẩn đoán & Điều kiện dừng
+├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.4.0 Stable)
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
 └── references/                            # 36 tệp tri thức chuyên sâu (Phân tầng 3-Tier)
-    ├── [Nhóm 1: Tri thức cốt lõi & Handoff — 16 tệp]
-    │   ├── idea-and-structure.md          # Tứ, Form, Hook, Material Affordance, Phá cách
+    ├── [Nhóm 1: Tri thức cốt lõi & Handoff — 14 tệp runtime nghiệp vụ]
+    │   ├── idea-and-structure.md          # Tứ, Form, Hook, Material Affordance, Phá cách (WRITE — DEEP)
     │   ├── vietnamese-line-and-sound.md   # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & Lexical Naturalness
     │   ├── lyric-refinement.md            # Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft
     │   ├── vocal-realization.md           # Phân tầng vocal (Identity, Performance, Production) & vocal prosody
@@ -77,22 +87,22 @@ songwriter/
     │   ├── style-mining.md                # Style DNA, phong cách tác giả & bản sắc riêng
     │   ├── vietnamese-style-dna.md        # 12 lanes nhạc Việt & soundscape DNA
     │   ├── vietnamese-spoken-form.md      # Khẩu khí, ngữ âm & written-to-spoken diagnostics
-    │   ├── vietnamese-corpus-profile.md   # Thống kê VietLyrics & WPM benchmark
-    │   ├── stage-validation-loop.md       # Đối chiếu xuyên tầng (Audit / failure debugger only — không nạp khi viết)
-    │   └── dominant-analysis.md           # Phân tích hợp âm, hòa thanh (Analysis-only / demoted — không nạp khi viết)
-    ├── [Nhóm 2: Công cụ thẩm định chẩn đoán — 2 tệp]
-    │   ├── lyric-quality-review.md        # Đánh giá độc lập 6 lăng kính (CRITICAL / SUGGESTED / OPTIONAL)
-    │   └── case-log-protocol.md           # Session memory protocol (CHỈ nạp khi host cần session continuity)
-    └── [Nhóm 3: Tài nguyên kiểm định & Báo cáo audit — 18 tệp (KHÔNG nạp vào generation context)]
+    │   └── vietnamese-corpus-profile.md   # Thống kê VietLyrics & WPM benchmark
+    ├── [Nhóm 2: Công cụ thẩm định, chẩn đoán & bộ nhớ phiên — 4 tệp sidecars]
+    │   ├── lyric-quality-review.md        # Đánh giá độc lập 6 lăng kính (REVIEW SIDECAR / explicit review only)
+    │   ├── case-log-protocol.md           # Giao thức ghi nhớ phiên làm việc (Session continuity only)
+    │   ├── stage-validation-loop.md       # Cổng đối chiếu xuyên tầng (AUDIT / FAILURE DEBUGGER ONLY — không nạp khi viết)
+    │   └── dominant-analysis.md           # Phân tích hợp âm, hòa thanh (ANALYSIS-ONLY / DEMOTED — không nạp khi viết)
+    └── [Nhóm 3: Tài nguyên kiểm định & Báo cáo audit — 18 tệp (Offline / Không nạp vào generation context)]
         ├── eval-suite.json, semantic-movement-suite.json, writer-realization-suite.json... (8 schemas/suites)
         └── audit-process-audit-*, b6-baseline-*, cot-corpus-*, tu-corpus-*... (10 historical reports)
 ```
 
 > **Nguyên Tắc Tiết Kiệm Ngữ Cảnh (Context Budget Policy):**  
 > 36 tệp trong `references/` **không phải** là 36 tài liệu runtime đồng thời nạp vào prompt. Skill vận hành theo nguyên tắc tối thiểu ngữ cảnh:
-> - **Generation thông thường:** Router mặc định chỉ expose các lane cần thiết cho task hiện tại; chỉ nạp $1 - 2$ tệp theo đúng lane nghiệp vụ đang mở.
-> - **AUDIT là lane riêng:** Chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng.
-> - **Tuyệt đối không nạp:** `stage-validation-loop.md`, `dominant-analysis.md`, schemas, test suites JSON hay báo cáo audit lịch sử vào normal writer-pass.
+> - **WRITE — FAST (Brief mở/đơn giản):** Mặc định nạp **0 tài liệu tham chiếu chuyên biệt** (zero specialized WRITE references); quy trình nội tại của `SKILL.md` là đủ để viết.
+> - **Các lane chuyên sâu / Hiệu chỉnh:** Ưu tiên nạp **đúng 1 Canonical Owner** cho task hoặc triệu chứng hiện tại; chỉ nạp reference thứ hai khi năng lực thực sự cần phối hợp xuyên owner (ví dụ: `poem-to-song.md` + `folk-prosody.md`). Tuyệt đối không nạp tài liệu chỉ vì có liên quan chung chung.
+> - **AUDIT / Offline:** `stage-validation-loop.md` (chỉ nạp khi audit/failure tracing), `dominant-analysis.md` (analysis-only/demoted), cùng toàn bộ schemas, test suites JSON và báo cáo audit lịch sử hoàn toàn bị cô lập khỏi normal writer context.
 
 > **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, attack surface tối thiểu. Skill không chứa executable runtime hay dependency bên ngoài. Package không tự gọi shell/network; context usage và quyền dữ liệu phụ thuộc host agent khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
 
@@ -100,7 +110,7 @@ songwriter/
 
 ## 🏷️ Quy Chuẩn Nhãn Trạng Thái (Status Tags)
 
-- `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]`: Bản lời đã qua Semantic Gate và Scope A, sẵn sàng nạp vào Suno để test giai điệu/phối khí.
+- `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]`: Bản lời đã qua kiểm định Scope A (lyrics-first verification) về phrasing, điểm lấy hơi, cadence/rhyme và các rủi ro mouth-feel nhìn thấy trên lyric sheet, đủ sạch để thử nghiệm prototype trên Suno AI; trạng thái này **không yêu cầu** ROUGH-LYRIC SEMANTIC GATE, **không chứng minh** melody/prosody/music-fit thực tế, và duy trì `music-fit UNKNOWN` cho đến khi có audio/melody kiểm chứng.
 - `[LYRIC DRAFT — Scope A chưa qua; music-fit UNKNOWN]`: Bản nháp đang trong quá trình hiệu chỉnh, cần sửa ở tầng chỉ định trước khi demo.
 
 ---
