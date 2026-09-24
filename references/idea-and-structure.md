@@ -306,11 +306,26 @@ Chọn theo brief:
 - **MIXED:** prior đầu cho tình ca đại chúng có image-title; nhân vật dẫn premise và giữ quan hệ/lời gọi, field mở quy mô ở Pre/Chorus/Bridge hoặc làm refrain.
 - **FIELD-DOMINANT:** lament, chiêm nghiệm, folk/kinh điển hoặc image-system đã có thi pháp đủ mạnh có thể để thế giới hình tượng gánh phần lớn cảm xúc. `Image-title` một mình chưa đủ bằng chứng.
 
-Không đếm đại từ như quota và không personify tùy ý: ở tầng thiết kế, chỉ cần lane đã chọn có một carrier hợp seed và còn giữ đúng quan hệ/referent. Sau rough pass, nếu cụm nội tâm lặp làm scale hẹp đi hoặc cảnh vật chiếm chuỗi chủ thể khiến con người biến mất, chuyển toàn quyền chẩn và sửa sang **AGENCY-BALANCE** tại `vietnamese-line-and-sound.md`; không chạy một subject-sequence diagnostic thứ hai tại đây.
+Không đếm đại từ như quota và không personify tùy ý: ở tầng thiết kế, chỉ cần lane đã chọn có một carrier hợp seed và còn giữ đúng quan hệ/referent. Sau rough pass, nếu cụm nội tâm lặp làm scale hẹp đi hoặc cảnh vật chiếm chuỗi chủ thể khiến con người biến mất, chuyển sang chẩn và sửa bằng **AGENCY-BALANCE** ngay bên dưới; không chạy một subject-sequence diagnostic thứ hai ở tầng ngôn ngữ.
 
 Title/seed có thể là mệnh đề cần phát triển hoặc chỉ là neo cảm xúc cần được ngân rộng. Không ép loại thứ hai thành luận đề nhân quả hay cú reframe thông minh. TRANSFORM có thể đổi nghĩa ở lần trở lại; STATE/SUSTAIN có thể quay lại cùng anchor với lực, độ rộng hoặc dư vang lớn hơn.
 
 Vật cụ thể không tự nhiên “thô”, và trăng/hoa/mùa/sông/tuổi thơ không tự nhiên “sáo”. Giá trị nằm ở quan hệ cảm xúc, vị trí, chuyển động và âm hình trong bài. Không sao chép bộ vật liệu của ca tham chiếu; học cách các ảnh cùng lực hút và phát triển.
+
+### AGENCY-BALANCE — post-rough semantic diagnostic
+
+Chỉ kích hoạt sau khi đã có bản nháp (rough lyric) **và** phát hiện bằng chứng phân bố chủ thể/agency xung đột với expression mode đã chọn hoặc làm biến mất mối quan hệ giữa người hát và người nghe. Tuyệt đối không đếm đại từ theo quota.
+
+**1. Các dạng mất cân bằng chủ thể (Flag theo cụm, không theo từ đơn):**
+- **PROTAGONIST-LOCK:** Nhiều dòng liên tiếp lấy `anh/em/tôi` làm chủ thể của các động từ nội tâm (*nhớ, nghĩ, biết, nhận ra, mong*), khiến toàn bộ không gian xung quanh chỉ là hình ảnh minh họa thụ động. *Phòng tránh bắt nhầm:* Lời bộc bạch trực tiếp (DIRECT/UTTERANCE), confession, declaration hoàn toàn được phép tập trung vào người hát nếu đó là chủ đích.
+- **SCENERY-LOCK:** Nhiều dòng liên tiếp biến trời, mưa, đường, mùa, dấu chân thành chủ ngữ/chủ thể hành động, khiến con người, người nghe và mối quan hệ bị đẩy ra ngoài lề. *Phòng tránh bắt nhầm:* Các ca khúc có chủ ý FIELD-DOMINANT được phép để hệ hình tượng gánh phần lớn chuyển động cảm xúc.
+- **ANONYMOUS-AGENT FILL:** Xuất hiện các chủ thể vô danh tự tạo (*ai cũng, người ta, có người, một người + hành động*) mà Tứ/POV không cấp provenance, chỉ nhằm diễn giải thô một chuyển động rộng. Ưu tiên giữ chủ thể gốc, lược tự nhiên hoặc trao chuyển động cho hình ảnh có căn cứ.
+
+**2. Nguyên tắc xử lý (Repair Principles):**
+- **Sửa ở cấp cụm/section:** Phân bố lại chủ thể và động từ theo đúng lane (DIRECT, MIXED, FIELD-DOMINANT) và nhiệm vụ đoạn (section job). Tuyệt đối không hoán đổi máy móc (`anh nhớ` $\leftrightarrow$ `mưa nhớ`).
+- **Không ép nhân hóa (No forced personification):** Quyết định *"cảnh vật có mang agency hay không"* thuộc về tầng ý niệm tại đây; tuyệt đối không gán động từ ý chí con người cho ngoại cảnh chỉ để câu nghe có vẻ "thơ". (Việc kiểm tra động từ gán cho cảnh vật có tự nhiên trong tiếng Việt hay không thuộc thẩm quyền của `LANGUAGE/SOUND`).
+- **Phân biệt với lỗi quy mô (Scale vs Agency):** Nếu nguyên nhân sâu xa là do chọn sai quy mô bài hát hoặc lệch expression mode, đóng pass này và quay lại **`Giữ quy mô liên tưởng — personal gravity`** ngay dưới đây để chỉnh lại section role và immediate utterance; không biến lỗi quy mô thành lỗi ngữ pháp.
+- **Phân biệt với liên tưởng (Association distinction):** Nếu vấn đề nằm ở chuỗi hình tượng rời rạc hoặc hình ảnh thay thế tùy ý, sử dụng kiến trúc liên tưởng (`Kiến trúc liên tưởng` / `IMAGE-ROLE AUDITION`) thay vì ép vào AGENCY-BALANCE.
 
 ### Giữ quy mô liên tưởng — personal gravity
 

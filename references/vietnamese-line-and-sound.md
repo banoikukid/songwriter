@@ -220,30 +220,13 @@ LANGUAGE/SOUND chỉ can thiệp trở lại khi câu sau khi viết lại bằn
 
 ### AGENCY-BALANCE — chỉ mở khi bài bị khóa trong một loại chủ thể
 
-Flag theo **cụm**, không theo một đại từ hoặc danh từ đơn lẻ:
+Phân định chủ thể ngữ nghĩa (semantic agency distribution: cân bằng giữa người hát, người nghe, quan hệ và ngoại cảnh theo các mode DIRECT, MIXED hoặc FIELD-DOMINANT) thuộc quyền sở hữu chính của **`references/idea-and-structure.md`** (`AGENCY-BALANCE — post-rough semantic diagnostic`). LANGUAGE/SOUND không quyết định phương thức ngoại hiện cảm xúc hay tỷ lệ xuất hiện của đại từ.
 
-- `PROTAGONIST-LOCK`: nhiều dòng liên tiếp lấy `anh/em/tôi` làm chủ thể của nhớ, biết, nghĩ, nhận ra, hiểu, mong, khiến hình ảnh chỉ minh họa nội tâm.
-- `SCENERY-LOCK`: nhiều dòng liên tiếp lấy trời, mưa, đường, mùa, sông, dấu chân hoặc vật biểu tượng làm chủ thể, khiến người hát–người nghe–quan hệ không còn tạo ra động lực cảm xúc.
-
-Hai phía chỉ là lỗi khi làm hẹp hoặc làm lệch lời hứa của brief/Tứ. Confession, dialogue, declaration trực tiếp và field-dominant có chủ ý đều có thể nghiêng mạnh mà vẫn đúng.
-
-AGENCY-BALANCE giả định domain, Tứ và scale arc đã PASS tại `stage-validation-loop.md`; nó chỉ sở hữu cách phân bố chủ thể/vị ngữ trong một cụm. Nếu lỗi là `SCALE-COLLAPSE`, quay semantic gate và đóng pass này. Sau khi sửa scale, chỉ mở lại AGENCY-BALANCE nếu subject-lock vẫn còn nghe thấy.
-
-`SCENERY-LOCK` không sở hữu số lượng ảnh hay độ rõ của quan hệ liên tưởng. Nếu ảnh có thể thay thế vì không có chức năng riêng, quay `IMAGE-INVENTORY` ở Tứ/Cốt; nếu chức năng đã đúng nhưng chuỗi ảnh nghe rời/thô, dùng `ASSOCIATION-CARRIER`. Chỉ giữ `SCENERY-LOCK` cho lỗi phân bố chủ thể/vị ngữ làm con người, quan hệ hoặc referent biến mất.
-
-`ANONYMOUS-AGENT FILL` là một subcase của pass này: flag khi một chuyển động rộng bị literalize thành `ai cũng/người ta/có người/một người + động tác + mục đích` mà POV/cốt không cấp tác nhân. Thử giữ chủ thể gốc, lược tự nhiên hoặc đưa hình ảnh đang thật sự mang chuyển động lên làm chủ thể; chỉ cá nhân hóa khi đó là speaker/addressee hoặc EVENT có provenance. Không dùng subcase này để vá một scale arc đã sai.
-
-Chạy bốn câu hỏi:
-
-1. Bỏ các câu tự thuật nội tâm, không gian/hệ hình còn truyền được cảm xúc không?
-2. Có thể trao một phần agency cho thời gian, mùa, ánh sáng, âm thanh, đường đi hoặc biểu tượng **đã có** mà vẫn tự nhiên không?
-3. Chủ thể mới có làm cảm xúc lan, khép, dâng, phai, lạc, vọng hoặc biến đổi thật, hay chỉ thêm danh từ cảnh vật?
-4. Sau rewrite, người hát còn một điểm neo đủ gần để bài không thành tranh phong cảnh không?
-5. Nếu cảnh vật đang chiếm chuỗi chủ ngữ, có thể trả một phần câu về lời gọi, ký ức chung, hành động quan hệ hoặc điều mất đi mà vẫn giữ trường hình ảnh không?
-
-Sửa ở cấp section: phân bố lại chủ thể và động từ theo lane, không thay máy móc `anh nhớ` bằng `mưa nhớ` hoặc ngược lại. Với tình ca mainstream mang image-title, thử MIXED trước: nhân vật giữ câu chuyện/lời gọi; hình tượng làm hoàn cảnh, đối sánh, khuếch đại hoặc refrain. Direct/plain vẫn thắng một nhân hóa gượng. Emotional field hiệu quả là một hệ tương tác, không phải quota mưa–mây–đêm.
-
-Khi chủ thể phi nhân nhận động từ hoặc phụ từ ý chí như `muốn`, `nỡ`, `chịu`, `cố`, kiểm xem bài đã dựng một hệ nhân hóa đủ rõ chưa. Nếu chưa, ưu tiên chuyển động/trạng thái có kết hợp từ tự nhiên (`còn`, `chưa rời xa`, `vẫn phủ`, `dần phai`) hoặc trả động lực về nhân vật. Không cấm từ đơn; chỉ flag khi ý chí bị gán vào cảnh vật để câu có vẻ thơ hơn.
+Sau khi hoàn tất phân bố chủ thể ở tầng ý niệm, LANGUAGE/SOUND chỉ can thiệp ở khâu hiện thực hóa ngôn ngữ hạ nguồn:
+- Kiểm tra tính tương hợp chủ ngữ–vị ngữ (subject–verb collocation) và trật tự cú pháp tự nhiên;
+- Thẩm định độ tự nhiên từ vựng và ngữ vực (register);
+- Thẩm định âm thanh, điểm rơi và nhạc tính của câu hát;
+- **Ranh giới nhân hóa (Personification Boundary):** Quyết định *"cảnh vật có được phép mang agency cảm xúc hay không"* thuộc về `IDEA / STRUCTURE`; trong khi thẩm định *"động từ/kết hợp từ gán cho cảnh vật nghe tự nhiên hay khiên cưỡng trong tiếng Việt"* thuộc về quyền phủ quyết của `LANGUAGE/SOUND`.
 
 ## 4. Dòng chảy tu từ
 
