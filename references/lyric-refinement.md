@@ -170,50 +170,20 @@ $$\text{Specific Feeling} > \text{Specific Relationship Truth} > \text{Specific 
 
 ### LEXICAL NATURALNESS & CHỐNG "POLISH QUÁ TAY"
 
-> **Nguyên tắc cốt tử:**  
-> `NATURALNESS FIX MUST NOT INTRODUCE DECORATIVE SPECIFICITY`  
-> (Sửa cho tự nhiên thì tuyệt đối không được đưa thêm chi tiết làm dáng).
+Tính tự nhiên từ vựng (lexical naturalness), quy chuẩn kết hợp từ (collocation), phân biệt khẩu ngữ / văn viết, và hiện tượng chọn chữ làm dáng (*writerly lexical choices*) thuộc quyền sở hữu chính của **`references/vietnamese-line-and-sound.md`** (`Lexical Naturalness và Tính tất yếu của Chi tiết`).
 
-- **CORRECT ≠ NATURAL ≠ FRESH ≠ POETICALLY EFFECTIVE:**  
-  Một từ có thể hoàn toàn đúng ngữ pháp, có tính hình tượng, nhưng lại tạo cảm giác "cố ý chọn chữ" (*writerly / show-off wording*).
-- **Natural Specificity vs Decorative Specificity:**  
-  - *Natural Specificity (Chi tiết tự nhiên / có căn cứ):* Mang dấu ấn provenance từ brief, hoặc trực tiếp tạo ra hành động, va chạm cảm xúc, âm thanh cụ thể $\rightarrow$ **GIỮ**.
-  - *Decorative Specificity (Chi tiết trang trí / AI tự vẽ):* Model tự thêm vào để nghe có vẻ "thơ và cụ thể hơn" mà không phục vụ việc gì $\rightarrow$ **ĐƠN GIẢN HÓA** về cách nói tự nhiên.
-- **Quy tắc giảm làm dáng (Reduce ornament before adding ornament):** Khi phát hiện một từ/cụm từ hơi "cố" hoặc artificial, phản xạ sửa mặc định là **giảm độ làm dáng, đưa về cách nói dung dị chân thật**:
-  - *Ưu tiên:* (1) Giản hóa câu từ; (2) Tự nhiên hóa cú pháp đời sống; (3) Cắt bỏ từ trừu tượng thừa; (4) Giữ hình ảnh gốc nếu nó có chức năng.
-  - *Tuyệt đối KHÔNG:* Thêm metaphor mới, thêm tính từ mô tả, thêm từ Hán-Việt hay thêm đạo cụ mới để "cứu câu". Tuyệt đối không nâng lên thành các từ ngữ văn chương ước lệ (*thềm xưa, gạch rêu, hiên vắng, mái cũ*).
+Tầng REFINE chỉ canh gác rủi ro làm dáng quá tay (*decorative over-polishing*) trong quá trình nén và nâng cấp ca từ. Việc thẩm định tính tự nhiên từ vựng, cú pháp đời sống và collocation tiếng Việt được bàn giao sang LANGUAGE/SOUND. REFINE tiếp tục sở hữu việc làm mới cảm xúc và chống sáo rỗng qua mục `FRESHNESS WITHOUT FORCED POETRY` ở trên.
 
 ---
 
 ## 5. Trụ cột 3: SONIC REALIZATION & LANDING (Âm thanh và điểm rơi)
 
-### LINE LANDING — Điểm rơi cuối dòng có lực
+Tầng REFINE tập trung vào góc độ kỹ thuật ca từ (craft): cấu trúc phrasing, trọng lượng của hook, và bảo đảm các chỉnh sửa không vô tình phá vỡ âm thanh bài hát.
 
-Với các dòng quan trọng (hook, dòng kết thúc section, câu chốt nghĩa), kiểm tra từ/cụm ở đuôi câu:
-- **Điểm rơi tốt:** Từ mang hình ảnh, động từ chuyển động, danh từ có trọng lượng cảm xúc, cụm hook, hoặc một từ mở ra khoảng trống cảm xúc.
-- **Tránh:** Kết thúc bằng từ chức năng lửng lơ hoặc phần giải thích yếu.
-- **Veto:** Không đảo cú pháp bất tự nhiên chỉ để lấy landing đẹp. Tiếng Việt tự nhiên luôn có quyền phủ quyết.
+Quy chuẩn triển khai chi tiết, tiêu chí kiểm tra và quyền thực thi đối với:
+- **Line Landing** (Điểm rơi cuối dòng);
+- **Sonic Craft** (Nhạc tính, lặp âm, vần lưng / internal rhyme);
+- **Mouth-Feel & One-Breath Test** (Độ êm khẩu hình, tải hơi câu hát);
+- **Scope A sound verification** (Thẩm định âm thanh tiếng Việt cơ bản);
 
----
-
-### SONIC CRAFT — Nhạc tính nhẹ, không ép vần
-
-Sau khi nghĩa và ngữ pháp tự nhiên đã ổn, rà soát nhẹ các yếu tố âm thanh:
-- Lặp nguyên âm (assonance) hoặc phụ âm đầu (alliteration);
-- Âm mở/nguyên âm vang ở slot dự kiến ngân dài;
-- Echo nhịp điệu giữa hai câu kế cận;
-- Vần lưng (internal rhyme) tự nhiên;
-- Điệp cú pháp có chủ ý.
-
-*Câu hỏi của writer có tai:* Không chỉ hỏi *"câu này có vần không?"*, mà hỏi **"hai câu này có nói cùng một nhạc không?"**.
-
----
-
-### PRE-RELEASE MOUTH-FEEL SPOT CHECK & ONE-BREATH TEST
-
-Trước khi release, đọc to ở tốc độ hát dự kiến trên 3–4 line rủi ro cao:
-- Câu hook chính;
-- Câu dài nhất trong bài;
-- Câu chốt section hoặc Outro.
-
-*Dấu hiệu fail:* Phải chen hơi giữa cụm nghĩa tự nhiên, nuốt chữ, dồn âm hoặc tăng tốc bất thường để kịp nhịp. Nếu fail, nén bớt từ thừa hoặc ngắt lại phrase; không cố ép ca sĩ hát một câu quá tải hơi.
+đều thuộc quyền sở hữu chính của **`references/vietnamese-line-and-sound.md`**. Người viết và reviewer tra cứu trực tiếp tại `references/vietnamese-line-and-sound.md` để thi hành thay vì nhân bản quy tắc tại đây.

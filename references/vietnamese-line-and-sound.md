@@ -83,40 +83,15 @@ Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có 
 
 ### PROSE-TO-LYRIC — chỉ mở khi câu đúng nghĩa nhưng không có lyric behavior
 
-Một dòng có thể tự nhiên trong văn xuôi nhưng vẫn yếu khi hát.
+Chuyển đổi câu văn xuôi thô thành câu hát có lyric behavior (nén câu, chọn một trọng tâm cảm xúc, lược bỏ giàn giáo giải thích) thuộc quyền xử lý chính của **`references/lyric-refinement.md`** (`ROUGH LINE → LYRIC LINE` / `Prose → Lyric`).
 
-Dấu hiệu:
-- chứa nhiều hơn một mệnh đề độc lập;
-- có nhiều từ nối/giải thích như "nên", "vì", "thực ra", "chỉ là", "không có gì", "điều đó";
-- line đang kể đủ mọi chi tiết thay vì chọn một điểm rơi;
-- trọng tâm ngữ nghĩa đến quá muộn;
-- có thể nói ngắn hơn mà không mất cảm xúc.
-
-Khi sửa:
-1. xác định một ý chính cho line;
-2. bỏ phần giải thích đã được context hiểu;
-3. đưa từ mang lực cảm xúc hoặc hình ảnh chính gần điểm rơi;
-4. ưu tiên một phrase có thể nói/hát trong một hơi (One-breath);
-5. không làm câu "thơ hơn" chỉ để tránh văn xuôi.
-
-Mục tiêu là lyric behavior, không phải poetic decoration.
-
-*Ví dụ:*
-- PROSE: "Gói ghém mọi thứ thật gọn gàng, không có gì phải giấu giếm cả."
-- HỎI: Ý chính là gì? (Không còn điều gì phải giải thích / rời đi trong thanh thản / chấp nhận thực tại?) $\rightarrow$ Viết lại quanh đúng một ý đó.
+LANGUAGE/SOUND chỉ can thiệp trở lại khi câu sau khi tinh gọn còn vướng các vấn đề về ngữ pháp, collocation, cú pháp, vần, điểm rơi (Line Landing), hoặc hơi thở/ngắt nhịp (Mouth-Feel / One-Breath).
 
 ### EXPLAINING LINE — bỏ câu giải thích khi hành động đã đủ
 
-Nếu một line chỉ nói cho listener biết nên hiểu hình ảnh như thế nào, kiểm xem hình ảnh/action trước đó đã tự truyền được nghĩa chưa. Nếu có, ưu tiên bỏ hoặc thay bằng hành động/hình ảnh cụ thể.
+Xử lý câu giải thích (explaining line), câu thuyết minh (commentary line), và cân bằng giữa hành động/hình ảnh với phát ngôn thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`Thesis / Explaining Line`).
 
-Không cấm statement trực tiếp. Statement chỉ yếu khi nó lặp lại hoặc giải thích điều listener đã hiểu.
-
-*Ví dụ:*
-- ACTION: Người đó cất chiếc dù ướt vào góc cửa.
-- EXPLANATION (Thừa): "Những ngày mưa thường làm lòng người ta chùng lại."
-$\rightarrow$ Nếu action và bối cảnh đã đủ truyền tải, không cần thêm thesis line triết lý hóa.
-
-> **Tham chiếu mở rộng:** Khi full-song rough pass đã xong và cần nâng cấp toàn diện ca từ (bớt giải thích, nén câu, tăng subtext, cân bằng image/statement, làm mới cụm sáo, điểm rơi cuối dòng, sonic craft), xem chi tiết tại **`references/lyric-refinement.md`**.
+Nếu cần thẩm định mức độ nghiêm trọng của thesis leakage hoặc nguy cơ lộ dàn bài theo ngưỡng chất lượng kiểm duyệt, xem **`references/lyric-quality-review.md`**.
 
 ### NATURALNESS-SWEEP — chọn một nguyên nhân chính
 
