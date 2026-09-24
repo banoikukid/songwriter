@@ -75,10 +75,12 @@ Reviewer nhận diện và báo cáo; việc sửa chi tiết thuộc thẩm quy
 - **Kích hoạt:** Kích hoạt khi chạy formal audit trước release candidate hoặc chuẩn bị handoff ca từ mới/biên tập sâu sang đóng gói Suno. (Trong flow review/critique thông thường theo yêu cầu user, reviewer vẫn tuân thủ quy tắc dừng sau 1–2 vấn đề).
 - **Mục tiêu phản biện (Adversarial Objective):** Không tìm kiếm sự xác nhận (confirmation bias) để tự khen; mục tiêu là tích cực tìm kiếm bằng chứng nhằm **BÁC BỎ (falsify)** tính sẵn sàng release của bản nháp.
 - **4 bài test phản biện bắt buộc:**
-  1. *Backstage Exposure Test:* Có dòng nào đọc to mô hình tâm lý hay cơ chế quan hệ thay vì là lời nói của nhân vật từ bên trong hoàn cảnh?
+  1. *Backstage Exposure Test:* Có dòng nào đọc to mô hình tâm lý hay cơ chế quan hệ không (kể cả thuyết minh bên ngoài hay **Analytical Self-Diagnosis ở ngôi thứ nhất**)? Cấm cho qua một cụm câu chỉ vì nó mang đại từ `anh/em`, giọng điệu tổn thương hay được gắn nhãn thú nhận (confession).
+     - *Self-Diagnosis Strip Test:* Nếu gỡ bỏ đại từ xưng hô, sắc thái tổn thương và vỏ bọc thú nhận, cụm câu/đoạn có còn đọc giống một chuỗi tự chẩn đoán (`nguyên nhân → động cơ → phản xạ né tránh → dán nhãn lại → hậu quả`) không? Nếu CÓ, coi đó là bằng chứng Backstage Exposure.
+     - *Ngưỡng chặn (Blocking threshold):* Đánh FAIL Lyric Readiness khi chuỗi tự chẩn đoán chiếm lĩnh hoặc phá vỡ nhiệm vụ cốt lõi của một section (nhất là Bridge/Chorus). Một câu bộc bạch nguyên nhân đơn lẻ, tức thời (*"Anh tiếc vì đã để em chờ"*) không cấu thành lỗi chặn.
   2. *Section Essay Test:* Có cả section (nhất là Chorus/Bridge) biến thành chuỗi mệnh đề phân tích, so sánh triết lý hoặc thuyết trình thay vì đẩy cảm xúc?
   3. *Semantic Escalation / Tứ Drift Test:* Có đoạn nào cố tạo cao trào bằng cách leo thang từ ngữ đao to búa lớn (*vũ trụ, định mệnh, mãi mãi...*) hoặc trôi xa khỏi Tứ cốt lõi?
-  4. *Claim Falsification Test:* Cấm reviewer đưa ra nhận định tự kiểm tra suông không bằng chứng. Nếu tuyên bố *"không có thesis leakage"*, bắt buộc trích dẫn dòng nghi vấn gần thesis nhất và nêu lý do vì sao nó an toàn; không tự bịa vần hoặc số âm tiết mà không kiểm chứng.
+  4. *Claim Falsification Test:* Cấm reviewer đưa ra nhận định tự kiểm tra suông không bằng chứng, và **cấm tuyệt đối biện minh kiểu "đây là lời thú nhận nên an toàn"**. Nếu tuyên bố *"không có Backstage Exposure đáng chặn"*, bắt buộc trích dẫn cụm câu nghi vấn nhất (kể cả lời thú nhận) và chứng minh bằng chứng đó là lời bộc bạch tức thời, không triển khai mô hình tự chẩn đoán, không dán nhãn cơ chế và không biến section thành bài phân tích.
 - **Phán quyết xuất bản (Release Verdict):**
   - `LYRIC READINESS PASS` (vượt qua cả 4 bài test không có CRITICAL/SUGGESTED nghiêm trọng).
   - `LYRIC READINESS FAIL — refinement required` (kèm 1–2 bằng chứng cụ thể và điều hướng sửa chữa).
