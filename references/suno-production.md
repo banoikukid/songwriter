@@ -10,10 +10,11 @@
 > `Tứ → Central Intent → Hook → Image System → Form → Lyric`.  
 > Chỉ khi người dùng yêu cầu đóng gói sang Suno, Suno Adapter mới ánh xạ kết quả vào 3 khối này.
 
-> **ĐIỀU KIỆN TIÊN QUYẾT TRƯỚC KHI XUẤT 3-BLOCK (SCOPE-A GATE ENFORCEMENT):**
-> Trước khi đóng gói ca từ vào Khối 2 (`LYRICS & CUES`), toàn bộ lyric sheet bắt buộc phải vượt qua quy trình thẩm định **Scope A** tại `references/vietnamese-line-and-sound.md` (bao gồm *One-Breath Test*, *Mouth-Feel Spot Check* và đặc biệt là *Hook Vocal Affordance*).
-> - Trạng thái ca từ trước handoff: `SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN`.
-> - Suno Adapter không thay thế hay lặp lại các bộ kiểm tra ngữ âm của tầng sound; vai trò của adapter là **thực thi nghiêm ngặt handoff**: chỉ xuất 3 khối khi ca từ đã đạt độ thuận miệng, thoáng hơi và cộng hưởng giọng hát. Mọi nhận định về độ khớp nhạc thực tế (`music-fit`) vẫn giữ nguyên trạng thái `UNKNOWN` cho đến khi có audio được tạo ra.
+> **QUY CHUẨN HANDOFF VÀ SCOPE-A GATE TRƯỚC KHI XUẤT 3-BLOCK:**
+> - Với ca từ do skill sáng tác mới hoặc biên tập sâu: bắt buộc chạy quy trình thẩm định **Scope A** tại `references/vietnamese-line-and-sound.md` để rà soát các rủi ro phát âm mô tả được trên văn bản (biên phrase, hơi thở, và heuristic Hook Vocal Affordance). Chỉ gắn nhãn `SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN`.
+> - Tuyệt đối không khẳng định về độ cộng hưởng, vang ngân hay khớp giai điệu thực tế khi chưa có audio/melody (`actual music-fit UNKNOWN`).
+> - Với ca từ do người dùng cung cấp chỉ để đóng gói sang Suno: không tự ý viết lại chỉ để thỏa mãn heuristic ngữ âm; chỉ cảnh báo rủi ro nếu có hoặc giữ trạng thái lyric draft / UNKNOWN phù hợp.
+> - Suno Adapter không lặp lại các bộ kiểm tra ngữ âm của tầng sound; vai trò là thực thi nghiêm ngặt handoff theo đúng quy chuẩn.
 
 ---
 
