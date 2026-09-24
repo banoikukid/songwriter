@@ -185,8 +185,22 @@ Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người l
   - Không loại bỏ nhân hóa chỉ vì phi thực tế (*Impossible / Non-literal ≠ Automatically Bad*). Chỉ tinh lọc khi agency được gán cho vật thể không được concept, register hoặc cảm xúc nâng đỡ, hoặc khiến thủ pháp nổi hơn cảm xúc (*writerly* — ví dụ: *"Chiếc chìa khóa khóc trong lòng bàn tay anh"* khi đặt trong ngữ cảnh pop đời thường tự nhiên).
   - Định hướng: `LIGHT PERSONIFICATION > RAW UTILITARIAN REPORT` (chỉ khi tự nhiên và giàu tính nhạc hơn); nếu không: `DIRECT EMOTION > FORCED PERSONIFICATION`.
 
+- **Thao tác vi mô đời thường & Tả thực giao diện (Procedural Micro-Action & UI Literalism):**
+  - **Nguyên tắc cốt lõi:** `FUNCTIONAL MICRO-ACTION ≠ AUTOMATICALLY LYRIC-WORTHY` (Hành vi có ý nghĩa không đồng nghĩa với việc đáng được miêu tả nguyên xi thao tác cơ học ở bề mặt ca từ).
+  - Tránh để người nghe mải hình dung **cách thức vận hành đồ vật / ứng dụng / dịch vụ** hơn là cảm nhận **sự thật cảm xúc và khoảng trống quan hệ**:
+    - *Thao tác dịch vụ / giao dịch:* *"Miệng suýt gọi hai phần ăn như mọi bận"* $\rightarrow$ chức năng cảm xúc là *thói quen vô thức vẫn sống như thể có hai người*, nhưng bề mặt lại nặng về thủ tục gọi đồ ăn;
+    - *Thao tác giao diện / thiết bị số:* *"Nhìn màn hình vừa sáng lên một thông báo"* $\rightarrow$ chức năng cảm xúc là *sự thảng thốt mong chờ / hy vọng hụt*, nhưng bề mặt lại đóng khung vào cơ chế hiển thị của thiết bị.
+  - **Bài test phản xạ cảm xúc (Emotional Reflex Test):**
+    - Đặt câu hỏi: *"Nếu lược bỏ thao tác vận hành cơ học, phản xạ cảm xúc hoặc sự thật quan hệ nào còn lại?"*
+    - Nếu bản thân thao tác là sự kiện kịch tính / concept cốt lõi bài hát (Ví dụ: bài *"Tin Nhắn Cuối"* với hành vi xóa dòng chữ trước khi bấm gửi; hoặc hành vi đặt chìa khóa xuống bàn làm bước ngoặt chia ly) $\rightarrow$ **KEEP** hành động cụ thể.
+    - Nếu thao tác chỉ là phương tiện chở thói quen tiềm thức $\rightarrow$ **Bảo toàn phản xạ cảm xúc, tinh giản thao tác cơ học** (tập trung vào sự ngập ngừng, thói quen đi đôi, hoặc cảm giác hụt hẫng).
+  - **Phân biệt: Cử chỉ con người ≠ Thao tác cơ học (Human Gesture > Operational Detail):**
+    - Tuyệt đối không cấm đoán hành động đời thực. Các cử chỉ quan hệ giàu tính người (*quay sang định gọi tên ai, ngập ngừng trước cửa, bước hụt sang bên cạnh, với tay tìm khoảng trống...*) là chất liệu ca từ tuyệt vời.
+    - Chỉ tinh lọc khi chi tiết giao diện/thao tác (kéo thanh thông báo, chọn số lượng, bấm gửi, quẹt thẻ...) chiếm lĩnh câu hát và làm giảm độ rung động của ca từ.
+  - **Kỹ thuật số & Giao dịch không bị cấm (No UI/Action Blacklist):** Tin nhắn, màn hình, cuộc gọi, đặt vé, trả chìa khóa... hoàn toàn hợp lệ khi là trung tâm của Tứ/Concept hoặc thuộc ngữ vực tự sự mộc mạc (acoustic/indie diary-song).
+
 - **Thứ tự ưu tiên ca từ tình ca nhạc trẻ:**
-  $$\text{Emotional Truth} > \text{Relationship Truth} > \text{Human Gesture / Speech} > \text{Lyric-friendly Image} > \text{Raw Utilitarian Object}$$
+  $$\text{Relationship Truth} > \text{Human Reflex / Gesture} > \text{Lyric-friendly Image} > \text{Procedural Mechanics / Raw Utilitarian Object}$$
 
 ---
 
