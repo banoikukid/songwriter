@@ -48,25 +48,15 @@ Với declaration mainstream, không bắt material quota. Câu hỏi, lời xá
 
 ### MATERIAL-TO-EMOTION BRIDGE — chọn chức năng trước vật thể
 
-Đây là cầu **hiện thực hóa hoặc sửa local ở tầng câu**, không thay cho `MATERIAL AFFORDANCE AUDITION` trước Tứ. Chạy rất ngắn trước writer-pass khi scene dễ bị kể bằng đạo cụ, thao tác chăm sóc, việc nhà, mốc giờ hoặc âm nền. Đừng bắt đầu bằng câu hỏi “đổi vật này thành hình ảnh thơ nào?”. Trước hết nén **chức năng cảm xúc** mà section cần: một quan hệ đang được chứng minh, một dấu vết còn lại, cái giá của sự quan tâm, thói quen đã đổi nghĩa, một chuyển động/nhận ra, hoặc một lời trực tiếp chưa nói được.
+Tuyển chọn nguyên liệu và thẩm định vật liệu ở khâu pre-Tứ thuộc quyền sở hữu chính của **`references/idea-and-structure.md`** (`MATERIAL AFFORDANCE AUDITION`). Việc tinh chỉnh chức năng cảm xúc của vật liệu sau rough pass (post-rough repair) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`IMAGE / STATEMENT BALANCE`).
 
-Sau đó audition bề mặt tự nhiên nhất: hành động có hệ quả quan hệ; dấu vết/âm thanh đã đổi nghĩa vì con người; chuyển động biểu tượng có căn cứ; hoặc câu plain đi thẳng vào cảm xúc. Chỉ giữ chi tiết khi bỏ nó làm quan hệ, tension hoặc turn yếu đi. Nếu nó chỉ cho biết căn phòng có gì, ai đang làm thao tác nào hay thời gian đang trôi, nén làm nền hoặc bỏ.
-
-Không sửa material thô bằng một từ đồng nghĩa cổ, tính từ mơ hồ, nhân hóa hay ẩn dụ trang sức. Đó chỉ là đổi register, chưa đổi chức năng. Ngược lại, không cấm vật bình thường: một chi tiết rất đời vẫn hát được khi dấu người, hệ quả hoặc cadence khiến nó không thể thay tùy ý. Nếu không có bề mặt cụ thể nào thắng rõ, dùng lời trực tiếp; lyricism không đồng nghĩa với nhiều vật thể.
-
-Nếu pre-Tứ audition đã PASS, giữ vai và relation anchor đã chọn; không mở lại toàn bộ candidate bank chỉ vì một câu chưa hay. Chỉ quay MATERIAL DISCOVERY khi rough lyric cho thấy lỗi material-level lan rộng—carrier không sinh được progression, phải gượng ép liên tục hoặc thua hẳn direct speech. Lỗi collocation, cadence hay một micro-phrase đơn lẻ vẫn sửa tại tầng câu.
+LANGUAGE/SOUND chỉ can thiệp trở lại khi câu chứa chi tiết vật liệu phát sinh vấn đề về trật tự từ, cú pháp, ngữ vực (register), kết hợp từ (collocation) hoặc âm thanh lời hát.
 
 ### DETAIL BUDGET — chi tiết phục vụ chức năng, không liệt kê đạo cụ
 
-Chi tiết đời thường chỉ được giữ nếu nó làm ít nhất một trong ba việc:
-- đẩy câu chuyện hoặc quan hệ tiến tới;
-- mang quan hệ và sức nặng cảm xúc giữa các nhân vật;
-- tạo payoff hoặc biến nghĩa về sau.
+Thẩm định tính tất yếu của chi tiết đời thường và tinh giản mật độ đạo cụ (function > quantity, chống liệt kê đồ vật) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`IMAGE / STATEMENT BALANCE` / `Detail Budget`).
 
-Nếu nhiều đạo cụ cùng làm một chức năng, chọn chi tiết mạnh nhất. Không dùng "độ chân thực" làm lý do để liệt kê danh sách đồ vật.
-
-Rule heuristic: 1 section thường chỉ nên có vài material anchors thực sự hữu ích.
-Ví dụ: Nếu 4–5 đạo cụ cùng chỉ chứng minh một trạng thái không gian (như "căn phòng đã dọn xong"), chỉ giữ 1–2 vật thực sự mang quan hệ hoặc tạo payoff (như chiếc chìa khóa đặt lại trên bàn). Tránh liệt kê danh sách đồ vật nếu chúng không tạo ra nghĩa mới hay thúc đẩy hành động.
+LANGUAGE/SOUND chỉ đánh giá tính tự nhiên, ngữ vực và kết hợp từ của các chi tiết được giữ lại.
 
 ## 3. Ngữ pháp lời hát
 
@@ -272,7 +262,9 @@ Nếu flow do liên tưởng gánh mà đang nghe rời/thô, dùng hai mode tro
 
 ### ASSOCIATION-CARRIER — chỉ mở khi chuỗi ảnh rời hoặc thô
 
-Nghe ba điều: có một neo/cadence giữ tai; ảnh mới còn cùng lực cảm xúc nhưng làm thêm một việc; và lyric không phải giảng quan hệ giữa các ảnh. Nếu chuỗi sụp khi bỏ lời giải thích, quay lại hạt nhân hoặc thứ tự ảnh. Không bắt mọi ảnh cụ thể và không cấm trường ảnh quen.
+Kiến trúc liên tưởng, sự gắn kết của hệ hình tượng (association coherence: Progressive Chain / Affective Constellation) và quyết định việc có cần dựng carrier hay không thuộc quyền sở hữu chính của **`references/idea-and-structure.md`** (`Kiến trúc liên tưởng`). Tuyệt đối không kích hoạt công cụ liên tưởng cho các ca khúc vốn vận hành hiệu quả bằng lời trực tiếp, tự sự hoặc tuyên ngôn cảm xúc.
+
+LANGUAGE/SOUND chỉ can thiệp trở lại nếu các câu chứa hình tượng phát sinh lỗi về cú pháp, kết hợp từ (collocation) hoặc âm thanh lời hát.
 
 ### Gate chống văn xuôi dựng cảnh
 

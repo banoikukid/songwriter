@@ -116,6 +116,12 @@ Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
   - *Dấu hiệu:* Một cụm câu chỉ thuần túy làm biên bản báo cáo bối cảnh (*mấy giờ, ở đâu, thao tác gì, âm thanh nền nào*) mà không tạo ra giọng hát của nhân vật, không có chuyển động quan hệ, tension cảm xúc hay điểm rơi ca từ.
   - *Không cấm tự sự:* Các cảnh thực sự cần cho sự kiện (EVENT), hành động quan hệ có ý nghĩa, hoặc câu tự sự mang nhạc tính/refrain vẫn hoàn toàn hợp lệ.
   - *Hướng xử lý:* Ưu tiên **CẮT / NÉN / TẬN DỤNG LẠI (Cut / Compress / Repurpose)** trước khi thêm mới. Tuyệt đối không thay biên bản đời thường bằng cách đắp thêm đồ vật thơ mộng hay cảnh sắc ước lệ; mục tiêu là hành vi ca từ (lyric behavior) chứ không phải thêm đạo cụ thi vị.
+- **Cầu nối vật liệu sang cảm xúc (Material-to-Emotion Repair):**
+  - Khi câu hát dùng đạo cụ, thao tác hay chi tiết ngoại cảnh, trước hết phải hỏi chi tiết đó phục vụ **chức năng cảm xúc hay quan hệ** nào (chứng minh sự gắn kết, tạo vết hằn ký ức, làm rõ cái giá của sự quan tâm, hoặc tạo bước ngoặt).
+  - *Quyết định:* Giữ lại nếu việc bỏ nó làm quan hệ, sức ép hoặc payoff yếu đi; nén hoặc bỏ hẳn nếu nó chỉ đơn thuần tường thuật không gian hay động tác sinh hoạt. Tuyệt đối không thay chi tiết thô bằng hình ảnh thơ mộng hoa mỹ làm dáng; nếu không có chi tiết cụ thể nào làm cảm xúc sáng hơn, dùng ngôn ngữ trực diện.
+- **Detail Budget — Chức năng thắng số lượng (Function > Quantity):**
+  - Chi tiết đời thường chỉ có giá trị khi: (1) thúc đẩy mối quan hệ/hoàn cảnh; (2) gánh sức nặng cảm xúc; hoặc (3) dẫn tới/quay lại payoff.
+  - Không áp quota số lượng cứng; nếu nhiều đạo cụ cùng làm một chức năng (như liệt kê nhiều vật dụng để chứng minh một trạng thái), chỉ giữ lại chi tiết đắt giá nhất, nén hoặc lược bỏ phần còn lại.
 - **Khử trùng lặp ngữ nghĩa (Semantic Redundancy giữa các đoạn):** Kiểm tra xem câu chốt Verse có làm trùng chức năng với câu mở Chorus hay không (ví dụ: Verse kết bằng *"mọi thứ trôi đi như một buổi sáng bình thường"*, Chorus lại nói *"nhà mình chẳng thiếu thứ gì"*). Giữ câu mạnh hơn, cụ thể hóa hoặc bỏ câu tổng kết ở Verse.
 
 ---

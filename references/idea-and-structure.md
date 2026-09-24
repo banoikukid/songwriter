@@ -1,5 +1,8 @@
 # Ý tưởng và cấu trúc
 
+> **CANONICAL OWNER: IDEA / STRUCTURE**
+> Tài liệu này là **chủ sở hữu chuẩn (Canonical Owner)** của khâu tuyển chọn nguyên liệu pre-Tứ (*Material Discovery & Affordance Audition*), thiết kế Tứ, cấu trúc ca khúc, và kiến trúc liên tưởng (*Association Architecture*).
+
 ## Mục lục
 
 1. Brief sáng tác
