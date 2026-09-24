@@ -11,7 +11,7 @@
 4. Dòng chảy tu từ
 5. Âm, vần, điệu
 6. Prosody tích hợp
-7. Biên tập hai tầng
+7. Xác minh sau sửa LANGUAGE / SOUND
 
 ## 1. Viết bản nháp
 
@@ -166,51 +166,19 @@ LANGUAGE/SOUND chỉ can thiệp trở lại khi phương án viết lại phát
 
 ### QUANTITY-PROVENANCE — chỉ mở khi lượng từ gây nghi vấn
 
-Không cấm số lượng và không coi mọi `những` là số đếm. Chỉ chạy sweep khi một con số/lượng từ nghe như vá meter, giả quy mô, cá thể hóa vô cớ, gây lặp cụm hoặc bịa độ chính xác. Câu tự nhiên không phải chứng minh từng từ chỉ lượng.
+Không cấm số lượng và không coi mọi `những` là số đếm. Chỉ kích hoạt khi một con số hoặc lượng từ nghe đáng nghi (tự bịa độ chính xác, cá thể hóa vô cớ, giả quy mô, lặp cụm hoặc nghi ngờ vá vần/meter). Câu tự nhiên không cần chứng minh từng từ chỉ lượng.
 
-### Q-SWEEP: gắn một vai chính
+Khi phát hiện nghi vấn, chỉ kiểm tra nhanh qua 4 câu hỏi:
 
-| Vai | Giữ khi | Flag khi |
-|---|---|---|
-| **FACT** | tuổi, ngày, tiền, quãng đường, số người/vật là dữ kiện được brief/scene cấp | model tự bịa độ chính xác hoặc các section mâu thuẫn |
-| **ARC** | lần đầu/cuối, số lần, thời gian trôi làm cốt hoặc stakes đổi | bỏ số mà hành trình vẫn y nguyên |
-| **EXCLUSIVE** | duy nhất/chỉ một là thesis, thế đối hay lời cam kết | `một` chỉ làm câu nghe tình hơn |
-| **REFERENT** | giới thiệu một thực thể sẽ được theo dõi, phân biệt hoặc payoff về sau | `một người/một nơi/một ngày` xuất hiện rồi biến mất |
-| **FRAME** | một đêm/ngày/mùa khóa phạm vi bài, title hoặc EVENT | chỉ là cách mở cảnh mặc định |
-| **DISTRIBUTE** | mỗi/từng cho thấy quy luật qua các đơn vị và có biến thiên/tăng cấp | phát biểu bao quát vô quyền hoặc lặp cùng mệnh đề |
-| **SYMBOL** | con số ánh xạ rõ vào người/vật/niềm tin/cấu trúc văn hóa và được bài duy trì | biểu tượng không có cầu văn hóa hay mapping nhất quán |
-| **HYPERBOLE** | scale là conceit/punchline/gradation có chuẩn so sánh và hợp register | dùng `trăm/nghìn/triệu` để giả hùng vĩ/cảm xúc |
-| **IDIOM/VOICE** | lượng từ thuộc thành ngữ, khẩu ngữ hoặc regional voice tự nhiên và đúng POV | thành ngữ sáo chỉ được gọi vào để đủ nhịp |
-| **GROOVE/HOOK** | count-in, phonetic hook, call–response hoặc motif số thực sự nằm trong audio/form | chỉ đoán nó sẽ bắt tai khi chưa có melody/beat |
+1. **Provenance / Fact (Căn cứ thực tế):** Con số/lượng từ có xuất phát từ brief, tiêu đề, sự kiện có căn cứ không? Nếu là chi tiết tự bịa độ chính xác mà ngữ cảnh không cấp $\rightarrow$ **REWRITE**.
+2. **Semantic Necessity (Tính tất yếu ngữ nghĩa):** Chạy *deletion-test* (thử bỏ lượng từ): Bỏ nó có làm mất đối tượng quy chiếu (referent), mốc thời gian, thế đối lập, cái giá (stakes) hay ý nghĩa hook/payoff không? Nếu bỏ đi mà nghĩa vẫn trọn vẹn, thậm chí danh từ trần nghe tự nhiên/mạnh hơn, hoặc từ chỉ xuất hiện để vá vần/đủ nhịp $\rightarrow$ **REWRITE** (đơn giản hóa hoặc dùng danh từ trần).
+3. **Naturalness / Register (Độ tự nhiên):** Có phải là khẩu ngữ, quán ngữ, thành ngữ tự nhiên hoặc phép phóng đại (hyperbole) có chủ ý hợp với phong cách bài không? Tuyệt đối không cấm đoán hay lập blacklist với các từ như `một`, `những`, `từng`, `bao`, `trăm`, `ngàn`.
+4. **Music Dependency (Phụ thuộc âm nhạc):** Nếu giá trị của số đếm chủ yếu nằm ở count-in, groove, phonetic hook hoặc melody chưa có audio kiểm chứng $\rightarrow$ đánh dấu **UNKNOWN**, không tự đoán mò trên văn bản.
 
-Một lượng từ có thể có vai phụ, nhưng phải có **một vai chính**. Không gọi `meter` hay `rhyme` là vai nghĩa; chúng chỉ là constraint sau khi nội dung đã có quyền tồn tại.
-
-### Fit theo lane và section
-
-| Bối cảnh | Prior hợp | Cảnh báo |
-|---|---|---|
-| Vpop tình yêu/mainstream | EXCLUSIVE, ARC, FRAME; hook ngắn có thế đối | anonymous `một + danh từ`, `bao lần` không làm quan hệ đổi |
-| Bolero/tự sự | FACT, ARC, FRAME, IDIOM/VOICE | số liệu trang trí không quay lại cốt |
-| Indie/lofi | FRAME, REFERENT, IDIOM/VOICE | chuỗi `một + cảnh/vật` tạo cảm giác công thức |
-| Rap/HipHop | FACT, HYPERBOLE, WORDPLAY qua HYPERBOLE/GROOVE | con số ngầu nhưng không dựng punchline hoặc sai fact |
-| Dance/Vpop vui | GROOVE/HOOK, count-in, gradation | giữ vì chữ ngắn nhưng không vào pocket |
-| Thiếu nhi/gia đình | FACT, SYMBOL, DISTRIBUTE, count/call–response | mapping số–nhân vật/vật không khớp |
-| Folk/quê/anthemic | lịch sử qua FACT/ARC, SYMBOL, HYPERBOLE có kiểm soát | `muôn/ngàn/triệu` mặc định hóa khẩu hiệu |
-| Mood/chiêm nghiệm | SYMBOL, FRAME, EXCLUSIVE khi là trục ý niệm | cá thể hóa archetype bằng `một` vô cớ |
-
-Verse ưu tiên FACT/FRAME/ARC có hậu quả; Pre chỉ dùng đếm/tăng cấp khi áp lực thật sự tăng; Chorus cho phép EXCLUSIVE, SYMBOL, HYPERBOLE hoặc GROOVE nếu nó là hook; Bridge chỉ thêm số mới khi đó là reveal/reframe đã được chuẩn bị. Rap/drop có thể nới GROOVE/wordplay nhưng vẫn phải vào pocket.
-
-### Quyết định KEEP / REWRITE / UNKNOWN
-
-1. **Provenance:** số/lượng có từ user, title, sự kiện, idiom/voice hay hệ biểu tượng đã dựng không? Dữ kiện cụ thể phải kiểm nhất quán.
-2. **Deletion-test:** bỏ nó có đổi referent, thời gian, stakes, thế đối, payoff hoặc hook không? Nếu chỉ hụt âm tiết, flag.
-3. **Role-tag:** gắn đúng một vai chính ở bảng trên. Không gắn được → REWRITE.
-4. **Context-fit:** vai đó có hợp genre, POV và section không? Một cách dùng được phép ở rap/dance chưa chắc hợp ballad/folk.
-5. **Bare-noun-test:** với danh từ biểu tượng/phổ quát, thử bỏ lượng từ. Nếu danh ngữ trần rộng, tự nhiên và mạnh hơn, dùng bản trần.
-6. **Cluster-scan:** nhiều lượng từ gần nhau có cùng một chức năng không? Nếu chỉ liên tiếp inflate/cá thể hóa, giữ tối đa mắt xích cần thiết và viết lại phần còn lại.
-7. **Music-test:** chưa khóa melody thì chấp nhận câu đổi độ dài; đã khóa thì làm giàu động từ/quan hệ/tầng nghĩa rồi hát Scope B. Vai GROOVE không có audio → UNKNOWN, không tự PASS.
-
-**KEEP** khi có role + provenance + context-fit. **REWRITE** khi chỉ vá meter/vần, giả scale, tạo anonymous referent, thừa nghĩa hoặc mâu thuẫn. **UNKNOWN** khi giá trị phụ thuộc groove/melody chưa nghe. Corpus chỉ calibrate phân bố chức năng; không lấy title, con số hay cụm lời của bài nguồn làm seed.
+**Kết luận ngắn gọn:**
+- **KEEP:** Có căn cứ (provenance), tự nhiên và thực sự mang tải trọng cảm xúc/ngữ nghĩa.
+- **REWRITE:** Bịa độ chính xác, độn nhịp/vá vần khiên cưỡng, hoặc thổi phồng quy mô sáo rỗng.
+- **UNKNOWN:** Phụ thuộc vào nhạc tính/groove/melody chưa nghe.
 
 ### LYRIC-VOLTAGE — chỉ mở khi lời nghe như đang phân tích
 
@@ -393,28 +361,17 @@ Nếu line chỉ hát vừa bằng cách nuốt âm, tăng tốc hoặc dồn ph
 
 Đọc quy trình đầy đủ tại `music-sketch-and-demo.md`. Chưa có artifact nghe được thì chỉ được kết luận Scope A; không suy `music-fit PASS` từ số chữ.
 
-## 7. Biên tập hai tầng
+## 7. Xác minh sau sửa LANGUAGE / SOUND
 
-### Tầng bài
+Sau khi áp dụng bản sửa cục bộ (local patch) ở tầng LANGUAGE/SOUND:
 
-Nghe/đọc theo năm câu hỏi:
-
-1. Có nghe rõ cảm xúc trung tâm và đúng giọng người hát không?
-2. Các section đang mở, sâu hoặc đổi năng lượng, hay chỉ nhắc lại cùng ý?
-3. Chorus/refrain đã kiếm được hook và payoff chưa?
-4. Có một quãng đang thành lời giải thích, tư vấn, danh sách ảnh, staging văn xuôi hoặc độc thoại nội tâm khép kín so với Tứ không?
-5. Có lỗi ngôn ngữ, POV, phrase/sound hoặc lặp skeleton đủ rõ để gọi diagnostic chuyên biệt không?
-
-Fail tầng nào thì quay đúng tầng đó; không sửa câu để cứu Tứ.
-
-### Tầng câu
-
-Chỉ flag lỗi nghe hoặc mô tả được: nghĩa/ngữ pháp/collocation/referent; sai tone/POV/provenance; ép vần/vấp/xẻ từ/sustain-slot; material hoặc thành ngữ lạc register; hình ảnh mơ hồ/thay thế tùy ý; terminal-repeat; hay lặp bề mặt thành cụm trong một chuỗi bài. Sau đó mở đúng mục chuyên biệt ở trên. Không chạy toàn bộ checklist cho mọi câu và không sửa câu đang ổn để chứng minh quy trình đã làm việc.
-
-Phản hồi trực tiếp của user như `thô`, `cứng`, `gượng`, `chưa mềm`, `không hợp câu` hoặc `không hợp đoạn` là evidence đủ để bật **NATURALNESS-SWEEP** local ở phạm vi `từ · collocation · register · material`. Không đồng nhất “mềm” với việc thay động từ mạnh bằng một tính từ buồn hoặc thêm từ mơ hồ. Nếu đọc câu kề cho thấy lỗi thật nằm ở quan hệ nghĩa/progression/section job, đóng sweep và chuyển sang **ROUGH-LYRIC SEMANTIC GATE**; nếu lỗi nằm ở phrase/hơi/cadence, chuyển sang **SCOPE A**. Không để Naturalness sở hữu cả ba tầng.
-
-Giữ dòng gốc làm option 0; sinh tối đa hai hoặc ba phương án khi có lý do. Không có phương án thắng đồng thời nghĩa, độ ấm, register và độ hát được thì giữ baseline.
-
-Với local rewrite do user flag, sửa trong owner đã route rồi chạy **REWRITE CLOSURE** trên toàn section; Closure điều phối semantic non-regression và chỉ gọi lại Scope A khi phần sửa chạm phrase/sound. Gom các câu flag thành một bảng cho user duyệt một lượt khi có nhiều vị trí; không tự chấm “hay/chạm” bằng điểm số. Tai người là gate cuối.
-
-Sau khi thay câu, đọc/hát hoặc re-demo section chứa nó. Không đặt giới hạn vòng cứng khi cùng lỗi lyric–music còn nghe thấy; dừng khi phương án mới không thắng rõ hoặc cần tai người. Không sửa câu đang ổn chỉ để hoàn tất checklist.
+1. **Đọc lại tại chỗ:** Đọc câu vừa sửa cùng các câu liền kề để đảm bảo tính tự nhiên, nghĩa và đối tượng quy chiếu (referent) rõ ràng, đúng ngữ vực và không làm phát sinh lỗi ngữ âm mới.
+2. **Kiểm tra âm thanh có điều kiện:** Chỉ khi chỉnh sửa có đụng chạm đến ngắt nhịp (phrase boundary), tải hơi hoặc âm vần, mới chạy các điểm kiểm tra Scope A cục bộ liên quan; không chạy toàn bộ quy trình Scope A nếu chỉ sửa từ vựng thông thường.
+3. **Phân luồng khi lỗi vượt thẩm quyền:** Nếu đọc lại thấy nguyên nhân gốc rễ nằm ở:
+   - Tứ, quy mô hoặc phân bố chủ thể $\rightarrow$ chuyển về **`IDEA / STRUCTURE`**;
+   - Nén ca từ, giảm văn xuôi/giải thích hoặc làm mới cảm xúc $\rightarrow$ chuyển về **`REFINE`**;
+   - Trùng lặp giữa các bài trong phiên $\rightarrow$ chuyển về **`IDEA / SESSION-DECONTAMINATION`**;
+   - Audit hồi quy / kiểm duyệt toàn diện $\rightarrow$ chuyển sang **`AUDIT`**;
+   Dừng can thiệp LANGUAGE ngay sau khi chuyển quyền.
+4. **Nguyên tắc giữ baseline:** Nếu phương án mới không thắng rõ ràng về cả nghĩa, độ tự nhiên và âm thanh dự kiến, giữ nguyên dòng gốc (baseline). Tai người nghe và phản hồi của người dùng là quyết định tối hậu.
+5. **Dừng đúng lúc:** Dừng ngay khi triệu chứng được khắc phục; không tùy tiện sửa lan sang các câu đang ổn định.
