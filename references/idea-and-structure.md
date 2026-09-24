@@ -481,17 +481,18 @@ Semantic skeleton là ghi chú hậu trường, không phải kho câu. Chỉ kh
 ## 7. Cốt tùy chọn & Ánh xạ vào Section (Optional Cốt & Section Map)
 
 ### 7.1 Bất biến: Tứ vs Cốt vs Dàn bài (Core Invariant)
-- **TỨ (Hạt nhân cảm xúc):** Trả lời *"Bài hát này cảm nhận chủ đề bằng góc nhìn độc đáo, riêng biệt nào?"* Tứ là góc nhìn tạo sinh (generative angle), KHÔNG phải tóm tắt cốt truyện hay dàn bài từng đoạn.
+- **TỨ (Hạt nhân cảm xúc):** Trả lời *"Góc cảm xúc nào đang làm bài này có lý do để được hát?"* (góc nhìn cảm xúc đủ rõ và có lực để sinh cả bài; không ép Tứ phải "độc đáo" hay săn tìm novelty). Tứ là góc nhìn tạo sinh (generative angle), KHÔNG phải tóm tắt cốt truyện hay dàn bài từng đoạn.
 - **EMOTIONAL MOVEMENT (Chuyển động cảm xúc):** Bước tiến tối thiểu (2–4 beats: `trạng thái → áp lực/đào sâu → giải phóng cảm xúc → chuyển hóa/payoff`) để bài hát không bị đứng yên. Chuyển động cảm xúc **không bắt buộc phải có sự kiện hay biến cố**.
 - **CỐT (Tùy chọn - Optional Macro Sequence):** Chuỗi biến chuyển vĩ mô phi section (3–5 beats) khi bài hát thực sự phụ thuộc vào sự kiện, lựa chọn, bước ngoặt quan hệ hoặc nhân quả tự sự. Cốt trả lời: *"Điều gì thực sự thay đổi từ đầu đến cuối?"*
 - **DÀN BÀI / SECTION MAP (Ánh xạ Section):** Bố trí Emotional Movement hoặc Cốt đã có vào các section của bài hát. **SECTION MAP = PLACEMENT, KHÔNG PHẢI SINH NỘI DUNG MỚI** (không tự động vẽ thêm quán xá, điện thoại, ly tách hay hoạt cảnh vụn vặt chỉ để làm cho đoạn có vẻ "cụ thể").
 
 $$\mathbf{CỐT \ne DÀN\ BÀI} \quad \text{và} \quad \mathbf{DÀN\ BÀI\ KHÔNG\ BẮT\ BUỘC\ PHẢI\ CÓ\ CỐT}$$
 
-*Chống lập kế hoạch thừa cho Pop/Ballad đại chúng:* Không nhầm lẫn tính chân thực cảm xúc với tính trọn vẹn của hồ sơ tự sự. Người nghe không cần trọn vẹn tiểu sử, niên biểu quan hệ hay mỗi đoạn một màn kịch nhỏ; người nghe cần khoảng trống để nén cảm xúc và tự phóng chiếu trải nghiệm của chính mình (**"Đủ để cảm, không cần đủ để lập hồ sơ nhân vật"**).
+- **Nguyên tắc tối thượng (Every planning artifact must earn its existence):** Mỗi tầng lập kế hoạch chỉ tồn tại khi nó bổ sung thông tin mà tầng trước chưa có. Nếu Emotional Movement đã đủ $\rightarrow$ không Cốt; nếu Section Guidance đã đủ $\rightarrow$ không dàn bài thứ hai; nếu Tứ đã chạm $\rightarrow$ không ép novelty; nếu Verse tự nhiên $\rightarrow$ không ép quota carrying line.
+- *Chống lập kế hoạch thừa cho Pop/Ballad đại chúng:* Không nhầm lẫn tính chân thực cảm xúc với tính trọn vẹn của hồ sơ tự sự. Người nghe không cần trọn vẹn tiểu sử, niên biểu quan hệ hay mỗi đoạn một màn kịch nhỏ; người nghe cần khoảng trống để nén cảm xúc và tự phóng chiếu trải nghiệm của chính mình (**"Đủ để cảm, không cần đủ để lập hồ sơ nhân vật"**).
 
 ### 7.2 Cốt — Chuyển động vĩ mô tùy chọn (Optional Macro Cốt)
-Cốt chỉ được tạo khi: (1) Bài hát theo engine NARRATIVE/TRANSFORM thực sự cần sự kiện hoặc bước ngoặt tự sự để đổi tình thế; HOẶC (2) Người dùng chủ động yêu cầu (*"tạo cốt", "xây story", "lên storyline", "dựng narrative"*).
+Cốt được dùng khi sự biến chuyển vĩ mô thực sự bổ sung thông tin cấu trúc mà Emotional Movement chưa đủ giữ (hoặc khi người dùng chủ động yêu cầu dựng cốt/storyline). Engine tạo prior chứ không phải permission gate: NARRATIVE/TRANSFORM thường cần; DECLARATION/AMPLIFY và STATE/SUSTAIN thường không cần (nhưng vẫn có thể dùng nếu có bước chuyển quan hệ vĩ mô thực sự).
 
 Các hành vi phát triển vĩ mô (Development Behaviors - không đồng nghĩa mọi bài đều cần plot):
 - **EVENT:** sự kiện đổi tình thế quan hệ.
@@ -510,7 +511,7 @@ Section Map ánh xạ chuyển động cảm xúc (hoặc Cốt nếu có) vào 
 
 | Section | Chức năng Section Map | Lưu ý phi kịch bản |
 |---|---|---|
-| **Verse 1** | Đưa người nghe vào hoàn cảnh quan hệ / tâm thế cảm xúc; có ít nhất một Lyric Carrying Line | Không bắt buộc phải có màn kịch hay đạo cụ cụ thể. |
+| **Verse 1** | Đưa người nghe vào hoàn cảnh quan hệ / tâm thế cảm xúc (nếu có carrying line tự nhiên thì xuất hiện, không ép quota) | Không bắt buộc phải có màn kịch hay đạo cụ cụ thể. |
 | **Pre-Chorus** | Tích tụ áp lực cảm xúc, dồn nén câu hỏi hoặc đẩy đà mong chờ | Không bắt buộc phải có biến cố mới. |
 | **Chorus** | Nơi giải phóng cảm xúc (emotional release), kết tinh Tứ và hook giản dị nhất | Chống viết thành bài tóm tắt cốt truyện hay chuỗi logic (`không X vì có Y`). |
 | **Verse 2** | Đào sâu ý nghĩa cảm xúc, tăng độ thân mật hoặc tính tổn thương | Cấm chỉ đổi địa điểm (`Verse 2 ≠ Verse 1 + một địa điểm khác`); không cần chứng cứ vật lý mới. |
