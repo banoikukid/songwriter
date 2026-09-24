@@ -157,6 +157,20 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 3. **Sau khi đọc xong, có câu/hook nào còn ở lại vì cảm xúc hoặc cách nói, không chỉ vì thông tin?** (Đủ sức nặng ca từ).
 *(Nếu không đạt $\rightarrow$ nén cảnh, cắt giải thích, tập trung vào sự thật cảm xúc theo quy trình: CUT → COMPRESS → REPOSITION → REPURPOSE → only then ADD).*
 
+### Quy trình Kiểm Duyệt Xuất Bản 2 Cổng (Two-Gate Release Pipeline):
+Trước khi đóng gói Suno candidate từ ca từ mới sáng tác hoặc biên tập sâu, tác phẩm phải đi qua hai cổng độc lập (không bổ sung Writer Brake thứ 5 trong lúc viết):
+```text
+BẢN NHÁP (Draft)
+  ↓
+CỔNG 1: Release Falsification (lyric-quality-review.md) ──[FAIL]──> Sửa ca từ
+  ↓ [LYRIC READINESS PASS]
+CỔNG 2: Scope A Sound Gate (vietnamese-line-and-sound.md) ──[FAIL]──> Chỉnh ngữ âm
+  ↓ [SCOPE A PASS]
+SUNO PROTOTYPE-READY (references/suno-production.md)
+```
+- **Cổng 1 (Lyric Craft):** Phản biện bác bỏ rò rỉ cơ chế (Backstage Exposure), Section Essay, Tứ drift.
+- **Cổng 2 (Sound & Prosody):** Thẩm định biên phrase, hơi thở, vần và Hook Vocal Affordance thuần ngữ âm.
+
 ### Phân tầng xử lý & Chẩn đoán nhẹ:
 1. **Lỗi ở Tứ / Ý niệm cốt lõi:** Lạc đề, sai miền nghĩa brief $\rightarrow$ sửa Tứ tại `references/idea-and-structure.md`.
 2. **Lỗi ở Cấu trúc / Section Jobs:** Bài đều đều, thiếu chuyển động cảm xúc, Hook loãng, Bridge luận đề $\rightarrow$ gọt Hook, đổi góc nhìn Bridge; chặn `Big-Word Escalation` ở Final Chorus.
@@ -172,8 +186,9 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 
 ## 7. Trạng thái Handoff & UX
 
-- `[LYRIC DRAFT — Scope A chưa qua; music-fit UNKNOWN]`
-- `[SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN]`
+- `[LYRIC DRAFT — Chưa qua Release Falsification hoặc Scope A; music-fit UNKNOWN]`
+- `[LYRIC READY — Lyric Readiness PASS; Scope A chưa qua; music-fit UNKNOWN]`
+- `[SUNO PROTOTYPE-READY — Lyric Readiness PASS & Scope A PASS; music-fit UNKNOWN]`
 - `[PROSODY PASS — Scope B]` chỉ sau demo có melody và lời
 - `[PRODUCTION CANDIDATE]` chỉ sau Scope B, performance và feedback gate
 

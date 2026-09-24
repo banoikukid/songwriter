@@ -70,6 +70,28 @@ Báo cáo thẩm định tuân thủ định dạng tinh gọn, báo cáo tối 
 ```
 Reviewer nhận diện và báo cáo; việc sửa chi tiết thuộc thẩm quyền của Canonical Owner được điều hướng.
 
+### Chế Độ Phản Biện Xuất Bản (Release Falsification Mode)
+
+- **Kích hoạt:** Kích hoạt khi chạy formal audit trước release candidate hoặc chuẩn bị handoff ca từ mới/biên tập sâu sang đóng gói Suno. (Trong flow review/critique thông thường theo yêu cầu user, reviewer vẫn tuân thủ quy tắc dừng sau 1–2 vấn đề).
+- **Mục tiêu phản biện (Adversarial Objective):** Không tìm kiếm sự xác nhận (confirmation bias) để tự khen; mục tiêu là tích cực tìm kiếm bằng chứng nhằm **BÁC BỎ (falsify)** tính sẵn sàng release của bản nháp.
+- **4 bài test phản biện bắt buộc:**
+  1. *Backstage Exposure Test:* Có dòng nào đọc to mô hình tâm lý hay cơ chế quan hệ thay vì là lời nói của nhân vật từ bên trong hoàn cảnh?
+  2. *Section Essay Test:* Có cả section (nhất là Chorus/Bridge) biến thành chuỗi mệnh đề phân tích, so sánh triết lý hoặc thuyết trình thay vì đẩy cảm xúc?
+  3. *Semantic Escalation / Tứ Drift Test:* Có đoạn nào cố tạo cao trào bằng cách leo thang từ ngữ đao to búa lớn (*vũ trụ, định mệnh, mãi mãi...*) hoặc trôi xa khỏi Tứ cốt lõi?
+  4. *Claim Falsification Test:* Cấm reviewer đưa ra nhận định tự kiểm tra suông không bằng chứng. Nếu tuyên bố *"không có thesis leakage"*, bắt buộc trích dẫn dòng nghi vấn gần thesis nhất và nêu lý do vì sao nó an toàn; không tự bịa vần hoặc số âm tiết mà không kiểm chứng.
+- **Phán quyết xuất bản (Release Verdict):**
+  - `LYRIC READINESS PASS` (vượt qua cả 4 bài test không có CRITICAL/SUGGESTED nghiêm trọng).
+  - `LYRIC READINESS FAIL — refinement required` (kèm 1–2 bằng chứng cụ thể và điều hướng sửa chữa).
+- **Báo cáo phản biện xuất bản tối giản:**
+  ```text
+  ### RELEASE FALSIFICATION REPORT
+  - BACKSTAGE EXPOSURE:   [PASS / Bằng chứng dòng nghi vấn]
+  - SECTION ESSAY:        [PASS / Bằng chứng dòng nghi vấn]
+  - TỨ DRIFT / ESCALATION:[PASS / Bằng chứng dòng nghi vấn]
+  - CLAIM INTEGRITY:      [PASS / Trích dẫn dòng kiểm chứng thực tế]
+  - VERDICT:              [LYRIC READINESS PASS / LYRIC READINESS FAIL — refinement required]
+  ```
+
 ---
 
 ## 4. Danh Mục Nhận Diện Triệu Chứng (Symptom Recognition)

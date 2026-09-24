@@ -10,11 +10,14 @@
 > `Tứ → Central Intent → Hook → Image System → Form → Lyric`.  
 > Chỉ khi người dùng yêu cầu đóng gói sang Suno, Suno Adapter mới ánh xạ kết quả vào 3 khối này.
 
-> **QUY CHUẨN HANDOFF VÀ SCOPE-A GATE TRƯỚC KHI XUẤT 3-BLOCK:**
-> - Với ca từ do skill sáng tác mới hoặc biên tập sâu: bắt buộc chạy quy trình thẩm định **Scope A** tại `references/vietnamese-line-and-sound.md` để rà soát các rủi ro phát âm mô tả được trên văn bản (biên phrase, hơi thở, và heuristic Hook Vocal Affordance). Chỉ gắn nhãn `SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN`.
+> **HỢP ĐỒNG HANDOFF 2 CỔNG TRƯỚC KHI XUẤT 3-BLOCK (Two-Gate Handoff Contract):**
+> - Với ca từ do skill sáng tác mới hoặc biên tập sâu: bắt buộc hoàn thành tuần tự cả hai cổng kiểm duyệt độc lập:
+>   1. *Cổng 1 (Lyric Craft):* Đạt phán quyết `LYRIC READINESS PASS` qua quy trình Release Falsification tại `references/lyric-quality-review.md`.
+>   2. *Cổng 2 (Sound & Prosody):* Đạt phán quyết `Scope A PASS` tại `references/vietnamese-line-and-sound.md` (rà soát rủi ro phát âm mô tả được trên văn bản: biên phrase, hơi thở, và Hook Vocal Affordance).
+>   Chỉ khi **cả hai cổng cùng PASS**, Suno Adapter mới đóng gói trọn vẹn sang 3-block và gắn nhãn `SUNO PROTOTYPE-READY — Lyric Readiness PASS & Scope A PASS; music-fit UNKNOWN`.
 > - Tuyệt đối không khẳng định về độ cộng hưởng, vang ngân hay khớp giai điệu thực tế khi chưa có audio/melody (`actual music-fit UNKNOWN`).
-> - Với ca từ do người dùng cung cấp chỉ để đóng gói sang Suno: không tự ý viết lại chỉ để thỏa mãn heuristic ngữ âm; chỉ cảnh báo rủi ro nếu có hoặc giữ trạng thái lyric draft / UNKNOWN phù hợp.
-> - Suno Adapter không lặp lại các bộ kiểm tra ngữ âm của tầng sound; vai trò là thực thi nghiêm ngặt handoff theo đúng quy chuẩn.
+> - Với ca từ do người dùng cung cấp sẵn chỉ để đóng gói sang Suno: không tự ý viết lại hay ép qua các cổng thẩm định nội bộ; xuất 3-block trực tiếp theo yêu cầu và gắn trạng thái `USER-SUPPLIED LYRICS — Suno packaged; internal gates bypassed`.
+> - Suno Adapter không tự định nghĩa hay lặp lại các bộ kiểm tra ca từ/ngữ âm; vai trò là thực thi nghiêm ngặt hợp đồng handoff 2 cổng.
 
 ---
 

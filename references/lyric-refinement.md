@@ -146,6 +146,17 @@ Một line có nguy cơ thành thesis hoặc over-explanation khi nó:
   - *Không cấm từ trừu tượng hay câu plain:* Bản thân danh từ trừu tượng (`hạnh phúc`, `tổn thương`, `sợ hãi`) hay phát ngôn trực diện hoàn toàn không có lỗi. Chỉ flag khi một cụm câu biến thành định nghĩa, kết luận Tứ, liệt kê diễn biến lạnh lùng hoặc lộ dàn bài/kế hoạch sáng tác (*Analysis-Leakage / Mechanism-Leakage*).
   - *Hướng xử lý:* Viết lại bằng **hành vi ngôn ngữ (speech act)**: chuyển lời giải thích/báo cáo thành khoảnh khắc tự nhận thức, lời gọi/hỏi, lời thú nhận (confession), thế tương phản, nhượng bộ, dấu lửng (ellipsis) hoặc chuyển động biểu tượng sẵn có. Tuyệt đối không "sửa" bằng cách đắp thêm tính từ hay hình ảnh thơ hoa mỹ trang trí.
 
+- **BACKSTAGE TRUTH ≠ ONSTAGE SCRIPT — Hiểu cơ chế ở hậu trường, không đọc cơ chế lên sân khấu:**
+  - *Nguyên lý cốt lõi:* Cơ chế tâm lý và sự thật quan hệ là việc của **HẬU TRƯỜNG (backstage)**. Khi bước lên **SÂN KHẤU (onstage)**, nhân vật không bao giờ đọc to bản phân tích cơ chế của chính mình.
+    - *Backstage Truth:* Mô hình giải thích mối quan hệ (ví dụ: *anh quen tỏ ra vững vàng để che giấu nỗi sợ mất kiểm soát, vô tình đẩy người kia ra xa*).
+    - *Onstage Script:* Lời nói, hành vi, câu hỏi, lời thú nhận hoặc sự im lặng mà con người thực sự thốt ra trong hoàn cảnh đó (ví dụ: *"Em đừng lo"* hay *"Anh sợ nếu nói ra..."*).
+  - *Quy trình sửa chữa khi rò rỉ cơ chế (Mechanism-Leakage Repair Order):*
+    1. *Xác định cơ chế:* Định vị mệnh đề giải thích đang nói thay nhân vật (ví dụ: *"anh sợ sự yếu lòng"*, *"khoảng cách vô hình"*).
+    2. *Rút về lõi cảm xúc trần:* Tìm sự thật cảm xúc trần trụi nhất (*anh đau, anh sợ, anh tiếc, anh không dám*).
+    3. *Chuyển thành hành vi ngôn ngữ (Speech Act):* Biến lời giải thích thành lời thú nhận trực diện, câu hỏi ngập ngừng, thói quen cũ hoặc chuyển động quan hệ cụ thể.
+    4. *Giảm thiểu thủ pháp:* Giữ câu ở mức tối giản, sắc bén và đau nhất; tuyệt đối không đắp thêm đạo cụ hay từ ngữ hoa mỹ.
+  - *Điều khoản bảo vệ (Non-Banning Clause):* Không cấm các từ liên kết hay nguyên nhân thông thường (`vì, nên, anh cứ ngỡ, nào hay, hóa ra, chỉ là`). Lời bộc bạch chân thành (*"Anh tiếc vì đã để em chờ"*) hoàn toàn hợp lệ. Chỉ chặn khi câu hát biến thành thái độ phân tích/thuyết trình đứng ngoài hoàn cảnh cảm xúc.
+
 ---
 
 ### IMAGE / STATEMENT BALANCE & CHỐNG CAMERA SWEEP
