@@ -10,6 +10,11 @@
 > `Tứ → Central Intent → Hook → Image System → Form → Lyric`.  
 > Chỉ khi người dùng yêu cầu đóng gói sang Suno, Suno Adapter mới ánh xạ kết quả vào 3 khối này.
 
+> **ĐIỀU KIỆN TIÊN QUYẾT TRƯỚC KHI XUẤT 3-BLOCK (SCOPE-A GATE ENFORCEMENT):**
+> Trước khi đóng gói ca từ vào Khối 2 (`LYRICS & CUES`), toàn bộ lyric sheet bắt buộc phải vượt qua quy trình thẩm định **Scope A** tại `references/vietnamese-line-and-sound.md` (bao gồm *One-Breath Test*, *Mouth-Feel Spot Check* và đặc biệt là *Hook Vocal Affordance*).
+> - Trạng thái ca từ trước handoff: `SUNO PROTOTYPE-READY — Scope A PASS; music-fit UNKNOWN`.
+> - Suno Adapter không thay thế hay lặp lại các bộ kiểm tra ngữ âm của tầng sound; vai trò của adapter là **thực thi nghiêm ngặt handoff**: chỉ xuất 3 khối khi ca từ đã đạt độ thuận miệng, thoáng hơi và cộng hưởng giọng hát. Mọi nhận định về độ khớp nhạc thực tế (`music-fit`) vẫn giữ nguyên trạng thái `UNKNOWN` cho đến khi có audio được tạo ra.
+
 ---
 
 ## 1. Mô Hình Xuất 3 Khối Của Suno Adapter (Output Contract)

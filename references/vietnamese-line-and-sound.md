@@ -293,7 +293,7 @@ Scope A không chứng minh lời khớp một melody chưa tồn tại, nhưng 
 2. So các dòng cùng vị trí theo policy. `REUSE` giữ biên phrase/hơi/slot nhấn tương thích; `VARIATION` phải nghe rõ chỗ co/kéo chủ ý; `NEW BEHAVIOR` không bị kéo về khung cũ chỉ để cân số. Cho phép đổi số âm tiết khi phrasing còn tự nhiên; flag chênh lệch khiến một lượt phải nhồi chữ, kéo sai từ hoặc đổi điểm lấy hơi ngoài policy.
 3. Đọc to toàn section trên một pulse đều. Flag cụm phụ âm vấp, nhiều hư từ dồn, từ ghép bị xẻ, câu văn xuôi phải tăng tốc để kịp và câu quá ngắn không đủ lực so với frame quanh nó.
 4. Kiểm cadence/rhyme: rhyme-mode phải nhận ra được ở section; nghĩa vẫn thắng vần; chạy `TERMINAL-REPEAT`; không coi lặp đúng từ cuối là hiệp vần.
-5. Kiểm điểm rơi có xác suất ngân: ưu tiên nguyên âm mở/sonorant khi có phương án tự nhiên; checked-coda không tự động fail nếu chưa có melody.
+5. Kiểm điểm rơi có xác suất ngân và Hook Vocal Affordance: ưu tiên nguyên âm mở/sonorant khi có phương án tự nhiên; checked-coda không tự động fail nếu chưa có melody; hook/payoff chính phải vượt qua Hook Vocal Affordance (thuận miệng, dễ ngân, dễ lặp lại trên pulse).
 6. Đọc nối từ câu trước qua câu sau và toàn lượt Chorus. Hook phải nói được trong một hơi hợp lý; câu dài nhất phải có chỗ chia không phá nghĩa.
 7. Sau mỗi thay đổi, chạy lại cả section và các lượt lặp, không chỉ câu vừa sửa.
 
@@ -362,6 +362,57 @@ Không rà soát toàn bộ bài. Chỉ kiểm tra các line có rủi ro cao tr
 - phrase có sustain slot hoặc chuỗi phụ âm đóng.
 
 Nếu line chỉ hát vừa bằng cách nuốt âm, tăng tốc hoặc dồn phrase, bắt buộc rewrite trước khi release. Tránh để lọt những câu dài lê thê nhồi nhét hai ba mệnh đề vào một hơi thở.
+
+### HOOK VOCAL AFFORDANCE — hát được ≠ sướng miệng hát
+
+Một câu ca từ có thể đúng ngữ pháp, đúng trắc bằng, đúng vần, không vấp phụ âm và đọc trôi chảy (*technically singable*), nhưng vẫn có thể là **hook tồi** nếu nó **không sướng miệng để hát** (*vocally uninviting / non-resonant*).
+
+Hook là nơi đòi hỏi tính cộng hưởng giọng hát cao nhất toàn bài: người hát muốn bung giọng/ngân dài, người nghe muốn hát theo, và bộ não muốn lặp lại.
+
+#### Ba cấp độ Vocal Affordance
+
+- **Level 1 — Easy to Articulate (Thuận miệng phát âm):** Khẩu hình di chuyển mượt mà giữa các âm tiết liên tiếp; không có bước nhảy khẩu hình quá gắt; không trẹo môi lưỡi ở tempo dự kiến.
+- **Level 2 — Easy to Sustain (Thuận lợi ngân vang):** Điểm rơi (*landing / sustain slot*) ở cuối phrase hoặc nốt cao trào mang nguyên âm mở hoặc sonorant vang (`a, o, ô, ơ, e, ê`, âm mũi `-m, -n, -ng`); buồng cộng hưởng mở tự nhiên, không bị bóp nghẹt.
+- **Level 3 — Easy to Ornament (Thuận lợi luyến láy / Melisma):** Dễ dàng phiêu, luyến (*melisma*), belt hoặc biến tấu cao độ mà thanh điệu tiếng Việt không cản trở đường đi của giai điệu.
+
+#### Tiêu chí đánh giá Hook Vocal Affordance (8 Heuristics)
+
+1. **Độ mở nguyên âm tại điểm rơi / nốt cao (Vowel Openness):**
+   - Ưu tiên: nguyên âm mở rộng (`a, o, ô, ơ, e, ê`).
+   - Cảnh giác: nốt ngân dài hoặc nốt belt chạm vào nguyên âm hẹp/đóng (`i, u, ư`) kèm thanh trắc gắt, trừ khi đó là chủ ý nén nghẹn cảm xúc.
+2. **Rủi ro âm chặn (Checked-coda Risk):**
+   - Các âm kết thúc bằng `-p, -t, -c, -ch` tự nhiên khóa luồng hơi. Ở slot ngân dài của hook, ưu tiên chuyển từ âm mở ra cuối hoặc chọn phương án diễn đạt khác nếu có sẵn cách tự nhiên.
+   - *Lưu ý:* Checked-coda KHÔNG tự động là lỗi. Trong staccato, dứt khoát hoặc nhát cắt đau đớn, checked-coda tạo lực nén rất mạnh.
+3. **Thanh điệu và đường luyến (Marked-tone & Melisma Heuristic):**
+   - Các thanh trắc đánh dấu (`hỏi, ngã, nặng, sắc`) mang đường cao độ nội tại phức tạp (gãy, rơi nhanh, ngắt thanh môn). Khi rơi vào nốt ngân dài cần luyến nốt (*melisma*) hoặc belt mạnh, chúng đòi hỏi nỗ lực thanh quản cao hơn thanh bằng (`ngang, huyền`).
+   - *Nguyên tắc sống còn:* **THANH TRẮC KHÔNG PHẢI LỖI (NOT A BLACKLIST)**. Các từ như *nhớ, mãi, khóc, mắt, thắt, vỡ, giữ* có giá trị biểu cảm cực cao ở hook. Đừng bao giờ làm phẳng mọi hook thành toàn thanh bằng vô cảm. Heuristic chỉ yêu cầu: *kiểm tra xem ca sĩ có phải gồng cứng họng để vừa giữ thanh trắc vừa ngân nốt hay không*.
+4. **Độ mềm chuyển dịch khẩu hình (Tongue / Mouth Transition):**
+   - Tránh chuỗi âm tiết liên tiếp đòi hỏi nhảy vọt giữa các vị trí phát âm đối lập (ví dụ: bẹt lưỡi sang tròn môi sâu liên tục, hoặc chuỗi phụ âm đầu khó nhả ở nhịp nhanh).
+5. **Độ tương thích ngữ vực và cảm xúc (Register & Intimacy Fit):**
+   - Hook tình ca / pop cần từ ngữ có độ ấm, giàu tính gợi cảm và gần gũi với hơi thở con người.
+   - Các từ ngữ mang tính hàn lâm, thuật ngữ tâm lý/sinh học/kỹ thuật hoặc hành chính có thể đúng nghĩa phân tích nhưng tạo cảm giác phát âm khô cứng, xa lạ trên môi miệng.
+6. **Tải hơi và tính toàn vẹn (One-Breath Test):**
+   - Câu hook cốt lõi phải hát/nói trọn vẹn trong một hơi tự nhiên mà không cần hớp hơi chắp vá giữa chừng.
+7. **Kiểm tra lặp lại trên pulse (Repetition & Sing-along Test):**
+   - Đọc hoặc hát-nói (*sing-speak*) hook liên tục **2–3 lần trên nhịp pulse đều**.
+   - Nếu qua mỗi lần lặp, môi miệng cảm thấy mỏi, gượng, vấp hoặc não bộ ngại lặp lại $\rightarrow$ câu chưa đạt vocal affordance của một hook.
+8. **Thứ bậc tối thượng (Core Invariant):**
+   $$\text{Meaning} > \text{Natural Vietnamese} > \text{Vocal Affordance} > \text{Rhyme} > \text{Phonetic Optimization}$$
+   Tuyệt đối **KHÔNG** vì tối ưu ngữ âm/dễ hát mà làm sai lệch nghĩa, biến câu thành sáo rỗng hoặc dùng từ vô nghĩa.
+
+#### Chẩn đoán thực tế: Bài học "Phản xạ yêu thương"
+
+- **Case study:** `"Người đi rồi, sao phản xạ yêu thương chưa chịu dừng lại?"`
+- **Chẩn đoán:**
+  - Về nghĩa và tứ: Câu diễn đạt được sự đối lập giữa lý trí và quán tính thói quen, tứ tốt.
+  - Về vocal affordance ở vị trí hook:
+    - Cụm `"phản xạ yêu thương"` đặt từ Hán-Việt mang tính thuật ngữ phản xạ học/sinh học vào tâm điểm câu hát.
+    - Phát âm: `"phản xạ"` (`/fa:n/` hỏi $\rightarrow$ `/sa:/` nặng) tạo nhát cắt thanh quản liên tiếp giữa dòng, làm nghẽn dòng chảy legato của một bản ballad.
+    - Khi lặp lại 2–3 lần trên pulse, miệng người hát cảm thấy cấn, tính chia sẻ (*sing-along*) giảm.
+- **Hướng giải quyết (không dùng blacklist):**
+  - Không blacklist từ *"phản xạ"*. Ở verse của một bài indie/spoken-word/rap, từ này hoàn toàn dùng tốt.
+  - Nhưng ở vị trí **Hook Pop Ballad**, hãy chuyển hóa thuật ngữ thành cử chỉ hoặc cảm xúc tự nhiên, mở khẩu hình hơn:
+    - *Gợi ý thay thế:* `"sao thói quen thương người chưa chịu dừng?"`, `"sao tim anh còn chưa chịu dừng lại?"`, `"sao nỗi nhớ em chưa chịu dừng lại?"` $\rightarrow$ Giữ nguyên 100% sự thật cảm xúc nhưng giải phóng khẩu hình và thanh quản.
 
 Đọc quy trình đầy đủ tại `music-sketch-and-demo.md`. Chưa có artifact nghe được thì chỉ được kết luận Scope A; không suy `music-fit PASS` từ số chữ.
 
