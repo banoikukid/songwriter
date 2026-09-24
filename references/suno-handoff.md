@@ -2,7 +2,7 @@
 
 > **VAI TRÒ TÀI LIỆU (COMPATIBILITY / QUICK-HANDOFF SIDECAR):**  
 > Tài liệu này là **sidecar** hỗ trợ đóng gói nhanh thẻ lệnh và tag cho Suno AI.  
-> **PRIMARY OWNER** của Suno production, chuẩn 3-block, character budgets và ma trận xử lý lỗi là `references/suno-production.md`. Không merge hai file trong Phase 1.
+> **PRIMARY OWNER** của Suno production, chuẩn 3-block, character budgets và ma trận xử lý lỗi là `references/suno-production.md`.
 
 Trước khi handoff, xác định render là **prototype** hay **production candidate**. Lần gen đầu mặc định là prototype để kiểm song system và prosody; âm thanh đầy không đồng nghĩa bài đã qua rewrite/feedback gate. Đọc `music-sketch-and-demo.md` khi user yêu cầu ca khúc đầy đủ.
 

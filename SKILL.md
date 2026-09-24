@@ -84,7 +84,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Bản nháp lời có sẵn** | Đọc thành tiếng $\rightarrow$ chẩn ngược Tứ, Cốt và payoff; sửa gốc trước khi sửa chữ. |
 | **Bài thơ** | Chuyển hóa nhịp thơ sang nhịp ca từ hát được (`references/poem-to-song.md`). |
 | **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên Tứ và form; tập trung 100% vào viết bản thô. |
-| **Xuất / Khắc phục Suno** | Đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets) + `references/suno-handoff.md` (quick-handoff sidecar). |
+| **Xuất / Khắc phục Suno** | Mặc định đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets). Không tự động nạp cùng sidecar; chỉ đọc `references/suno-handoff.md` khi thực sự cần compatibility / quick-handoff. |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
 - **Open / Simple Brief ("Viết một ca khúc..."):** Giữ quy trình siêu nhẹ. Không nạp corpus hay style DNA; đi thẳng: `Emotion → Tứ → Hook → Writer`.
@@ -203,8 +203,8 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 | **STYLE** | Thống kê quần thể & mật độ hát (Corpus Profile, WPM) | `references/vietnamese-corpus-profile.md` |
 | **PRONUNCIATION** | Khẩu khí & ngữ âm khi hát (Spoken Form & Prosody) | `references/vietnamese-spoken-form.md` |
 | **PRONUNCIATION** | Định hướng giọng hát (Vocal Realization) & vocal prosody | `references/vocal-realization.md` |
-| **SUNO** | Suno 3-block production, character budgets & ma trận lỗi | `references/suno-production.md` (Primary Owner của Suno production/output) |
-| **SUNO** | Suno Handoff & thẻ lệnh xuất | `references/suno-handoff.md` (Compatibility / quick-handoff sidecar) |
+| **SUNO** | Suno 3-block production, character budgets & ma trận lỗi | `references/suno-production.md` (Mặc định nạp cho Suno tasks; Primary Owner của Suno production/output) |
+| **SUNO** | Suno Handoff & thẻ lệnh xuất | `references/suno-handoff.md` (Compatibility / quick-handoff sidecar — KHÔNG tự động nạp cùng; chỉ nạp khi cần đóng gói nhanh thẻ lệnh/handoff) |
 | **AUDIT** *(Lane riêng)* | Reviewer độc lập (Evidence discipline, 6 lenses + music-fit) | `references/lyric-quality-review.md` |
 | **AUDIT** *(Lane riêng)* | Audit / failure tracing xuyên tầng | `references/stage-validation-loop.md` (Chỉ audit/debug khi có failure artifact hoặc user yêu cầu review/regression; KHÔNG load trong normal generation) |
 | **AUDIT** *(Lane riêng)* | Phân tích hợp âm, hòa thanh & trục cảm xúc | `references/dominant-analysis.md` (ANALYSIS-ONLY / DEMOTED — KHÔNG load trong normal generation) |

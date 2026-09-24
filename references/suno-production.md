@@ -2,7 +2,7 @@
 
 > **OWNERSHIP & VAI TRÒ HỆ THỐNG:**  
 > `references/suno-production.md` là **PRIMARY OWNER** của Suno production và output behavior (bao gồm chuẩn 3-block, character budgets, platform profile, và ma trận chẩn đoán lỗi).  
-> `references/suno-handoff.md` đóng vai trò là **compatibility / quick-handoff sidecar**. Không hợp nhất hai tài liệu trong Phase 1.
+> `references/suno-handoff.md` đóng vai trò là **compatibility / quick-handoff sidecar**.
 
 > **Lưu ý kiến trúc quan trọng:**  
 > Khối định dạng `STYLE PROMPT` – `LYRICS BLOCK` – `CONTROLS / SETTINGS` chỉ là **hợp đồng định dạng xuất ra (Output Contract)** của **Suno Adapter**.  
