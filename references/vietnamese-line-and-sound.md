@@ -48,9 +48,13 @@ Với declaration mainstream, không bắt material quota. Câu hỏi, lời xá
 
 ### MATERIAL-TO-EMOTION BRIDGE — chọn chức năng trước vật thể
 
-Tuyển chọn nguyên liệu và thẩm định vật liệu ở khâu pre-Tứ thuộc quyền sở hữu chính của **`references/idea-and-structure.md`** (`MATERIAL AFFORDANCE AUDITION`). Việc tinh chỉnh chức năng cảm xúc của vật liệu sau rough pass (post-rough repair) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`IMAGE / STATEMENT BALANCE`).
+Tuyển chọn nguyên liệu và thẩm định vật liệu ở khâu pre-Tứ thuộc quyền sở hữu chính của **`references/idea-and-structure.md`** (`MATERIAL AFFORDANCE AUDITION`). Việc tinh chỉnh chức năng cảm xúc của vật liệu sau rough pass, đánh giá xem chi tiết cụ thể có xứng đáng đứng ở bề mặt ca từ (material lyric-fit) hay cần chuyển hóa nâng cấp (nhân hóa nhẹ, trừu tượng hóa, phát ngôn trực diện) thuộc quyền sở hữu chính của **`references/lyric-refinement.md`** (`IMAGE / STATEMENT BALANCE` / `Material Lyric-Fit`).
 
-LANGUAGE/SOUND chỉ can thiệp trở lại khi câu chứa chi tiết vật liệu phát sinh vấn đề về trật tự từ, cú pháp, ngữ vực (register), kết hợp từ (collocation) hoặc âm thanh lời hát.
+LANGUAGE/SOUND không quyết định xem vật thể có thuộc về mặt ý niệm hay không. Sau khi REFINE đã tạo ra một ứng viên câu hát (candidate line), LANGUAGE/SOUND thẩm định tính tự nhiên từ vựng (lexical naturalness), ngữ vực (register), kết hợp từ (collocation), trật tự cú pháp tiếng Việt, và đánh giá xem phép nhân hóa được chọn nghe tự nhiên hay bị gượng gạo, làm dáng thơ (*writerly / forced personification*).
+
+*Phân định chuẩn:*
+- **REFINE:** *"Vật thể/chi tiết nguyên xi này có nên xuất hiện ở bề mặt câu hát không?"*
+- **LANGUAGE/SOUND:** *"Nếu đã chuyển đổi, câu tiếng Việt kết quả nghe có tự nhiên, đúng ngữ vực và chuẩn kết hợp từ không?"*
 
 ### DETAIL BUDGET — chi tiết phục vụ chức năng, không liệt kê đạo cụ
 

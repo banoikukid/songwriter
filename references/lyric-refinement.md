@@ -144,7 +144,10 @@ Natural Vietnamese không có nghĩa là chép nguyên văn lời nói chuyện 
 
 ### CHI TIẾT QUAN HỆ LÃNG MẠN ≠ CHI TIẾT GIA DỤNG (ROMANTIC VS HOUSEHOLD)
 
-Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người luôn có giá trị cao hơn nhiều so với việc kiểm kê đồ vật môi trường xung quanh:
+Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người luôn có giá trị cao hơn việc kiểm kê đồ vật môi trường xung quanh. Kỹ năng áp dụng nguyên tắc: **FUNCTION > then LYRIC / REGISTER FIT**.
+
+> *"Chi tiết có ý nghĩa không đồng nghĩa với chi tiết đáng được hát nguyên xi ở bề mặt ca từ (Functional ≠ Automatically Lyric-Worthy)."*
+
 - **Chi tiết quan hệ giàu sức nặng (Ưu tiên):**
   - Một cách gọi riêng biệt chỉ hai người dùng;
   - Một câu nói dở dang nhưng người kia nghe ra hết;
@@ -152,9 +155,38 @@ Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người l
   - Một khoảng lặng có ý nghĩa;
   - Một sự mong đợi không cần nói thành lời;
   - Cách người kể tự thay đổi bản thân khi ở cạnh người kia.
-- **Chi tiết gia dụng đơn thuần (Chỉ làm nền - Grounding Reality):**
-  - Dắt xe, mở khóa, dép lê, quạt gió, nấu nướng... chỉ có vai trò làm phông nền neo giữ hiện thực. Tuyệt đối không để chuỗi chi tiết này chiếm lĩnh trọng tâm cảm xúc của đoạn.
-- **Hành vi dễ thương không thay thế cho tình yêu:** Biệt danh đùa, trêu chọc hay cử chỉ ngớ ngẩn (sitcom moments) chỉ có giá trị khi bộc lộ một sự thật cảm xúc lớn hơn.
+- **Chi tiết gia dụng / đồ vật đời thường (Material Lyric-Fit):**
+  - Các vật dụng đời sống (*chìa khóa, áo hong, cốc nước, chiếc dép, căn phòng, chiếc xe...*) **không bị cấm đoán (không có blacklist vật thể)**. Chúng hoàn toàn có quyền đứng nguyên xi ở dạng cụ thể khi là tựa đề bài hát (title carrier), motif biểu tượng xuyên suốt (concept/hook), hoặc phù hợp với ngữ vực tự sự mộc mạc/thân mật (acoustic singer-songwriter).
+  - Tuy nhiên, trong tình ca nhạc trẻ / V-Pop nói chung, việc đưa nguyên xi một hành vi giao dịch hoặc chi tiết sinh hoạt thô (*"Em trả anh chìa khóa căn nhà"*) dễ biến câu hát thành biên bản tường thuật văn xuôi.
+  - Chuỗi kiểm kê gia dụng (household inventory: dắt xe, mở khóa, quạt quay, dép lê...) chỉ làm nền neo hiện thực; tuyệt đối không để liệt kê đạo cụ chiếm lĩnh trọng tâm cảm xúc.
+- **Hành vi dễ thương không thay thế cho tình yêu:** Biệt danh đùa hay cử chỉ sitcom chỉ có giá trị khi bộc lộ một sự thật cảm xúc lớn hơn.
+
+- **Bài test tính phù hợp ca từ của vật liệu (Material Lyric-Fit Test):**
+  1. *Chi tiết/vật thể có mang chức năng cảm xúc hoặc quan hệ thực sự không?*
+     - **KHÔNG:** Lược bỏ hoặc nén lại (CUT / COMPRESS) để chống liệt kê đạo cụ.
+     - **CÓ:** Chuyển sang bước 2.
+  2. *Dạng bề mặt nguyên xi có tự nhiên, giàu tính nhạc và xứng đáng đứng trong câu hát ở ngữ vực bài hát này không?*
+     - **CÓ:** Giữ nguyên (KEEP — vừa có chức năng vừa hợp ca từ).
+     - **KHÔNG (quá thô / sinh hoạt vụn vặt / giao dịch hành chính):** **GIỮ CHỨC NĂNG, NÂNG CẤP BIỂU ĐẠT** (Preserve the function, elevate the expression).
+
+- **Chuyển hóa vật thể thô sang câu hát (Raw Object → Lyric Transformation):**
+  Khi một vật thể có chức năng cảm xúc nhưng quá thô ở dạng bề mặt, thực hiện theo thứ tự:
+  1. *Bảo toàn chức năng cảm xúc / quan hệ cốt lõi* (sự chia tay, khoảng trống vắng, thói quen cũ...);
+  2. *Lược bỏ ngôn từ giao dịch hoặc sinh hoạt thô không cần thiết*;
+  3. *Thử nghiệm chuyển hóa ca từ nhẹ nhàng:*
+     - **Nhân hóa nhẹ / Trạng thái không gian (Light personification / Environmental state):** Để không gian/đồ vật gánh trạng thái cảm xúc tự nhiên (Ví dụ: từ *"Em trả anh chìa khóa căn nhà"* $\rightarrow$ *"Căn nhà từ đó thôi chờ em"* — giữ trọn ý nghĩa chia tay/khoảng trống mà bỏ giao dịch thô);
+     - **Chuyển đổi trạng thái / Hoán dụ (State transfer / Metonymy):** Giữ khoảng trống quen thuộc thay vì miêu tả đạo cụ gia dụng (Ví dụ: từ *"Móc áo em vẫn còn bên cửa"* $\rightarrow$ *"Căn phòng vẫn giữ một khoảng quen"*).
+  4. *Nếu chuyển hóa nghe gượng gạo / làm dáng thơ $\rightarrow$ Dùng ngôn ngữ cảm xúc trực diện:*
+     - Ví dụ: *"Những thói quen vẫn chưa biết em đã đi"* hoặc câu trực diện đời thường.
+     - **Quy tắc vàng:** `DIRECT EMOTION > FORCED PERSONIFICATION` (Phát ngôn trực diện, chân thật luôn vượt trội hơn một phép nhân hóa ép uổng hay thi vị hóa vụng về).
+
+- **Nhân hóa là công cụ, không phải luật bắt buộc (Tool, Not a Rule):**
+  - Nhân hóa chỉ có giá trị khi nén hành động thực tế thành nghĩa cảm xúc, tự nhiên trong tiếng Việt và không phô trương kỹ thuật.
+  - Tuyệt đối loại bỏ nhân hóa gượng gạo/khiên cưỡng (*"Chiếc chìa khóa khóc trong lòng bàn tay anh"* hay đồ vật cử động vô lý).
+  - Định hướng: `LIGHT PERSONIFICATION > RAW UTILITARIAN REPORT` (chỉ khi tự nhiên và giàu tính nhạc hơn); nếu không: `DIRECT EMOTION > FORCED PERSONIFICATION`.
+
+- **Thứ tự ưu tiên ca từ tình ca nhạc trẻ:**
+  $$\text{Emotional Truth} > \text{Relationship Truth} > \text{Human Gesture / Speech} > \text{Lyric-friendly Image} > \text{Raw Utilitarian Object}$$
 
 ---
 
@@ -200,7 +232,7 @@ $$\text{Specific Feeling} > \text{Specific Relationship Truth} > \text{Specific 
 
 Tính tự nhiên từ vựng (lexical naturalness), quy chuẩn kết hợp từ (collocation), phân biệt khẩu ngữ / văn viết, và hiện tượng chọn chữ làm dáng (*writerly lexical choices*) thuộc quyền sở hữu chính của **`references/vietnamese-line-and-sound.md`** (`Lexical Naturalness và Tính tất yếu của Chi tiết`).
 
-Tầng REFINE chỉ canh gác rủi ro làm dáng quá tay (*decorative over-polishing*) trong quá trình nén và nâng cấp ca từ. Việc thẩm định tính tự nhiên từ vựng, cú pháp đời sống và collocation tiếng Việt được bàn giao sang LANGUAGE/SOUND. REFINE tiếp tục sở hữu việc làm mới cảm xúc và chống sáo rỗng qua mục `FRESHNESS WITHOUT FORCED POETRY` ở trên.
+Tầng REFINE sở hữu quyết định xem một vật liệu/chi tiết nguyên xi có xứng đáng đứng ở bề mặt ca từ (lyric-fit) hay cần chuyển hóa nâng cấp (nhân hóa nhẹ, trừu tượng hóa, phát ngôn trực diện). Việc thẩm định câu chuyển hóa kết quả (candidate line) có tự nhiên trong tiếng Việt, đúng ngữ vực, chuẩn collocation và không làm dáng thơ (*writerly / forced personification*) được bàn giao sang LANGUAGE/SOUND. REFINE tiếp tục sở hữu việc làm mới cảm xúc và chống sáo rỗng qua mục `FRESHNESS WITHOUT FORCED POETRY` ở trên.
 
 ---
 
