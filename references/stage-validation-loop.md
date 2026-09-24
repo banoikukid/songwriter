@@ -1,5 +1,12 @@
 # Stage Validation Loop — đối chiếu xuyên tầng
 
+> [!WARNING]
+> **QUY CHUẨN PHẠM VI (AUDIT / FAILURE DEBUGGER ONLY):**
+> Tài liệu này được chỉ định **CHỈ DÙNG** cho mục đích **AUDIT / DEBUG LỖI / KIỂM THỬ HỒI QUY**.
+> - **KHÔNG DÙNG** trong: normal generation hoặc writer-pass thông thường.
+> - **CHỈ DÙNG** khi: (1) người dùng yêu cầu audit, review hoặc kiểm thử regression; (2) artifact đã bộc lộ failure cần truy vết xuyên tầng; (3) đang đánh giá thay đổi của skill.
+> - Duy nhất **4 writer brakes** trong `SKILL.md` là closed list điều khiển Writer trong quá trình sáng tác.
+
 ## Mục tiêu
 
 Định vị tầng sớm nhất sinh lỗi mà không biến sáng tác thành một chuỗi biểu mẫu. Grade artifact/outcome trước; diagnostic chỉ mở sau khi có triệu chứng.

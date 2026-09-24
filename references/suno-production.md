@@ -1,5 +1,9 @@
 # Quy Chuẩn Sản Xuất Suno AI (Suno Production & Diagnosis Protocol)
 
+> **OWNERSHIP & VAI TRÒ HỆ THỐNG:**  
+> `references/suno-production.md` là **PRIMARY OWNER** của Suno production và output behavior (bao gồm chuẩn 3-block, character budgets, platform profile, và ma trận chẩn đoán lỗi).  
+> `references/suno-handoff.md` đóng vai trò là **compatibility / quick-handoff sidecar**. Không hợp nhất hai tài liệu trong Phase 1.
+
 > **Lưu ý kiến trúc quan trọng:**  
 > Khối định dạng `STYLE PROMPT` – `LYRICS BLOCK` – `CONTROLS / SETTINGS` chỉ là **hợp đồng định dạng xuất ra (Output Contract)** của **Suno Adapter**.  
 > Đây **tuyệt đối KHÔNG phải mô hình tư duy nội tại (internal cognitive model)** của người viết ca khúc. Quá trình sáng tác của Songwriter luôn bắt đầu từ:  

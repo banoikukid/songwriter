@@ -84,7 +84,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Bản nháp lời có sẵn** | Đọc thành tiếng $\rightarrow$ chẩn ngược Tứ, Cốt và payoff; sửa gốc trước khi sửa chữ. |
 | **Bài thơ** | Chuyển hóa nhịp thơ sang nhịp ca từ hát được (`references/poem-to-song.md`). |
 | **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên Tứ và form; tập trung 100% vào viết bản thô. |
-| **Xuất / Khắc phục Suno** | Đọc `references/suno-production.md` (chuẩn 3-block & ma trận lỗi) + `references/suno-handoff.md`. |
+| **Xuất / Khắc phục Suno** | Đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets) + `references/suno-handoff.md` (quick-handoff sidecar). |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
 - **Open / Simple Brief ("Viết một ca khúc..."):** Giữ quy trình siêu nhẹ. Không nạp corpus hay style DNA; đi thẳng: `Emotion → Tứ → Hook → Writer`.
@@ -184,20 +184,28 @@ ARTIFACT → ĐỌC/HÁT THÀNH TIẾNG → XÁC ĐỊNH TRIỆU CHỨNG → TÌ
 
 ## 9. Router tài liệu tham chiếu (Reference Router)
 
-| Nhu cầu chuyên sâu | Tài liệu tham chiếu |
-|---|---|
-| Ý tưởng, Tứ, Cốt, Form, Hook, Chế độ tham vọng | `references/idea-and-structure.md` |
-| Vietnamese Style DNA (12 lanes nhạc Việt & soundscape) | `references/vietnamese-style-dna.md` |
-| Khẩu ký & ngữ âm khi hát (Spoken Form & Prosody) | `references/vietnamese-spoken-form.md` |
-| Thống kê quần thể & mật độ hát (Corpus Profile, WPM) | `references/vietnamese-corpus-profile.md` |
-| Giai điệu, hòa âm, groove, demo mộc, feedback | `references/music-sketch-and-demo.md` |
-| Tiếng Việt, ngữ âm, vần điệu, dấu thanh, thanh điệu ca từ | `references/vietnamese-line-and-sound.md` |
-| Tinh lọc ca từ, nén nghĩa, điểm rơi, subtext, sonic craft | `references/lyric-refinement.md` |
-| Định hướng giọng hát (Vocal Realization) & vocal prosody | `references/vocal-realization.md` |
-| Suno 3-block production, character budgets & ma trận lỗi | `references/suno-production.md` |
-| Reviewer độc lập (Evidence discipline, 6 lenses + music-fit) | `references/lyric-quality-review.md` |
-| Quy trình kiểm định tầng (Stage validation loop) | `references/stage-validation-loop.md` |
-| Suno Handoff & thẻ lệnh xuất | `references/suno-handoff.md` |
-| Khai phá phong cách âm nhạc (Style Prompt & DNA) | `references/style-mining.md` |
-| Phổ thơ sang ca khúc | `references/poem-to-song.md` (+ `references/folk-prosody.md`) |
-| Bộ dữ liệu kiểm thử & hồi quy (Eval & Regression Suite) | `references/audit-and-evaluation.md` (Tier 3 - không nạp khi viết) |
+> [!IMPORTANT]
+> **Nguyên tắc điều hướng Runtime (Runtime Routing Policy):**
+> - Router mặc định chỉ expose các lane cần thiết cho task hiện tại. Chỉ load 1–2 reference cần thiết khi có thể.
+> - **AUDIT là lane riêng:** Chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng.
+> - Tuyệt đối **không load** `stage-validation-loop.md`, eval suites, historical audits hoặc `dominant-analysis.md` vào normal writer-pass.
+
+| Lane | Nhu cầu chuyên sâu | Tài liệu tham chiếu |
+|---|---|---|
+| **WRITE** | Ý tưởng, Tứ, Cốt, Form, Hook, Chế độ tham vọng | `references/idea-and-structure.md` |
+| **WRITE** | Phổ thơ sang ca khúc | `references/poem-to-song.md` (+ `references/folk-prosody.md`) |
+| **LANGUAGE** | Tiếng Việt, ngữ âm, vần điệu, dấu thanh, thanh điệu ca từ | `references/vietnamese-line-and-sound.md` |
+| **REFINE** | Tinh lọc ca từ, nén nghĩa, điểm rơi, subtext, sonic craft | `references/lyric-refinement.md` |
+| **MUSIC** | Giai điệu, hòa âm, groove, demo mộc, feedback | `references/music-sketch-and-demo.md` |
+| **MUSIC** | Định tuyến ca từ theo thể loại âm nhạc | `references/genre-and-lyric-routing.md` |
+| **STYLE** | Vietnamese Style DNA (12 lanes nhạc Việt & soundscape) | `references/vietnamese-style-dna.md` |
+| **STYLE** | Khai phá phong cách âm nhạc (Style Prompt & DNA) | `references/style-mining.md` |
+| **STYLE** | Thống kê quần thể & mật độ hát (Corpus Profile, WPM) | `references/vietnamese-corpus-profile.md` |
+| **PRONUNCIATION** | Khẩu khí & ngữ âm khi hát (Spoken Form & Prosody) | `references/vietnamese-spoken-form.md` |
+| **PRONUNCIATION** | Định hướng giọng hát (Vocal Realization) & vocal prosody | `references/vocal-realization.md` |
+| **SUNO** | Suno 3-block production, character budgets & ma trận lỗi | `references/suno-production.md` (Primary Owner của Suno production/output) |
+| **SUNO** | Suno Handoff & thẻ lệnh xuất | `references/suno-handoff.md` (Compatibility / quick-handoff sidecar) |
+| **AUDIT** *(Lane riêng)* | Reviewer độc lập (Evidence discipline, 6 lenses + music-fit) | `references/lyric-quality-review.md` |
+| **AUDIT** *(Lane riêng)* | Audit / failure tracing xuyên tầng | `references/stage-validation-loop.md` (Chỉ audit/debug khi có failure artifact hoặc user yêu cầu review/regression; KHÔNG load trong normal generation) |
+| **AUDIT** *(Lane riêng)* | Phân tích hợp âm, hòa thanh & trục cảm xúc | `references/dominant-analysis.md` (ANALYSIS-ONLY / DEMOTED — KHÔNG load trong normal generation) |
+| **AUDIT** *(Lane riêng)* | Bộ dữ liệu kiểm thử & hồi quy (Eval & Regression Suite) | `references/audit-and-evaluation.md` (Tier 3 - không nạp khi viết) |

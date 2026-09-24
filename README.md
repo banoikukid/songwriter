@@ -52,31 +52,34 @@
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill — v1.3.6)
+## 📂 Cấu Trúc Thư Mục Repository (Pure Agent Skill — v1.4.0)
 
 ```
 songwriter/
 ├── LICENSE                                # Giấy phép mã nguồn mở MIT License
 ├── README.md                              # Giới thiệu tổng quan & hướng dẫn sử dụng
 ├── SKILL.md                               # Entry point, Adaptive Flow, Pilot Proofing, Micro-Polish & Gates
-├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.3.6)
+├── MANIFEST.md                            # Danh mục tài liệu tham chiếu & version registry (v1.4.0)
 ├── agents/
 │   └── openai.yaml                        # Cấu hình interface agent
-└── references/                            # 33 tệp tri thức chuyên sâu (Phân tầng 3-Tier)
-    ├── [Nhóm 1: Tri thức cốt lõi & Handoff — 13 tệp]
+└── references/                            # 36 tệp tri thức chuyên sâu (Phân tầng 3-Tier)
+    ├── [Nhóm 1: Tri thức cốt lõi & Handoff — 16 tệp]
     │   ├── idea-and-structure.md          # Tứ, Form, Hook, Material Affordance, Phá cách
     │   ├── vietnamese-line-and-sound.md   # Âm thanh, thanh điệu tiếng Việt, nhịp điệu & Lexical Naturalness
     │   ├── lyric-refinement.md            # Tinh lọc ca từ, compression, subtext, điểm rơi, sonic craft
     │   ├── vocal-realization.md           # Phân tầng vocal (Identity, Performance, Production) & vocal prosody
-    │   ├── suno-production.md             # Chuẩn 3-block Suno, Character Budgets & Cause Confidence Matrix
-    │   ├── stage-validation-loop.md       # Cổng kiểm định ngữ nghĩa (Semantic Gate & Scope-A)
-    │   ├── suno-handoff.md                # Tóm tắt vận hành đóng gói prompt & tag cho Suno AI
+    │   ├── suno-production.md             # PRIMARY OWNER: Chuẩn 3-block Suno, Character Budgets & Cause Confidence Matrix
+    │   ├── suno-handoff.md                # Compatibility / quick-handoff sidecar cho Suno AI
     │   ├── music-sketch-and-demo.md       # Dựng demo, Music Blueprint & kiểm tra nhạc-lời
     │   ├── genre-and-lyric-routing.md     # Định tuyến ca từ theo thể loại âm nhạc
     │   ├── folk-prosody.md                # Thơ dân gian, lục bát và biến thể vào ca khúc
     │   ├── poem-to-song.md                # Phương pháp phổ thơ thành ca khúc
     │   ├── style-mining.md                # Style DNA, phong cách tác giả & bản sắc riêng
-    │   └── dominant-analysis.md           # Phân tích hợp âm, hòa thanh & trục cảm xúc
+    │   ├── vietnamese-style-dna.md        # 12 lanes nhạc Việt & soundscape DNA
+    │   ├── vietnamese-spoken-form.md      # Khẩu khí, ngữ âm & written-to-spoken diagnostics
+    │   ├── vietnamese-corpus-profile.md   # Thống kê VietLyrics & WPM benchmark
+    │   ├── stage-validation-loop.md       # Đối chiếu xuyên tầng (Audit / failure debugger only — không nạp khi viết)
+    │   └── dominant-analysis.md           # Phân tích hợp âm, hòa thanh (Analysis-only / demoted — không nạp khi viết)
     ├── [Nhóm 2: Công cụ thẩm định chẩn đoán — 2 tệp]
     │   ├── lyric-quality-review.md        # Đánh giá độc lập 6 lăng kính (CRITICAL / SUGGESTED / OPTIONAL)
     │   └── case-log-protocol.md           # Session memory protocol (CHỈ nạp khi host cần session continuity)
@@ -86,10 +89,10 @@ songwriter/
 ```
 
 > **Nguyên Tắc Tiết Kiệm Ngữ Cảnh (Context Budget Policy):**  
-> 33 tệp trong `references/` **không phải** là 33 tài liệu runtime đồng thời nạp vào prompt. Skill vận hành theo nguyên tắc tối thiểu ngữ cảnh:
-> - **Generation thông thường:** Chỉ nạp $1 - 2$ tệp thuộc Nhóm 1 theo đúng lane nghiệp vụ đang mở.
-> - **Review độc lập / Diagnostic:** Chỉ nạp tệp tương ứng thuộc Nhóm 2 khi chẩn đoán ca từ có vấn đề.
-> - **Tuyệt đối không nạp Nhóm 3:** Toàn bộ schemas, test suites JSON và báo cáo audit lịch sử chỉ dùng cho benchmark hồi quy offline, không đưa vào context sáng tác của agent.
+> 36 tệp trong `references/` **không phải** là 36 tài liệu runtime đồng thời nạp vào prompt. Skill vận hành theo nguyên tắc tối thiểu ngữ cảnh:
+> - **Generation thông thường:** Router mặc định chỉ expose các lane cần thiết cho task hiện tại; chỉ nạp $1 - 2$ tệp theo đúng lane nghiệp vụ đang mở.
+> - **AUDIT là lane riêng:** Chỉ bật khi user yêu cầu review/audit/regression hoặc có failure artifact cần truy tầng.
+> - **Tuyệt đối không nạp:** `stage-validation-loop.md`, `dominant-analysis.md`, schemas, test suites JSON hay báo cáo audit lịch sử vào normal writer-pass.
 
 > **Đặc điểm Pure-Skill:** Không chứa bất kỳ script Python, binary hay dependency thực thi nào. Toàn bộ logic được trừu tượng hóa thành Knowledge Architecture & Instruction Rules, attack surface tối thiểu. Skill không chứa executable runtime hay dependency bên ngoài. Package không tự gọi shell/network; context usage và quyền dữ liệu phụ thuộc host agent khi nạp vào Hermes, OpenClaw, Claude Code hay Codex.
 
