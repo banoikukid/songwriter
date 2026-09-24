@@ -35,7 +35,7 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc) → WRITER (Viết rough pass m�
 - **Phân loại theo 3 cấp độ nghiêm trọng (Severity Classification):**
   - `CRITICAL`: Lỗi sinh tử bắt buộc sửa (Provenance Breach, Forced Rhyme Harm, hoặc Escalated Thesis Line phá vỡ section job).
   - `SUGGESTED`: Khuyến nghị nâng cấp (Thesis line mặc định, văn xuôi giải thích, camera sweep, dồn đạo cụ, sáo mòn, điểm rơi yếu...).
-  - `OPTIONAL`: Lựa chọn trau chuốt thêm nếu người dùng muốn (tuyệt đối không ép buộc hoặc tự tạo việc).
+  - `OPTIONAL`: Lựa chọn trau chuốt thêm chỉ khi người dùng chủ động yêu cầu (tuyệt đối không tự động tạo việc khi không được yêu cầu).
 
 ---
 
@@ -65,7 +65,7 @@ Báo cáo thẩm định tuân thủ định dạng tinh gọn, báo cáo tối 
 - SEVERITY:       [CRITICAL / SUGGESTED / OPTIONAL]
 - SYMPTOM:        [Tên triệu chứng nhận diện được]
 - EVIDENCE / WHY: [Bằng chứng câu từ cụ thể và lý do làm giảm chất lượng hoặc phẳng cảm xúc]
-- ROUTE:          [Canonical Owner xử lý: REFINE / LANGUAGE-SOUND / IDEA]
+- ROUTE:          [Canonical owner / tài liệu tham chiếu chịu trách nhiệm sửa chữa phù hợp với triệu chứng]
 - PATCH DIRECTION (Tùy chọn): [Tối đa 1 hướng sửa cục bộ ngắn gọn; chỉ khi hữu ích hoặc user yêu cầu; không phải cẩm nang dạy viết lại; không đưa 1–2 phương án viết lại chi tiết mặc định]
 ```
 Reviewer nhận diện và báo cáo; việc sửa chi tiết thuộc thẩm quyền của Canonical Owner được điều hướng.
@@ -76,7 +76,7 @@ Reviewer nhận diện và báo cáo; việc sửa chi tiết thuộc thẩm quy
 
 ### A. CRITICAL (Bắt buộc sửa)
 
-1. **Provenance Breach (Vi phạm thẩm quyền trần thuật):** Người kể tự khẳng định chắc chắn về nội tâm, suy nghĩ thầm kín hoặc hành vi tương lai của người khác khi ngôi kể và dữ liệu brief không cho phép. $\rightarrow$ Route: `references/lyric-refinement.md` (hoặc `references/idea-and-structure.md` nếu hỏng ngôi kể toàn bài).
+1. **Provenance Breach (Vi phạm thẩm quyền trần thuật):** Người kể tự khẳng định chắc chắn về nội tâm, suy nghĩ thầm kín hoặc hành vi tương lai của người khác khi ngôi kể và dữ liệu brief không cho phép. $\rightarrow$ Route: **SKILL.md** (Writer Brake 4: Provenance & POV) cho vi phạm cục bộ; hoặc **references/idea-and-structure.md** nếu sai lệch toàn bộ ngôi kể / kiến trúc Tứ.
 2. **Forced Rhyme Harm (Ép vần phá nghĩa):** Đảo cú pháp bất thường hoặc chọn từ ngữ xa lạ, ngô nghê chỉ để gieo vần với câu trên mà làm hỏng câu từ tự nhiên. $\rightarrow$ Route: `references/vietnamese-line-and-sound.md`.
 3. **Escalated Thesis Line / Analysis Leakage:** Câu thuyết minh/giải thích **CHỈ LEO THANG THÀNH CRITICAL** khi có bằng chứng thực tế thỏa mãn ít nhất một trong 4 điều kiện: (1) Phá vỡ ý nghĩa trung tâm; (2) Phá vỡ nhiệm vụ cốt lõi của một section lớn như Chorus hoặc Bridge; (3) Gây ra vi phạm điểm nhìn / thẩm quyền trần thuật; HOẶC (4) Biến cả section thành bài nghị luận/thuyết minh nghiêm trọng làm hỏng hệ thống ca khúc. $\rightarrow$ Route: `references/lyric-refinement.md` (hoặc `references/idea-and-structure.md` nếu phá vỡ cấu trúc bài).
 
@@ -106,15 +106,15 @@ Reviewer nhận diện và báo cáo; việc sửa chi tiết thuộc thẩm quy
 > **Nguyên tắc:** Reviewer không sở hữu quy trình sửa âm thanh hay thay thế LANGUAGE/SOUND. Chỉ ghi nhận rủi ro quan sát được trên văn bản và điều hướng xử lý:
 
 1. **MOUTHFUL-LINE / AWKWARD-BREATH:** Dòng chứa quá nhiều phụ âm tắc liên tiếp trong tiết tấu nhanh, hoặc điểm ngắt dòng cắt đôi cụm từ tự nhiên. Lyric-only chỉ ghi nhận `RISK`. $\rightarrow$ Route: `references/vietnamese-line-and-sound.md`.
-2. **STRESS-RISK:** Âm tiết mang thanh điệu trầm rơi vào nốt cao trào hoặc ngược lại. Khi CHƯA CÓ audio/melody, bắt buộc dùng `RISK / UNVERIFIED`; tuyệt đối không khẳng định lỗi từ văn bản trần. $\rightarrow$ Route: `references/vietnamese-line-and-sound.md`.
+2. **STRESS-RISK:** Khi có melody / melodic contour / audio thực tế, Reviewer nhận diện rủi ro cấn thanh điệu / điểm rơi (`RISK`) dựa trên bằng chứng âm nhạc. Khi CHỈ CÓ văn bản lời (lyric-only) và chưa có melody/contour: độ tương thích thanh điệu - giai điệu là `UNVERIFIED / NOT ASSESSABLE`; tuyệt đối không tự suy đoán nốt cao trào hay đáy trầm từ văn bản trần. $\rightarrow$ Route: `references/vietnamese-line-and-sound.md`.
 3. **SPOKEN-FORM-RISK:** Ca từ chứa số, từ ngoại lai đa âm tiết, viết tắt gây mơ hồ cách phát âm. Reviewer gợi ý ghi chú phát âm cho sản xuất/Suno mà không sửa văn bản nghệ thuật gốc. $\rightarrow$ Route: `references/vietnamese-spoken-form.md`.
 4. **GENRE-MISMATCH:** Chỉ áp dụng khi soundscape/lane âm nhạc đã được xác nhận từ user/brief mà hành vi ca từ nghịch hướng hoàn toàn; không tự suy đoán genre để bắt lỗi. $\rightarrow$ Route: `references/genre-and-lyric-routing.md`.
 5. **DENSITY-RISK:** Cảnh báo ngữ cảnh khi mật độ từ ngữ quá dày đặc làm bài thiếu khoảng thở. Không áp dụng ngưỡng đếm từ cố định (như "ballad 3.5 phút > 500 từ"); mật độ phụ thuộc vào thời lượng, groove, delivery và audio thực tế. $\rightarrow$ Route: `references/lyric-refinement.md`.
 
-### D. OPTIONAL (Trau chuốt thêm — Tuyệt đối không tự tạo việc)
+### D. OPTIONAL (Trau chuốt thêm — Chỉ khi người dùng chủ động yêu cầu)
 
-Chỉ đưa ra khi người dùng yêu cầu hoặc bài viết đã hoàn thiện tốt:
+Mục này **CHỈ ĐƯỢC XUẤT HIỆN** khi người dùng chủ động yêu cầu trau chuốt thêm (*extra polish / alternatives / refinement*) ngoài phạm vi kiểm định chất lượng:
 - **Sonic Polish:** Gợi ý lặp nguyên âm mở, phụ âm đầu ở nốt ngân dự kiến.
 - **Image Freshness:** Gợi ý thay thế một động từ quen thuộc bằng cử chỉ đời thường hơn.
 
-*Quy tắc:* Nếu không có vấn đề CRITICAL hoặc SUGGESTED có ý nghĩa, kết luận **PASS & STOP**; tuyệt đối không gợi ý OPTIONAL chỉ để bản review trông dày dặn.
+*Quy tắc:* Nếu không có vấn đề CRITICAL hoặc SUGGESTED có ý nghĩa $\rightarrow$ kết luận **PASS & STOP** ngay lập tức; tuyệt đối không tự động đề xuất OPTIONAL chỉ vì bài viết đã tốt hay để làm dày bản review.
