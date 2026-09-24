@@ -177,12 +177,12 @@ Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người l
      - **Nhân hóa nhẹ / Trạng thái không gian (Light personification / Environmental state):** Để không gian/đồ vật gánh trạng thái cảm xúc tự nhiên (Ví dụ: từ *"Em trả anh chìa khóa căn nhà"* $\rightarrow$ *"Căn nhà từ đó thôi chờ em"* — giữ trọn ý nghĩa chia tay/khoảng trống mà bỏ giao dịch thô);
      - **Chuyển đổi trạng thái / Hoán dụ (State transfer / Metonymy):** Giữ khoảng trống quen thuộc thay vì miêu tả đạo cụ gia dụng (Ví dụ: từ *"Móc áo em vẫn còn bên cửa"* $\rightarrow$ *"Căn phòng vẫn giữ một khoảng quen"*).
   4. *Nếu chuyển hóa nghe gượng gạo / làm dáng thơ $\rightarrow$ Dùng ngôn ngữ cảm xúc trực diện:*
-     - Ví dụ: *"Những thói quen vẫn chưa biết em đã đi"* hoặc câu trực diện đời thường.
+     - Ví dụ: *"Anh vẫn chưa quen những ngày thiếu em"* hoặc phát ngôn cảm xúc trực diện đời thường (không dùng nhân hóa ngầm).
      - **Quy tắc vàng:** `DIRECT EMOTION > FORCED PERSONIFICATION` (Phát ngôn trực diện, chân thật luôn vượt trội hơn một phép nhân hóa ép uổng hay thi vị hóa vụng về).
 
 - **Nhân hóa là công cụ, không phải luật bắt buộc (Tool, Not a Rule):**
   - Nhân hóa chỉ có giá trị khi nén hành động thực tế thành nghĩa cảm xúc, tự nhiên trong tiếng Việt và không phô trương kỹ thuật.
-  - Tuyệt đối loại bỏ nhân hóa gượng gạo/khiên cưỡng (*"Chiếc chìa khóa khóc trong lòng bàn tay anh"* hay đồ vật cử động vô lý).
+  - Không loại bỏ nhân hóa chỉ vì phi thực tế (*Impossible / Non-literal ≠ Automatically Bad*). Chỉ tinh lọc khi agency được gán cho vật thể không được concept, register hoặc cảm xúc nâng đỡ, hoặc khiến thủ pháp nổi hơn cảm xúc (*writerly* — ví dụ: *"Chiếc chìa khóa khóc trong lòng bàn tay anh"* khi đặt trong ngữ cảnh pop đời thường tự nhiên).
   - Định hướng: `LIGHT PERSONIFICATION > RAW UTILITARIAN REPORT` (chỉ khi tự nhiên và giàu tính nhạc hơn); nếu không: `DIRECT EMOTION > FORCED PERSONIFICATION`.
 
 - **Thứ tự ưu tiên ca từ tình ca nhạc trẻ:**
