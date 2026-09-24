@@ -56,7 +56,7 @@ upstream_lineage: "TearusVN/songwriting-studio/plugins/songwriting-studio/skills
 14. `references/vietnamese-corpus-profile.md`: Thống kê quần thể VietLyrics & WPM benchmark
 
 #### Nhóm 2: Công cụ Thẩm định, Chẩn đoán & Bộ nhớ Phiên (Diagnostic / Audit / Continuity Sidecars — 4 tệp)
-*Chỉ nạp khi người dùng yêu cầu review độc lập, session continuity hoặc audit formal:*
+*Chỉ nạp khi người dùng yêu cầu review độc lập, session continuity, explicit analysis, hoặc formal audit/failure tracing:*
 15. `references/lyric-quality-review.md`: Đánh giá chất lượng lời độc lập theo 6 lăng kính (REVIEW SIDECAR / explicit review only)
 16. `references/case-log-protocol.md`: Giao thức ghi nhớ phiên làm việc (Session Memory Protocol — Session continuity only)
 17. `references/stage-validation-loop.md`: Cổng đối chiếu ngữ nghĩa xuyên tầng (AUDIT / FAILURE DEBUGGER ONLY — tuyệt đối không nạp trong normal generation)

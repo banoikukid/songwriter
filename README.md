@@ -49,7 +49,7 @@
  task đã đạt chuẩn]       bộc lộ sau bản nháp]     Suno prototype handoff]
         │                        │                        │
         ▼                        ▼                        ▼
-  DELIVER / STOP        Nạp đúng 1 Canonical     SCOPE-A RELEASE GATE
+  DELIVER / STOP        Nạp primary Canonical    SCOPE-A RELEASE GATE
  (Không gọi diagnostic   Owner cần thiết:         (Kiểm tra phrasing, hơi thở,
   không cần thiết)       - REFINE (Nén ca từ)     vần, mouth-feel trên lyric)
                          - LANGUAGE/SOUND (Vần,           │
