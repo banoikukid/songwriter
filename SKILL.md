@@ -118,8 +118,13 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 - **FINAL CHORUS:** Trở về hook với ý nghĩa hoặc trạng thái cảm xúc đã biến chuyển sâu sắc hơn (*return to hook with changed meaning / deeper emotional state*); ưu tiên leo thang độ thân mật (*intimacy escalation*), tránh phóng đại từ ngữ vĩ mô (*Big-Word Escalation*).
 
 > [!IMPORTANT]
-> **Hiến pháp bảo vệ ngòi bút:**
-> Tất cả các khái niệm còn lại (*Camera Arc, Scale Arc, Detail Budget, Association Carrier, Lexical Naturalness, Phrasing Prosody, Vocal Map, AI-slop Filters*) chỉ là **CÔNG CỤ CHẨN ĐOÁN HẬU KỲ**. Tuyệt đối không được dùng chúng làm rào cản tiền kiểm bắt Writer phải thỏa mãn khi đang viết.
+> **Hiến pháp bảo vệ ngòi bút & Phân định thẩm quyền (Authority Boundaries):**
+> - **4 phanh tối thượng trên là nguồn duy nhất có quyền phủ quyết (single canonical veto list) trong Writer-pass.** Các tài liệu tham chiếu có thể giải thích công cụ chẩn đoán hạ nguồn, nhưng **tuyệt đối không được định nghĩa lại, mở rộng hay thay thế** 4 phanh này.
+> - **Chủ sở hữu chuẩn (Canonical Ownership):**
+>   - **`LANGUAGE / SOUND`** $\rightarrow$ `references/vietnamese-line-and-sound.md`
+>   - **`REFINE`** $\rightarrow$ `references/lyric-refinement.md`
+>   - **`REVIEW`** $\rightarrow$ `references/lyric-quality-review.md`
+> - Tất cả các khái niệm còn lại (*Camera Arc, Scale Arc, Detail Budget, Association Carrier, Lexical Naturalness, Phrasing Prosody, Vocal Map, AI-slop Filters*) chỉ là **CÔNG CỤ CHẨN ĐOÁN HẬU KỲ**. Tuyệt đối không được dùng chúng làm rào cản tiền kiểm bắt Writer phải thỏa mãn khi đang viết.
 
 ## 5. Sửa nhanh / Chỉnh sửa cục bộ (Micro-Rewrite)
 

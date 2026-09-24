@@ -1,5 +1,10 @@
 # Tinh lọc ca từ (Lyric Refinement Protocol)
 
+> **CANONICAL OWNER: REFINE / LYRIC CRAFT**
+> Tài liệu này là **chủ sở hữu chuẩn (Canonical Owner)** của miền **Tinh lọc ca từ & Kỹ nghệ lời hát**, bao gồm: chuyển hóa bản nháp thô thành ca từ (Rough → Lyric), độ nén cảm xúc (Compression), câu mang tải trọng cảm xúc (Lyric Carrying Line), độ chuẩn xác cảm xúc (Emotional Precision), tính tươi mới (Freshness), chuyển hóa văn xuôi sang ca từ (Prose → Lyric), câu luận đề/thuyết minh (Thesis / Explaining Line), cân bằng hình ảnh và trần thuật (Image / Statement Balance), mật độ hình ảnh & camera sweep, trùng lặp ngữ nghĩa (Semantic Redundancy), Chorus Anti-Essay, Bridge Anti-Essay, leo thang từ ngữ (Big-Word Escalation), và chiến lược tinh lọc cảm xúc sáo mòn (generic-emotion / cliché refinement).
+>
+> **Ranh giới thẩm quyền:** Khi vấn đề phát sinh chủ yếu thuộc về ngữ pháp, collocation, tính tự nhiên từ vựng (lexical naturalness), vần điệu, ngữ âm, điểm rơi câu hát (line landing), miệng hát (mouth-feel), hơi thở hoặc biên ngắt nhịp (phrase boundary), chủ sở hữu chuẩn duy nhất giải quyết là **`references/vietnamese-line-and-sound.md`**.
+
 > **Mục đích:** Chuyển hóa bản nháp thô đúng ý thành ca từ có chất hát, có khoảng trống, có hình ảnh và nhạc tính tự nhiên mà không rơi vào "AI thơ" hay ép vần gượng gạo.
 
 ---

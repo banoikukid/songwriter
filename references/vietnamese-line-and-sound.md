@@ -1,5 +1,8 @@
 # Câu chữ, âm và vần tiếng Việt
 
+> **CANONICAL OWNER: LANGUAGE / SOUND**
+> Tài liệu này là **chủ sở hữu chuẩn (Canonical Owner)** của miền **Ngữ âm, Âm thanh & Ngữ pháp ca từ tiếng Việt**, bao gồm: ngữ pháp tiếng Việt lời hát, collocation, tính rõ ràng của đối tượng quy chiếu (referent clarity), trật tự cú pháp tự nhiên, ngữ vực (register), thành ngữ/quán ngữ, tính tự nhiên từ vựng (lexical naturalness), hành vi gieo vần, điểm rơi câu hát (line landing), kỹ nghệ âm thanh (sonic craft), kiểm tra ngữ âm lời hát Scope A, cảm giác miệng hát (mouth-feel), và rủi ro ngắt hơi/biên phrase.
+
 ## Mục lục
 
 1. Viết bản nháp
@@ -14,14 +17,9 @@
 
 Viết đủ một rough pass theo scaffold trước khi audit vi mô. Giữ đà cảm xúc hơn tối ưu cục bộ. Nếu melody/track có sẵn làm lộ stress, range hoặc phrase sai, được sửa section ngay; không coi integration là micro-polish.
 
-Lúc sinh chỉ bật bốn phanh:
+Quá trình viết bản thô (Writer-pass) **chỉ sử dụng duy nhất 4 phanh tối thượng của Writer được định nghĩa chuẩn tại `SKILL.md`**. Tài liệu này **không tạo mới, không đặt lại tên, không mở rộng và không thay thế** 4 phanh đó.
 
-1. Nghĩa đúng.
-2. Tiếng Việt tự nhiên.
-3. Nghĩa thắng vần.
-4. Dữ kiện thật, quan hệ hai chiều, POV và nội tâm người khác phải có provenance. Cảnh/hình tượng hư cấu được sinh từ Tứ đã chọn nếu không giả làm material user cung cấp, không mâu thuẫn brief và không lấy từ corpus; genre không tự cấp đạo cụ.
-
-Bốn phanh này là toàn bộ rule được quyền veto trong writer-pass. Không dừng để gắn line-role, pressure/cost, lượng từ, body-part hay device; cũng không né trước một từ/câu chỉ vì nó có thể khớp diagnostic ở phần sau. Các mục dưới là công cụ biên tập chỉ gọi khi rough pass đã tồn tại và đọc/hát lại phát hiện đúng triệu chứng.
+Toàn bộ nội dung còn lại của tài liệu này là các **công cụ chẩn đoán hạ nguồn thuộc miền LANGUAGE / SOUND**, chỉ được kích hoạt làm công cụ biên tập khi rough pass đã tồn tại và quá trình đọc/hát lại phát hiện đúng triệu chứng. Không dừng giữa lúc viết để gắn line-role, pressure/cost, lượng từ, body-part hay device; cũng không né trước một từ/câu chỉ vì nó có thể khớp diagnostic ở phần sau.
 
 Phân vai câu linh hoạt: PLAIN, SCENE/ACTION, IMAGE, CONNECTIVE, QUESTION/VOCATIVE, REFRAME/TURN, HOOK/REPEAT, WORDPLAY/PHONETIC, APHORISM/DECLARATION. Line-role chỉ nói câu làm việc gì, chưa tạo dòng chảy trữ tình. Plain và connective là hạ tầng, không phải filler mặc định.
 

@@ -1,5 +1,16 @@
 # Quy Chuẩn Thẩm Định Độc Lập (Lyric Quality Review)
 
+> **REVIEW SIDECAR OWNER**
+> Tài liệu này là **chủ sở hữu chuẩn (Canonical Owner) của vai trò Thẩm định độc lập (Sidecar Reviewer)** với quy trình cốt lõi:
+> $$\text{OBSERVE} \longrightarrow \text{CLASSIFY} \longrightarrow \text{PRIORITIZE} \longrightarrow \text{ROUTE}$$
+> Reviewer sở hữu: kỷ luật bằng chứng (evidence discipline), phân loại mức độ nghiêm trọng (severity classification), định dạng báo cáo thẩm định (Review Output Format), báo cáo vị trí/vấn đề/nguyên nhân (Location/Problem/Why), nhận diện triệu chứng, và điều hướng triệu chứng về đúng tài liệu chủ sở hữu chuẩn.
+>
+> **Ranh giới thẩm quyền:**
+> - Reviewer **không phải là cẩm nang sáng tác thay thế** cho Writer; không thiết lập một bộ quy tắc ca từ, ngôn ngữ, âm thanh hay Writer rules độc lập thứ hai.
+> - Reviewer có thể gợi ý phương án sửa cục bộ tại chỗ (targeted/local fixes).
+> - Khi triệu chứng thuộc về tinh lọc ca từ / kỹ nghệ lời hát $\rightarrow$ điều hướng về **`references/lyric-refinement.md`**.
+> - Khi triệu chứng thuộc về ngôn ngữ / âm thanh / thanh điệu $\rightarrow$ điều hướng về **`references/vietnamese-line-and-sound.md`**.
+
 > **Mục đích:** Đóng vai trò chuyên gia thẩm định (Reviewer) độc lập, đánh giá chất lượng ca từ hoàn thiện nhằm phát hiện sáo rỗng (AI-slop), văn xuôi xuống dòng, thesis line, writerly phrasing, camera sweep, hoạt cảnh tự sự (sitcom narrative) và lỗi điểm rơi mà không làm gián đoạn dòng chảy của người viết (Writer).
 
 ---
@@ -29,8 +40,8 @@ CREATIVE BRAIN (Tứ, Cốt, Hook, Cảm xúc)
   - Tuyệt đối không dùng các từ tự khen hay khẳng định vô căn cứ: *“hoàn toàn”*, *“tuyệt đối”*, *“chắc chắn”*, *“đều có độ ngân tự nhiên”*, *“không có vấn đề”*.
   - Thay bằng lối diễn đạt đúng thực tế bằng chứng: *“Không phát hiện rõ lỗi...”*, *“Không thấy lỗi đáng kể ở mức lyric-only...”*, *“Có risk nhẹ ở...”*, *“Chưa thể xác nhận điểm rơi/ngân nếu chưa có audio...”*.
 - **Phân loại theo 3 cấp độ ưu tiên (thay thế điểm số cảm tính):**
-  - `CRITICAL` (Lỗi sinh tử bắt buộc sửa: gượng ép tiếng Việt nặng, sai provenance, hỏng cấu trúc);
-  - `SUGGESTED` (Khuyến nghị nâng cấp: khử writerly, dọn camera sweep, nén câu, show don't explain, narrative-to-lyric, psychology-to-lyric);
+  - `CRITICAL` (Lỗi sinh tử bắt buộc sửa: gượng ép tiếng Việt nặng, sai provenance, hỏng cấu trúc, hoặc thesis line leo thang phá vỡ section job);
+  - `SUGGESTED` (Khuyến nghị nâng cấp: thesis line / analysis leakage mặc định, khử writerly, dọn camera sweep, nén câu, show don't explain, narrative-to-lyric, psychology-to-lyric);
   - `OPTIONAL` (Lựa chọn trau chuốt thêm nếu người dùng muốn).
 - **Quy tắc dừng sau chẩn đoán (Stop After Diagnosis):**
   - Sau khi chỉ ra $1 - 2$ vấn đề cụ thể, Reviewer KHÔNG tiếp tục bới thêm lỗi vụn vặt chỉ để bản review trông dày dặn.
@@ -86,14 +97,21 @@ Mỗi lỗi được phát hiện phải tuân thủ đúng 4 trường thông t
 ## 4. Danh Mục Các Lỗi Trọng Tâm (Anti-Slop & Quality Checklist)
 
 ### A. CRITICAL (Bắt buộc sửa)
-1. **Thesis Line & Analysis Leakage:**
-   - Dòng mở đầu bằng *"hóa ra...", "điều đau nhất là...", "thì ra...", "chỉ là..."* hoặc câu kết luận giải thích triết lý của bài hát thay vì để hành động tự nói lên cảm xúc.
-2. **Provenance Breach (Vi phạm thẩm quyền trần thuật):**
+1. **Provenance Breach (Vi phạm thẩm quyền trần thuật):**
    - Người kể tự khẳng định như đinh đóng cột về nội tâm, suy nghĩ hoặc hành vi tương lai của người khác khi dữ liệu brief không cho phép.
-3. **Forced Rhyme Harm (Ép vần phá nghĩa):**
+2. **Forced Rhyme Harm (Ép vần phá nghĩa):**
    - Đảo cú pháp bất thường hoặc chọn một từ xa lạ, ngô nghê chỉ để bắt vần với câu trên.
+3. **Thesis Line & Analysis Leakage (Leo thang có điều kiện thành CRITICAL):**
+   - **Mặc định phân loại là `SUGGESTED`** (xem mục B). Chỉ leo thang thành `CRITICAL` khi có bằng chứng thực tế cho thấy câu thuyết minh:
+     - Phá vỡ ý nghĩa trung tâm (*breaks central meaning*); HOẶC
+     - Phá vỡ nhiệm vụ cốt lõi của một section lớn như Chorus hoặc Bridge (*breaks a major section job*); HOẶC
+     - Tạo ra vi phạm điểm nhìn / thẩm quyền trần thuật (*creates a POV/provenance violation*); HOẶC
+     - Biến section thành bài nghị luận/thuyết minh đủ nghiêm trọng để phá vỡ hệ thống ca khúc (*turns section into essay breaking the song system*).
+   - *Bộ nhận diện nghi vấn (Detectors — KHÔNG PHẢI blacklist từ cấm):* Sự xuất hiện của các cụm như *"hóa ra...", "điều đau nhất là...", "thì ra...", "chỉ là..."* chỉ đóng vai trò detectors, **tuyệt đối không tự động là lỗi và không tự động là CRITICAL**. Ngữ cảnh và chức năng biểu đạt sẽ quyết định.
 
 ### B. SUGGESTED (Khuyến nghị nâng cấp)
+*(Bao gồm mặc định: **Thesis Line & Analysis Leakage** — điều hướng xử lý về `references/lyric-refinement.md`; chỉ leo thang thành CRITICAL khi thỏa mãn các điều kiện có bằng chứng tại mục A.3)*
+
 1. **SCENE-REPORT (Báo cáo cảnh vật / Dồn dập ngoại cảnh thiếu tải trọng cảm xúc):**
    - *Dấu hiệu:* Nhiều dòng chỉ thuần túy ghi nhận cảnh vật, thời tiết, hoạt động thường nhật (*phố xá, đèn đường, dắt xe, kéo khóa, quạt gió, ngã tư...*). Thấy hai người đang làm gì nhưng chưa cảm được họ có ý nghĩa gì với nhau; bỏ cảnh đi cảm xúc bài vẫn nguyên.
    - *4 câu hỏi xử lý cục bộ:*
