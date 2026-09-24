@@ -200,7 +200,7 @@ Trong ca khúc tình yêu, chi tiết về mối quan hệ giữa hai người l
   - **Kỹ thuật số & Giao dịch không bị cấm (No UI/Action Blacklist):** Tin nhắn, màn hình, cuộc gọi, đặt vé, trả chìa khóa... hoàn toàn hợp lệ khi là trung tâm của Tứ/Concept hoặc thuộc ngữ vực tự sự mộc mạc (acoustic/indie diary-song).
 
 - **Thứ tự ưu tiên ca từ tình ca nhạc trẻ:**
-  $$\text{Relationship Truth} > \text{Human Reflex / Gesture} > \text{Lyric-friendly Image} > \text{Procedural Mechanics / Raw Utilitarian Object}$$
+  $$\text{Emotional Truth} > \text{Relationship Truth} > \text{Human Reflex / Gesture} > \text{Lyric-friendly Image} > \text{Procedural Mechanics / Raw Utilitarian Object}$$
 
 ---
 
