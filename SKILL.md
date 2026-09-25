@@ -63,9 +63,9 @@ Chuyển động section là chuyển động cảm xúc và âm nhạc, không 
 - **VERSE:** Mở thế giới cảm xúc bằng câu hát sống ngay trong khoảnh khắc — lời trực tiếp, chuyển động, hình ảnh hoặc trường cảm xúc tùy hạt mầm.
 - **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*lift/momentum*), tạo đà dẫn tự nhiên vào Chorus khi cần.
 - **CHORUS:** Nơi cảm xúc mở ra trọn vẹn nhất; hook và refrain cất lên giàu sức hát, sức nhớ, neo giữ tâm hồn người nghe.
-- **VERSE 2:** Đào sâu cảm xúc, tăng độ chân thật hoặc mở thêm góc nhìn mới.
-- **BRIDGE:** Mở thêm một góc cảm xúc mới, mâu thuẫn nội tâm, khoảng lặng, biến nghĩa hook hoặc lời thú nhận khi bài cần.
-- **FINAL CHORUS:** Trở về hook với tải trọng hoặc độ mở cảm xúc lớn hơn.
+- **VERSE 2:** Đào sâu lực hút/Tứ đang sống bằng hệ quả, biến nghĩa, độ gần hoặc một góc nhìn thật sự mở thêm nghĩa; không mặc định phải bịa thêm quá khứ hay vật liệu mới để bài "sâu hơn".
+- **BRIDGE:** Bẻ góc hoặc đổi tải trọng của điều đã sống trong bài — qua mâu thuẫn, lời thú nhận, khoảng lặng hoặc biến nghĩa hook khi cần; không mặc định nâng Tứ thành một kết luận hay bài giảng lớn hơn.
+- **FINAL CHORUS:** Trở về hook với tải trọng đã đổi hoặc sâu hơn; cao trào có thể đến từ độ thân mật, biến nghĩa hay dư vang, không cần phóng đại quy mô câu chữ.
 
 ## 5. Sửa nhanh / Chỉnh sửa cục bộ (Micro-Rewrite)
 
