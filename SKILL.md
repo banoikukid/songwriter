@@ -42,7 +42,7 @@ Bắt đầu từ hạt mầm sống mạnh nhất:
 - **Story / Narrative-first:** Chỉ lập Trục tự sự (2–5 beats vĩ mô) khi bài hát thực sự phụ thuộc vào thứ tự sự kiện (Event-Dependency: đổi thứ tự sự kiện làm thay đổi ý nghĩa bài hát); còn lại không lập kế hoạch trùng lặp.
 - **Bản nháp / Thơ:** Đọc thành tiếng $\rightarrow$ sửa trực tiếp hoặc chuyển nhịp thơ sang nhịp hát (`references/poem-to-song.md`).
 
-**Fast Path cho Brief mở/đơn giản:** `Hạt mầm sống → Hook / Cảm xúc trung tâm → Viết ngay`. Mặc định không nạp tài liệu tham chiếu WRITE chuyên sâu; không xuất dàn bài hay phân tích trung gian khi người dùng yêu cầu viết trọn bài (One-Shot Full Lyric).
+**Fast Path cho Brief mở/đơn giản:** Nếu hạt mầm đã đủ tự sinh chuyển động → `Hook / Cảm xúc trung tâm → Viết ngay`. Nếu brief mới chỉ có domain/cảm xúc nhưng chưa có quan hệ hay quy luật sinh nghĩa, nạp `references/idea-and-structure.md` cho **Light Tứ Discovery** rồi viết ngay khi một Tứ/Live Seed đã đủ Generate. Không xuất dàn bài, candidate set hay phân tích trung gian khi người dùng yêu cầu viết trọn bài (One-Shot Full Lyric).
 
 ## 3. Quá trình viết bản thô (Writer-Pass)
 

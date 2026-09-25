@@ -40,7 +40,7 @@ Vật liệu chỉ là phương tiện phục vụ cảm xúc, không phải ch�
 
 **Minimal Working Context cho Open / Simple Briefs:**
 Khi brief mở hoặc đơn giản (ví dụ: *"Viết ca khúc tình yêu nam nữ"* hoặc *"Người đàn ông về nhà gặp người yêu"*):
-- **Bỏ qua toàn bộ heavy machinery:** Không kích hoạt association engine, audition tables, camera arc, scale arc hay externalization contract.
+- **Bỏ qua heavy machinery:** Không kích hoạt full association engine, audition tables, camera arc, scale arc hay externalization contract.
 - **Không ép khuôn cứng 6 trường:** Chỉ mang những thông tin thật sự cần thiết:
   - `Emotional Intent`: Cảm xúc trung tâm cần làm người nghe rung động.
   - `Relationship` (nếu có): Ai với ai, mức độ gắn kết thế nào.
@@ -48,7 +48,9 @@ Khi brief mở hoặc đơn giản (ví dụ: *"Viết ca khúc tình yêu nam n
   - `Musical Constraint` (nếu đã biết): Nhịp điệu, tempo, không gian hòa âm.
   - `Movement` (nếu cần): Hướng vận động cảm xúc.
   - `Register`: Ngữ vực biểu đạt (đại chúng, mộc, hay thơ nhẹ).
-- **Nguyên tắc viết ngay:** Nếu hook và cảm xúc đã đủ $\rightarrow$ **VIẾT**. Nếu melody và phrase đã đủ $\rightarrow$ **VIẾT**. Không cần điền đủ mọi trường trước khi bắt đầu.
+- **Nguyên tắc viết ngay vs. Khám phá nhẹ:**
+  - Nếu hạt mầm (hook, phrase, melody, groove, tình thế hoặc quan hệ) đã đủ tự sinh chuyển động $\rightarrow$ **VIẾT NGAY**.
+  - Nếu brief mới chỉ có domain/cảm xúc (chưa có quy luật sinh nghĩa) $\rightarrow$ chỉ chạy **Light Tứ Discovery** ở hậu trường rồi viết ngay khi Tứ/Seed đã đủ Generate; không cần điền đủ mọi trường trước khi bắt đầu.
 
 Trước writer-pass:
 1. Giữ nguyên chữ chỉ với material user cấp hoặc motif user cho phép sáng tạo và khóa lại.
@@ -123,31 +125,54 @@ COMPLETE ROUGH SONG (hoàn thành bản thô trước khi soi vi mô)
 
 ## 3. Sinh và chọn Tứ linh hoạt
 
-Tứ là **trục sinh bài / góc cảm xúc tạo sinh (generative angle)** khi cần làm rõ bản sắc bài hát. Tứ trả lời: *"Góc cảm xúc nào đang làm bài này có lý do để được hát?"*
+Tứ là **trục hoặc quy luật tạo sinh (generative relation / law)** khiến cảm xúc, carrier, hook và các lần trở lại có thể tiếp tục sinh nghĩa trong suốt bài hát. Tứ trả lời câu hỏi cốt lõi: *"Quan hệ nào đang làm bài này biết cách tiếp tục mà không cần liên tục bịa thêm nội dung hay đạo cụ?"*
 - Tứ **KHÔNG BẮT BUỘC** phải là artifact xuất bản riêng cho mọi bài hát.
 - Tứ có thể khám phá trước khi viết, hoặc phát hiện ra từ hook, giai điệu, không gian âm nhạc, hay từ bản nháp đầu tiên.
 - **FAMILIAR ≠ WEAK:** Tứ không cần độc đáo, kỳ dị hay săn tìm novelty bề mặt; sự quen thuộc chạm đến cảm xúc thật luôn có sức mạnh lớn.
 - Tứ không phải bản luận đề (thesis statement), không phải tóm tắt cốt truyện hay dàn bài từng đoạn.
+- **DOMAIN / EMOTION ≠ GENERATIVE SEED:** Một brief như *"tình yêu say đắm"*, *"nỗi nhớ nhà"*, *"buồn man mác"* mới chỉ định vị vùng cảm xúc (emotional territory), nhưng chưa chắc đã chứa cơ chế hay quy luật tạo sinh để nuôi sống trọn vẹn một ca khúc. Cần phân biệt rõ cảm xúc mong muốn với hạt mầm tạo sinh thực sự.
 
-### INSTANT COMPOSITION PATH — Fast Path cho Open / Simple Brief
+### GENERATIVE READINESS & LIGHT TỨ DISCOVERY — Fast Path cho Open / Simple Brief
 
-Áp dụng ngay khi đề bài thỏa mãn điều kiện:
+Áp dụng cho brief mở hoặc đơn giản để xác định thời điểm bắt đầu viết:
+
 ```text
-OPEN + CLEAR DOMAIN + NO MATERIAL + NO SPECIAL EXPRESSION TARGET
-(Ví dụ: "Viết một ca khúc tiếng Việt về tình yêu nam nữ", "Viết bài hát về nỗi nhớ nhà"...)
+BRIEF / LIVE SEED
+        ↓
+HẠT MẦM ĐÃ ĐỦ TẠO SINH (GENERATIVE)?
+   ├─ CÓ → VIẾT SỚM (WRITE EARLY)
+   └─ CHƯA (Mới chỉ có domain/cảm xúc)
+        ↓
+LIGHT TỨ DISCOVERY (Hậu trường)
+        ↓
+LIÊN TƯỞNG ƯU TIÊN QUAN HỆ (Relation-First)
+        ↓
+TÁCH GỐC CANDIDATES NẾU CẦN (2–4 distinct-root)
+        ↓
+THỬ SỨC PHÁT TRIỂN (Development Probe)
+        ↓
+CHỌN BẰNG TÍNH TẠO SINH (Select by Generativity)
+        ↓
+HẠT MẦM SỐNG / CORE SONG MOMENT
+        ↓
+VIẾT (WRITE)
 ```
 
-**Không chạy quy trình nặng:** Tuyệt đối không làm dissertation về Tứ, không ép sinh 4–6 giả thuyết, không khử skeleton, không closure hay so sánh cặp.
+#### 1. Độ sẵn sàng tạo sinh (Generative Readiness)
+- **A. ALREADY GENERATIVE (Hạt mầm đã đủ sức sinh):** Khi hook, phrase, giai điệu, groove, tình thế hay quan hệ đã chứa đủ chuyển động nội tại để tạo ra một Core Song Moment và ít nhất một lần trở lại, biến đổi, đào sâu hoặc sustain có nghĩa $\rightarrow$ **VIẾT SỚM (Write Early)**. Tuyệt đối không ép phân tích Tứ hay bày ra các bước trung gian.
+- **B. DOMAIN / EMOTION ONLY (Mới chỉ có miền cảm xúc):** Khi brief chỉ cho biết vùng cảm xúc nhưng chưa có quan hệ hay quy luật sinh nghĩa $\rightarrow$ kích hoạt **Light Tứ Discovery** ở hậu trường. Không nhảy vội vào full lyric khi hạt mầm chưa đủ Generate, tránh tình trạng ca từ chỉ là danh mục liệt kê cảnh vật và đạo cụ quen thuộc.
 
-**Quy trình hội tụ tức thì & Viết sớm (Write Earlier):**
-```text
-HẠT MẦM SỐNG (Cảm xúc / Hook / Giai điệu)
-       ↓
-HƯỚNG CẢM XÚC CHÍNH (Emotional Direction)
-       ↓
-VIẾT NGAY BẢN THÔ (Bắt đầu từ Chorus, Hook hoặc Verse)
-```
-*Tôn chỉ:* Brief càng mở thì Writer càng cần tự do. Bỏ qua association search để viết từ sự thật cảm xúc chân thực nhất.
+#### 2. Quy trình Light Tứ Discovery (Khám phá Tứ gọn nhẹ)
+Quy trình này giữ tinh thần tối giản, tuyệt đối không biến thành worksheet, ma trận chấm điểm hay quy trình nặng nề:
+- **A. Liên tưởng ưu tiên quan hệ (Relation-First Association):** Mở rộng các QUAN HỆ trước khi nhặt danh từ/đạo cụ. Khám phá các chiều hướng như: điều gì đổi / điều gì còn; điều gì tăng / điều gì giảm; điều gì lặp lại nhưng đổi nghĩa; điều gì giằng co với điều gì; ngưỡng giới hạn; khoảng cách; hệ quả; đảo chiều; sự bền bỉ; hay sự chuyển hóa. Không bắt đầu bằng việc gom góp danh từ đẹp, đạo cụ, thời tiết hay ẩn dụ làm dáng.
+- **B. Liên tưởng có tầng bậc (Layered Association):** Cho phép liên tưởng đi sâu hơn một bước (`cảm xúc → áp lực quan hệ → hệ quả → quan hệ sâu hơn → quy luật tạo sinh`). Không cố định số tầng, dừng lại ngay khi xuất hiện một quan hệ tạo sinh sống. Liên tưởng xa chỉ hợp lệ khi từng bước có cầu nối cảm xúc/nghĩa tin cậy; tránh nhảy cóc sang hình ảnh thi vị ngẫu nhiên.
+- **C. Nhãn engine chỉ nhận diện sau khám phá (Labels Come After Discovery):** Tuyệt đối không chọn trước họ engine (PARADOX, CYCLE, RETURN, METAPHOR, FIELD, TRANSFORMATION...) rồi mới điền nội dung vào khuôn. Phân loại chỉ dùng để hiểu hậu trường sau khi candidate đã thành hình; hệ thống luôn tự do đón nhận các quy luật không nằm trong menu định danh sẵn.
+- **D. Tách gốc candidate nếu cần (Distinct-Root Fan-Out):** Nếu một hạt mầm mạnh xuất hiện ngay $\rightarrow$ DỪNG TÌM KIẾM VÀ VIẾT NGAY. Nếu còn nhiều hướng sống, có thể phác nhanh 2–4 candidate (không phải quota cứng). Các candidate phải khác nhau ở quan hệ tạo sinh bên dưới (distinct roots), không phải chỉ là đổi cách diễn đạt hay thay đổi câu chữ cho cùng một cơ chế.
+- **E. Thử sức phát triển trước khi chọn (Development Probe Before Selection):** Không chọn candidate chỉ vì câu pitch nghe thông minh. Thử nhanh xem candidate có tự nhiên: trở lại, đổi tải trọng cảm xúc, đào sâu, chuyển hóa, duy trì (sustain), tạo core hook/refrain, và tạo chuyển động section mà không cần liên tục viện thêm đạo cụ, sự kiện hay lời giải thích. Không viết storyboard chi tiết từng đoạn; probe chỉ kiểm tra sức sinh nghĩa.
+- **F. Chọn bằng tính tạo sinh (Select by Generativity):** Tiêu chí chọn chính: độ tin cậy cảm xúc, độ khớp brief/âm nhạc, khả năng tạo Core Song Moment, tiềm năng trở lại/phát triển, khả năng sống trong ca từ mà không cần giải thích cơ chế. Sự mới lạ (freshness) chỉ là thứ yếu, không chọn phương án kỳ lạ nhất chỉ để tránh quen thuộc (`FAMILIAR ≠ WEAK`). Nếu Light Tứ Discovery không giúp bài hay hơn hạt mầm trực tiếp $\rightarrow$ BỎ CÔNG CỤ VÀ VIẾT THẲNG.
+
+#### 3. Bảo lưu tính hợp lệ của Field / Sustain
+Một Tứ mạnh không bắt buộc phải chứa cốt truyện, cú lật (twist), nghịch lý hay bài học nhận thức. Tứ có thể tạo ra một không gian/trường cảm xúc (field/sustain) nơi vật liệu ngân vang, tích lũy độ nặng, trở lại khác đi hoặc cùng xoay quanh một lực hút cảm xúc. Không ép mọi ca khúc phải đi theo công thức `A nhưng B` hay `A nhận ra B`.
 
 ### CÁC CÔNG CỤ NÂNG CAO KHI CẦN (Advanced / On-Demand Tools)
 
