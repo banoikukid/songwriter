@@ -28,7 +28,7 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 - **Tiếng Việt tự nhiên & giàu nhạc tính:** Lời ca tự nhiên, cô đọng, giàu nhạc tính và miệng hát tin cậy; lắng đọng và đẹp hơn lời nói thường ngày nhưng không làm dáng (*"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế"*). Cú pháp ca từ được phép tỉnh lược, song hành, lặp, ngắt hoặc đảo nhẹ khi nghĩa vẫn rõ, tiếng Việt vẫn tự nhiên và âm hình có thêm lực.
 - **Ca từ sống bằng cảm xúc (Lyric Experience):** Để cảm xúc tự sống qua câu hát, hook, nhịp lặp và chuyển động section; không cần vận hành bài hát như một chuỗi luận điểm chứng minh.
 - **Ngoại hiện cảm xúc & agency:** Writer có thể phân bố chuyển động cảm xúc giữa người hát và thế giới của bài; thời gian, không gian, âm thanh, ánh sáng, hình tượng hoặc nhịp cú pháp có thể cùng gánh cảm xúc khi tự nhiên. Người hát không cần giữ mọi động từ; lời trực diện vẫn hoàn toàn hợp lệ khi đó là câu hát mạnh nhất.
-- **Dòng chảy ca từ & liên kết câu:** Viết theo cụm câu có lực kéo liên tục thay vì các dòng thông tin đứng riêng. Mỗi câu nên đẩy, đáp, nối, biến đổi hoặc tạo điểm rơi cho câu bên cạnh để section trôi như một phrase âm nhạc.
+- **Dòng chảy ca từ & trường cảm xúc:** Viết cả cụm như một hơi nhạc và một không gian cảm xúc liên tục, không như chuỗi dòng lần lượt bổ sung thông tin. Các câu có thể nối, ngân, lặp biến thể, bỏ lửng hoặc cùng xoay quanh một lực hút; không cần mỗi dòng phải đẩy ý tiến. Để người nghe được ở trong cảm giác trước khi đưa họ sang điều tiếp theo.
 
 ## 2. Cửa vào thích nghi & Lối viết nhanh (Adaptive Entry & Fast Path)
 
