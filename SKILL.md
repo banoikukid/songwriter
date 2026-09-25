@@ -98,7 +98,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 | **Xuất / Khắc phục Suno** | Mặc định đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets). Không tự động nạp cùng sidecar; chỉ đọc `references/suno-handoff.md` khi thực sự cần compatibility / quick-handoff. |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
-- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Hạt mầm sống → Hook / Cảm xúc trung tâm → Viết ngay` (hoàn toàn không yêu cầu artifact Cốt hay Dàn bài trùng lặp; Tứ có thể khám phá trước hoặc sau khi viết). Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc concept sâu, bài hát thực sự phụ thuộc tự sự cần Trục tự sự, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
+- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Hạt mầm sống → Hook / Cảm xúc trung tâm → Viết ngay` (hoàn toàn không yêu cầu artifact Trục tự sự hay Dàn bài trùng lặp; Tứ có thể khám phá trước hoặc sau khi viết). Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc concept sâu, bài hát thực sự phụ thuộc tự sự cần Trục tự sự, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
 - **Genre / Lane đã xác định (Ballad, Bolero, Indie, R&B...):** Tùy chọn nạp `references/vietnamese-style-dna.md` làm nền tảng định vị soundscape và nhả chữ; Writer vẫn hoàn toàn tự do sáng tác.
 - **Brief chỉ nói chung chung ("Viết nhạc Việt"):** Không auto chọn V-Pop. Đối chiếu cảm xúc/ngữ vực để chọn lane phù hợp (trưởng thành $\rightarrow$ Ballad/Acoustic; trẻ trung $\rightarrow$ V-Pop/R&B; hoài niệm $\rightarrow$ Bolero/Trữ tình).
 - **Ca từ có số, tiếng Anh, viết tắt hoặc cần hát chuẩn AI:** Nạp `references/vietnamese-spoken-form.md` để chẩn đoán rủi ro phát âm mà không làm bẩn bản hiển thị.
@@ -107,7 +107,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 **Viết sớm & Hội tụ linh hoạt (Write Earlier & Flexible Convergence):**
 - **Viết sớm (Write Earlier):** Tìm thấy hạt mầm sống $\rightarrow$ Viết ngay để khám phá bài hát. Không bắt buộc phải viết từ Verse 1; Writer có thể bắt đầu từ Chorus, hook, refrain hay một Verse tùy theo hạt mầm mạnh nhất. Hoàn thành đủ một rough pass để nghe hành vi bài hát trước khi soi xét vi mô.
 - **Trục tự sự (Narrative Spine) — Công cụ có điều kiện:** Thay thế hoàn toàn "Cốt" trong luồng toàn cục. Chỉ kích hoạt khi thỏa mãn **Event-Dependency Test**: *"Nếu bỏ hoặc đảo thứ tự các sự kiện, ý nghĩa / payoff của bài có đổi không?"* Nếu CÓ $\rightarrow$ lập Trục tự sự (2–5 beats vĩ mô). Nếu KHÔNG $\rightarrow$ không lập trục tự sự. Nếu người dùng yêu cầu rõ "Cốt", "cốt truyện", "storyline" thì gọi là Cốt theo từ vựng của user.
-- **Chống lập kế hoạch trùng lặp (No Duplicate Planning):** Nếu hạt mầm cảm xúc + hook + section guidance đã đủ định hình một ca khúc mạch lạc, tuyệt đối không lập thêm artifact Cốt hay dàn bài diễn giải trùng lặp.
+- **Chống lập kế hoạch trùng lặp (No Duplicate Planning):** Nếu hạt mầm cảm xúc + hook + section guidance đã đủ định hình một ca khúc mạch lạc, tuyệt đối không lập thêm artifact Trục tự sự hay dàn bài diễn giải trùng lặp.
 - **One-Shot Full Lyric:** Khi người dùng yêu cầu sáng tác trọn bài trong một lượt, không xuất các bảng phân tích trung gian riêng rẽ trừ khi người dùng chủ động yêu cầu.
 
 ## 4. Quá trình viết bản thô (Writer-Pass)
@@ -129,7 +129,7 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 - **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*pressure/lift*), tạo đà mong chờ cho sự thật sắp hé mở (không bắt buộc bài nào cũng phải có).
 - **CHORUS:** Nơi giải phóng cảm xúc (*emotional release*), kết tinh **sự thật cảm xúc giản dị và sâu sắc nhất (simplest emotional truth)**; chứa hook mang danh tính cảm xúc (*emotional identity*); tránh viết thành luận đề (*không X mà Y, không cần X vì có Y*).
 - **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc góc nhìn mới; tránh lặp lại cơ chế hay chỉ đổi sang một địa điểm khác.
-- **BRIDGE:** Khoảnh khắc thú nhận (*confession*), góc nhìn mới (*new angle*), mâu thuẫn cảm xúc (*contradiction*) hoặc bước ngoặt cảm xúc (*turn*); tránh biến thành bài thuyết trình so sánh triết lý (*Người ta thường... nhưng nhìn em anh mới hiểu...*).
+- **BRIDGE:** Nếu bài cần Bridge, đây có thể là góc nhìn mới (*new angle*), mâu thuẫn cảm xúc (*contradiction*), khoảng lặng, biến nghĩa hook hoặc một lời thú nhận (*confession*); không bắt buộc phải có bước ngoặt hay confession; tránh biến thành bài thuyết trình triết lý hay tự chẩn đoán tâm lý.
 - **FINAL CHORUS:** Trở về hook với ý nghĩa hoặc trạng thái cảm xúc đã biến chuyển sâu sắc hơn (*return to hook with changed meaning / deeper emotional state*); ưu tiên leo thang độ thân mật (*intimacy escalation*), tránh phóng đại từ ngữ vĩ mô (*Big-Word Escalation*).
 
 > [!IMPORTANT]
@@ -144,7 +144,7 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 ## 5. Sửa nhanh / Chỉnh sửa cục bộ (Micro-Rewrite)
 
 Khi người dùng chỉ yêu cầu sửa 2–4 câu, đổi vần, thay từ hoặc làm mượt một đoạn:
-- Tuyệt đối không chạy lại Tứ, Cốt hay quy trình Discovery từ đầu.
+- Tuyệt đối không chạy lại toàn bộ quy trình Discovery từ đầu.
 - Sửa trực tiếp tại chỗ theo thứ tự ưu tiên: **Tiếng Việt tự nhiên > Sáng nghĩa > Nhịp điệu, điểm rơi và vần**.
 - Đưa ra mặc định dòng gốc (Option 0) + tối đa 2 phương án tinh gọn (hoặc lên đến 3 nếu người dùng chủ động yêu cầu).
 
