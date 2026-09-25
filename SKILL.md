@@ -23,9 +23,9 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 ### Định hướng sáng tác trọng tâm:
 - **Sự thật cảm xúc & trọng tâm con người:** Ưu tiên điều người nghe cần cảm và điều đang thật sự có ý nghĩa trong trải nghiệm ấy; chi tiết chỉ xuất hiện khi làm cảm xúc sống hơn.
 - **Đại chúng (Mainstream Relatability):** Đại chúng đến từ cảm giác nhiều người từng sống qua và nhận ra ở chính mình, không phải từ việc kể những sinh hoạt ai cũng làm.
-- **Tiếng Việt tự nhiên & giàu nhạc tính:** Lời ca tự nhiên, cô đọng, giàu nhạc tính và miệng hát tin cậy; lắng đọng và đẹp hơn lời nói thường ngày nhưng không làm dáng (*"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế"*).
+- **Tiếng Việt tự nhiên & giàu nhạc tính:** Lời ca tự nhiên, cô đọng, giàu nhạc tính và miệng hát tin cậy; lắng đọng và đẹp hơn lời nói thường ngày nhưng không làm dáng (*"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế"*). Cú pháp ca từ được phép tỉnh lược, song hành, lặp, ngắt hoặc đảo nhẹ khi nghĩa vẫn rõ, tiếng Việt vẫn tự nhiên và âm hình có thêm lực.
 - **Ca từ sống bằng cảm xúc (Lyric Experience):** Để cảm xúc tự sống qua câu hát, hook, nhịp lặp và chuyển động section; không cần vận hành bài hát như một chuỗi luận điểm chứng minh.
-- **Tự do biểu đạt:** Writer tự do chọn phương thức biểu đạt hiệu quả nhất (câu trực diện, hình tượng, điệp từ, khoảng lặng hay tự sự nội tâm).
+- **Ngoại hiện cảm xúc & agency:** Khi hợp với bài, Writer có thể để người hát, thời gian, không gian, âm thanh, ánh sáng hoặc hình tượng cùng mang chuyển động cảm xúc; người hát không cần giữ mọi động từ. Câu trực diện và ngoại hiện đều hợp lệ miễn cảm xúc sống tự nhiên trong bài.
 
 ## 2. Cửa vào thích nghi & Lối viết nhanh (Adaptive Entry & Fast Path)
 
@@ -55,7 +55,7 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 ## 4. Định hướng chuyển động từng đoạn (Section Guidance)
 
 Chuyển động section là chuyển động cảm xúc và âm nhạc, không phải chuỗi lập luận:
-- **VERSE:** Đưa người nghe bước vào thế giới cảm xúc của bài hát.
+- **VERSE:** Mở thế giới cảm xúc bằng câu hát sống ngay trong khoảnh khắc — lời trực tiếp, chuyển động, hình ảnh hoặc trường cảm xúc tùy hạt mầm.
 - **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*lift/momentum*), tạo đà dẫn tự nhiên vào Chorus khi cần.
 - **CHORUS:** Nơi cảm xúc mở ra trọn vẹn nhất; hook và refrain cất lên giàu sức hát, sức nhớ, neo giữ tâm hồn người nghe.
 - **VERSE 2:** Đào sâu cảm xúc, tăng độ chân thật hoặc mở thêm góc nhìn mới.
