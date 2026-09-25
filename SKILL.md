@@ -21,7 +21,7 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 ```
 
 ### Định hướng sáng tác trọng tâm:
-- **Sự thật cảm xúc & quan hệ:** Ưu tiên cảm xúc và mối quan hệ đang sống; chi tiết chỉ xuất hiện khi thực sự làm cảm xúc sống hơn, không tìm kiếm chi tiết để làm bằng chứng chứng minh.
+- **Sự thật cảm xúc & trọng tâm con người:** Ưu tiên điều người nghe cần cảm và điều đang thật sự có ý nghĩa trong trải nghiệm ấy; chi tiết chỉ xuất hiện khi làm cảm xúc sống hơn.
 - **Đại chúng (Mainstream Relatability):** Đại chúng đến từ cảm giác nhiều người từng sống qua và nhận ra ở chính mình, không phải từ việc kể những sinh hoạt ai cũng làm.
 - **Tiếng Việt tự nhiên & giàu nhạc tính:** Lời ca tự nhiên, cô đọng, giàu nhạc tính và miệng hát tin cậy; lắng đọng và đẹp hơn lời nói thường ngày nhưng không làm dáng (*"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế"*).
 - **Ca từ sống bằng cảm xúc (Lyric Experience):** Để cảm xúc tự sống qua câu hát, hook, nhịp lặp và chuyển động section; không cần vận hành bài hát như một chuỗi luận điểm chứng minh.
@@ -45,7 +45,7 @@ Viết trọn vẹn một rough pass để giữ đà cảm xúc trước khi so
 
 ### Bốn phanh tối thượng của Writer (Danh mục đóng duy nhất)
 Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soát của **duy nhất 4 phanh bắt buộc**:
-1. **Đúng cảm xúc & quan hệ trung tâm:** Bài đang làm người nghe rung động điều gì, giữa ai với ai?
+1. **Đúng cảm xúc & trọng tâm con người:** Bài đang làm người nghe rung động điều gì, và điều gì trong trải nghiệm ấy thực sự có ý nghĩa?
 2. **Tiếng Việt tự nhiên:** Đúng khẩu khí đời thực trong ngữ vực của bài ca, giàu nhạc tính, không đảo ngữ gượng gạo.
 3. **Nghĩa > Vần:** Ý nghĩa, hình tượng và nhịp thở luôn đi trước; vần chỉ là chất keo kết dính, không vì ép vần mà méo câu.
 4. **Provenance & Điểm nhìn (POV):** Tôn trọng phạm vi quan sát của nhân vật; không tự bịa quyền biết chắc nội tâm người khác.
@@ -55,12 +55,12 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 ## 4. Định hướng chuyển động từng đoạn (Section Guidance)
 
 Chuyển động section là chuyển động cảm xúc và âm nhạc, không phải chuỗi lập luận:
-- **VERSE:** Đưa người nghe bước vào thế giới cảm xúc hoặc hoàn cảnh quan hệ của bài hát.
+- **VERSE:** Đưa người nghe bước vào thế giới cảm xúc của bài hát.
 - **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*lift/momentum*), tạo đà dẫn tự nhiên vào Chorus khi cần.
 - **CHORUS:** Nơi cảm xúc mở ra trọn vẹn nhất; hook và refrain cất lên giàu sức hát, sức nhớ, neo giữ tâm hồn người nghe.
-- **VERSE 2:** Đào sâu cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc mở thêm góc nhìn mới.
+- **VERSE 2:** Đào sâu cảm xúc, tăng độ chân thật hoặc mở thêm góc nhìn mới.
 - **BRIDGE:** Mở thêm một góc cảm xúc mới, mâu thuẫn nội tâm, khoảng lặng, biến nghĩa hook hoặc lời thú nhận khi bài cần.
-- **FINAL CHORUS:** Trở về hook với tải trọng cảm xúc đã biến chuyển sâu sắc hơn; ưu tiên leo thang độ thân mật.
+- **FINAL CHORUS:** Trở về hook với tải trọng hoặc độ mở cảm xúc lớn hơn.
 
 ## 5. Sửa nhanh / Chỉnh sửa cục bộ (Micro-Rewrite)
 
