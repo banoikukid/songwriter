@@ -9,9 +9,10 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 
 ## 1. Triết lý sáng tác cốt lõi (Creative North Star)
 
-> **"STRUCTURE SERVES THE EMOTION, NOT THE OTHER WAY AROUND."**  
-> Cấu trúc phục vụ cảm xúc, không phải cảm xúc phục vụ cấu trúc. Mọi quy tắc (*Show don't tell, contrast, rhyme, form*) chỉ là **chỉ dẫn (guidelines, not rules)**. Ca từ phải làm người nghe cảm được sự thật tâm hồn của nhân vật. Nếu một chi tiết, kỹ thuật hay hình ảnh chỉ làm bài có vẻ “thơ” nhưng không làm cảm xúc tiến lên: **bỏ nó**.  
-> *(Mnemonic: Đừng mô tả tình yêu. Hãy làm người nghe cảm thấy tình yêu. Emotion first. Lyric second. Technique third.)*
+> **"STRUCTURE SERVES THE EMOTION, NOT THE OTHER WAY AROUND."**
+> **"THE SONG DOES NOT NEED TO EARN PERMISSION TO BE WRITTEN."**
+> Cấu trúc phục vụ cảm xúc, không phải cảm xúc phục vụ cấu trúc. Ngay khi có một hạt mầm sống (Live Seed) với đủ hướng cảm xúc hoặc âm nhạc, Writer được quyền viết ngay để khám phá bài hát. Kế hoạch chỉ tồn tại khi nó bổ sung thông tin mà bài hát chưa có. Mọi quy tắc (*Show don't tell, contrast, rhyme, form*) chỉ là **chỉ dẫn (guidelines, not rules)**.
+> *(Nguyên tắc tối thượng: EVERY PLANNING ARTIFACT MUST EARN ITS EXISTENCE. Nếu hook đã mở ra bài hát → không ép worksheet Tứ; nếu hướng cảm xúc đã rõ → không vẽ Trục tự sự; nếu mạch viết đang trôi → không dừng lại dán nhãn speech act; nếu lời trực tiếp đã chạm → không bịa ẩn dụ).*
 
 ### Mô hình tư duy 3 bước của Writer:
 ```text
@@ -23,50 +24,58 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 ```
 *Material-to-Emotion Bridge đảo ngược: `emotion → cần biểu đạt gì → material có giúp không? (có thì dùng, không thì bỏ)`. Tuyệt đối không bắt đầu bằng việc kiểm kê đồ đạc hay tự động vẽ ra danh mục phố xá.*
 
-### Phân định cấp độ chi tiết (Specificity Hierarchy):
+### Phân định cấp độ chi tiết & Phóng chiếu người nghe (Specificity & Listener Projection):
 $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text{BEHAVIOR SPECIFICITY}$$
 - **Emotional & Lyric Specificity (Linh hồn - Ưu tiên cao nhất):** Sự thật cảm xúc chuẩn xác và câu hát đắt giá mang tải trọng cảm xúc đó.
 - **Relationship Specificity (Chiều sâu):** Điều mang ý nghĩa riêng đối với hai người (thói quen ngầm, khoảng lặng, sự thấu hiểu).
 - **Behavior Specificity (Phụ trợ tùy chọn):** Cử chỉ, hành vi cụ thể; chỉ giữ lại nếu bộc lộ sự thật cảm xúc lớn hơn, không thay thế cho tình yêu.
+- **Specificity ≠ Biographical Completeness:** Sự chân thật cảm xúc không đồng nghĩa với hồ sơ tự sự đầy đủ. Không cần kiểm kê đồ đạc, thời gian biểu hay bối cảnh vụn vặt; người nghe cần khoảng trống để phóng chiếu trải nghiệm của chính họ (**"Đủ để cảm, không cần đủ để lập hồ sơ nhân vật"**).
+- **Phóng chiếu người nghe (Mainstream Pop/Ballad Heuristic):** *"Đủ riêng để thật, đủ mở để người nghe thấy mình."* Verse có thể mang chi tiết riêng của nhân vật; Chorus thường mở để người nghe có thể hát như chính tiếng lòng của họ mà không cần thuộc lòng tiểu sử nhân vật. (Đây là chỉ dẫn craft, tuyệt đối không biến thành Projection Gate hay thang điểm).
 
 ### Tự do cho Writer-pass & Chống máy móc:
-- **Tự do lựa chọn phương thức biểu đạt (Hermes & regiellis):** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: *câu trực diện (direct declaration), hình ảnh, hành động, tương tác, ẩn dụ, lặp từ, khoảng lặng, hoặc câu tự sự nội tâm*. Câu trực diện như *"Anh yêu em đến mức chẳng còn muốn đi đâu nữa"* có giá trị ca từ cao khi chân thật và đúng điểm rơi. Không cố ép câu trực tiếp thành ẩn dụ gượng gạo.
+- **Lyrical Naturalness ≠ Raw Conversation:** Tiếng Việt tự nhiên trong ca từ KHÔNG đồng nghĩa với chép nguyên văn đàm thoại đời thường. Lời hát tự nhiên có thể cô đọng, giàu nhạc tính, ngân vang và đẹp hơn lời nói hàng ngày nhưng miệng hát tin cậy, không làm dáng. Người nghe cảm thấy: *"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế."* Tránh cả văn xuôi trần trụi lẫn thơ hoa mỹ sáo rỗng.
+- **Tự do lựa chọn phương thức biểu đạt:** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: câu trực diện (direct declaration), hình ảnh, tương tác, lặp từ, khoảng lặng, hay câu tự sự nội tâm. Không bắt bài hát phải luôn là đối thoại, câu hỏi hay lời thú nhận; câu tuyên ngôn, hình tượng hoặc điệp khúc giai điệu đều là lối đi hợp lệ. Immediate Utterance chỉ là công cụ cứu cánh tùy chọn khi lời ca bị trừu tượng/luận đề, không phải khâu trung gian bắt buộc cho mọi ca khúc.
 - **Song, Not Prose (NuNaught):** Viết để hát chứ không chỉ để đọc. Ưu tiên nhịp thở tự nhiên (singable phrasing), dấu thanh ăn khớp ngữ điệu (natural stress), ngắt dòng có chủ ý. Vần là chất keo hỗ trợ, không phải chiếc lồng giam câu chữ.
-- **1–3 Human Details (Guidance, không áp quota):** Mỗi bài có thể có 1–3 chi tiết người thật nhớ được (cử chỉ, thói quen, cách gọi riêng). Không ép mỗi Verse phải có đồ vật; không biến việc chọn chi tiết thành worksheet. Chi tiết chỉ tồn tại nếu giúp người nghe cảm sâu hơn điều bài hát đang nói.
-- **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe (có thể đứng độc lập như một câu hát lay động). Các câu này có thể tập trung ở Chorus hoặc phân bố tự nhiên theo dòng cảm xúc; tuyệt đối không ép mỗi section phải có quota một câu "làm thơ".
-- **Minimal Packet cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ truyền: *central intent, relationship, emotional movement, section guidance, hook/payoff, register*.
+- **1–3 Human Details (Guidance, không áp quota):** Mỗi bài có thể có 1–3 chi tiết người thật nhớ được. Không ép mỗi Verse phải có đồ vật; không biến việc chọn chi tiết thành worksheet. Chi tiết chỉ tồn tại nếu giúp người nghe cảm sâu hơn điều bài hát đang nói.
+- **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe. Không ép quota cơ học cho bất kỳ section nào.
+- **Minimal Working Context cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ mang những gì bài thật sự cần: *cảm xúc trung tâm, quan hệ nếu có, hook/phrase nếu đã biết, ràng buộc âm nhạc nếu có, chuyển động nếu cần, register*. Nếu hook và cảm xúc đã đủ → VIẾT. Nếu melody và phrase đã đủ → VIẾT.
 
 ## 2. Kiến trúc Vietnamese-First Music Intelligence & Kỷ luật phân tách vai trò
 
 ```text
-                    USER BRIEF
-                        │
-                        ▼
-                CENTRAL EMOTION (Tối cao, không thể bị ghi đè)
-                        │
-                        ▼
-                    TỨ + HOOK
-                        │
-                        ▼
-                 VIETNAMESE WRITER ◄─── [Vietnamese Style DNA & Corpus Profile (Background)]
-                        │
-                        ▼
-                    ROUGH LYRIC
-                        │
-             ┌──────────┼──────────┐
-             ▼          ▼          ▼
-         LANGUAGE     LYRIC     MUSIC-FIT / PROSODY
-          REVIEW      REVIEW     REVIEW (Spoken Form Diagnostics)
-             │          │          │
-             └──────────┼──────────┘
-                        ▼
-                  TARGETED PATCH
-                        │
-                        ▼
-                    FINAL LYRIC
+             ADAPTIVE ENTRY (Feeling / Hook / Melody / Track / Story / Lyric)
+                                  │
+                                  ▼
+                            LIVE SONG SEED
+                                  │
+                                  ▼
+                           CORE SONG MOMENT
+            (Hook / phrase / melody / emotional truth / refrain)
+                                  │
+                                  ▼
+                          EMOTIONAL DIRECTION
+                                  │
+                                  ▼
+                   VIETNAMESE WRITER (Write / Discover)
+                     (Bắt đầu từ đoạn có hạt mầm mạnh nhất)
+                                  │
+                                  ▼
+                             ROUGH LYRIC
+                                  │
+                   ┌──────────────┼──────────────┐
+                   ▼              ▼              ▼
+                LANGUAGE        LYRIC         MUSIC-FIT
+                 REVIEW         REVIEW         REVIEW
+                   │              │              │
+                   └──────────────┼──────────────┘
+                                  ▼
+                            TARGETED PATCH
+                                  │
+                                  ▼
+                             FINAL LYRIC
 ```
 
-- **Tầng Cảm Xúc Trung Tâm (Central Authority):** Cảm xúc trung tâm và Tứ luôn giữ quyền tối cao; không một lớp kiến thức hay kỹ thuật nào được phép ghi đè.
+- **Tầng Cảm Xúc Trung Tâm (Central Authority):** Cảm xúc trung tâm luôn giữ quyền tối cao; không một lớp kiến thức hay kỹ thuật nào được phép ghi đè. Tứ là góc nhìn cảm xúc tạo sinh giúp làm rõ bản sắc bài hát khi cần, không phải thủ tục hành chính bắt buộc cho mọi ca khúc.
 - **Tầng Tri Thức Nền Tảng (Background Knowledge):** `Vietnamese Style DNA` và `Vietnamese Corpus Profile` định vị không gian âm nhạc và kiểm tra độ hợp lý (sanity check); tuyệt đối không biến thành công thức viết lời hay bộ chỉ tiêu cứng.
 - **Tầng Chẩn Đoán Hậu Kỳ (Diagnostic Knowledge):** `Spoken Form` và `Prosody Review` hoạt động như công cụ tham vấn sau khi bản thô hoàn thành; không tự động viết lại (rewrite mặc định) câu chữ của tác giả khi chưa có nguy cơ phát âm thực tế.
 - `SKILL.md = Routing + Hiến pháp Runtime + 4 Phanh + Điều kiện dừng` (ngắn gọn, khung điều hướng thường trực).
@@ -77,25 +86,29 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 
 | Cửa vào (Input) | Lối xử lý (Discovery Route) |
 |---|---|
-| **Sửa vài câu / Polish** | Sửa trực tiếp tại chỗ theo lane Micro-rewrite; không chạy lại Tứ hay Cốt. |
-| **Đề tài / Ý tưởng / Title** | Tìm hạt mầm cảm xúc (Seed) $\rightarrow$ Tứ $\rightarrow$ Emotional Movement (Cốt tùy chọn nếu cần biến chuyển tự sự); chạy DOMAIN-SENSE nếu title đa nghĩa. |
-| **Melody / Demo mộc** | Khóa phrase, biên hơi và âm vực rồi dệt lời theo giai điệu (`references/music-sketch-and-demo.md`). |
-| **Groove / Beat / Chords** | Lắng nghe chuyển động nhịp và không gian hòa âm để tìm cảm xúc chủ đạo. |
-| **Bản nháp lời có sẵn** | Đọc thành tiếng $\rightarrow$ chẩn ngược Tứ, chuyển động cảm xúc / Cốt (nếu có) và payoff; sửa gốc trước khi sửa chữ. |
+| **Feeling / Mood-first** | Cảm giác / không gian âm nhạc $\rightarrow$ phrase $\rightarrow$ hook $\rightarrow$ viết ngay để khám phá; chỉ formalize Tứ nếu bản nháp bị lạc. |
+| **Title / Hook-first** | Title / hook có sức hút cảm xúc $\rightarrow$ thử sức kéo $\rightarrow$ Chorus / core section $\rightarrow$ dệt các đoạn nâng đỡ (Tứ có thể phát hiện sau hook). |
+| **Melody / Topline-first** | Contour, âm vực, phrase $\rightarrow$ dệt lời theo giai điệu (`music-sketch-and-demo.md`); không dừng nhạc để ép lập kế hoạch trước. |
+| **Groove / Track / Chords** | Lắng nghe chuyển động nhịp và không gian hòa âm để tìm cảm xúc chủ đạo, nhịp câu và hook. |
+| **Story / Narrative-first** | Bài thực sự phụ thuộc sự kiện $\rightarrow$ Narrative Spine (Trục tự sự 2–5 beats vĩ mô) $\rightarrow$ hook/form $\rightarrow$ viết. |
+| **Bản nháp lời có sẵn** | Đọc thành tiếng $\rightarrow$ chẩn ngược cảm xúc lõi, hook và payoff; sửa gốc trước khi sửa chữ. |
 | **Bài thơ** | Chuyển hóa nhịp thơ sang nhịp ca từ hát được (`references/poem-to-song.md`). |
-| **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên Tứ và form; tập trung 100% vào viết bản thô. |
+| **Sửa vài câu / Polish** | Sửa trực tiếp tại chỗ theo lane Micro-rewrite; không chạy lại quy trình từ đầu. |
+| **Packet đã duyệt** | **FROZEN WRITER PACKET:** Giữ nguyên hạt mầm và form; tập trung 100% vào viết bản thô. |
 | **Xuất / Khắc phục Suno** | Mặc định đọc `references/suno-production.md` (Primary Owner: chuẩn 3-block, ma trận lỗi & character budgets). Không tự động nạp cùng sidecar; chỉ đọc `references/suno-handoff.md` khi thực sự cần compatibility / quick-handoff. |
 
 ### Điều hướng ngữ cảnh âm nhạc Việt (Vietnamese Context Routing):
-- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Emotion → Relationship → 1 Tứ khả thi → Working Hook → Emotional Movement / Section Guidance → Writer` (hoàn toàn không yêu cầu artifact Cốt độc lập hay Dàn bài trùng lặp). Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc ẩn dụ sâu, người dùng chủ động yêu cầu phân tích/xây dựng Tứ, Cốt, Form hay kiến trúc concept chuyên sâu, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
+- **Open / Simple Brief ("Viết một ca khúc...", miền nghĩa rõ, không vật liệu ràng buộc):** SKILL.md tự thân sở hữu quy trình sáng tác tinh gọn (Fast Path). **TUYỆT ĐỐI KHÔNG NẠP** `references/idea-and-structure.md` mặc định. Đi thẳng: `Hạt mầm sống → Hook / Cảm xúc trung tâm → Viết ngay` (hoàn toàn không yêu cầu artifact Cốt hay Dàn bài trùng lặp; Tứ có thể khám phá trước hoặc sau khi viết). Chỉ leo thang nạp `idea-and-structure.md` khi xuất hiện blocking ambiguity ở title/miền nghĩa, brief gieo vật liệu nặng (seeded/material-heavy), người dùng yêu cầu nhiều Tứ/kiến trúc concept sâu, bài hát thực sự phụ thuộc tự sự cần Trục tự sự, hoặc có triệu chứng gãy cấu trúc rõ rệt sau bản nháp.
 - **Genre / Lane đã xác định (Ballad, Bolero, Indie, R&B...):** Tùy chọn nạp `references/vietnamese-style-dna.md` làm nền tảng định vị soundscape và nhả chữ; Writer vẫn hoàn toàn tự do sáng tác.
 - **Brief chỉ nói chung chung ("Viết nhạc Việt"):** Không auto chọn V-Pop. Đối chiếu cảm xúc/ngữ vực để chọn lane phù hợp (trưởng thành $\rightarrow$ Ballad/Acoustic; trẻ trung $\rightarrow$ V-Pop/R&B; hoài niệm $\rightarrow$ Bolero/Trữ tình).
 - **Ca từ có số, tiếng Anh, viết tắt hoặc cần hát chuẩn AI:** Nạp `references/vietnamese-spoken-form.md` để chẩn đoán rủi ro phát âm mà không làm bẩn bản hiển thị.
 - **Cần nghiên cứu phân bố thời lượng, mật độ từ (WPM) hoặc benchmark:** Nạp `references/vietnamese-corpus-profile.md`.
 
-**Hội tụ trước khi viết:** Chốt nhanh 3 yếu tố: (1) **Cảm xúc trung tâm / Tứ**; (2) **Working Hook**; (3) **Section Guidance** (định hướng cảm xúc từng đoạn).
-- *Chống lập kế hoạch trùng lặp (No Duplicate Planning):* Nếu Tứ + Emotional Movement + Section Guidance đã đủ định hình một ca khúc cảm xúc mạch lạc, **tuyệt đối không lập thêm artifact Cốt độc lập hay dàn bài diễn giải trùng lặp** (`Tứ → diễn giải Cốt → diễn giải Dàn bài → Writer`). Cốt chỉ xuất hiện khi thật sự có biến chuyển tự sự/nhân quả vĩ mô mới hoặc người dùng chủ động yêu cầu dựng cốt/storyline.
-- *One-Shot Full Lyric:* Khi người dùng yêu cầu sáng tác trọn bài trong một lượt, không xuất các bảng phân tích trung gian riêng rẽ (Tứ, Cốt, Dàn bài, Section Jobs) trừ khi người dùng chủ động yêu cầu.
+**Viết sớm & Hội tụ linh hoạt (Write Earlier & Flexible Convergence):**
+- **Viết sớm (Write Earlier):** Tìm thấy hạt mầm sống $\rightarrow$ Viết ngay để khám phá bài hát. Không bắt buộc phải viết từ Verse 1; Writer có thể bắt đầu từ Chorus, hook, refrain hay một Verse tùy theo hạt mầm mạnh nhất. Hoàn thành đủ một rough pass để nghe hành vi bài hát trước khi soi xét vi mô.
+- **Trục tự sự (Narrative Spine) — Công cụ có điều kiện:** Thay thế hoàn toàn "Cốt" trong luồng toàn cục. Chỉ kích hoạt khi thỏa mãn **Event-Dependency Test**: *"Nếu bỏ hoặc đảo thứ tự các sự kiện, ý nghĩa / payoff của bài có đổi không?"* Nếu CÓ $\rightarrow$ lập Trục tự sự (2–5 beats vĩ mô). Nếu KHÔNG $\rightarrow$ không lập trục tự sự. Nếu người dùng yêu cầu rõ "Cốt", "cốt truyện", "storyline" thì gọi là Cốt theo từ vựng của user.
+- **Chống lập kế hoạch trùng lặp (No Duplicate Planning):** Nếu hạt mầm cảm xúc + hook + section guidance đã đủ định hình một ca khúc mạch lạc, tuyệt đối không lập thêm artifact Cốt hay dàn bài diễn giải trùng lặp.
+- **One-Shot Full Lyric:** Khi người dùng yêu cầu sáng tác trọn bài trong một lượt, không xuất các bảng phân tích trung gian riêng rẽ trừ khi người dùng chủ động yêu cầu.
 
 ## 4. Quá trình viết bản thô (Writer-Pass)
 
@@ -215,8 +228,8 @@ SUNO PROTOTYPE-READY (references/suno-production.md)
 
 | Lane | Nhu cầu chuyên sâu | Tài liệu tham chiếu |
 |---|---|---|
-| **WRITE — FAST** | Brief mở/đơn giản, miền nghĩa rõ, sáng tác trọn bài thông thường | **SKILL.md built-in Fast Path** (không nạp tài liệu tham chiếu ngoài mặc định) |
-| **WRITE — DEEP** | Khái niệm phức tạp/đa nghĩa/giàu vật liệu, yêu cầu dựng Tứ/Cốt/Form chuyên sâu, nhiều Tứ, reseed cấu trúc, kiến trúc liên tưởng/ngoại hóa | `references/idea-and-structure.md` |
+| **WRITE — FAST** | Brief mở/đơn giản, sáng tác trọn bài thông thường từ hạt mầm sống | **SKILL.md built-in Fast Path** (không nạp tài liệu tham chiếu ngoài mặc định) |
+| **WRITE — DEEP** | Khái niệm phức tạp/đa nghĩa/giàu vật liệu, yêu cầu dựng concept/Tứ/Trục tự sự chuyên sâu, nhiều Tứ, reseed cấu trúc, kiến trúc liên tưởng/ngoại hóa | `references/idea-and-structure.md` |
 | **WRITE** | Phổ thơ sang ca khúc | `references/poem-to-song.md` (+ `references/folk-prosody.md`) |
 | **LANGUAGE** | Tiếng Việt, ngữ âm, vần điệu, dấu thanh, thanh điệu ca từ | `references/vietnamese-line-and-sound.md` |
 | **REFINE** | Tinh lọc ca từ, nén nghĩa, điểm rơi, subtext, sonic craft | `references/lyric-refinement.md` |

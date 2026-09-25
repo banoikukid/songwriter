@@ -1,20 +1,20 @@
 # Ý tưởng và cấu trúc
 
 > **CANONICAL OWNER: IDEA / STRUCTURE**
-> Tài liệu này là **chủ sở hữu chuẩn (Canonical Owner)** của khâu tuyển chọn nguyên liệu pre-Tứ (*Material Discovery & Affordance Audition*), thiết kế Tứ, cấu trúc ca khúc, và kiến trúc liên tưởng (*Association Architecture*).
+> Tài liệu này là **chủ sở hữu chuẩn (Canonical Owner)** của khâu khám phá hạt mầm & thử nghiệm vật liệu (*Material Discovery & Affordance Audition*), thiết kế Tứ, cấu trúc ca khúc, Trục tự sự tùy chọn (*Narrative Spine*), và kiến trúc liên tưởng chuyên sâu (*Association Architecture*).
 
 ## Mục lục
 
-1. Brief sáng tác
-2. Chọn cửa vào
-3. Sinh và chọn Tứ
-4. Kiến trúc liên tưởng
+1. Brief sáng tác & Bối cảnh làm việc tối thiểu
+2. Cửa vào thích nghi (Adaptive Entry)
+3. Sinh và chọn Tứ linh hoạt
+4. Kiến trúc liên tưởng chuyên sâu (Advanced / On-Demand)
 5. Chọn engine phát triển
 6. Hook đi cùng Form
-7. Cốt tùy chọn & Ánh xạ vào Section
+7. Trục tự sự tùy chọn (Narrative Spine) & Ánh xạ Section
 8. Chế độ tham vọng phá cách
 
-## 1. Brief sáng tác
+## 1. Brief sáng tác & Bối cảnh làm việc tối thiểu
 
 Chốt tối thiểu các tín hiệu cần cho bài; không biến danh sách này thành worksheet bắt buộc:
 
@@ -38,23 +38,24 @@ Phân biệt **material** với **câu minh họa**. Câu thoại, thói quen, m
 - *Đúng:* `emotion → cần biểu đạt điều gì → material có giúp không? → nếu có thì dùng → nếu không thì bỏ`.
 Vật liệu chỉ là phương tiện phục vụ cảm xúc, không phải chỉ tiêu (quota) phải lấp đầy.
 
-**Minimal Generation Packet cho Open / Simple Briefs:**
+**Minimal Working Context cho Open / Simple Briefs:**
 Khi brief mở hoặc đơn giản (ví dụ: *"Viết ca khúc tình yêu nam nữ"* hoặc *"Người đàn ông về nhà gặp người yêu"*):
 - **Bỏ qua toàn bộ heavy machinery:** Không kích hoạt association engine, audition tables, camera arc, scale arc hay externalization contract.
-- **Generation Packet chỉ mang 6 trường cốt lõi:**
-  1. `Central Intent`: Cảm xúc trung tâm cần làm người nghe rung động.
-  2. `Relationship`: Ai với ai, mức độ gắn kết thế nào.
-  3. `Emotional Movement`: Cảm xúc vận động từ đâu tới đâu qua bài (không bắt buộc Cốt sự kiện).
-  4. `Section Jobs`: Nhiệm vụ cảm xúc của từng đoạn (Verse, Pre, Chorus, Verse 2, Bridge, Final Chorus).
-  5. `Hook / Payoff`: Câu đinh đáng nhớ, kết tinh sự thật cảm xúc.
-  6. `Register`: Pop đời sống, ballad mộc, hay thơ nhẹ.
+- **Không ép khuôn cứng 6 trường:** Chỉ mang những thông tin thật sự cần thiết:
+  - `Emotional Intent`: Cảm xúc trung tâm cần làm người nghe rung động.
+  - `Relationship` (nếu có): Ai với ai, mức độ gắn kết thế nào.
+  - `Hook / Core Phrase` (nếu đã biết): Câu đinh hoặc giai điệu kết tinh cảm xúc.
+  - `Musical Constraint` (nếu đã biết): Nhịp điệu, tempo, không gian hòa âm.
+  - `Movement` (nếu cần): Hướng vận động cảm xúc.
+  - `Register`: Ngữ vực biểu đạt (đại chúng, mộc, hay thơ nhẹ).
+- **Nguyên tắc viết ngay:** Nếu hook và cảm xúc đã đủ $\rightarrow$ **VIẾT**. Nếu melody và phrase đã đủ $\rightarrow$ **VIẾT**. Không cần điền đủ mọi trường trước khi bắt đầu.
 
 Trước writer-pass:
 1. Giữ nguyên chữ chỉ với material user cấp hoặc motif user cho phép sáng tạo và khóa lại.
 2. Với ví dụ do model tự thêm, xóa bề mặt câu và nén về chức năng quan hệ, như `né tránh đối thoại`, `lời nói mất độ gần`, `một bên mời gọi — một bên chưa hồi đáp`.
-3. Chỉ chuyển chức năng này qua `section job → immediate utterance → phrase → từ`; không paraphrase ví dụ, đổi đại từ hoặc dựng cặp đối xứng từ nó.
+3. **Immediate Utterance là công cụ cứu cánh (Rescue Tool), không phải khâu trung gian bắt buộc:** Khi cảm xúc hoặc dòng chảy bị trừu tượng/luận đề, chuyển chức năng về lời nói trực tiếp trong khoảnh khắc (`immediate utterance`). Nhưng khi dòng chảy vốn đã tự nhiên qua câu tuyên ngôn, hình tượng, điệp khúc giai điệu hay khoảng lặng, Writer được quyền viết thẳng câu hát mà không cần ép dán nhãn speech act hay qua lớp trung gian hội thoại.
 
-Nếu bỏ câu minh họa mà Tứ / Emotional Movement (hoặc Cốt nếu có) không còn sinh được section, hướng đó chưa đủ Generate. Đào lại trục thay vì cho ví dụ làm nạng. Quy tắc này không xóa material cụ thể có provenance và không cấm model sáng tạo cảnh mới trong rough pass.
+Nếu bỏ câu minh họa mà cảm xúc trung tâm / Tứ không còn sinh được section, hướng đó chưa đủ Generate. Đào lại trục thay vì cho ví dụ làm nạng. Quy tắc này không xóa material cụ thể có provenance và không cấm model sáng tạo cảnh mới trong rough pass.
 
 ### DOMAIN-SENSE — khóa nghĩa trước khi sinh Tứ
 
@@ -64,7 +65,7 @@ Chọn sense bằng toàn cụm từ, sắc thái văn hóa, register, genre đ�
 
 Nếu hai sense còn ngang nhau và dẫn tới người nói–người nghe, stakes hoặc quy mô bài khác hẳn, đây là **blocking ambiguity** cho full lyric: trình hai lựa chọn bằng một dòng/sense và lấy lựa chọn trước khi viết. Không bắt user chọn khi khác biệt chỉ là sắc độ hoặc có thể cùng tồn tại trong một Tứ. Khi user yêu cầu draft ngay/một lượt, được tự chọn một sense nhưng phải ghi rõ giả định; có thể đưa hai seed ngắn thay vì giả vờ title đã tự quyết định.
 
-Khi reference hoặc phản hồi sau đó cho thấy bài đã viết đúng kỹ thuật nhưng sai miền nghĩa, gắn `DOMAIN-SENSE FAIL` và quay về Brief. Không cứu bằng đổi danh từ, thêm một Verse hoặc polish hook; phải reseed Tứ/Cốt trong sense đúng.
+Khi reference hoặc phản hồi sau đó cho thấy bài đã viết đúng kỹ thuật nhưng sai miền nghĩa, gắn `DOMAIN-SENSE FAIL` và quay về Brief. Không cứu bằng đổi danh từ, thêm một Verse hoặc polish hook; phải reseed Tứ / Trục tự sự trong sense đúng.
 
 Khóa **domain contract** trước khi fan-out. Không tự nhập một vấn đề ngoại miền như khí hậu, chiến tranh, công nghệ hoặc bệnh tật chỉ để làm chủ đề khó, thời sự hay mới hơn. Chỉ mở miền phụ khi user/seed đã gọi nó, hoặc khi cả ba điều cùng đúng: có cầu nhân quả/văn hóa rõ; nó làm sâu đúng cảm xúc đích; bỏ nó đi sẽ làm mất central intent chứ không làm bài trở lại tự nhiên hơn. Nếu miền phụ trở thành thứ bài đang thật sự bàn, quay lại Brief.
 
@@ -90,26 +91,43 @@ Với tình ca pop/mainstream **đã được brief/reference xác nhận** và 
 
 Không nén được thì chưa polish. Seed vẫn được phép thu/phác để khỏi mất ý.
 
-## 2. Chọn cửa vào
+## 2. Cửa vào thích nghi (Adaptive Entry)
 
-Không có một thứ tự sáng tác duy nhất. Chọn entry theo artifact mạnh nhất:
+Không có một thứ tự sáng tác duy nhất. Ca khúc không cần "xin phép" để được viết ra (*The song does not need to earn permission to be written*). Hạt mầm sống nào mạnh nhất thì hạt mầm đó dẫn đường:
 
-| Entry | Bắt đầu bằng | Constraint đầu tiên |
+| Cửa vào (Entry Point) | Khởi đầu từ | Quy trình phát triển thích nghi |
 |---|---|---|
-| TITLE/LYRIC | title, câu, Tứ, story | central intent, semantic emphasis, section function |
-| MELODY | hum, motif, topline, demo | contour, phrase, range, melodic stress |
-| GROOVE/TRACK | beat, bass, loop, production hook | pocket, subdivision, density, phrase grid |
-| CHORD/HARMONY | loop/progression, tonal tension | stable/unstable, harmonic rhythm, cadence |
-| BRIEF/STORY | artist/sync/scene/audience brief | goal, POV, facts, emotional turn |
-| COWRITE | seed của nhiều người | role, authorship, shared intent, version control |
+| **FEELING / EMOTION-FIRST** | cảm giác, trạng thái tâm lý, bầu không khí | cảm giác $\rightarrow$ soundscape / hợp âm $\rightarrow$ phrase $\rightarrow$ lời hát $\rightarrow$ khám phá điều bài hát đang trở thành (Tứ có thể nhận ra sau). |
+| **TITLE / HOOK-FIRST** | title, câu đinh, điệp khúc | title/hook $\rightarrow$ thử sức kéo cảm xúc $\rightarrow$ Chorus / core section $\rightarrow$ dệt các đoạn nâng đỡ (Tứ có thể phát hiện sau hook). |
+| **MELODY / TOPLINE-FIRST** | hum, motif, topline, demo | contour, âm vực, phrase $\rightarrow$ vowel / lời dệt theo nốt; không dừng nhạc để ép lập kế hoạch trước. |
+| **TRACK / GROOVE / CHORDS** | beat, bass, loop, progression | pocket, subdivision, nhịp cú pháp $\rightarrow$ tìm không gian cảm xúc, nhịp câu và hook. |
+| **STORY / NARRATIVE-FIRST** | premise tự sự, sự kiện đổi tình thế | premise $\rightarrow$ Narrative Spine (2–5 macro beats) $\rightarrow$ hook/form $\rightarrow$ dệt lời. |
+| **EXISTING LYRIC / FRAGMENT** | đoạn nháp, câu thơ, mảnh lời | đọc to $\rightarrow$ tìm hạt mầm sống $\rightarrow$ phát triển các section xung quanh. |
+| **COWRITE / BRIEF** | brief người dùng, seed nhiều người | mục tiêu, POV, stakes $\rightarrow$ hội tụ nhanh ở cảm xúc trung tâm. |
 
-Ghi seed ngay bằng chữ, hum/voice memo hoặc sketch rẻ. Với melody-first có thể giữ nonsense syllable tới khi contour và range ổn rồi mới đặt lời. Với reference/market brief, chỉ mine function, energy, form và production space; không lấy lyric, hook, đạo cụ hoặc skeleton.
+**Mô hình hội tụ chung (Live Song Seed):**
+```text
+LIVE SONG SEED (cảm xúc / hook / melody / groove / tình thế)
+      ↓
+CORE SONG MOMENT (hook / phrase / melody / emotional truth / refrain)
+      ↓
+EMOTIONAL DIRECTION (hướng cảm xúc vận động)
+      ↓
+WRITE / DISCOVER (viết ngay từ section có hạt mầm mạnh nhất)
+      ↓
+LIGHT STRUCTURE AS NEEDED (Section Map nhẹ nhàng nếu cần)
+      ↓
+COMPLETE ROUGH SONG (hoàn thành bản thô trước khi soi vi mô)
+```
+*Không bắt buộc mọi ô trong mô hình trên phải trở thành văn bản xuất ra. Sáng tác thực thụ là quá trình khám phá qua việc viết (discovery through writing), không phải điền vào phiếu kế hoạch.*
 
-Mọi entry hội tụ ở central intent và prosody; không buộc title phải có trước melody hoặc ngược lại.
+## 3. Sinh và chọn Tứ linh hoạt
 
-## 3. Sinh và chọn Tứ
-
-Tứ là **trục sinh bài**, không phải khẩu hiệu “yêu, nhớ, đau”. Nó phải tạo được chuyển động hoặc hệ liên tưởng đủ kéo nhiều section.
+Tứ là **trục sinh bài / góc cảm xúc tạo sinh (generative angle)** khi cần làm rõ bản sắc bài hát. Tứ trả lời: *"Góc cảm xúc nào đang làm bài này có lý do để được hát?"*
+- Tứ **KHÔNG BẮT BUỘC** phải là artifact xuất bản riêng cho mọi bài hát.
+- Tứ có thể khám phá trước khi viết, hoặc phát hiện ra từ hook, giai điệu, không gian âm nhạc, hay từ bản nháp đầu tiên.
+- **FAMILIAR ≠ WEAK:** Tứ không cần độc đáo, kỳ dị hay săn tìm novelty bề mặt; sự quen thuộc chạm đến cảm xúc thật luôn có sức mạnh lớn.
+- Tứ không phải bản luận đề (thesis statement), không phải tóm tắt cốt truyện hay dàn bài từng đoạn.
 
 ### INSTANT COMPOSITION PATH — Fast Path cho Open / Simple Brief
 
@@ -121,19 +139,21 @@ OPEN + CLEAR DOMAIN + NO MATERIAL + NO SPECIAL EXPRESSION TARGET
 
 **Không chạy quy trình nặng:** Tuyệt đối không làm dissertation về Tứ, không ép sinh 4–6 giả thuyết, không khử skeleton, không closure hay so sánh cặp.
 
-**Quy trình 3 bước hội tụ tức thì:**
+**Quy trình hội tụ tức thì & Viết sớm (Write Earlier):**
 ```text
-1. CHOOSE ONE VIABLE EMOTIONAL CENTER (Chọn 1 tâm cảm xúc sống động)
+HẠT MẦM SỐNG (Cảm xúc / Hook / Giai điệu)
        ↓
-2. CHOOSE ONE VIABLE HOOK (Chọn 1 working hook có lực kết tinh)
+HƯỚNG CẢM XÚC CHÍNH (Emotional Direction)
        ↓
-3. CHOOSE ONE SECTION MOVEMENT (Chọn 1 chuyển động cảm xúc qua các đoạn)
-       ↓
-     WRITE (Viết ngay bản thô)
+VIẾT NGAY BẢN THÔ (Bắt đầu từ Chorus, Hook hoặc Verse)
 ```
 *Tôn chỉ:* Brief càng mở thì Writer càng cần tự do. Bỏ qua association search để viết từ sự thật cảm xúc chân thực nhất.
 
-### MOTIF DISCOVERY — khám phá động khi cần (Complex / Ambiguous / Seeded Brief)
+### CÁC CÔNG CỤ NÂNG CAO KHI CẦN (Advanced / On-Demand Tools)
+
+Các công cụ dưới đây chỉ kích hoạt khi brief phức tạp, đa nghĩa, nặng vật liệu hoặc người dùng chủ động yêu cầu phân tích sâu; tuyệt đối không tham gia vào luồng sáng tác Pop/Ballad thông thường:
+
+#### MOTIF DISCOVERY — khám phá động khi cần (Complex / Ambiguous / Seeded Brief)
 
 Chỉ chạy khi user chưa khóa Tứ, input có material cụ thể/hình ảnh hoặc bản vừa sinh rơi lại một mô-típ quen. Đây là bước suy luận từ material, không áp dụng cho open brief ở trên.
 
@@ -238,7 +258,7 @@ Chọn lại Tứ nếu topic mới nhưng vẫn chạy cùng quan hệ nhân qu
 Kết quả:
 
 - **PASS / KEEP:** Khác ở gốc phát triển; bề mặt chỉ trùng đại từ, hư từ, từ chủ đề thiết yếu, thành ngữ tự nhiên hoặc form genre.
-- **RESEED:** Trùng skeleton/payoff/hook grammar; quay Tứ/Cốt, không polish câu.
+- **RESEED:** Trùng skeleton/payoff/hook grammar; quay Tứ / Trục tự sự, không polish câu.
 - **REWRITE:** Gốc khác nhưng section dùng lại kho câu/cadence; đổi speech act hoặc cách dựng câu ở section đó.
 - **ALLOW:** Sự lặp là motif album/series, reprise hoặc yêu cầu rõ của user; ghi phạm vi được phép.
 
@@ -252,9 +272,9 @@ Sustain không đồng nghĩa saturation:
 - Khóa **MODE**: nghĩa bóng không được bỗng biến thành đạo cụ thật ở Bridge nếu cảnh thật chưa được dựng.
 - Với mainstream, giữ conceit ở hook và vài điểm trở lại; quan hệ người thật gánh thân bài.
 
-## 4. Kiến trúc liên tưởng
+## 4. Kiến trúc liên tưởng chuyên sâu (Advanced / On-Demand)
 
-Đây chủ yếu là **lăng kính sửa bài**, không phải sơ đồ ảnh bắt buộc trước khi viết. Khâu khám phá nguồn kết dính nằm ở `ASSOCIATION-ENGINE DISCOVERY` của mục 3; nếu Tứ đã qua bằng lời trực tiếp, declaration hay tự sự, không mở mục này chỉ để làm bài “thơ hơn”. Chỉ dùng các lens dưới đây khi Tứ đã chọn thật sự phụ thuộc hình tượng/trường nghĩa, hoặc rough lyric bộc lộ chuỗi ảnh rời, thô, thay thế tùy ý hay phải giảng vì sao ẩn dụ đúng.
+Đây là **công cụ chuyên sâu / lăng kính chẩn đoán**, tuyệt đối không tham gia vào luồng sáng tác Pop/Ballad thông thường. Khâu khám phá nguồn kết dính nằm ở `ASSOCIATION-ENGINE DISCOVERY` của mục 3; nếu bài đã sống tốt bằng lời trực tiếp, declaration hay tự sự, không mở mục này chỉ để làm bài “thơ hơn”. Chỉ dùng các lens dưới đây khi Tứ đã chọn thật sự phụ thuộc hình tượng/trường nghĩa phức tạp, hoặc sau khi có bản nháp phát hiện chuỗi ảnh rời, thô, thay thế tùy ý hay phải giảng giải ẩn dụ.
 
 Hai mode hữu ích khi chẩn đoán:
 
@@ -269,7 +289,7 @@ Chỉ hỏi ba câu:
 2. Ảnh mới có đào sâu, mở rộng, biến nghĩa hoặc tạo dư vang, hay chỉ thay danh từ cho đẹp?
 3. Lời có đang giải thích cơ chế ẩn dụ thay vì để hình ảnh, cú pháp và âm thanh làm việc không?
 
-### IMAGE-ROLE AUDITION — tùy chọn trước Cốt
+### IMAGE-ROLE AUDITION — tùy chọn nâng cao khi cần (Advanced Only)
 
 Chỉ chạy khi Tứ đã chọn cần một hình tượng hoặc hệ ảnh để sinh chuyển động, payoff hay hook. Không kích hoạt chỉ vì title là cảnh vật, vì genre thường giàu hình ảnh hoặc vì muốn lời “thơ hơn”. Với `DIRECT/UTTERANCE`, bài kể đã có một neo đủ mạnh hoặc hình tượng chỉ là tên gọi ở hook, mặc định bỏ qua.
 
@@ -279,7 +299,7 @@ Chỉ chạy khi Tứ đã chọn cần một hình tượng hoặc hệ ảnh �
    - `EMOTIONAL-FIELD/CONSTELLATION`: nhiều ảnh cùng chịu một lực cảm xúc và mỗi ảnh làm thêm một việc. Không ép cả trường về một đích ánh xạ một-một.
    - `HOOK-ONLY`: hình tượng chỉ là tên gọi, âm hình hoặc refrain; không mở rộng nếu thân bài không cần.
 
-   Khi hai route đều có provenance và sinh Cốt khác hẳn, fan-out hai arm rồi chọn bằng brief/material necessity. Không lai route chỉ để có nhiều ảnh hơn.
+   Khi hai route đều có provenance và sinh cấu trúc phát triển khác hẳn, fan-out hai arm rồi chọn bằng brief/material necessity. Không lai route chỉ để có nhiều ảnh hơn.
 
 1. **Định vai và vị trí:** nhận ra hình tượng đang làm biến cố, bằng chứng, bản lề, đối sánh, cô đọng hook, refrain, place-anchor hay tâm của một constellation. Đây là chức năng đã có trong Tứ, không phải menu kỹ thuật.
 ### ONE CENTRAL METAPHOR — Một ẩn dụ trung tâm đào sâu (nwp)
@@ -333,13 +353,13 @@ Một Tứ có thể mở ở `PERSONAL`, `MIXED`, `FIELD`, `COMMUNAL` hoặc `P
 
 Trước khi viết câu, ghi một scale arc rất ngắn cho các section cần thiết, chẳng hạn `FIELD → MIXED → PERSONAL HOOK → FIELD`. Chỉ định rõ điểm co về lời riêng và điểm mở lại. Với một section thực hiện chuyển độ, ghi thêm **camera arc** cho cụm hai đến bốn câu, chẳng hạn `PHILOSOPHICAL → FIELD → MIXED → PERSONAL`: câu nào giữ toàn cảnh, câu nào làm bản lề và câu nào được phép thu vào quan hệ riêng. Không cần ghi khi bài DIRECT/DECLARATION chủ ý sống tốt ở quy mô cá nhân.
 
-Không cho Tứ hoặc Cốt sinh thẳng từ bề mặt. Đi qua chuỗi ngắn `section job → scale role → immediate utterance/ý phát ngôn → phrase → từ`. `Immediate utterance` phải là điều giọng kể có thể cất lên trong khoảnh khắc, không phải bản diễn xuôi của Tứ/Cốt; nó không phải một worksheet mới và không bắt buộc xuất cho user.
+Không cho Tứ hoặc ý niệm sinh thẳng từ bề mặt. Đi qua chuỗi ngắn `section job → scale role → immediate utterance/ý phát ngôn → phrase → từ`. `Immediate utterance` phải là điều giọng kể có thể cất lên trong khoảnh khắc, không phải bản diễn xuôi của Tứ / ý niệm; nó không phải một worksheet mới và không bắt buộc xuất cho user.
 
 Không thu hẹp `immediate utterance` thành đối thoại. Tùy lane, nó có thể là lời gọi/hỏi, một khẳng định, thế đối, chuyển động của emotional field, biến nghĩa hình tượng, nhịp cú pháp hoặc khoảng lặng. Chọn bằng section job và tai nghe; không chọn động từ giao tiếp chỉ để chứng minh rằng section có speech act.
 
 Immediate utterance không được chép hoặc đổi nhẹ câu minh họa đã bị loại khỏi generation packet. Nếu nó vẫn giữ cùng chủ thể, động từ và trật tự nhân quả của ví dụ, quay lại section job và tìm một speech act hoặc chuyển động hình tượng khác.
 
-Giữ scale theo **cụm nghĩa**, không theo danh từ. Nếu hai vế của một câu đều mở toàn cảnh, cả hai nên cùng ở quy mô rộng cho tới khi có bản lề chủ ý; vế sau phải đáp, tạo quan hệ, chuyển động hoặc hệ quả chứ không chỉ thêm một chân lý quen. `Khái quát` vẫn có lực hút và làm nghĩa tiến; `chung chung` có thể thay bằng nhiều câu đời–người khác mà cốt không đổi. Được co/mở ngay giữa câu khi từ nối, cú pháp, lời gọi hoặc hình tượng làm chuyển độ nghe rõ.
+Giữ scale theo **cụm nghĩa**, không theo danh từ. Nếu hai vế của một câu đều mở toàn cảnh, cả hai nên cùng ở quy mô rộng cho tới khi có bản lề chủ ý; vế sau phải đáp, tạo quan hệ, chuyển động hoặc hệ quả chứ không chỉ thêm một chân lý quen. `Khái quát` vẫn có lực hút và làm nghĩa tiến; `chung chung` có thể thay bằng nhiều câu đời–người khác mà nội dung không đổi. Được co/mở ngay giữa câu khi từ nối, cú pháp, lời gọi hoặc hình tượng làm chuyển độ nghe rõ.
 
 Tài liệu này chỉ sở hữu **scaffold sinh ý**. Cổng PASS/FAIL của scale và camera arc nằm duy nhất tại `stage-validation-loop.md`. Nếu gate báo `SCALE-COLLAPSE`, sửa scale role và immediate utterance trước; không thay máy móc `ta/người` bằng mưa, trăng, đường hay mùa.
 
@@ -353,13 +373,13 @@ Khi sửa scale trên một lyric đã có melody hoặc bản Suno tốt, giữ
 
 ## 5. Chọn engine phát triển
 
-Chọn engine trước Hook+Form và Cốt:
+Chọn engine phù hợp với bản chất vận động của bài hát:
 
-- **NARRATIVE/TRANSFORM:** Bài thật sự cần sự kiện, lựa chọn có hệ quả, hoặc reframe làm đổi tình thế quan hệ. Cốt vĩ mô (3–5 beats phi section) hữu ích ở đây để giữ nhân quả trước khi ánh xạ vào Section Map. Lộ trình: `Tứ → Cốt (3–5 beats) → Hook/Form → Section Map → Writer`.
-- **DECLARATION/AMPLIFY:** Bài bắt đầu từ một tâm cảm xúc rõ nét rồi khuếch đại bằng các biến thể cảm xúc, các tầng nghĩa quan hệ hoặc sự tăng áp lực nội tâm (không phải chứng minh luận đề). Cốt thường **KHÔNG CẦN THIẾT**; không tự bịa sự kiện/cốt truyện chỉ để biện minh cho các đoạn. Lộ trình: `Tứ → Hook → Emotional Movement / Layers → Section Map → Writer`.
-- **STATE/SUSTAIN:** Trạng thái ít đổi về bản chất; groove, lament hoặc mood được repetition, nhịp, giai điệu và độ tăng lực gánh. Cốt thường **KHÔNG CẦN THIẾT**; không ép mô thức `setup → biến cố → vỡ lẽ → kết thúc` lên bài hát sống nhờ độ ngân rung cảm xúc. Lộ trình: `Tứ / Emotional State → Refrain/Hook → Đào sâu / mở rộng / vọng lại → Section Map → Writer`.
+- **NARRATIVE/TRANSFORM:** Bài thật sự cần sự kiện, lựa chọn có hệ quả, hoặc bước ngoặt làm đổi tình thế quan hệ. Dùng **Narrative Spine (Trục tự sự 2–5 beats vĩ mô)** để giữ quan hệ nhân quả trước khi ánh xạ vào Section Map. Lộ trình: `Premise / Tứ → Narrative Spine (2–5 beats) → Hook/Form → Section Map → Writer`.
+- **DECLARATION/AMPLIFY:** Bài bắt đầu từ một tâm cảm xúc rõ nét rồi khuếch đại bằng các biến thể cảm xúc, các tầng nghĩa quan hệ hoặc sự tăng áp lực nội tâm (không phải chứng minh luận đề). Trục tự sự hoàn toàn **KHÔNG CẦN THIẾT**; không tự bịa sự kiện/cốt truyện. Lộ trình: `Cảm xúc lõi / Tứ → Hook → Biến thể / Tầng cảm xúc → Section Map → Writer`.
+- **STATE/SUSTAIN:** Trạng thái ít đổi về bản chất; groove, lament hoặc mood được nhịp điệu, giai điệu, sự lặp lại và độ ngân rung gánh vác. Trục tự sự hoàn toàn **KHÔNG CẦN THIẾT**; không ép mô thức biến cố lên bài hát sống nhờ độ ngân rung. Lộ trình: `Emotional State / Tứ → Refrain/Hook → Đào sâu / vọng lại → Section Map → Writer`.
 
-Không dùng độ phức tạp của plot để xếp hạng ba engine. Với pop ballad đại chúng, declaration và sustain thường đi thẳng từ Emotional Movement mà không cần qua tầng Cốt.
+Không dùng độ phức tạp của plot để xếp hạng ba engine. Với pop ballad đại chúng, declaration và sustain thường đi thẳng từ chuyển động cảm xúc mà không cần qua tầng Trục tự sự.
 
 ### Engine tuyên ngôn & khuếch đại cảm xúc (Emotional Amplification)
 
@@ -401,11 +421,11 @@ Chọn một hook chính và tối đa một hook phụ trong rough pass. Lyric-
 
 Form theo chức năng:
 
-- Pop/Vpop/ballad: Verse–Pre–Chorus–Verse–Pre–Chorus–Bridge–Final Chorus khi cốt cần ramp.
+- Pop/Vpop/ballad: Verse–Pre–Chorus–Verse–Pre–Chorus–Bridge–Final Chorus khi bài cần ramp cảm xúc hoặc tự sự.
 - Indie/acoustic: Verse–Chorus hoặc refrain, lift theo mood.
 - Bolero/tự sự: Verse + điệp khúc.
 - Chiêm nghiệm/Trịnh: vòng tròn/refrain, không ép chorus bùng.
-- Rap: flow + hook; bridge tùy cốt.
+- Rap: flow + hook; bridge tùy bài.
 - Folk/anthemic: litany, refrain, panorama hoặc form truyền thống đã chọn.
 
 Chorus của form V-C cần ba việc: khác vai với Verse, có câu đinh, neo đúng Tứ. Title placement có thể FRONT, BACK, BOOKEND hoặc REPEAT; chọn theo chức năng.
@@ -459,7 +479,7 @@ Nếu Final Chorus cần giải thích, ưu tiên sửa emotional arc ở các s
 
 ### Nhận ra dòng chảy tu từ trước khi viết câu
 
-Form cho biết section đứng ở đâu; **speech act + rhetorical carrier** có thể cho biết lời đang chuyển động bằng cách nào. Nếu tình thế, declaration, tự sự hoặc emotional field đã có flow nghe được, để carrier `N/A` thay vì bắt bài chứng minh một device. Khi carrier thật sự gánh chuyển động, chọn một trội cho bài hoặc section và tối đa một phụ:
+Form cho biết section đứng ở đâu; **speech act + rhetorical carrier** là công cụ craft / cứu cánh tùy chọn giúp nhận diện chuyển động khi cần, tuyệt đối không bắt buộc gán nhãn cho mọi section hay thế hệ packet. Nếu tình thế, declaration, tự sự hoặc emotional field đã có flow nghe được, để carrier `N/A` thay vì bắt bài chứng minh một device. Khi carrier thật sự gánh chuyển động, chọn một trội cho bài hoặc section và tối đa một phụ:
 
 - Gọi/hỏi: vocative, rhetorical question, đối thoại tưởng tượng.
 - Đối/lật: tương phản, nghịch lý, phủ định–khẳng định, nhượng bộ.
@@ -478,47 +498,54 @@ Semantic skeleton là ghi chú hậu trường, không phải kho câu. Chỉ kh
 
 `Pressure`, `cost`, `speech act` và `withheld core` có thể giúp chẩn đúng một đoạn lạnh, nhưng không phải bốn ô bắt buộc cho mọi section. Không chữa bản lạnh bằng cách rải vật, body-part hoặc từ “thơ”; cũng không bắt mọi câu phải kịch tính. Câu bình thường vẫn có thể chạm nếu đúng giọng, đúng nhịp và đúng điểm rơi.
 
-## 7. Cốt tùy chọn & Ánh xạ vào Section (Optional Cốt & Section Map)
+## 7. Trục tự sự tùy chọn (Narrative Spine) & Ánh xạ Section
 
-### 7.1 Bất biến: Tứ vs Cốt vs Dàn bài (Core Invariant)
+### 7.1 Bất biến: Trục tự sự vs Section Map (Core Invariant)
 - **TỨ (Hạt nhân cảm xúc):** Trả lời *"Góc cảm xúc nào đang làm bài này có lý do để được hát?"* (góc nhìn cảm xúc đủ rõ và có lực để sinh cả bài; không ép Tứ phải "độc đáo" hay săn tìm novelty). Tứ là góc nhìn tạo sinh (generative angle), KHÔNG phải tóm tắt cốt truyện hay dàn bài từng đoạn.
 - **EMOTIONAL MOVEMENT (Chuyển động cảm xúc):** Bước tiến tối thiểu (2–4 beats: `trạng thái → áp lực/đào sâu → giải phóng cảm xúc → chuyển hóa/payoff`) để bài hát không bị đứng yên. Chuyển động cảm xúc **không bắt buộc phải có sự kiện hay biến cố**.
-- **CỐT (Tùy chọn - Optional Macro Sequence):** Chuỗi biến chuyển vĩ mô phi section (3–5 beats) khi bài hát thực sự phụ thuộc vào sự kiện, lựa chọn, bước ngoặt quan hệ hoặc nhân quả tự sự. Cốt trả lời: *"Điều gì thực sự thay đổi từ đầu đến cuối?"*
-- **DÀN BÀI / SECTION MAP (Ánh xạ Section):** Bố trí Emotional Movement hoặc Cốt đã có vào các section của bài hát. **SECTION MAP = PLACEMENT, KHÔNG PHẢI SINH NỘI DUNG MỚI** (không tự động vẽ thêm quán xá, điện thoại, ly tách hay hoạt cảnh vụn vặt chỉ để làm cho đoạn có vẻ "cụ thể").
+- **NARRATIVE SPINE / TRỤC TỰ SỰ (Tùy chọn - Conditional Story Tool):** Chuỗi biến chuyển vĩ mô phi section (2–5 beats) CHỈ DÙNG KHI bài hát thực sự phụ thuộc vào sự kiện, lựa chọn, bước ngoặt quan hệ hoặc nhân quả tự sự. Trục tự sự trả lời: *"Điều gì thực sự thay đổi từ đầu đến cuối?"*
+- **DÀN BÀI / SECTION MAP (Ánh xạ Section):** Bố trí Emotional Movement hoặc Trục tự sự (nếu có) vào các section của bài hát. **SECTION MAP = PLACEMENT, KHÔNG PHẢI SINH NỘI DUNG MỚI** (không tự động vẽ thêm quán xá, điện thoại, ly tách hay hoạt cảnh vụn vặt chỉ để làm cho đoạn có vẻ "cụ thể").
 
-$$\mathbf{CỐT \ne DÀN\ BÀI} \quad \text{và} \quad \mathbf{DÀN\ BÀI\ KHÔNG\ BẮT\ BUỘC\ PHẢI\ CÓ\ CỐT}$$
+$$\mathbf{TRỤC\ TỰ\ SỰ \ne DÀN\ BÀI} \quad \text{và} \quad \mathbf{DÀN\ BÀI\ KHÔNG\ BẮT\ BUỘC\ PHẢI\ CÓ\ TRỤC\ TỰ\ SỰ}$$
 
-- **Nguyên tắc tối thượng (Every planning artifact must earn its existence):** Mỗi tầng lập kế hoạch chỉ tồn tại khi nó bổ sung thông tin mà tầng trước chưa có. Nếu Emotional Movement đã đủ $\rightarrow$ không Cốt; nếu Section Guidance đã đủ $\rightarrow$ không dàn bài thứ hai; nếu Tứ đã chạm $\rightarrow$ không ép novelty; nếu Verse tự nhiên $\rightarrow$ không ép quota carrying line.
-- *Chống lập kế hoạch thừa cho Pop/Ballad đại chúng:* Không nhầm lẫn tính chân thực cảm xúc với tính trọn vẹn của hồ sơ tự sự. Người nghe không cần trọn vẹn tiểu sử, niên biểu quan hệ hay mỗi đoạn một màn kịch nhỏ; người nghe cần khoảng trống để nén cảm xúc và tự phóng chiếu trải nghiệm của chính mình (**"Đủ để cảm, không cần đủ để lập hồ sơ nhân vật"**).
+- **Nguyên tắc tối thượng (Every planning artifact must earn its existence):** Mỗi tầng lập kế hoạch chỉ tồn tại khi nó bổ sung thông tin mà tầng trước chưa có. Nếu Emotional Movement đã đủ $\rightarrow$ không Trục tự sự; nếu Section Guidance đã đủ $\rightarrow$ không dàn bài thứ hai; nếu Tứ đã chạm $\rightarrow$ không ép novelty; nếu Verse tự nhiên $\rightarrow$ không ép quota carrying line hay speech act.
+- **Event-Dependency Test (Kiểm tra phụ thuộc sự kiện):**
+  > *"Nếu bỏ hoặc đảo thứ tự các sự kiện, ý nghĩa / payoff của bài có thay đổi căn bản không?"*
+  > - **CÓ:** Narrative Spine hữu ích để neo giữ nhân quả.
+  > - **KHÔNG:** Không lập trục tự sự; để bài hát phát triển theo cảm xúc và âm nhạc.
+  *(Đây là chỉ dẫn định tuyến, không phải release gate).*
+- **Tương thích từ vựng người dùng:** Nếu người dùng yêu cầu rõ *"Cốt"*, *"cốt truyện"*, *"storyline"*, *"dựng story"* $\rightarrow$ dùng từ "Cốt" theo đúng thói quen của người dùng.
+- **Chống lập kế hoạch thừa & Hiệu chỉnh cụ thể (Specificity Calibration):** Không nhầm lẫn tính chân thực cảm xúc với tính trọn vẹn của hồ sơ tự sự (`Specificity ≠ Biographical Completeness`). Người nghe không cần trọn vẹn tiểu sử, niên biểu quan hệ hay mỗi đoạn một màn kịch nhỏ; người nghe cần khoảng trống để nén cảm xúc và tự phóng chiếu trải nghiệm của chính mình (**"Đủ để cảm, không cần đủ để lập hồ sơ nhân vật"**).
+- **Phóng chiếu người nghe (Mainstream Pop/Ballad Heuristic):** *"Đủ riêng để thật, đủ mở để người nghe thấy mình."* (Justin Tranter heuristic). Verse có thể mang chi tiết riêng; Chorus thường mở để người nghe có thể hát như chính tiếng lòng của họ mà không cần thuộc lòng tiểu sử nhân vật. (Đây là chỉ dẫn craft, tuyệt đối không biến thành Projection Gate hay thang điểm).
 
-### 7.2 Cốt — Chuyển động vĩ mô tùy chọn (Optional Macro Cốt)
-Cốt được dùng khi sự biến chuyển vĩ mô thực sự bổ sung thông tin cấu trúc mà Emotional Movement chưa đủ giữ (hoặc khi người dùng chủ động yêu cầu dựng cốt/storyline). Engine tạo prior chứ không phải permission gate: NARRATIVE/TRANSFORM thường cần; DECLARATION/AMPLIFY và STATE/SUSTAIN thường không cần (nhưng vẫn có thể dùng nếu có bước chuyển quan hệ vĩ mô thực sự).
+### 7.2 Trục tự sự — Chuyển động vĩ mô tùy chọn (Conditional Narrative Spine)
+Trục tự sự chỉ được tạo khi thỏa mãn Event-Dependency Test hoặc người dùng chủ động yêu cầu dựng cốt/storyline. Engine tạo prior chứ không phải permission gate: NARRATIVE/TRANSFORM thường cần; DECLARATION/AMPLIFY và STATE/SUSTAIN thường không cần (nhưng vẫn có thể dùng nếu có bước chuyển quan hệ vĩ mô thực sự).
 
-Các hành vi phát triển vĩ mô (Development Behaviors - không đồng nghĩa mọi bài đều cần plot):
+Các hành vi phát triển vĩ mô:
 - **EVENT:** sự kiện đổi tình thế quan hệ.
 - **INTENSIFY:** cùng sự thật nhưng áp lực / độ tổn thương tăng lên.
 - **ACCUMULATE:** thêm các lát cắt / biến thể cảm xúc không trùng lặp.
 - **REFRAME:** nhìn lại sự thật ban đầu bằng một ý nghĩa khác.
 - **SCOPE-EXPAND:** từ nỗi niềm riêng mở ra quy mô chia sẻ rộng hơn.
 - **CYCLE-DEEPEN:** trở lại anchor cũ với độ thấm thía sâu sắc hơn.
-- **DECLARE/AMPLIFY:** giữ vững một lời khẳng định, tăng dần sức nặng biểu cảm (Cốt = `N/A`).
-- **SUSTAIN/GROOVE:** duy trì trạng thái cảm xúc; nhịp điệu và độ ngân rung gánh vác (Cốt = `N/A`).
+- **DECLARE/AMPLIFY:** giữ vững một lời khẳng định, tăng dần sức nặng biểu cảm (Trục tự sự = `N/A`).
+- **SUSTAIN/GROOVE:** duy trì trạng thái cảm xúc; nhịp điệu và độ ngân rung gánh vác (Trục tự sự = `N/A`).
 
-*Quy cách của Cốt (khi được kích hoạt):* Nén cốt thành skeleton không còn đạo cụ (đổi quán thành sân ga nhưng vẫn "có → mất → vật gợi → buông" là chưa đổi cốt). Giữ ở 3–5 macro beats; **tuyệt đối phi section (section-agnostic)** — chưa gắn nhãn Verse/Chorus; không kiểm kê đạo cụ, không lập danh mục đối thoại hay kịch bản cảnh chi tiết.
+*Quy cách:* Nén trục tự sự thành skeleton không còn đạo cụ (2–5 macro beats; **tuyệt đối phi section** — chưa gắn nhãn Verse/Chorus; không kiểm kê đạo cụ, không lập danh mục đối thoại hay kịch bản cảnh chi tiết).
 
-### 7.3 Ánh xạ Section / Dàn bài (Section Map)
-Section Map ánh xạ chuyển động cảm xúc (hoặc Cốt nếu có) vào form ca khúc mà không tạo thêm câu chuyện thứ hai:
+### 7.3 Ánh xạ Section / Dàn bài (Section Map — Cấu trúc nhẹ)
+Section Map chỉ làm nhiệm vụ bố trí (placement) chuyển động cảm xúc (hoặc Trục tự sự nếu có) vào form ca khúc mà không tạo thêm câu chuyện thứ hai. Nếu bài hát đang trôi chảy tự nhiên, Section Map có thể ngầm định (implicit):
 
 | Section | Chức năng Section Map | Lưu ý phi kịch bản |
 |---|---|---|
 | **Verse 1** | Đưa người nghe vào hoàn cảnh quan hệ / tâm thế cảm xúc (nếu có carrying line tự nhiên thì xuất hiện, không ép quota) | Không bắt buộc phải có màn kịch hay đạo cụ cụ thể. |
-| **Pre-Chorus** | Tích tụ áp lực cảm xúc, dồn nén câu hỏi hoặc đẩy đà mong chờ | Không bắt buộc phải có biến cố mới. |
-| **Chorus** | Nơi giải phóng cảm xúc (emotional release), kết tinh Tứ và hook giản dị nhất | Chống viết thành bài tóm tắt cốt truyện hay chuỗi logic (`không X vì có Y`). |
+| **Pre-Chorus** | Tích tụ áp lực cảm xúc, dồn nén câu hỏi hoặc đẩy đà mong chờ | Không bắt buộc phải có biến cố mới hay đối thoại. |
+| **Chorus** | Nơi giải phóng cảm xúc (emotional release), kết tinh sự thật cảm xúc giản dị nhất và hook | Chống viết thành bài tóm tắt cốt truyện hay chuỗi logic (`không X vì có Y`). Mở cho người nghe tự phóng chiếu. |
 | **Verse 2** | Đào sâu ý nghĩa cảm xúc, tăng độ thân mật hoặc tính tổn thương | Cấm chỉ đổi địa điểm (`Verse 2 ≠ Verse 1 + một địa điểm khác`); không cần chứng cứ vật lý mới. |
-| **Bridge** | Khoảnh khắc thú nhận (confession), góc nhìn mới hoặc bước ngoặt cảm xúc | Không cần biến cố ngoại cảnh mới; cấm bài giảng triết lý hay tự chẩn đoán tâm lý. |
+| **Bridge** | Khoảnh khắc thú nhận (confession), góc nhìn mới hoặc bước ngoặt cảm xúc | Không cần biến cố ngoại cảnh mới; không bắt buộc mọi Bridge phải thú nhận; cấm bài giảng triết lý hay tự chẩn đoán tâm lý. |
 | **Final Chorus** | Trở về hook với trạng thái cảm xúc đã biến chuyển sâu sắc hơn | Chặn Big-Word Escalation; trả lại dư ba cảm xúc trọn vẹn. |
 
-### EXTERNALIZATION CONTRACT — có điều kiện trước writer-pass
+### EXTERNALIZATION CONTRACT — tùy chọn nâng cao có điều kiện (Advanced / On-Demand)
 
 Chỉ chạy khi brief khóa `EXTERNALIZED`, Tứ đã chọn `MIXED/FIELD-DOMINANT`, hoặc scale arc thật sự rộng hơn chuyện riêng. Với `DIRECT/PERSONAL` sống tốt bằng lời gọi, đối thoại hay tuyên ngôn, ghi `N/A`; không mở contract chỉ để bài có vẻ thơ hoặc nhiều cảnh hơn.
 
@@ -526,7 +553,7 @@ Nén backstage thành một ghi chú ngắn: `carrier → chuyển động tự 
 
 Chạy bốn probe:
 
-1. **Independent movement:** ngoài việc minh họa người hát đang nhớ/nghĩ, carrier có quy luật, hệ quả hoặc thay đổi nào thật sự làm Cốt tiến không?
+1. **Independent movement:** ngoài việc minh họa người hát đang nhớ/nghĩ, carrier có quy luật, hệ quả hoặc thay đổi nào thật sự làm cấu trúc tiến không?
 2. **Native behavior:** chuyển động có tự nhiên trong miền nghĩa ấy không, hay phải gán ý chí, nhân hóa hoặc động tác vật lý gượng để tạo vẻ ngoại hiện?
 3. **Relational anchor:** con người, quan hệ, mất mát, thuộc về hoặc sức ép nào khiến chuyển động ấy có cảm xúc thay vì thành phong cảnh/tư liệu?
 4. **Two-way deletion:** bỏ các câu tự thuật, carrier còn truyền được một phần tension; bỏ carrier, quan hệ hoặc payoff phải nghèo đi rõ. Nếu chỉ một phía phụ thuộc, contract đang trang trí hoặc đang nuốt mất con người.
@@ -544,9 +571,9 @@ Chạy TỨ-FIT:
 
 Trình scaffold cho user duyệt trước khi viết lời, trừ draft-lane mà user yêu cầu một lượt.
 
-Nếu làm ca khúc đầy đủ, ghép scaffold lời với Song System Card tại `music-sketch-and-demo.md`: stable/unstable, groove, harmony, melodic contour, voice/range và production fingerprint. Cốt lời pass nhưng các tầng nhạc đánh nhau vẫn chưa pass song system.
+Nếu làm ca khúc đầy đủ, ghép scaffold lời với Song System Card tại `music-sketch-and-demo.md`: stable/unstable, groove, harmony, melodic contour, voice/range và production fingerprint. Scaffold lời pass nhưng các tầng nhạc đánh nhau vẫn chưa pass song system.
 
-### Concept coupling và hiện thân hóa
+### Concept coupling và hiện thân hóa (Advanced / On-Demand)
 
 Tách hai câu hỏi trước khi writer-pass:
 
@@ -606,7 +633,7 @@ Ba câu hỏi nâng trần vẫn hữu ích:
 2. Người kể phải trả giá hoặc thừa nhận sự thật nào?
 3. Bỏ tên hai nhân vật, người ngoài câu chuyện vẫn nhận ra phần đời mình ở đâu?
 
-Phổ quát không phải zoom-out giả sang xã hội; đó là chuyện riêng chạm thời gian, hữu hạn, căn tính, thuộc về, tự do, tha thứ hoặc điều không thể lấy lại. Tứ dạng lời khuyên “hãy hiểu/chọn/chăm nhau” thường đúng nhưng nguội; mệnh đề chỉ tổng kết sau khi Cốt khiến nó phải được nói.
+Phổ quát không phải zoom-out giả sang xã hội; đó là chuyện riêng chạm thời gian, hữu hạn, căn tính, thuộc về, tự do, tha thứ hoặc điều không thể lấy lại. Tứ dạng lời khuyên “hãy hiểu/chọn/chăm nhau” thường đúng nhưng nguội; mệnh đề chỉ tổng kết sau khi chuyển động tự sự hoặc cảm xúc khiến nó phải được nói.
 
 ### Phá cách phải sống trong nhạc
 

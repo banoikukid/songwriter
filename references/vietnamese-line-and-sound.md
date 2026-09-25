@@ -23,6 +23,21 @@ Toàn bộ nội dung còn lại của tài liệu này là các **công cụ ch
 
 Phân vai câu linh hoạt: PLAIN, SCENE/ACTION, IMAGE, CONNECTIVE, QUESTION/VOCATIVE, REFRAME/TURN, HOOK/REPEAT, WORDPLAY/PHONETIC, APHORISM/DECLARATION. Line-role chỉ nói câu làm việc gì, chưa tạo dòng chảy trữ tình. Plain và connective là hạ tầng, không phải filler mặc định.
 
+### Tự nhiên trong ca từ vs. Hội thoại đời thường (Lyrical Naturalness ≠ Raw Conversation)
+
+"Tiếng Việt tự nhiên" trong ca từ **KHÔNG CÓ NGHĨA LÀ** chép nguyên văn lời nói hay đàm thoại đời thường (`RAW CONVERSATION ≠ LYRICAL NATURALNESS`):
+- **Bản chất ca từ tự nhiên:** Lời hát có thể cô đọng, ngân vang, có nhạc tính, giàu hình tượng hoặc đẹp hơn lời nói hàng ngày nhưng miệng hát tin cậy, không làm dáng.
+- **Tiêu chuẩn cảm nhận:** Người nghe cảm thấy: *"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế."*
+- **Tránh hai thái cực lệch lạc:**
+  1. *Văn xuôi đàm thoại trần trụi (Raw Spoken Prose):* Đưa nguyên văn câu nói đời thường (*ví dụ: "Hôm nay ăn gì, đi đâu cũng được"*) vào lời hát mà thiếu đi nhạc tính, nhịp thở và độ nén cảm xúc. Hệ thống **tuyệt đối không tự động ưu tiên** câu văn nói chỉ vì nó giống đời thường. Nó phải đánh giá tổng hòa: `Độ tự nhiên + Nhạc tính + Độ nén cảm xúc`.
+  2. *Thơ hoa mỹ làm dáng (Purple Poetry / Ornate Clichés):* Săn tìm mỹ từ, đảo ngữ gượng gạo, nhồi nhét sáo ngữ văn chương (*thềm xưa, rêu phong, hiên vắng...*).
+- **Mục tiêu tối thượng:** `NATURAL + MUSICAL + DISTILLED` (Tự nhiên + Giàu nhạc tính + Cô đọng cảm xúc).
+
+### Phương thức biểu đạt: Không ép độc tôn hội thoại hay trực ngôn
+Writer được tự do lựa chọn phương thức biểu đạt phù hợp với bản sắc bài hát:
+- Ca từ có thể là lời tuyên ngôn, hình ảnh, sự lặp lại âm thanh, mảnh ký ức, khoảng lặng, biểu tượng, hay câu hát giai điệu thuần khiết.
+- Không bắt buộc mọi section phải là đối thoại giữa hai người, câu hỏi hay lời thú nhận. Immediate Utterance chỉ là công cụ cứu cánh khi câu hát bị sa vào phân tích tâm lý hoặc luận đề, không phải khuôn mẫu bắt buộc cho mọi dòng ca từ.
+
 ## 2. Nguyên liệu và provenance
 
 Chỉ mở kho nguyên liệu khi input mỏng, bài bí hoặc register cần concrete. Không bắt quota. Với Tứ liên tưởng, dựng hạt nhân, luận đề ngầm và cầu nối ở `idea-and-structure.md` trước khi mine danh từ; kho nguyên liệu không được tự quyết định hướng bài.
@@ -31,7 +46,7 @@ Các hướng khai thác: vật chứng, thói quen, giác quan, phản ứng c�
 
 Chọn theo register:
 
-- **Mainstream:** mệnh đề, câu hỏi, lời thoại, biểu tượng phổ quát; concrete có thể là nền hoặc neo tình huống/ký ức khi cốt trao cho nó chức năng.
+- **Mainstream:** mệnh đề, câu hỏi, lời thoại, biểu tượng phổ quát; concrete có thể là nền hoặc neo tình huống/ký ức khi bài trao cho nó chức năng.
 - **Literary/realist/folk:** chi tiết thật, communal-resonant; vật riêng tư cần generalize một nấc hoặc được đánh dấu bằng dấu người.
 - **Triết lý/mood-wash:** archetype và abstraction có thể đúng thẩm mỹ; không ép concrete.
 
@@ -73,7 +88,7 @@ Lời hát không cần đủ ngữ pháp văn xuôi, nhưng lược phải có 
 - Kiểm kết hợp từ đúng miền nghĩa, động từ đủ đối tượng, đại từ và “cả hai/nó/điều ấy” có chỗ quy chiếu.
 - Mood-wash được phép nghĩa lỏng có chủ đích; không dùng chuẩn tight-meaning để giết sound-flow.
 
-Ẩn dụ phải tiến nghĩa. Lặp từ miền ẩn dụ không tính là phát triển. Không đổi nghĩa bóng thành cảnh thật nếu cốt chưa dựng.
+Ẩn dụ phải tiến nghĩa. Lặp từ miền ẩn dụ không tính là phát triển. Không đổi nghĩa bóng thành cảnh thật nếu bối cảnh thật chưa được dựng.
 
 ### PROSE-TO-LYRIC — chỉ mở khi câu đúng nghĩa nhưng không có lyric behavior
 
@@ -99,7 +114,7 @@ Khi một dòng nghe có vẻ thơ nhưng khó nói lại bằng tiếng Việt 
 2. thành phần bị lược có thể phục hồi duy nhất hay khiến câu đổi sang nghĩa khác;
 3. trật tự từ có tự nhiên, hay một chữ đã bị đảo/cắt/chọn chủ yếu để chạm vần.
 
-Fail nếu người nghe phải tự thêm một động từ, đối tượng hoặc quan hệ chưa có để cứu nghĩa; nếu cụm chỉ sống nhờ giải thích của Tứ/Cốt; hoặc nếu cách nói plain tương đương rõ ràng tự nhiên hơn mà không làm mất lực cảm xúc. Viết lại cả cụm nghĩa, không thay một từ đồng nghĩa rồi giữ nguyên cú pháp lỗi. Sau sửa, đọc câu cùng câu trước/sau để tránh biến lyric thành văn xuôi hoặc làm section job lùi lại.
+Fail nếu người nghe phải tự thêm một động từ, đối tượng hoặc quan hệ chưa có để cứu nghĩa; nếu cụm chỉ sống nhờ giải thích của Tứ / cấu trúc; hoặc nếu cách nói plain tương đương rõ ràng tự nhiên hơn mà không làm mất lực cảm xúc. Viết lại cả cụm nghĩa, không thay một từ đồng nghĩa rồi giữ nguyên cú pháp lỗi. Sau sửa, đọc câu cùng câu trước/sau để tránh biến lyric thành văn xuôi hoặc làm section job lùi lại.
 
 Negative control: ellipsis, đảo ngữ và từ ghép mới vẫn hợp lệ khi referent rõ, collocation có thể cảm được ngay và âm hình tạo thêm lực. Không bắt lời hát thành văn xuôi chuẩn.
 
@@ -121,7 +136,7 @@ Không cấm ẩn dụ thân thể. Giữ khi cụm đó tự nhiên trong tiế
 
 Một vật liệu có provenance vẫn có thể lạc tông. Trước khi giữ danh từ cụ thể, kiểm nó đang thuộc trường cảm xúc nào: quê hương, gia đình, phố trẻ, công nghệ, chiến trận, tâm linh, đời thường hay hài. Nếu trường vật liệu kéo đoạn sang một thế giới khác mà không có chủ ý, rewrite.
 
-Vật hiện đại/kỹ thuật như `máy`, `điện thoại`, `màn hình`, `app`, `tin nhắn` chỉ giữ khi brief, lane hoặc cốt cần đời sống số, xa cách hiện đại, đô thị, rap/indie công nghệ. Với folk/quê/gia đình hoặc đoạn đang đi bằng lời ru, giọng mẹ, làng, mùa, bến, ưu tiên mặt người của vật: `giọng mẹ`, `lời mẹ`, `đầu dây`, `tin xa`, `ánh đèn`, `câu gọi`, hoặc bỏ hẳn vật nếu câu vẫn rõ.
+Vật hiện đại/kỹ thuật như `máy`, `điện thoại`, `màn hình`, `app`, `tin nhắn` chỉ giữ khi brief, lane hoặc đề bài cần đời sống số, xa cách hiện đại, đô thị, rap/indie công nghệ. Với folk/quê/gia đình hoặc đoạn đang đi bằng lời ru, giọng mẹ, làng, mùa, bến, ưu tiên mặt người của vật: `giọng mẹ`, `lời mẹ`, `đầu dây`, `tin xa`, `ánh đèn`, `câu gọi`, hoặc bỏ hẳn vật nếu câu vẫn rõ.
 
 Không cấm vật hiện đại trong quê hương: cuộc gọi xa nhà có thể rất thật. Nhưng phải hỏi vật đó đang làm ấm ký ức hay chỉ ló ra như một món đồ công nghiệp. Nếu bỏ vật và giữ được giọng/người/quan hệ mạnh hơn, bỏ vật.
 
