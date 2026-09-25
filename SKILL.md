@@ -14,15 +14,13 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 > Cấu trúc phục vụ cảm xúc, không phải cảm xúc phục vụ cấu trúc. Ngay khi có một hạt mầm sống (Live Seed) với đủ hướng cảm xúc hoặc âm nhạc, Writer được quyền viết ngay để khám phá bài hát. Kế hoạch chỉ tồn tại khi nó bổ sung thông tin mà bài hát chưa có. Mọi quy tắc (*Show don't tell, contrast, rhyme, form*) chỉ là **chỉ dẫn (guidelines, not rules)**.
 > *(Nguyên tắc tối thượng: EVERY PLANNING ARTIFACT MUST EARN ITS EXISTENCE. Nếu hook đã mở ra bài hát → không ép worksheet Tứ; nếu hướng cảm xúc đã rõ → không vẽ Trục tự sự; nếu mạch viết đang trôi → không dừng lại dán nhãn speech act; nếu lời trực tiếp đã chạm → không bịa ẩn dụ).*
 
-### Mô hình tư duy 3 bước của Writer:
+### Mô hình tư duy 2 bước của Writer:
 ```text
 1. BÀI HÁT NÀY PHẢI LÀM NGƯỜI NGHE RUNG ĐỘNG ĐIỀU GÌ? (What must the listener feel?)
        ↓
-2. CÁCH NÀO ĐẸP NHẤT VÀ GIÀU NHẠC TÍNH NHẤT ĐỂ TRUYỀN TẢI CẢM XÚC ĐÓ? (Most lyrical/musical way)
-       ↓
-3. VÀI CHI TIẾT NÀO ĐẮT GIÁ NHẤT ĐỦ ĐỂ NÂNG ĐỠ NÓ? (Which few details help?)
+2. CÂU / GIAI ĐIỆU / HÌNH THỨC NÀO KHIẾN CẢM XÚC ĐÓ SỐNG? (What lyrical / musical form makes that feeling live?)
 ```
-*Material-to-Emotion Bridge đảo ngược: `emotion → cần biểu đạt gì → material có giúp không? (có thì dùng, không thì bỏ)`. Tuyệt đối không bắt đầu bằng việc kiểm kê đồ đạc hay tự động vẽ ra danh mục phố xá.*
+*Material-to-Emotion Bridge: Chi tiết là vật liệu biểu đạt tùy chọn, không phải bằng chứng bắt buộc. Nếu chi tiết tự nhiên bật ra và nâng đỡ cảm xúc thì giữ; nếu bài hát tự thân đã sống mà không cần nó thì không tìm kiếm hay dựng cảnh để chứng minh.*
 
 ### Phân định cấp độ chi tiết & Phóng chiếu người nghe (Specificity & Listener Projection):
 $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text{BEHAVIOR SPECIFICITY}$$
@@ -36,7 +34,6 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 - **Lyrical Naturalness ≠ Raw Conversation:** Tiếng Việt tự nhiên trong ca từ KHÔNG đồng nghĩa với chép nguyên văn đàm thoại đời thường. Lời hát tự nhiên có thể cô đọng, giàu nhạc tính, ngân vang và đẹp hơn lời nói hàng ngày nhưng miệng hát tin cậy, không làm dáng. Người nghe cảm thấy: *"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế."* Tránh cả văn xuôi trần trụi lẫn thơ hoa mỹ sáo rỗng.
 - **Tự do lựa chọn phương thức biểu đạt:** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: câu trực diện (direct declaration), hình ảnh, tương tác, lặp từ, khoảng lặng, hay câu tự sự nội tâm. Không bắt bài hát phải luôn là đối thoại, câu hỏi hay lời thú nhận; câu tuyên ngôn, hình tượng hoặc điệp khúc giai điệu đều là lối đi hợp lệ. Immediate Utterance chỉ là công cụ cứu cánh tùy chọn khi lời ca bị trừu tượng/luận đề, không phải khâu trung gian bắt buộc cho mọi ca khúc.
 - **Song, Not Prose (NuNaught):** Viết để hát chứ không chỉ để đọc. Ưu tiên nhịp thở tự nhiên (singable phrasing), dấu thanh ăn khớp ngữ điệu (natural stress), ngắt dòng có chủ ý. Vần là chất keo hỗ trợ, không phải chiếc lồng giam câu chữ.
-- **1–3 Human Details (Guidance, không áp quota):** Mỗi bài có thể có 1–3 chi tiết người thật nhớ được. Không ép mỗi Verse phải có đồ vật; không biến việc chọn chi tiết thành worksheet. Chi tiết chỉ tồn tại nếu giúp người nghe cảm sâu hơn điều bài hát đang nói.
 - **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe. Không ép quota cơ học cho bất kỳ section nào.
 - **Minimal Working Context cho Open Briefs:** Khi brief mở hoặc đơn giản, không kích hoạt heavy machinery (không association engine, không material table, không camera/scale arc, không externalization contract). Chỉ mang những gì bài thật sự cần: *cảm xúc trung tâm, quan hệ nếu có, hook/phrase nếu đã biết, ràng buộc âm nhạc nếu có, chuyển động nếu cần, register*. Nếu hook và cảm xúc đã đủ → VIẾT. Nếu melody và phrase đã đủ → VIẾT.
 
@@ -125,8 +122,8 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 ### Định hướng chuyển động cảm xúc từng đoạn (Section Guidance - Preferred Behavior)
 *Đây là hướng dẫn định hình theo regiellis & Hermes để Writer tự do triển khai, không phải các phanh cấm đoán hay checklist cứng:*
 
-- **VERSE:** Đưa người nghe bước vào thế giới cảm xúc và hoàn cảnh quan hệ (*concrete situation/relationship*); chỉ giữ chi tiết nếu nó giúp cảm xúc vận động, tránh kiểm kê ngoại cảnh.
-- **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*pressure/lift*), tạo đà mong chờ cho sự thật sắp hé mở (không bắt buộc bài nào cũng phải có).
+- **VERSE:** Đưa người nghe bước vào thế giới cảm xúc hoặc hoàn cảnh quan hệ của bài hát; tránh biến thành màn kiểm kê ngoại cảnh hay dựng cảnh cơ học.
+- **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*pressure/lift*), đẩy đà dẫn tự nhiên vào Chorus (không bắt buộc bài nào cũng phải có).
 - **CHORUS:** Nơi giải phóng cảm xúc (*emotional release*), kết tinh **sự thật cảm xúc giản dị và sâu sắc nhất (simplest emotional truth)**; chứa hook mang danh tính cảm xúc (*emotional identity*); tránh viết thành luận đề (*không X mà Y, không cần X vì có Y*).
 - **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc góc nhìn mới; tránh lặp lại cơ chế hay chỉ đổi sang một địa điểm khác.
 - **BRIDGE:** Nếu bài cần Bridge, đây có thể là góc nhìn mới (*new angle*), mâu thuẫn cảm xúc (*contradiction*), khoảng lặng, biến nghĩa hook hoặc một lời thú nhận (*confession*); không bắt buộc phải có bước ngoặt hay confession; tránh biến thành bài thuyết trình triết lý hay tự chẩn đoán tâm lý.
