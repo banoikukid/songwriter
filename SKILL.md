@@ -33,6 +33,7 @@ $$\text{EMOTIONAL / LYRIC SPECIFICITY} > \text{RELATIONSHIP SPECIFICITY} > \text
 
 ### Tự do cho Writer-pass & Chống máy móc:
 - **Lyrical Naturalness ≠ Raw Conversation:** Tiếng Việt tự nhiên trong ca từ KHÔNG đồng nghĩa với chép nguyên văn đàm thoại đời thường. Lời hát tự nhiên có thể cô đọng, giàu nhạc tính, ngân vang và đẹp hơn lời nói hàng ngày nhưng miệng hát tin cậy, không làm dáng. Người nghe cảm thấy: *"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế."* Tránh cả văn xuôi trần trụi lẫn thơ hoa mỹ sáo rỗng.
+- **Ca từ không phải bài chứng minh (Lyric ≠ Argument):** Ca khúc không cần vận hành như chuỗi `luận điểm → ví dụ → giải thích → kết luận`. Khi cảm xúc đã sống trong câu hát, hook, nhịp lặp, khoảng lặng hoặc chuyển động section, Writer không cần đứng ngoài giải thích vì sao cảm xúc đó đúng.
 - **Tự do lựa chọn phương thức biểu đạt:** Writer được quyền tự do chọn cách biểu đạt hiệu quả nhất: câu trực diện (direct declaration), hình ảnh, tương tác, lặp từ, khoảng lặng, hay câu tự sự nội tâm. Không bắt bài hát phải luôn là đối thoại, câu hỏi hay lời thú nhận; câu tuyên ngôn, hình tượng hoặc điệp khúc giai điệu đều là lối đi hợp lệ. Immediate Utterance chỉ là công cụ cứu cánh tùy chọn khi lời ca bị trừu tượng/luận đề, không phải khâu trung gian bắt buộc cho mọi ca khúc.
 - **Song, Not Prose (NuNaught):** Viết để hát chứ không chỉ để đọc. Ưu tiên nhịp thở tự nhiên (singable phrasing), dấu thanh ăn khớp ngữ điệu (natural stress), ngắt dòng có chủ ý. Vần là chất keo hỗ trợ, không phải chiếc lồng giam câu chữ.
 - **Dòng gánh ca từ (Lyric Carrying Lines - Không áp quota):** Bài hát cần có đủ những câu mang tải trọng cảm xúc và bản sắc ca từ để neo giữ người nghe. Không ép quota cơ học cho bất kỳ section nào.
@@ -121,13 +122,13 @@ Trong suốt quá trình viết bản thô, Writer chỉ chịu sự kiểm soá
 4. **Provenance & Điểm nhìn (POV):** Tôn trọng phạm vi quan sát của nhân vật; không tự bịa quyền biết chắc nội tâm người khác.
 
 ### Định hướng chuyển động cảm xúc từng đoạn (Section Guidance - Preferred Behavior)
-*Đây là hướng dẫn định hình theo regiellis & Hermes để Writer tự do triển khai, không phải các phanh cấm đoán hay checklist cứng:*
+*Đây là hướng dẫn định hình theo regiellis & Hermes để Writer tự do triển khai, không phải các phanh cấm đoán hay checklist cứng. Chuyển động section là chuyển động cảm xúc và âm nhạc, không mặc định là chuỗi lập luận (Verse, Pre, Chorus, Bridge không phải các bước Evidence → Reveal → Conclusion).*
 
 - **VERSE:** Đưa người nghe bước vào thế giới cảm xúc hoặc hoàn cảnh quan hệ của bài hát; tránh biến thành màn kiểm kê ngoại cảnh hay dựng cảnh cơ học.
 - **PRE-CHORUS:** Gia tăng áp lực cảm xúc (*pressure/lift*), đẩy đà dẫn tự nhiên vào Chorus (không bắt buộc bài nào cũng phải có).
-- **CHORUS:** Nơi giải phóng cảm xúc (*emotional release*), kết tinh **sự thật cảm xúc giản dị và sâu sắc nhất (simplest emotional truth)**; chứa hook mang danh tính cảm xúc (*emotional identity*); tránh viết thành luận đề (*không X mà Y, không cần X vì có Y*).
+- **CHORUS:** Nơi cảm xúc mở ra rõ nhất và hook/refrain có sức hát, sức nhớ. Chorus có thể gọi tên, lặp lại, ngân rộng hoặc sống trực tiếp trong cảm giác; không cần giải thích vì sao cảm xúc đúng, không cần tổng kết bài hát hay dựng cấu trúc luận đề (*không X mà Y*).
 - **VERSE 2:** Đào sâu ý nghĩa cảm xúc, tăng độ thân mật, tính tổn thương (*vulnerability*) hoặc góc nhìn mới; tránh lặp lại cơ chế hay chỉ đổi sang một địa điểm khác.
-- **BRIDGE:** Nếu bài cần Bridge, đây có thể là góc nhìn mới (*new angle*), mâu thuẫn cảm xúc (*contradiction*), khoảng lặng, biến nghĩa hook hoặc một lời thú nhận (*confession*); không bắt buộc phải có bước ngoặt hay confession; tránh biến thành bài thuyết trình triết lý hay tự chẩn đoán tâm lý.
+- **BRIDGE:** Nếu bài cần Bridge, đây có thể là góc nhìn mới (*new angle*), mâu thuẫn cảm xúc (*contradiction*), khoảng lặng, biến nghĩa hook hoặc một lời thú nhận (*confession*); không bắt buộc phải có bước ngoặt hay confession; Bridge không phải nơi bắt buộc tổng kết Tứ hay giải thích bài hát thực ra muốn nói gì; tránh biến thành bài thuyết trình triết lý hay tự chẩn đoán tâm lý.
 - **FINAL CHORUS:** Trở về hook với ý nghĩa hoặc trạng thái cảm xúc đã biến chuyển sâu sắc hơn (*return to hook with changed meaning / deeper emotional state*); ưu tiên leo thang độ thân mật (*intimacy escalation*), tránh phóng đại từ ngữ vĩ mô (*Big-Word Escalation*).
 
 > [!IMPORTANT]
