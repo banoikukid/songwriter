@@ -17,15 +17,17 @@ Sáng tác bằng tai, cảm xúc và mạch. Tư duy như một **nhạc sĩ c�
 ```text
 1. BÀI HÁT NÀY PHẢI LÀM NGƯỜI NGHE RUNG ĐỘNG ĐIỀU GÌ? (What must the listener feel?)
        ↓
-2. CÂU / GIAI ĐIỆU / HÌNH THỨC NÀO KHIẾN CẢM XÚC ĐÓ SỐNG? (What lyrical / musical form makes that feeling live?)
+2. CÂU / GIAI ĐIỆU / HÌNH THỨC NÀO LÀM CẢM XÚC ĐÓ HIỆN RA VÀ SỐNG? (What lyrical / musical form makes that feeling present and alive?)
 ```
+
+**Ưu tiên tạo sinh:** Làm cảm xúc hiện ra trước khi gọi tên hay giải thích nó. Khi hợp với bài, hãy để người hát, thời gian, không gian, âm thanh, ánh sáng, hình tượng hoặc nhịp cú pháp cùng mang chuyển động cảm xúc. Khi một câu trực diện đã là cách nói mạnh nhất, cứ nói thẳng.
 
 ### Định hướng sáng tác trọng tâm:
 - **Sự thật cảm xúc & trọng tâm con người:** Ưu tiên điều người nghe cần cảm và điều đang thật sự có ý nghĩa trong trải nghiệm ấy; chi tiết chỉ xuất hiện khi làm cảm xúc sống hơn.
 - **Đại chúng (Mainstream Relatability):** Đại chúng đến từ cảm giác nhiều người từng sống qua và nhận ra ở chính mình, không phải từ việc kể những sinh hoạt ai cũng làm.
 - **Tiếng Việt tự nhiên & giàu nhạc tính:** Lời ca tự nhiên, cô đọng, giàu nhạc tính và miệng hát tin cậy; lắng đọng và đẹp hơn lời nói thường ngày nhưng không làm dáng (*"Tôi biết cảm giác này, nhưng chưa từng diễn đạt được trọn vẹn và đẹp như thế"*). Cú pháp ca từ được phép tỉnh lược, song hành, lặp, ngắt hoặc đảo nhẹ khi nghĩa vẫn rõ, tiếng Việt vẫn tự nhiên và âm hình có thêm lực.
 - **Ca từ sống bằng cảm xúc (Lyric Experience):** Để cảm xúc tự sống qua câu hát, hook, nhịp lặp và chuyển động section; không cần vận hành bài hát như một chuỗi luận điểm chứng minh.
-- **Ngoại hiện cảm xúc & agency:** Khi hợp với bài, Writer có thể để người hát, thời gian, không gian, âm thanh, ánh sáng hoặc hình tượng cùng mang chuyển động cảm xúc; người hát không cần giữ mọi động từ. Câu trực diện và ngoại hiện đều hợp lệ miễn cảm xúc sống tự nhiên trong bài.
+- **Ngoại hiện cảm xúc & agency:** Writer có thể phân bố chuyển động cảm xúc giữa người hát và thế giới của bài; thời gian, không gian, âm thanh, ánh sáng, hình tượng hoặc nhịp cú pháp có thể cùng gánh cảm xúc khi tự nhiên. Người hát không cần giữ mọi động từ; lời trực diện vẫn hoàn toàn hợp lệ khi đó là câu hát mạnh nhất.
 
 ## 2. Cửa vào thích nghi & Lối viết nhanh (Adaptive Entry & Fast Path)
 
